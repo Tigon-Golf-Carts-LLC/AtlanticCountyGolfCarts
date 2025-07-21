@@ -18,8 +18,8 @@ export default function Footer() {
           {/* Company Description */}
           <div className="md:col-span-1">
             <p className="text-gray-600 text-sm leading-relaxed">
-              New Jersey's premier golf cart dealership serving customers across 
-              the state with quality carts and expert service.
+              Ocean County's premier golf cart dealership serving customers across 
+              the region with quality carts and expert service.
             </p>
           </div>
 
@@ -75,12 +75,12 @@ export default function Footer() {
         <div className="border-t border-gray-200 pt-6">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="text-gray-600 text-sm">
-              © 2025 NJ Golf Carts. All rights reserved. | 
+              © 2025 Ocean County Golf Carts. All rights reserved. | 
               <Link href="/privacy" className="hover:text-gray-900 ml-1">Privacy Policy</Link> | 
               <Link href="/terms" className="hover:text-gray-900 ml-1">Terms of Service</Link>
             </div>
             <div className="text-gray-600 text-sm">
-              New Jersey Golf Carts - Serving all 21 counties in New Jersey with premium golf carts and exceptional service.
+              Ocean County Golf Carts - Serving multiple counties with premium golf carts and exceptional service.
             </div>
           </div>
         </div>

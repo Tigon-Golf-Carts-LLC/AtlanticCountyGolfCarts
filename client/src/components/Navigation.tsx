@@ -32,8 +32,8 @@ export default function Navigation() {
             </div>
             <Link href="/">
               <div className="cursor-pointer">
-                <div className="text-lg font-bold text-blue-600">NEW JERSEY</div>
-                <div className="text-lg font-bold text-blue-600 -mt-1">GOLF CART DEALERSHIPS</div>
+                <div className="text-lg font-bold text-blue-600">OCEAN COUNTY</div>
+                <div className="text-lg font-bold text-blue-600 -mt-1">GOLF CARTS</div>
               </div>
             </Link>
           </div>

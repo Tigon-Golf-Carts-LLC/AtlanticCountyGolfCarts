@@ -38,9 +38,9 @@ export default function AboutPage() {
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-blue-600 to-indigo-600 text-white py-20 px-4">
         <div className="max-w-7xl mx-auto text-center">
-          <h1 className="text-5xl font-bold mb-6">About NJ Golf Carts</h1>
+          <h1 className="text-5xl font-bold mb-6">About Ocean County Golf Carts</h1>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
-            New Jersey's premier golf cart dealership, dedicated to providing 
+            Ocean County's premier golf cart dealership, dedicated to providing 
             exceptional service and quality vehicles since 2010.
           </p>
         </div>
@@ -53,12 +53,12 @@ export default function AboutPage() {
             <div>
               <h2 className="text-4xl font-bold mb-6 text-gray-900">Our Story</h2>
               <p className="text-lg text-gray-600 mb-6">
-                Founded in 2010 in Ocean County, New Jersey, NJ Golf Carts began with a simple mission: 
-                to provide high-quality golf carts and exceptional service to customers throughout the Garden State.
+                Founded in 2010 in Ocean County, Ocean County Golf Carts began with a simple mission: 
+                to provide high-quality golf carts and exceptional service to customers throughout the region.
               </p>
               <p className="text-lg text-gray-600 mb-6">
-                What started as a small local dealership has grown into New Jersey's premier golf cart destination, 
-                serving customers in all 21 counties with a comprehensive selection of new and pre-owned vehicles, 
+                What started as a small local dealership has grown into the area's premier golf cart destination, 
+                serving customers across multiple counties with a comprehensive selection of new and pre-owned vehicles, 
                 professional service, and rental options.
               </p>
               <p className="text-lg text-gray-600 mb-8">
@@ -81,7 +81,7 @@ export default function AboutPage() {
                     <div className="text-gray-700">Years Experience</div>
                   </div>
                   <div>
-                    <div className="text-4xl font-bold text-blue-600 mb-2">21</div>
+                    <div className="text-4xl font-bold text-blue-600 mb-2">5+</div>
                     <div className="text-gray-700">Counties Served</div>
                   </div>
                   <div>
@@ -195,11 +195,11 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-4xl font-bold mb-6 text-gray-900">Serving All of New Jersey</h2>
+              <h2 className="text-4xl font-bold mb-6 text-gray-900">Serving Ocean County & Beyond</h2>
               <p className="text-lg text-gray-600 mb-6">
                 From our headquarters in Ocean County, we proudly serve customers throughout 
-                all 21 counties in New Jersey. Our commitment to quality service extends 
-                across the entire Garden State.
+                multiple counties in the region. Our commitment to quality service extends 
+                across our service area.
               </p>
               <div className="flex items-center gap-4 mb-6">
                 <MapPin className="w-6 h-6 text-blue-600" />
@@ -241,7 +241,7 @@ export default function AboutPage() {
             Ready to Join Our Family?
           </h2>
           <p className="text-xl mb-8">
-            Experience the NJ Golf Carts difference for yourself
+            Experience the Ocean County Golf Carts difference for yourself
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" className="bg-red-500 hover:bg-red-600 text-white">

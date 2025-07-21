@@ -21,11 +21,11 @@ export default function HomePage() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <h1 className="text-5xl font-bold mb-6 leading-tight">
-                New Jersey's Premier Golf Cart Dealerships
+Ocean County Golf Carts Premier Dealership
               </h1>
               <p className="text-xl mb-8 text-gray-100">
                 Discover our extensive selection of new electric golf carts from Evolution and Denago with professional services. 
-                Serving Atlantic County, Cape May County, Middlesex County, Monmouth County, Ocean County and all of New Jersey State.
+                Serving Atlantic County, Cape May County, Middlesex County, Monmouth County, Ocean County and surrounding areas.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link href="/inventory">
@@ -53,7 +53,7 @@ export default function HomePage() {
       <section className="py-16 px-4 bg-gray-50">
         <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-4xl font-bold mb-4 text-gray-900">
-            Why Choose NJ Golf Carts?
+            Why Choose Ocean County Golf Carts?
           </h2>
           <p className="text-xl text-gray-600 mb-12 max-w-3xl mx-auto">
             We're more than just a dealership - we're your partner in golf cart ownership 
@@ -108,7 +108,7 @@ export default function HomePage() {
       <section className="py-16 px-4 bg-white">
         <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-4xl font-bold mb-4 text-gray-900">
-            New Jersey Golf Cart Dealerships for Top Brands
+            Ocean County Golf Carts - Authorized Dealer for Top Brands
           </h2>
           <p className="text-xl text-gray-600 mb-12">
             We carry the most trusted names in golf cart manufacturing
@@ -225,10 +225,10 @@ export default function HomePage() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-4xl font-bold mb-6 text-gray-900">
-                About NJ Golf Carts
+                About Ocean County Golf Carts
               </h2>
               <p className="text-lg text-gray-600 mb-8">
-                With over 15 years of experience in the golf cart industry, we've built our reputation on providing exceptional service and quality products to customers throughout New Jersey.
+                With over 15 years of experience in the golf cart industry, we've built our reputation on providing exceptional service and quality products to customers throughout Ocean County and surrounding areas.
               </p>
               
               <div className="grid grid-cols-2 gap-8 mb-8">
@@ -252,8 +252,8 @@ export default function HomePage() {
                 <div className="w-full h-64 bg-green-200 rounded-lg flex items-center justify-center text-gray-600">
                   <div className="text-center">
                     <MapPin className="w-12 h-12 mx-auto mb-2 text-green-600" />
-                    <div className="font-semibold">New Jersey</div>
-                    <div className="text-sm">Serving all 21 counties</div>
+                    <div className="font-semibold">Ocean County</div>
+                    <div className="text-sm">Serving surrounding areas</div>
                   </div>
                 </div>
               </div>
@@ -303,8 +303,8 @@ export default function HomePage() {
             
             <div className="bg-white p-6 rounded-lg shadow-sm text-center">
               <MapPin className="w-8 h-8 text-blue-500 mx-auto mb-3" />
-              <h3 className="font-semibold text-gray-900 mb-2">New Jersey</h3>
-              <p className="text-sm text-gray-600 mb-2">New Jersey</p>
+              <h3 className="font-semibold text-gray-900 mb-2">Ocean County Golf Carts</h3>
+              <p className="text-sm text-gray-600 mb-2">Ocean County</p>
               <p className="text-blue-600 font-semibold">1-844-844-6638</p>
             </div>
           </div>

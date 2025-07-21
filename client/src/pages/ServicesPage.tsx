@@ -43,7 +43,7 @@ export default function ServicesPage() {
     {
       icon: Truck,
       title: "Delivery & Pickup",
-      description: "Convenient delivery and pickup services throughout New Jersey",
+      description: "Convenient delivery and pickup services throughout our service area",
       features: [
         "Free local delivery",
         "Statewide delivery available",
@@ -170,7 +170,7 @@ export default function ServicesPage() {
               </div>
               <h3 className="text-xl font-semibold mb-3">Convenient Service</h3>
               <p className="text-gray-600">
-                Mobile service options and pickup/delivery available throughout New Jersey
+                Mobile service options and pickup/delivery available throughout our service area
               </p>
             </div>
           </div>
@@ -182,7 +182,7 @@ export default function ServicesPage() {
         <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-4xl font-bold mb-4 text-gray-900">Service Areas</h2>
           <p className="text-xl text-gray-600 mb-8">
-            We proudly serve customers throughout New Jersey
+            We proudly serve customers throughout Ocean County and surrounding areas
           </p>
           
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-gray-700">
