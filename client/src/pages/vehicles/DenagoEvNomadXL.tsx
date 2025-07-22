@@ -75,7 +75,7 @@ export default function DenagoEvNomadXL() {
                       Get Quote
                     </Button>
                   </Link>
-                  <Link href="/financing">
+                  <a href="https://tigongolfcarts.com/apply-for-financing/" target="_blank" rel="noopener noreferrer">
                     <Button size="lg" variant="outline" className="w-full sm:w-auto border-theme-orange text-theme-orange hover:bg-orange-50">
                       Finance Options
                     </Button>
@@ -84,7 +84,7 @@ export default function DenagoEvNomadXL() {
                     <Button size="lg" className="w-full sm:w-auto bg-theme-orange hover:bg-orange-600 text-white">
                       View More Details
                     </Button>
-                  </a>
+                  </Link>
                 </div>
               </div>
               
@@ -239,7 +239,7 @@ export default function DenagoEvNomadXL() {
                   Get Quote Today
                 </Button>
               </Link>
-              <Link href="/financing">
+              <a href="https://tigongolfcarts.com/apply-for-financing/" target="_blank" rel="noopener noreferrer">
                 <Button size="lg" variant="outline" className="text-gray-900 bg-white border-white hover:bg-gray-100 hover:text-gray-900">
                   <MapPin className="w-5 h-5 mr-2" />
                   Visit Showroom

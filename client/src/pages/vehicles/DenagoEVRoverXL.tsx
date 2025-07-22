@@ -230,7 +230,7 @@ export default function DenagoEVRoverXL() {
                 <Button size="lg" variant="outline" className="text-gray-900 bg-white border-white hover:bg-gray-100 hover:text-theme-primary">
                   Call 1-844-844-6638
                 </Button>
-              </a>
+              </Link>
             </div>
           </div>
         </section>
