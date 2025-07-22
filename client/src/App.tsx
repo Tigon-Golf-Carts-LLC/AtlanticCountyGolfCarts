@@ -35,6 +35,8 @@ import EvolutionClassic2Plus from "@/pages/vehicles/EvolutionClassic2Plus";
 import EvolutionClassic2Pro from "@/pages/vehicles/EvolutionClassic2Pro";
 import EvolutionD5Maverick4 from "@/pages/vehicles/EvolutionD5Maverick4";
 import EvolutionD5Maverick6 from "@/pages/vehicles/EvolutionD5Maverick6";
+import EvolutionD5Maverick4Plus from "@/pages/vehicles/EvolutionD5Maverick4Plus";
+import EvolutionD5Maverick6Plus from "@/pages/vehicles/EvolutionD5Maverick6Plus";
 import EvolutionD6MaxGT6 from "@/pages/vehicles/EvolutionD6MaxGT6";
 import EvolutionD6MaxXT4 from "@/pages/vehicles/EvolutionD6MaxXT4";
 import EvolutionD6MaxXT6 from "@/pages/vehicles/EvolutionD6MaxXT6";
@@ -86,6 +88,8 @@ function App() {
             <Route path="/vehicles/evolution-classic-2-pro" component={EvolutionClassic2Pro} />
             <Route path="/vehicles/evolution-d5-maverick-4" component={EvolutionD5Maverick4} />
             <Route path="/vehicles/evolution-d5-maverick-6" component={EvolutionD5Maverick6} />
+            <Route path="/vehicles/evolution-d5-maverick-4-plus" component={EvolutionD5Maverick4Plus} />
+            <Route path="/vehicles/evolution-d5-maverick-6-plus" component={EvolutionD5Maverick6Plus} />
             <Route path="/vehicles/evolution-d6-max-gt6" component={EvolutionD6MaxGT6} />
             <Route path="/vehicles/evolution-d6-max-xt4" component={EvolutionD6MaxXT4} />
             <Route path="/vehicles/evolution-d6-max-xt6" component={EvolutionD6MaxXT6} />
