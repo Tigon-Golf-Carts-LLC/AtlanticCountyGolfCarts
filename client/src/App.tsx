@@ -13,6 +13,7 @@ import DenagoPage from "@/pages/DenagoPage";
 import EvolutionPage from "@/pages/EvolutionPage";
 import VehicleDetailPage from "@/pages/VehicleDetailPage";
 import ContactPage from "@/pages/ContactPage";
+import ShowroomPage from "@/pages/ShowroomPage";
 import NotFound from "@/pages/not-found";
 import NewInventoryPage from "@/pages/NewInventoryPage";
 import NewServicesPage from "@/pages/NewServicesPage";
@@ -72,6 +73,7 @@ function App() {
             <Route path="/evolution" component={EvolutionPage} />
             <Route path="/vehicle/:id" component={VehicleDetailPage} />
             <Route path="/contact" component={ContactPage} />
+            <Route path="/showroom" component={ShowroomPage} />
             
             {/* Vehicle Detail Pages */}
             <Route path="/vehicles/evolution-d5-ranger-6-plus" component={EvolutionD5Ranger6Plus} />
