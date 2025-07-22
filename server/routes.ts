@@ -119,4 +119,15 @@ router.post("/api/contact", async (req, res) => {
   }
 });
 
+// SEO Routes - Serve sitemap.xml and robots.txt from public folder
+router.get('/sitemap.xml', (req, res) => {
+  res.set('Content-Type', 'application/xml');
+  res.sendFile('sitemap.xml', { root: 'client/public' });
+});
+
+router.get('/robots.txt', (req, res) => {
+  res.set('Content-Type', 'text/plain');
+  res.sendFile('robots.txt', { root: 'client/public' });
+});
+
 export default router;

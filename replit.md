@@ -8,6 +8,7 @@ NJ Golf Carts is a full-stack web application for a New Jersey-based golf cart d
 
 Preferred communication style: Simple, everyday language.
 Theme Colors: Primary theme color #0e2e55 (dark blue), Orange accent #ff6100 for buttons and highlights.
+SEO Requirements: Complete sitemap.xml with all pages, towns, vehicles, images. Robots.txt allowing all bots and algorithms to crawl and index site.
 
 ## System Architecture
 
@@ -58,6 +59,7 @@ Theme Colors: Primary theme color #0e2e55 (dark blue), Orange accent #ff6100 for
 - **Financing Calculator** - Payment estimation tools
 - **Brand Showcase** - Featured manufacturer information
 - **Global Scroll-to-Top** - Automatic page scroll to top on route changes across all devices
+- **SEO Optimization** - Complete sitemap.xml with all pages, vehicle images, and town pages; robots.txt allowing full crawling
 
 ## Data Flow
 
@@ -108,11 +110,16 @@ Theme Colors: Primary theme color #0e2e55 (dark blue), Orange accent #ff6100 for
 ### File Structure
 ```
 ├── client/          # Frontend React application
+│   └── public/      # Static files (sitemap.xml, robots.txt)
 ├── server/          # Backend Express application
 ├── shared/          # Shared types and schemas
 ├── attached_assets/ # Static assets and components
 ├── migrations/      # Database migration files
 └── dist/           # Build output directory
 ```
+
+### SEO Implementation
+- **sitemap.xml**: Comprehensive XML sitemap including all 8 main pages, 2 brand pages, 17 vehicle detail pages, and all 33 Ocean County town pages with proper priority settings and image metadata
+- **robots.txt**: Configured to allow all search engines and crawlers full access with 1-second crawl delay and sitemap reference
 
 The application follows a monorepo structure with clear separation between frontend, backend, and shared code. The build system is optimized for both development and production deployment, with TypeScript providing type safety across the entire stack.

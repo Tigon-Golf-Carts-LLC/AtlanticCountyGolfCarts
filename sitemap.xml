@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- Main Pages -->
+  <url>
+    <loc>https://oceancountygolfcarts.com/</loc>
+    <lastmod>2025-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://oceancountygolfcarts.com/attached_assets/Ocean County Golf Carts New Jersey 3_1753197335727.jpeg</image:loc>
+      <image:caption>Ocean County Golf Carts showroom and service center</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://oceancountygolfcarts.com/attached_assets/D6-XT6-4wd-color-PORTIMAO-BLUE_1753135231312.png</image:loc>
+      <image:caption>Golf cart available at Ocean County Golf Carts</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://oceancountygolfcarts.com/inventory</loc>
+    <lastmod>2025-01-22</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://oceancountygolfcarts.com/rentals</loc>
+    <lastmod>2025-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://oceancountygolfcarts.com/services</loc>
+    <lastmod>2025-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://oceancountygolfcarts.com/about</loc>
+    <lastmod>2025-01-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://oceancountygolfcarts.com/contact</loc>
+    <lastmod>2025-01-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://oceancountygolfcarts.com/thank-you</loc>
+    <lastmod>2025-01-22</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <url>
+    <loc>https://oceancountygolfcarts.com/financing</loc>
+    <lastmod>2025-01-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Brand Pages -->
+  <url>
+    <loc>https://oceancountygolfcarts.com/denago</loc>
+    <lastmod>2025-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://oceancountygolfcarts.com/evolution</loc>
+    <lastmod>2025-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Vehicle Detail Pages - Evolution Models -->
+  <url>
+    <loc>https://oceancountygolfcarts.com/vehicles/evolution-d5-ranger-6-plus</loc>
+    <lastmod>2025-01-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://oceancountygolfcarts.com/attached_assets/EVOLUTIOND5RANGER6PLUS_1751893159004_1753135350619.jpg</image:loc>
+      <image:caption>Evolution D5 Ranger 6 Plus Golf Cart</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://oceancountygolfcarts.com/vehicles/evolution-d5-ranger-22-plus</loc>
+    <lastmod>2025-01-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://oceancountygolfcarts.com/attached_assets/EVOLUTIOND5RANGER2+2PLUS_1751893115782_1753135350622.jpg</image:loc>
+      <image:caption>Evolution D5 Ranger 2+2 Plus Golf Cart</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://oceancountygolfcarts.com/vehicles/evolution-forester-4-plus</loc>
+    <lastmod>2025-01-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://oceancountygolfcarts.com/attached_assets/EVOLUTIONFORESTER4PLUS_1751893159005_1753135437836.jpg</image:loc>
+      <image:caption>Evolution Forester 4 Plus Golf Cart</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://oceancountygolfcarts.com/vehicles/evolution-turfman-1000</loc>
+    <lastmod>2025-01-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://oceancountygolfcarts.com/attached_assets/EVOLUTIONTURFMAN1000_1751893159006_1753135437836.jpg</image:loc>
+      <image:caption>Evolution Turfman 1000 Golf Cart</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://oceancountygolfcarts.com/vehicles/evolution-d6-max-gt4</loc>
+    <lastmod>2025-01-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://oceancountygolfcarts.com/attached_assets/EVOLUTIOND6MAXGT4_1751893159004_1753135350620.jpg</image:loc>
+      <image:caption>Evolution D6 Max GT4 Golf Cart</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://oceancountygolfcarts.com/vehicles/evolution-d6-max-gt6</loc>
+    <lastmod>2025-01-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://oceancountygolfcarts.com/attached_assets/EVOLUTIOND6MAXGT6_1751893159004_1753135350620.jpg</image:loc>
+      <image:caption>Evolution D6 Max GT6 Golf Cart</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://oceancountygolfcarts.com/vehicles/evolution-d6-max-xt4</loc>
+    <lastmod>2025-01-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://oceancountygolfcarts.com/attached_assets/EVOLUTIOND6MAXXT4_1751893159005_1753135437836.jpg</image:loc>
+      <image:caption>Evolution D6 Max XT4 Golf Cart</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://oceancountygolfcarts.com/vehicles/evolution-d6-max-xt6</loc>
+    <lastmod>2025-01-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://oceancountygolfcarts.com/attached_assets/EVOLUTIOND6MAXXT6_1751893159005_1753135437837.jpg</image:loc>
+      <image:caption>Evolution D6 Max XT6 Golf Cart</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://oceancountygolfcarts.com/vehicles/evolution-classic-4-plus</loc>
+    <lastmod>2025-01-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://oceancountygolfcarts.com/attached_assets/EVOLUTIONCLASSIC4PLUS_1751893115779_1753135231314.jpg</image:loc>
+      <image:caption>Evolution Classic 4 Plus Golf Cart</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://oceancountygolfcarts.com/vehicles/evolution-classic-2-plus</loc>
+    <lastmod>2025-01-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://oceancountygolfcarts.com/attached_assets/EVOLUTIONCLASSIC2PLUS_1751893115779_1753135231314.jpg</image:loc>
+      <image:caption>Evolution Classic 2 Plus Golf Cart</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://oceancountygolfcarts.com/vehicles/evolution-classic-2-pro</loc>
+    <lastmod>2025-01-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://oceancountygolfcarts.com/attached_assets/EVOLUTIONCLASSIC2PRO_1751893115779_1753135231314.jpg</image:loc>
+      <image:caption>Evolution Classic 2 Pro Golf Cart</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://oceancountygolfcarts.com/vehicles/evolution-carrier-6-plus</loc>
+    <lastmod>2025-01-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://oceancountygolfcarts.com/attached_assets/EVOLUTIONCARRIER6PLUS_1751893115778_1753135231314.jpg</image:loc>
+      <image:caption>Evolution Carrier 6 Plus Golf Cart</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://oceancountygolfcarts.com/vehicles/evolution-carrier-8-plus</loc>
+    <lastmod>2025-01-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://oceancountygolfcarts.com/attached_assets/EVOLUTIONCARRIER8PLUS_1751893115779_1753135231314.jpg</image:loc>
+      <image:caption>Evolution Carrier 8 Plus Golf Cart</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://oceancountygolfcarts.com/vehicles/evolution-d5-maverick-4</loc>
+    <lastmod>2025-01-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://oceancountygolfcarts.com/attached_assets/EVOLUTIOND5MAVERICK4_1751893115780_1753135231312.jpg</image:loc>
+      <image:caption>Evolution D5 Maverick 4 Golf Cart</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://oceancountygolfcarts.com/vehicles/evolution-d5-maverick-4-plus</loc>
+    <lastmod>2025-01-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://oceancountygolfcarts.com/attached_assets/EVOLUTIOND5MAVERICK4PLUS_1751893115781_1753135231312.jpg</image:loc>
+      <image:caption>Evolution D5 Maverick 4 Plus Golf Cart</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://oceancountygolfcarts.com/vehicles/evolution-d5-maverick-6</loc>
+    <lastmod>2025-01-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://oceancountygolfcarts.com/attached_assets/EVOLUTIOND5MAVERICK6_1751893115781_1753135350621.jpg</image:loc>
+      <image:caption>Evolution D5 Maverick 6 Golf Cart</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://oceancountygolfcarts.com/vehicles/evolution-d5-maverick-6-plus</loc>
+    <lastmod>2025-01-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://oceancountygolfcarts.com/attached_assets/EVOLUTIOND5MAVERICK6PLUS_1751893115781_1753135350622.jpg</image:loc>
+      <image:caption>Evolution D5 Maverick 6 Plus Golf Cart</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Vehicle Detail Pages - Denago Models -->
+  <url>
+    <loc>https://oceancountygolfcarts.com/vehicles/denago-ev-city</loc>
+    <lastmod>2025-01-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://oceancountygolfcarts.com/attached_assets/DENAGONEVCITY_1751893047472_1753135231313.jpg</image:loc>
+      <image:caption>Denago EV City Golf Cart</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://oceancountygolfcarts.com/vehicles/denago-ev-nomad</loc>
+    <lastmod>2025-01-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://oceancountygolfcarts.com/attached_assets/DENAGONEVNOMAD_1751893047472_1753135231313.jpg</image:loc>
+      <image:caption>Denago EV Nomad Golf Cart</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://oceancountygolfcarts.com/vehicles/denago-ev-nomad-xl</loc>
+    <lastmod>2025-01-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://oceancountygolfcarts.com/attached_assets/DENAGONEVNOMADXL_1751893047472_1753135231313.jpg</image:loc>
+      <image:caption>Denago EV Nomad XL Golf Cart</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://oceancountygolfcarts.com/vehicles/denago-ev-rover-xl</loc>
+    <lastmod>2025-01-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://oceancountygolfcarts.com/attached_assets/DENAGONEVROVERXL_1751893047473_1753135231313.jpg</image:loc>
+      <image:caption>Denago EV Rover XL Golf Cart</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://oceancountygolfcarts.com/vehicles/denago-ev-rover-xl6</loc>
+    <lastmod>2025-01-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://oceancountygolfcarts.com/attached_assets/DENAGONEVROVERXL6_1751893047473_1753135231313.jpg</image:loc>
+      <image:caption>Denago EV Rover XL6 Golf Cart</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://oceancountygolfcarts.com/vehicles/denago-ev-rover-xxl</loc>
+    <lastmod>2025-01-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://oceancountygolfcarts.com/attached_assets/DENAGONEVROVERXXL_1751893047473_1753135231313.jpg</image:loc>
+      <image:caption>Denago EV Rover XXL Golf Cart</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Ocean County Town Pages -->
+  <url>
+    <loc>https://oceancountygolfcarts.com/barnegat-township-golf-carts</loc>
+    <lastmod>2025-01-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://oceancountygolfcarts.com/barnegat-light-borough-golf-carts</loc>
+    <lastmod>2025-01-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://oceancountygolfcarts.com/bay-head-borough-golf-carts</loc>
+    <lastmod>2025-01-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://oceancountygolfcarts.com/beach-haven-borough-golf-carts</loc>
+    <lastmod>2025-01-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://oceancountygolfcarts.com/beachwood-borough-golf-carts</loc>
+    <lastmod>2025-01-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://oceancountygolfcarts.com/berkeley-township-golf-carts</loc>
+    <lastmod>2025-01-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://oceancountygolfcarts.com/brick-township-golf-carts</loc>
+    <lastmod>2025-01-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://oceancountygolfcarts.com/eagleswood-township-golf-carts</loc>
+    <lastmod>2025-01-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://oceancountygolfcarts.com/harvey-cedars-borough-golf-carts</loc>
+    <lastmod>2025-01-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://oceancountygolfcarts.com/island-heights-borough-golf-carts</loc>
+    <lastmod>2025-01-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://oceancountygolfcarts.com/jackson-township-golf-carts</loc>
+    <lastmod>2025-01-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://oceancountygolfcarts.com/lacey-township-golf-carts</loc>
+    <lastmod>2025-01-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://oceancountygolfcarts.com/lakehurst-borough-golf-carts</loc>
+    <lastmod>2025-01-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://oceancountygolfcarts.com/lakewood-township-golf-carts</loc>
+    <lastmod>2025-01-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://oceancountygolfcarts.com/lavallette-borough-golf-carts</loc>
+    <lastmod>2025-01-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://oceancountygolfcarts.com/little-egg-harbor-township-golf-carts</loc>
+    <lastmod>2025-01-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://oceancountygolfcarts.com/long-beach-township-golf-carts</loc>
+    <lastmod>2025-01-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://oceancountygolfcarts.com/manchester-township-golf-carts</loc>
+    <lastmod>2025-01-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://oceancountygolfcarts.com/mantoloking-borough-golf-carts</loc>
+    <lastmod>2025-01-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://oceancountygolfcarts.com/ocean-gate-borough-golf-carts</loc>
+    <lastmod>2025-01-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://oceancountygolfcarts.com/ocean-township-golf-carts</loc>
+    <lastmod>2025-01-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://oceancountygolfcarts.com/pine-beach-borough-golf-carts</loc>
+    <lastmod>2025-01-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://oceancountygolfcarts.com/plumsted-township-golf-carts</loc>
+    <lastmod>2025-01-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://oceancountygolfcarts.com/point-pleasant-township-golf-carts</loc>
+    <lastmod>2025-01-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://oceancountygolfcarts.com/point-pleasant-beach-borough-golf-carts</loc>
+    <lastmod>2025-01-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://oceancountygolfcarts.com/seaside-heights-borough-golf-carts</loc>
+    <lastmod>2025-01-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://oceancountygolfcarts.com/seaside-park-borough-golf-carts</loc>
+    <lastmod>2025-01-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://oceancountygolfcarts.com/ship-bottom-borough-golf-carts</loc>
+    <lastmod>2025-01-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://oceancountygolfcarts.com/south-toms-river-borough-golf-carts</loc>
+    <lastmod>2025-01-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://oceancountygolfcarts.com/stafford-township-golf-carts</loc>
+    <lastmod>2025-01-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://oceancountygolfcarts.com/surf-city-borough-golf-carts</loc>
+    <lastmod>2025-01-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://oceancountygolfcarts.com/toms-river-township-golf-carts</loc>
+    <lastmod>2025-01-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://oceancountygolfcarts.com/tuckerton-borough-golf-carts</loc>
+    <lastmod>2025-01-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+</urlset>
