@@ -48,6 +48,7 @@ Preferred communication style: Simple, everyday language.
 - **Footer** - Company information and quick links
 - **SEO Head** - Dynamic meta tags and structured data
 - **UI Components** - Comprehensive set of reusable components from shadcn/ui
+- **useScrollToTop Hook** - Global hook for automatic scroll-to-top on page navigation
 
 ### Business Features
 - **Inventory Management** - Display and categorization of golf carts
@@ -55,6 +56,7 @@ Preferred communication style: Simple, everyday language.
 - **Rental Calculator** - Dynamic pricing calculation for different rental periods
 - **Financing Calculator** - Payment estimation tools
 - **Brand Showcase** - Featured manufacturer information
+- **Global Scroll-to-Top** - Automatic page scroll to top on route changes across all devices
 
 ## Data Flow
 

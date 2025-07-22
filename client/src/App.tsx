@@ -1,6 +1,7 @@
 import { Route, Switch } from "wouter";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { Toaster } from "@/components/ui/toaster";
+import useScrollToTop from "@/hooks/useScrollToTop";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import HomePage from "@/pages/HomePage";
@@ -53,6 +54,9 @@ import {
 const queryClient = new QueryClient();
 
 function App() {
+  // Global scroll-to-top on route changes
+  useScrollToTop();
+
   return (
     <QueryClientProvider client={queryClient}>
       <div className="min-h-screen bg-gray-50 flex flex-col">
