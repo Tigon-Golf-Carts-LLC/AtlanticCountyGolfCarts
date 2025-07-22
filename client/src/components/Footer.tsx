@@ -17,42 +17,45 @@ export default function Footer() {
     <footer className="bg-gray-50 py-12 px-4">
       <div className="max-w-7xl mx-auto">
         {/* Main Footer Content */}
-        <div className="grid md:grid-cols-4 gap-8 mb-8">
+        <div className="space-y-8 mb-8">
           {/* Company Description */}
-          <div className="md:col-span-1">
+          <div className="md:hidden">
             <p className="text-gray-600 text-sm leading-relaxed">
               Ocean County's premier golf cart dealership serving customers across 
               the region with quality carts and expert service.
             </p>
           </div>
 
-          {/* Navigation Links */}
-          <div className="md:col-span-1">
-            <ul className="space-y-2">
-              <li><Link href="/" className="text-gray-600 hover:text-gray-900 text-sm">Home</Link></li>
-              <li><Link href="/inventory" className="text-gray-600 hover:text-gray-900 text-sm">Inventory</Link></li>
-              <li><Link href="/rentals" className="text-gray-600 hover:text-gray-900 text-sm">Rentals</Link></li>
-              <li><Link href="/services" className="text-gray-600 hover:text-gray-900 text-sm">Services</Link></li>
-              <li><a href="https://tigongolfcarts.com/apply-for-financing/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-900 text-sm">Financing</a></li>
-              <li><Link href="/about" className="text-gray-600 hover:text-gray-900 text-sm">About</Link></li>
-            </ul>
+          {/* Mobile: Navigation and Services side by side (50% each) */}
+          <div className="grid grid-cols-2 gap-4 md:hidden">
+            {/* Navigation Links */}
+            <div>
+              <ul className="space-y-2">
+                <li><Link href="/" className="text-gray-600 hover:text-gray-900 text-sm">Home</Link></li>
+                <li><Link href="/inventory" className="text-gray-600 hover:text-gray-900 text-sm">Inventory</Link></li>
+                <li><Link href="/rentals" className="text-gray-600 hover:text-gray-900 text-sm">Rentals</Link></li>
+                <li><Link href="/services" className="text-gray-600 hover:text-gray-900 text-sm">Services</Link></li>
+                <li><a href="https://tigongolfcarts.com/apply-for-financing/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-900 text-sm">Financing</a></li>
+                <li><Link href="/about" className="text-gray-600 hover:text-gray-900 text-sm">About</Link></li>
+              </ul>
+            </div>
+
+            {/* Services - Updated with requested links */}
+            <div>
+              <ul className="space-y-2">
+                <li><Link href="/inventory" className="text-gray-600 hover:text-gray-900 text-sm">NEW GOLF CARTS</Link></li>
+                <li><Link href="/brands/denago" className="text-gray-600 hover:text-gray-900 text-sm">DENAGO</Link></li>
+                <li><Link href="/brands/evolution" className="text-gray-600 hover:text-gray-900 text-sm">EVOLUTION</Link></li>
+                <li><Link href="/about" className="text-gray-600 hover:text-gray-900 text-sm">ABOUT</Link></li>
+                <li><Link href="/contact" className="text-gray-600 hover:text-gray-900 text-sm">CONTACT</Link></li>
+                <li><Link href="/privacy" className="text-gray-600 hover:text-gray-900 text-sm">PRIVACY POLICY</Link></li>
+                <li><Link href="/terms" className="text-gray-600 hover:text-gray-900 text-sm">TERMS OF SERVICE</Link></li>
+              </ul>
+            </div>
           </div>
 
-          {/* Services - Updated with requested links */}
-          <div className="md:col-span-1">
-            <ul className="space-y-2">
-              <li><Link href="/inventory" className="text-gray-600 hover:text-gray-900 text-sm">NEW GOLF CARTS</Link></li>
-              <li><Link href="/brands/denago" className="text-gray-600 hover:text-gray-900 text-sm">DENAGO</Link></li>
-              <li><Link href="/brands/evolution" className="text-gray-600 hover:text-gray-900 text-sm">EVOLUTION</Link></li>
-              <li><Link href="/about" className="text-gray-600 hover:text-gray-900 text-sm">ABOUT</Link></li>
-              <li><Link href="/contact" className="text-gray-600 hover:text-gray-900 text-sm">CONTACT</Link></li>
-              <li><Link href="/privacy" className="text-gray-600 hover:text-gray-900 text-sm">PRIVACY POLICY</Link></li>
-              <li><Link href="/terms" className="text-gray-600 hover:text-gray-900 text-sm">TERMS OF SERVICE</Link></li>
-            </ul>
-          </div>
-
-          {/* Contact Info */}
-          <div className="md:col-span-1">
+          {/* Mobile: Contact Info */}
+          <div className="md:hidden">
             <div className="space-y-2">
               <p className="text-gray-900 font-semibold text-sm">Phone: 1-844-844-6638</p>
               <p className="text-gray-600 text-sm">Email: info@oceancountygolfcarts.com</p>
@@ -60,6 +63,55 @@ export default function Footer() {
                 <p>Mon-Fri: 9AM-5PM</p>
                 <p>Sat: 9AM-5PM</p>
                 <p>Sun: Closed</p>
+              </div>
+            </div>
+          </div>
+
+          {/* Desktop: 4 column layout */}
+          <div className="hidden md:grid md:grid-cols-4 gap-8">
+            {/* Company Description */}
+            <div className="md:col-span-1">
+              <p className="text-gray-600 text-sm leading-relaxed">
+                Ocean County's premier golf cart dealership serving customers across 
+                the region with quality carts and expert service.
+              </p>
+            </div>
+
+            {/* Navigation Links */}
+            <div className="md:col-span-1">
+              <ul className="space-y-2">
+                <li><Link href="/" className="text-gray-600 hover:text-gray-900 text-sm">Home</Link></li>
+                <li><Link href="/inventory" className="text-gray-600 hover:text-gray-900 text-sm">Inventory</Link></li>
+                <li><Link href="/rentals" className="text-gray-600 hover:text-gray-900 text-sm">Rentals</Link></li>
+                <li><Link href="/services" className="text-gray-600 hover:text-gray-900 text-sm">Services</Link></li>
+                <li><a href="https://tigongolfcarts.com/apply-for-financing/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-900 text-sm">Financing</a></li>
+                <li><Link href="/about" className="text-gray-600 hover:text-gray-900 text-sm">About</Link></li>
+              </ul>
+            </div>
+
+            {/* Services - Updated with requested links */}
+            <div className="md:col-span-1">
+              <ul className="space-y-2">
+                <li><Link href="/inventory" className="text-gray-600 hover:text-gray-900 text-sm">NEW GOLF CARTS</Link></li>
+                <li><Link href="/brands/denago" className="text-gray-600 hover:text-gray-900 text-sm">DENAGO</Link></li>
+                <li><Link href="/brands/evolution" className="text-gray-600 hover:text-gray-900 text-sm">EVOLUTION</Link></li>
+                <li><Link href="/about" className="text-gray-600 hover:text-gray-900 text-sm">ABOUT</Link></li>
+                <li><Link href="/contact" className="text-gray-600 hover:text-gray-900 text-sm">CONTACT</Link></li>
+                <li><Link href="/privacy" className="text-gray-600 hover:text-gray-900 text-sm">PRIVACY POLICY</Link></li>
+                <li><Link href="/terms" className="text-gray-600 hover:text-gray-900 text-sm">TERMS OF SERVICE</Link></li>
+              </ul>
+            </div>
+
+            {/* Contact Info */}
+            <div className="md:col-span-1">
+              <div className="space-y-2">
+                <p className="text-gray-900 font-semibold text-sm">Phone: 1-844-844-6638</p>
+                <p className="text-gray-600 text-sm">Email: info@oceancountygolfcarts.com</p>
+                <div className="text-gray-600 text-sm">
+                  <p>Mon-Fri: 9AM-5PM</p>
+                  <p>Sat: 9AM-5PM</p>
+                  <p>Sun: Closed</p>
+                </div>
               </div>
             </div>
           </div>
