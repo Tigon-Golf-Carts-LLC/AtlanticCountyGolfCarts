@@ -18,6 +18,13 @@ import NewServicesPage from "@/pages/NewServicesPage";
 import NewAboutPage from "@/pages/NewAboutPage";
 import EvolutionD5Ranger6Plus from "@/pages/vehicles/EvolutionD5Ranger6Plus";
 import EvolutionD5Ranger22Plus from "@/pages/vehicles/EvolutionD5Ranger22Plus";
+import EvolutionForester4Plus from "@/pages/vehicles/EvolutionForester4Plus";
+import EvolutionTurfman1000 from "@/pages/vehicles/EvolutionTurfman1000";
+import DenagoEvCity from "@/pages/vehicles/DenagoEvCity";
+import EvolutionD6MaxGT4 from "@/pages/vehicles/EvolutionD6MaxGT4";
+import DenagoEvNomad from "@/pages/vehicles/DenagoEvNomad";
+import EvolutionClassic4Plus from "@/pages/vehicles/EvolutionClassic4Plus";
+import DenagoEvRoverXL from "@/pages/vehicles/DenagoEvRoverXL";
 import {
   BarnegaTPPage, BarnegaLightPage, BayHeadPage, BeachHavenPage, BeachwoodPage,
   BerkeleyTPage, BrickTPage, EagleswoodTPage, HarveyCedarsPage, IslandHeightsPage,
@@ -50,6 +57,13 @@ function App() {
             {/* Vehicle Pages */}
             <Route path="/vehicles/evolution-d5-ranger-6-plus" component={EvolutionD5Ranger6Plus} />
             <Route path="/vehicles/evolution-d5-ranger-22-plus" component={EvolutionD5Ranger22Plus} />
+            <Route path="/vehicles/evolution-forester-4-plus" component={EvolutionForester4Plus} />
+            <Route path="/vehicles/evolution-turfman-1000" component={EvolutionTurfman1000} />
+            <Route path="/vehicles/denago-ev-city" component={DenagoEvCity} />
+            <Route path="/vehicles/evolution-d6-max-gt4" component={EvolutionD6MaxGT4} />
+            <Route path="/vehicles/denago-ev-nomad" component={DenagoEvNomad} />
+            <Route path="/vehicles/evolution-classic-4-plus" component={EvolutionClassic4Plus} />
+            <Route path="/vehicles/denago-ev-rover-xl" component={DenagoEvRoverXL} />
             
             {/* Ocean County Town Pages */}
             <Route path="/barnegat-township-golf-carts" component={BarnegaTPPage} />
