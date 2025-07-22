@@ -365,7 +365,7 @@ export default function TownPage({ townName, townType }: TownPageProps) {
             <Button size="lg" className="bg-theme-orange hover:bg-orange-600 text-white">
               Call 1-844-844-6638
             </Button>
-            <Button size="lg" variant="outline" className="text-white border-white hover:bg-white hover:text-blue-600">
+            <Button size="lg" variant="outline" className="text-blue-600 bg-white border-white hover:bg-gray-100 hover:text-blue-600">
               Request Quote for {townName}
             </Button>
           </div>
