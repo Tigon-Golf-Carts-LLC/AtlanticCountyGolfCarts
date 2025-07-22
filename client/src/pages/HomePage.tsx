@@ -374,10 +374,76 @@ Ocean County Golf Carts Premier Dealership
             <Link href="/berkeley-township-golf-carts" className="bg-blue-50 hover:bg-blue-100 p-4 rounded-lg transition-colors">
               <div className="text-sm font-semibold text-blue-700">Berkeley Township</div>
             </Link>
+            <Link href="/dover-township-golf-carts" className="bg-blue-50 hover:bg-blue-100 p-4 rounded-lg transition-colors">
+              <div className="text-sm font-semibold text-blue-700">Dover Township</div>
+            </Link>
+            <Link href="/eagleswood-township-golf-carts" className="bg-blue-50 hover:bg-blue-100 p-4 rounded-lg transition-colors">
+              <div className="text-sm font-semibold text-blue-700">Eagleswood Township</div>
+            </Link>
+            <Link href="/little-egg-harbor-township-golf-carts" className="bg-blue-50 hover:bg-blue-100 p-4 rounded-lg transition-colors">
+              <div className="text-sm font-semibold text-blue-700">Little Egg Harbor Township</div>
+            </Link>
+            <Link href="/ocean-township-golf-carts" className="bg-blue-50 hover:bg-blue-100 p-4 rounded-lg transition-colors">
+              <div className="text-sm font-semibold text-blue-700">Ocean Township</div>
+            </Link>
+            <Link href="/plumsted-township-golf-carts" className="bg-blue-50 hover:bg-blue-100 p-4 rounded-lg transition-colors">
+              <div className="text-sm font-semibold text-blue-700">Plumsted Township</div>
+            </Link>
+            <Link href="/barnegat-light-borough-golf-carts" className="bg-blue-50 hover:bg-blue-100 p-4 rounded-lg transition-colors">
+              <div className="text-sm font-semibold text-blue-700">Barnegat Light</div>
+            </Link>
+            <Link href="/bay-head-borough-golf-carts" className="bg-blue-50 hover:bg-blue-100 p-4 rounded-lg transition-colors">
+              <div className="text-sm font-semibold text-blue-700">Bay Head</div>
+            </Link>
+            <Link href="/beachwood-borough-golf-carts" className="bg-blue-50 hover:bg-blue-100 p-4 rounded-lg transition-colors">
+              <div className="text-sm font-semibold text-blue-700">Beachwood</div>
+            </Link>
+            <Link href="/harvey-cedars-borough-golf-carts" className="bg-blue-50 hover:bg-blue-100 p-4 rounded-lg transition-colors">
+              <div className="text-sm font-semibold text-blue-700">Harvey Cedars</div>
+            </Link>
+            <Link href="/island-heights-borough-golf-carts" className="bg-blue-50 hover:bg-blue-100 p-4 rounded-lg transition-colors">
+              <div className="text-sm font-semibold text-blue-700">Island Heights</div>
+            </Link>
+            <Link href="/lavallette-borough-golf-carts" className="bg-blue-50 hover:bg-blue-100 p-4 rounded-lg transition-colors">
+              <div className="text-sm font-semibold text-blue-700">Lavallette</div>
+            </Link>
+            <Link href="/mantoloking-borough-golf-carts" className="bg-blue-50 hover:bg-blue-100 p-4 rounded-lg transition-colors">
+              <div className="text-sm font-semibold text-blue-700">Mantoloking</div>
+            </Link>
+            <Link href="/ocean-gate-borough-golf-carts" className="bg-blue-50 hover:bg-blue-100 p-4 rounded-lg transition-colors">
+              <div className="text-sm font-semibold text-blue-700">Ocean Gate</div>
+            </Link>
+            <Link href="/pine-beach-borough-golf-carts" className="bg-blue-50 hover:bg-blue-100 p-4 rounded-lg transition-colors">
+              <div className="text-sm font-semibold text-blue-700">Pine Beach</div>
+            </Link>
+            <Link href="/point-pleasant-beach-borough-golf-carts" className="bg-blue-50 hover:bg-blue-100 p-4 rounded-lg transition-colors">
+              <div className="text-sm font-semibold text-blue-700">Point Pleasant Beach</div>
+            </Link>
+            <Link href="/seaside-park-borough-golf-carts" className="bg-blue-50 hover:bg-blue-100 p-4 rounded-lg transition-colors">
+              <div className="text-sm font-semibold text-blue-700">Seaside Park</div>
+            </Link>
+            <Link href="/ship-bottom-borough-golf-carts" className="bg-blue-50 hover:bg-blue-100 p-4 rounded-lg transition-colors">
+              <div className="text-sm font-semibold text-blue-700">Ship Bottom</div>
+            </Link>
+            <Link href="/south-toms-river-borough-golf-carts" className="bg-blue-50 hover:bg-blue-100 p-4 rounded-lg transition-colors">
+              <div className="text-sm font-semibold text-blue-700">South Toms River</div>
+            </Link>
+            <Link href="/surf-city-borough-golf-carts" className="bg-blue-50 hover:bg-blue-100 p-4 rounded-lg transition-colors">
+              <div className="text-sm font-semibold text-blue-700">Surf City</div>
+            </Link>
+            <Link href="/tuckerton-borough-golf-carts" className="bg-blue-50 hover:bg-blue-100 p-4 rounded-lg transition-colors">
+              <div className="text-sm font-semibold text-blue-700">Tuckerton</div>
+            </Link>
+            <Link href="/lacey-township-golf-carts" className="bg-blue-50 hover:bg-blue-100 p-4 rounded-lg transition-colors">
+              <div className="text-sm font-semibold text-blue-700">Lacey Township</div>
+            </Link>
+            <Link href="/new-hanover-township-golf-carts" className="bg-blue-50 hover:bg-blue-100 p-4 rounded-lg transition-colors">
+              <div className="text-sm font-semibold text-blue-700">New Hanover Township</div>
+            </Link>
           </div>
           
           <p className="text-gray-600 mb-8">
-            And many more Ocean County towns! Professional golf cart sales, service, and rentals throughout the region.
+            Serving all 33 Ocean County municipalities! Professional golf cart sales, service, and rentals delivered throughout the region.
           </p>
         </div>
       </section>
