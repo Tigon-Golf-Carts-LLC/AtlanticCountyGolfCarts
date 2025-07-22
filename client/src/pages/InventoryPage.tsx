@@ -38,9 +38,23 @@ export default function InventoryPage() {
   }
 
   return (
-    <div className="max-w-7xl mx-auto px-4 py-8">
-      <div className="flex flex-col md:flex-row justify-between items-center mb-8">
-        <h1 className="text-3xl font-bold text-gray-900 mb-4 md:mb-0">Vehicle Inventory</h1>
+    <div className="min-h-screen">
+      {/* Hero Section */}
+      <section className="relative py-20 px-4 bg-gradient-to-r from-theme-primary to-blue-700 text-white bg-cover bg-center bg-no-repeat" style={{backgroundImage: "linear-gradient(rgba(14, 46, 85, 0.8), rgba(29, 78, 216, 0.8)), url('/attached_assets/Ocean County Golf Carts New Jersey 3_1753197335727.jpeg')"}}>
+        <div className="max-w-7xl mx-auto text-center">
+          <h1 className="text-5xl font-bold mb-6">
+            Golf Cart Inventory
+          </h1>
+          <p className="text-xl mb-8 max-w-3xl mx-auto">
+            Browse our extensive collection of premium electric golf carts from DENAGO and EVOLUTION. 
+            Find the perfect vehicle for your needs with our advanced filtering options.
+          </p>
+        </div>
+      </section>
+
+      <div className="max-w-7xl mx-auto px-4 py-8">
+        <div className="flex flex-col md:flex-row justify-between items-center mb-8">
+          <h2 className="text-3xl font-bold text-gray-900 mb-4 md:mb-0">Available Vehicles</h2>
         
         <VehicleFilters
           selectedBrand={selectedBrand}
@@ -78,6 +92,7 @@ export default function InventoryPage() {
           </p>
         </div>
       )}
+      </div>
     </div>
   );
 }
