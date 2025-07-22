@@ -40,10 +40,6 @@ router.get("/api/vehicles/:id", async (req, res) => {
 router.get("/api/vehicles/brand/:brand", async (req, res) => {
   try {
     const { brand } = req.params;
-    if (brand !== "denago" && brand !== "evolution") {
-      return res.status(400).json({ error: "Invalid brand" });
-    }
-    
     const vehicles = await storage.getVehiclesByBrand(brand);
     res.json(vehicles);
   } catch (error) {

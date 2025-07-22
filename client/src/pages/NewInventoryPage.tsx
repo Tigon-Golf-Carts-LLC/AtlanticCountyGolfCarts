@@ -23,7 +23,7 @@ export default function NewInventoryPage() {
   const filteredVehicles = vehicles?.filter(vehicle => {
     const matchesSearch = vehicle.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
                          vehicle.description.toLowerCase().includes(searchTerm.toLowerCase());
-    const matchesBrand = brandFilter === "all" || vehicle.brand === brandFilter;
+    const matchesBrand = brandFilter === "all" || vehicle.brand.toLowerCase() === brandFilter.toLowerCase();
     const matchesCategory = categoryFilter === "all" || vehicle.category.toLowerCase().includes(categoryFilter.toLowerCase());
     const matchesPrice = priceFilter === "all" || 
                         (priceFilter === "under-15000" && vehicle.price < 15000) ||
@@ -151,22 +151,18 @@ export default function NewInventoryPage() {
                         alt={vehicle.name}
                         className="w-full h-48 object-cover"
                       />
-                      <Badge 
-                        className={`absolute top-4 left-4 ${
-                          vehicle.status === 'available' ? 'bg-green-500' : 
-                          vehicle.status === 'pre-order' ? 'bg-yellow-500' : 'bg-red-500'
-                        }`}
-                      >
-                        {vehicle.status === 'available' ? 'Available' : 
-                         vehicle.status === 'pre-order' ? 'Pre-Order' : 'Sold'}
-                      </Badge>
-                      {vehicle.brand === 'denago' && (
-                        <Badge className="absolute top-4 right-4 bg-blue-600">
+                      {vehicle.isNew && (
+                        <Badge className="absolute top-4 left-4 bg-green-500 text-white">
+                          NEW
+                        </Badge>
+                      )}
+                      {vehicle.brand.toLowerCase() === 'denago' && (
+                        <Badge className="absolute top-4 right-4 bg-blue-600 text-white">
                           DENAGO
                         </Badge>
                       )}
-                      {vehicle.brand === 'evolution' && (
-                        <Badge className="absolute top-4 right-4 bg-green-600">
+                      {vehicle.brand.toLowerCase() === 'evolution' && (
+                        <Badge className="absolute top-4 right-4 bg-green-600 text-white">
                           EVOLUTION
                         </Badge>
                       )}
@@ -181,11 +177,11 @@ export default function NewInventoryPage() {
                       <div className="space-y-2 mb-4">
                         <div className="flex justify-between">
                           <span className="text-gray-600">Seats:</span>
-                          <span className="font-medium">{vehicle.seats}</span>
+                          <span className="font-medium">{vehicle.specifications.seatingCapacity}</span>
                         </div>
                         <div className="flex justify-between">
-                          <span className="text-gray-600">Drive:</span>
-                          <span className="font-medium">{vehicle.driveType}</span>
+                          <span className="text-gray-600">Range:</span>
+                          <span className="font-medium">{vehicle.specifications.range}</span>
                         </div>
                         <div className="flex justify-between">
                           <span className="text-gray-600">Category:</span>
@@ -197,24 +193,15 @@ export default function NewInventoryPage() {
                         <span className="text-2xl font-bold text-blue-600">
                           ${vehicle.price.toLocaleString()}
                         </span>
-                        <div className="flex items-center text-yellow-500">
-                          <Star className="w-4 h-4 fill-current" />
-                          <Star className="w-4 h-4 fill-current" />
-                          <Star className="w-4 h-4 fill-current" />
-                          <Star className="w-4 h-4 fill-current" />
-                          <Star className="w-4 h-4 fill-current" />
-                        </div>
                       </div>
                     </CardContent>
                     
-                    <CardFooter className="space-x-2">
-                      <Link href={`/vehicles/${vehicle.brand}-${vehicle.name.toLowerCase().replace(/\s+/g, '-')}`}>
-                        <Button className="flex-1 bg-blue-600 hover:bg-blue-700">
-                          View Details
-                        </Button>
-                      </Link>
+                    <CardFooter className="flex gap-2">
+                      <Button className="flex-1 bg-red-500 hover:bg-red-600 text-white">
+                        View Details
+                      </Button>
                       <Link href="/contact">
-                        <Button variant="outline" className="flex-1">
+                        <Button variant="outline" className="flex-1 border-red-500 text-red-500 hover:bg-red-50">
                           Contact Us
                         </Button>
                       </Link>
