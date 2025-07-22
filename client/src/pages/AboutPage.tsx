@@ -66,7 +66,7 @@ export default function AboutPage() {
                 Today, we're proud to be authorized dealers for leading brands like EVOLUTION and DENAGO, 
                 offering our customers the latest in golf cart technology and innovation.
               </p>
-              <Button className="bg-theme-orange hover:bg-orange-600 text-white">
+              <Button className="bg-theme-orange hover:bg-orange-600 text-white w-full sm:w-auto">
                 Learn More About Our Services
               </Button>
             </div>

@@ -30,12 +30,12 @@ Ocean County Golf Carts Premier Dealership
                 Serving Ocean County, and all surrounding towns, beach towns, and New Jersey Islands In Ocean County.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <Link href="/inventory">
-                  <Button size="lg" className="bg-theme-orange hover:bg-orange-600 text-white">
+                <Link href="/inventory" className="w-full sm:w-auto">
+                  <Button size="lg" className="bg-theme-orange hover:bg-orange-600 text-white w-full sm:w-auto">
                     View Inventory
                   </Button>
                 </Link>
-                <Button size="lg" variant="outline" className="text-gray-900 bg-white border-white hover:bg-gray-100 hover:text-gray-900">
+                <Button size="lg" variant="outline" className="text-gray-900 bg-white border-white hover:bg-gray-100 hover:text-gray-900 w-full sm:w-auto">
                   Call Now 1-844-844-6638
                 </Button>
               </div>

@@ -94,12 +94,12 @@ export default function TownPage({ townName, townType }: TownPageProps) {
                 Serving {townName} residents with premium DENAGO and EVOLUTION electric golf carts.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <Link href="/inventory">
-                  <Button size="lg" className="bg-theme-orange hover:bg-orange-600 text-white">
+                <Link href="/inventory" className="w-full sm:w-auto">
+                  <Button size="lg" className="bg-theme-orange hover:bg-orange-600 text-white w-full sm:w-auto">
                     Shop Golf Carts
                   </Button>
                 </Link>
-                <Button size="lg" variant="outline" className="text-gray-900 bg-white border-white hover:bg-gray-100 hover:text-gray-900">
+                <Button size="lg" variant="outline" className="text-blue-600 bg-white border-white hover:bg-gray-100 hover:text-blue-600 w-full sm:w-auto">
                   Get Free Quote
                 </Button>
               </div>

@@ -105,12 +105,12 @@ export default function InventoryPage() {
             Our team can help you find the perfect golf cart or place a custom order.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="/contact">
-              <Button size="lg" className="bg-white text-blue-600 hover:bg-gray-100">
+            <Link href="/contact" className="w-full sm:w-auto">
+              <Button size="lg" className="bg-white text-blue-600 hover:bg-gray-100 w-full sm:w-auto">
                 Contact Our Team
               </Button>
             </Link>
-            <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-blue-600">
+            <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-blue-600 w-full sm:w-auto">
               Call (732) 908-7166
             </Button>
           </div>
