@@ -40,14 +40,14 @@ export default function NewServicesPage() {
   return (
     <>
       <SEOHead 
-        title="Golf Cart Services & Repair | Ocean County Golf Carts"
-        description="Professional golf cart services including maintenance, repair, battery service, and custom modifications. Serving Ocean County, NJ with certified technicians."
-        keywords="golf cart service, golf cart repair, battery replacement, maintenance, Ocean County"
+        title="Golf Cart Services & Repair | Bucks County Golf Carts"
+        description="Professional golf cart services including maintenance, repair, battery service, and custom modifications. Serving Bucks County, PA with certified technicians."
+        keywords="golf cart service, golf cart repair, battery replacement, maintenance, Bucks County"
       />
       
       <div className="min-h-screen bg-gray-50">
         {/* Hero Section */}
-        <section className="bg-gradient-to-r from-green-600 to-blue-600 text-white py-16">
+        <section className="bg-gradient-to-r from-theme-primary to-blue-700 text-white py-16">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center">
               <h1 className="text-4xl md:text-5xl font-bold mb-6">
@@ -59,12 +59,12 @@ export default function NewServicesPage() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link href="/contact">
-                  <Button size="lg" className="bg-white text-green-600 hover:bg-gray-100">
+                  <Button size="lg" className="bg-theme-orange hover:bg-orange-600 text-white">
                     Schedule Service
                   </Button>
                 </Link>
                 <a href="tel:1-844-844-6638">
-                  <Button size="lg" variant="outline" className="text-white border-white hover:bg-white hover:text-green-600">
+                  <Button size="lg" variant="outline" className="text-white border-white hover:bg-white hover:text-theme-primary">
                     Call for Emergency Service
                   </Button>
                 </a>
@@ -86,8 +86,8 @@ export default function NewServicesPage() {
                 <Card key={index} className="hover:shadow-lg transition-shadow">
                   <CardHeader>
                     <div className="flex items-center gap-4 mb-4">
-                      <div className="p-3 bg-green-100 rounded-lg">
-                        <service.icon className="w-8 h-8 text-green-600" />
+                      <div className="p-3 bg-orange-100 rounded-lg">
+                        <service.icon className="w-8 h-8 text-theme-orange" />
                       </div>
                       <div>
                         <CardTitle className="text-xl">{service.title}</CardTitle>
@@ -100,12 +100,12 @@ export default function NewServicesPage() {
                     <ul className="space-y-2">
                       {service.features.map((feature, featureIndex) => (
                         <li key={featureIndex} className="flex items-center gap-2">
-                          <CheckCircle className="w-4 h-4 text-green-500" />
+                          <CheckCircle className="w-4 h-4 text-theme-orange" />
                           <span className="text-gray-700">{feature}</span>
                         </li>
                       ))}
                     </ul>
-                    <Button className="w-full mt-4 bg-green-600 hover:bg-green-700">
+                    <Button className="w-full mt-4 bg-theme-orange hover:bg-orange-600 text-white">
                       Learn More
                     </Button>
                   </CardContent>
@@ -125,24 +125,24 @@ export default function NewServicesPage() {
 
             <div className="grid md:grid-cols-3 gap-8">
               <div className="text-center">
-                <div className="p-4 bg-green-100 rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center">
-                  <Wrench className="w-8 h-8 text-green-600" />
+                <div className="p-4 bg-orange-100 rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center">
+                  <Wrench className="w-8 h-8 text-theme-orange" />
                 </div>
                 <h3 className="text-xl font-semibold mb-2">Certified Technicians</h3>
                 <p className="text-gray-600">Factory-trained technicians with years of experience in golf cart repair and maintenance.</p>
               </div>
 
               <div className="text-center">
-                <div className="p-4 bg-blue-100 rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center">
-                  <Clock className="w-8 h-8 text-blue-600" />
+                <div className="p-4 bg-orange-100 rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center">
+                  <Clock className="w-8 h-8 text-theme-orange" />
                 </div>
                 <h3 className="text-xl font-semibold mb-2">Fast Turnaround</h3>
                 <p className="text-gray-600">Most repairs completed within 24-48 hours. Emergency service available for urgent needs.</p>
               </div>
 
               <div className="text-center">
-                <div className="p-4 bg-purple-100 rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center">
-                  <Shield className="w-8 h-8 text-purple-600" />
+                <div className="p-4 bg-orange-100 rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center">
+                  <Shield className="w-8 h-8 text-theme-orange" />
                 </div>
                 <h3 className="text-xl font-semibold mb-2">Quality Guarantee</h3>
                 <p className="text-gray-600">All work backed by our comprehensive warranty. We stand behind our repairs and service.</p>
@@ -152,7 +152,7 @@ export default function NewServicesPage() {
         </section>
 
         {/* Contact CTA */}
-        <section className="py-16 bg-green-600 text-white">
+        <section className="py-16 bg-theme-primary text-white">
           <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-bold mb-6">
               Ready to Schedule Your Service?
@@ -162,12 +162,12 @@ export default function NewServicesPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact">
-                <Button size="lg" className="bg-white text-green-600 hover:bg-gray-100">
+                <Button size="lg" className="bg-theme-orange hover:bg-orange-600 text-white">
                   Schedule Service Online
                 </Button>
               </Link>
               <a href="tel:1-844-844-6638">
-                <Button size="lg" variant="outline" className="text-white border-white hover:bg-white hover:text-green-600">
+                <Button size="lg" variant="outline" className="text-white border-white hover:bg-white hover:text-theme-primary">
                   Call 1-844-844-6638
                 </Button>
               </a>
