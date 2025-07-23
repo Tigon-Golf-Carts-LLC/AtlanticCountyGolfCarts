@@ -21,6 +21,18 @@ import NewServicesPage from "@/pages/NewServicesPage";
 import NewAboutPage from "@/pages/NewAboutPage";
 import { PrivacyPolicyPage } from "@/pages/PrivacyPolicyPage";
 import { TermsOfServicePage } from "@/pages/TermsOfServicePage";
+// Policy Pages
+import TermsConditionsPage from "@/pages/policies/TermsConditionsPage";
+import ReturnPolicyPage from "@/pages/policies/ReturnPolicyPage";
+import DeliveryPolicyPage from "@/pages/policies/DeliveryPolicyPage";
+import RentalPolicyPage from "@/pages/policies/RentalPolicyPage";
+import StoragePolicyPage from "@/pages/policies/StoragePolicyPage";
+import PublishingPolicyPage from "@/pages/policies/PublishingPolicyPage";
+import FeedbackPolicyPage from "@/pages/policies/FeedbackPolicyPage";
+import CorrectionsPolicyPage from "@/pages/policies/CorrectionsPolicyPage";
+import DiversityPolicyPage from "@/pages/policies/DiversityPolicyPage";
+import EthicsPolicyPage from "@/pages/policies/EthicsPolicyPage";
+import StaffingReportPage from "@/pages/policies/StaffingReportPage";
 // Municipality Rental Pages
 import {
   // Cities
@@ -121,6 +133,19 @@ function App() {
             <Route path="/showroom" component={ShowroomPage} />
             <Route path="/privacy" component={PrivacyPolicyPage} />
             <Route path="/terms" component={TermsOfServicePage} />
+            
+            {/* Policy Pages */}
+            <Route path="/policies/terms-conditions" component={TermsConditionsPage} />
+            <Route path="/policies/return-policy" component={ReturnPolicyPage} />
+            <Route path="/policies/delivery-policy" component={DeliveryPolicyPage} />
+            <Route path="/policies/rental-policy" component={RentalPolicyPage} />
+            <Route path="/policies/storage-policy" component={StoragePolicyPage} />
+            <Route path="/policies/publishing-policy" component={PublishingPolicyPage} />
+            <Route path="/policies/feedback-policy" component={FeedbackPolicyPage} />
+            <Route path="/policies/corrections-policy" component={CorrectionsPolicyPage} />
+            <Route path="/policies/diversity-policy" component={DiversityPolicyPage} />
+            <Route path="/policies/ethics-policy" component={EthicsPolicyPage} />
+            <Route path="/policies/staffing-report" component={StaffingReportPage} />
             
             {/* Vehicle Detail Pages */}
             <Route path="/vehicles/evolution-d5-ranger-6-plus" component={EvolutionD5Ranger6Plus} />

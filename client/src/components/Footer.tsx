@@ -26,10 +26,11 @@ export default function Footer() {
             </p>
           </div>
 
-          {/* Mobile: Navigation and Services side by side (50% each) */}
+          {/* Mobile: Navigation and Policies side by side (50% each) */}
           <div className="grid grid-cols-2 gap-4 md:hidden">
             {/* Navigation Links */}
             <div>
+              <h4 className="text-gray-900 font-semibold text-sm mb-2">Navigation</h4>
               <ul className="space-y-2">
                 <li><Link href="/" className="text-gray-600 hover:text-gray-900 text-sm">Home</Link></li>
                 <li><Link href="/inventory" className="text-gray-600 hover:text-gray-900 text-sm">Inventory</Link></li>
@@ -37,19 +38,20 @@ export default function Footer() {
                 <li><Link href="/services" className="text-gray-600 hover:text-gray-900 text-sm">Services</Link></li>
                 <li><a href="https://tigongolfcarts.com/apply-for-financing/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-900 text-sm">Financing</a></li>
                 <li><Link href="/about" className="text-gray-600 hover:text-gray-900 text-sm">About</Link></li>
+                <li><Link href="/contact" className="text-gray-600 hover:text-gray-900 text-sm">Contact</Link></li>
               </ul>
             </div>
 
-            {/* Services - Updated with requested links */}
+            {/* Main Policies */}
             <div>
+              <h4 className="text-gray-900 font-semibold text-sm mb-2">Policies</h4>
               <ul className="space-y-2">
-                <li><Link href="/inventory" className="text-gray-600 hover:text-gray-900 text-sm">NEW GOLF CARTS</Link></li>
-                <li><Link href="/denago" className="text-gray-600 hover:text-gray-900 text-sm">DENAGO</Link></li>
-                <li><Link href="/evolution" className="text-gray-600 hover:text-gray-900 text-sm">EVOLUTION</Link></li>
-                <li><Link href="/about" className="text-gray-600 hover:text-gray-900 text-sm">ABOUT</Link></li>
-                <li><Link href="/contact" className="text-gray-600 hover:text-gray-900 text-sm">CONTACT</Link></li>
-                <li><Link href="/privacy-policy" className="text-gray-600 hover:text-gray-900 text-sm">PRIVACY POLICY</Link></li>
-                <li><Link href="/terms-of-service" className="text-gray-600 hover:text-gray-900 text-sm">TERMS OF SERVICE</Link></li>
+                <li><Link href="/policies/terms-conditions" className="text-gray-600 hover:text-gray-900 text-sm">Terms & Conditions</Link></li>
+                <li><Link href="/policies/return-policy" className="text-gray-600 hover:text-gray-900 text-sm">Return Policy</Link></li>
+                <li><Link href="/privacy" className="text-gray-600 hover:text-gray-900 text-sm">Privacy Policy</Link></li>
+                <li><Link href="/policies/delivery-policy" className="text-gray-600 hover:text-gray-900 text-sm">Delivery Policy</Link></li>
+                <li><Link href="/policies/rental-policy" className="text-gray-600 hover:text-gray-900 text-sm">Rental Policy</Link></li>
+                <li><Link href="/policies/ethics-policy" className="text-gray-600 hover:text-gray-900 text-sm">Ethics Policy</Link></li>
               </ul>
             </div>
           </div>
@@ -67,8 +69,8 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Desktop: 4 column layout */}
-          <div className="hidden md:grid md:grid-cols-4 gap-8">
+          {/* Desktop: 6 column layout for comprehensive policies */}
+          <div className="hidden md:grid md:grid-cols-6 gap-6">
             {/* Company Description */}
             <div className="md:col-span-1">
               <p className="text-gray-600 text-sm leading-relaxed">
@@ -79,6 +81,7 @@ export default function Footer() {
 
             {/* Navigation Links */}
             <div className="md:col-span-1">
+              <h4 className="text-gray-900 font-semibold text-sm mb-3">Navigation</h4>
               <ul className="space-y-2">
                 <li><Link href="/" className="text-gray-600 hover:text-gray-900 text-sm">Home</Link></li>
                 <li><Link href="/inventory" className="text-gray-600 hover:text-gray-900 text-sm">Inventory</Link></li>
@@ -86,24 +89,48 @@ export default function Footer() {
                 <li><Link href="/services" className="text-gray-600 hover:text-gray-900 text-sm">Services</Link></li>
                 <li><a href="https://tigongolfcarts.com/apply-for-financing/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-900 text-sm">Financing</a></li>
                 <li><Link href="/about" className="text-gray-600 hover:text-gray-900 text-sm">About</Link></li>
+                <li><Link href="/contact" className="text-gray-600 hover:text-gray-900 text-sm">Contact</Link></li>
               </ul>
             </div>
 
-            {/* Services - Updated with requested links */}
+            {/* Policies */}
             <div className="md:col-span-1">
+              <h4 className="text-gray-900 font-semibold text-sm mb-3">POLICIES</h4>
               <ul className="space-y-2">
-                <li><Link href="/inventory" className="text-gray-600 hover:text-gray-900 text-sm">NEW GOLF CARTS</Link></li>
-                <li><Link href="/denago" className="text-gray-600 hover:text-gray-900 text-sm">DENAGO</Link></li>
-                <li><Link href="/evolution" className="text-gray-600 hover:text-gray-900 text-sm">EVOLUTION</Link></li>
-                <li><Link href="/about" className="text-gray-600 hover:text-gray-900 text-sm">ABOUT</Link></li>
-                <li><Link href="/contact" className="text-gray-600 hover:text-gray-900 text-sm">CONTACT</Link></li>
-                <li><Link href="/privacy-policy" className="text-gray-600 hover:text-gray-900 text-sm">PRIVACY POLICY</Link></li>
-                <li><Link href="/terms-of-service" className="text-gray-600 hover:text-gray-900 text-sm">TERMS OF SERVICE</Link></li>
+                <li><Link href="/policies/terms-conditions" className="text-gray-600 hover:text-gray-900 text-sm">Terms & Conditions</Link></li>
+                <li><Link href="/policies/return-policy" className="text-gray-600 hover:text-gray-900 text-sm">Return Policy</Link></li>
+                <li><Link href="/privacy" className="text-gray-600 hover:text-gray-900 text-sm">Privacy Policy</Link></li>
               </ul>
             </div>
 
-            {/* Contact Info */}
+            {/* Service Policies */}
             <div className="md:col-span-1">
+              <h4 className="text-gray-900 font-semibold text-sm mb-3">SERVICE POLICIES</h4>
+              <ul className="space-y-2">
+                <li><Link href="/policies/delivery-policy" className="text-gray-600 hover:text-gray-900 text-sm">Delivery Policy</Link></li>
+                <li><Link href="/policies/rental-policy" className="text-gray-600 hover:text-gray-900 text-sm">Rental Policy</Link></li>
+                <li><Link href="/policies/storage-policy" className="text-gray-600 hover:text-gray-900 text-sm">Storage Policy</Link></li>
+              </ul>
+            </div>
+
+            {/* Content Policies */}
+            <div className="md:col-span-1">
+              <h4 className="text-gray-900 font-semibold text-sm mb-3">CONTENT POLICIES</h4>
+              <ul className="space-y-2">
+                <li><Link href="/policies/publishing-policy" className="text-gray-600 hover:text-gray-900 text-sm">Publishing Policy</Link></li>
+                <li><Link href="/policies/feedback-policy" className="text-gray-600 hover:text-gray-900 text-sm">Feedback Policy</Link></li>
+                <li><Link href="/policies/corrections-policy" className="text-gray-600 hover:text-gray-900 text-sm">Corrections Policy</Link></li>
+              </ul>
+            </div>
+
+            {/* Work Policies & Contact */}
+            <div className="md:col-span-1">
+              <h4 className="text-gray-900 font-semibold text-sm mb-3">WORK POLICIES</h4>
+              <ul className="space-y-2 mb-4">
+                <li><Link href="/policies/diversity-policy" className="text-gray-600 hover:text-gray-900 text-sm">Diversity Policy</Link></li>
+                <li><Link href="/policies/ethics-policy" className="text-gray-600 hover:text-gray-900 text-sm">Ethics Policy</Link></li>
+                <li><Link href="/policies/staffing-report" className="text-gray-600 hover:text-gray-900 text-sm">Staffing Report</Link></li>
+              </ul>
               <div className="space-y-2">
                 <p className="text-gray-900 font-semibold text-sm">Phone: 1-844-844-6638</p>
                 <p className="text-gray-600 text-sm">Email: info@berksgolfcarts.com</p>
