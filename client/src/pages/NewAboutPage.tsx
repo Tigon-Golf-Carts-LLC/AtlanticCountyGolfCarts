@@ -60,13 +60,13 @@ export default function NewAboutPage() {
     <>
       <SEOHead 
         title="About Bucks County Golf Carts - Your Premier Golf Cart Dealer"
-        description="Learn about Bucks County Golf Carts, Pennsylvania's trusted golf cart dealer serving all 36 townships with premium DENAGO and EVOLUTION vehicles since 2010."
+        description="Learn about Bucks County Golf Carts, Pennsylvania's trusted golf cart dealer serving all 56 municipalities with premium DENAGO and EVOLUTION vehicles since 2010."
         keywords="Bucks County golf carts, about us, golf cart dealer Pennsylvania, DENAGO dealer, EVOLUTION dealer"
       />
       
       <div className="min-h-screen bg-gray-50">
         {/* Hero Section */}
-        <section className="bg-gradient-to-r from-blue-600 to-green-600 text-white py-16">
+        <section className="bg-gradient-to-r from-theme-primary to-blue-700 text-white py-16">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center">
               <h1 className="text-4xl md:text-5xl font-bold mb-6">
@@ -74,17 +74,17 @@ export default function NewAboutPage() {
               </h1>
               <p className="text-xl mb-8 max-w-3xl mx-auto">
                 Since 2010, we've been Bucks County's premier destination for premium golf carts, 
-                exceptional service, and unmatched customer care. Serving all 36 townships 
+                exceptional service, and unmatched customer care. Serving all 56 municipalities 
                 with pride and professionalism.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link href="/contact">
-                  <Button size="lg" className="bg-white text-blue-600 hover:bg-gray-100">
+                  <Button size="lg" className="bg-theme-orange hover:bg-orange-600 text-white">
                     Contact Our Team
                   </Button>
                 </Link>
                 <Link href="/inventory">
-                  <Button size="lg" variant="outline" className="text-white border-white hover:bg-white hover:text-blue-600">
+                  <Button size="lg" className="bg-white text-theme-primary hover:bg-gray-100">
                     View Our Inventory
                   </Button>
                 </Link>
@@ -107,7 +107,7 @@ export default function NewAboutPage() {
                   </p>
                   <p>
                     What started as a small family business has grown into Bucks County's most trusted 
-                    golf cart dealer, serving all 36 townships from Warrington to New Hope, 
+                    golf cart dealer, serving all 56 municipalities from Warrington to New Hope, 
                     Doylestown to Bristol, and everywhere in between.
                   </p>
                   <p>
@@ -124,26 +124,51 @@ export default function NewAboutPage() {
 
                 <div className="mt-8 grid grid-cols-3 gap-4">
                   <div className="text-center">
-                    <div className="text-2xl font-bold text-blue-600">13+</div>
+                    <div className="text-2xl font-bold text-theme-orange">13+</div>
                     <div className="text-sm text-gray-600">Years Serving Bucks County</div>
                   </div>
                   <div className="text-center">
-                    <div className="text-2xl font-bold text-green-600">5000+</div>
+                    <div className="text-2xl font-bold text-theme-orange">5000+</div>
                     <div className="text-sm text-gray-600">Satisfied Customers</div>
                   </div>
                   <div className="text-center">
-                    <div className="text-2xl font-bold text-purple-600">36</div>
-                    <div className="text-sm text-gray-600">Townships Served</div>
+                    <div className="text-2xl font-bold text-theme-orange">56</div>
+                    <div className="text-sm text-gray-600">Municipalities Served</div>
                   </div>
                 </div>
               </div>
 
               <div className="relative">
-                <div className="bg-gray-200 h-96 rounded-2xl flex items-center justify-center">
-                  <div className="text-center text-gray-600">
-                    <MapPin className="w-16 h-16 mx-auto mb-4" />
-                    <h3 className="text-xl font-semibold mb-2">Serving Bucks County</h3>
-                    <p>All 36 townships and surrounding areas</p>
+                <div className="h-96 rounded-2xl overflow-hidden shadow-lg">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d196231.73527331748!2d-75.23646718906256!3d40.31447647158467!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6b0e7e7b1e8b5%3A0x7a1b1b1b1b1b1b1b!2sBucks%20County%2C%20PA!5e0!3m2!1sen!2sus!4v1234567890123!5m2!1sen!2sus"
+                    width="100%"
+                    height="100%"
+                    style={{ border: 0 }}
+                    allowFullScreen
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"
+                    title="Bucks County Service Area Map"
+                  ></iframe>
+                </div>
+                <div className="mt-6 text-center">
+                  <h3 className="text-xl font-semibold mb-2 text-gray-900">TIGON Golf Carts Locations</h3>
+                  <div className="grid md:grid-cols-3 gap-4 text-sm">
+                    <div className="bg-white p-4 rounded-lg shadow">
+                      <h4 className="font-semibold text-theme-orange">Hatfield Showroom</h4>
+                      <p className="text-gray-600">Physical Location</p>
+                      <p className="text-gray-700">(215) 595-8736</p>
+                    </div>
+                    <div className="bg-white p-4 rounded-lg shadow">
+                      <h4 className="font-semibold text-theme-orange">Pennsylvania Online</h4>
+                      <p className="text-gray-600">24/7 Service</p>
+                      <p className="text-gray-700">1-844-844-6638</p>
+                    </div>
+                    <div className="bg-white p-4 rounded-lg shadow">
+                      <h4 className="font-semibold text-theme-orange">Philadelphia Online</h4>
+                      <p className="text-gray-600">24/7 Service</p>
+                      <p className="text-gray-700">1-844-844-6638</p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -163,8 +188,8 @@ export default function NewAboutPage() {
               {values.map((value, index) => (
                 <Card key={index} className="text-center hover:shadow-lg transition-shadow">
                   <CardHeader>
-                    <div className="p-4 bg-blue-100 rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center">
-                      <value.icon className="w-8 h-8 text-blue-600" />
+                    <div className="p-4 bg-orange-100 rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center">
+                      <value.icon className="w-8 h-8 text-theme-orange" />
                     </div>
                     <CardTitle className="text-xl">{value.title}</CardTitle>
                   </CardHeader>
@@ -196,7 +221,7 @@ export default function NewAboutPage() {
                     <Badge variant="outline" className="mt-2">{member.role}</Badge>
                   </CardHeader>
                   <CardContent>
-                    <p className="text-sm text-blue-600 font-medium mb-2">{member.experience}</p>
+                    <p className="text-sm text-theme-orange font-medium mb-2">{member.experience}</p>
                     <p className="text-gray-600 text-sm">{member.description}</p>
                   </CardContent>
                 </Card>
@@ -210,57 +235,61 @@ export default function NewAboutPage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12">
               <h2 className="text-3xl font-bold text-gray-900 mb-4">Our Service Area</h2>
-              <p className="text-lg text-gray-600">Proudly serving all of Ocean County, New Jersey</p>
+              <p className="text-lg text-gray-600">Proudly serving all of Bucks County, Pennsylvania</p>
             </div>
 
             <div className="grid md:grid-cols-3 gap-8 mb-12">
               <Card className="text-center">
                 <CardHeader>
-                  <MapPin className="w-12 h-12 text-blue-500 mx-auto mb-4" />
-                  <CardTitle>Northern Ocean County</CardTitle>
+                  <MapPin className="w-12 h-12 text-theme-orange mx-auto mb-4" />
+                  <CardTitle>Northern Bucks County</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-gray-600 mb-4">Brick, Lakewood, Toms River, Point Pleasant, and surrounding areas</p>
-                  <Badge variant="secondary">11 Municipalities</Badge>
+                  <p className="text-gray-600 mb-4">Quakertown, Perkasie, Sellersville, Telford, and surrounding areas</p>
+                  <Badge variant="secondary">18 Municipalities</Badge>
                 </CardContent>
               </Card>
 
               <Card className="text-center">
                 <CardHeader>
-                  <MapPin className="w-12 h-12 text-green-500 mx-auto mb-4" />
-                  <CardTitle>Central Ocean County</CardTitle>
+                  <MapPin className="w-12 h-12 text-theme-orange mx-auto mb-4" />
+                  <CardTitle>Central Bucks County</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-gray-600 mb-4">Berkeley, Seaside Heights, Island Heights, and neighboring communities</p>
-                  <Badge variant="secondary">11 Municipalities</Badge>
+                  <p className="text-gray-600 mb-4">Doylestown, Warrington, Warminster, New Britain, and neighboring communities</p>
+                  <Badge variant="secondary">19 Municipalities</Badge>
                 </CardContent>
               </Card>
 
               <Card className="text-center">
                 <CardHeader>
-                  <MapPin className="w-12 h-12 text-purple-500 mx-auto mb-4" />
-                  <CardTitle>Southern Ocean County</CardTitle>
+                  <MapPin className="w-12 h-12 text-theme-orange mx-auto mb-4" />
+                  <CardTitle>Southern Bucks County</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-gray-600 mb-4">Barnegat, Long Beach Township, Stafford, and coastal communities</p>
-                  <Badge variant="secondary">11 Municipalities</Badge>
+                  <p className="text-gray-600 mb-4">Newtown, Yardley, Bristol, Langhorne, and riverfront communities</p>
+                  <Badge variant="secondary">19 Municipalities</Badge>
                 </CardContent>
               </Card>
             </div>
 
             <div className="bg-white p-8 rounded-2xl shadow-lg">
-              <h3 className="text-2xl font-bold text-center mb-6">Complete Ocean County Coverage</h3>
+              <h3 className="text-2xl font-bold text-center mb-6">Complete Bucks County Coverage</h3>
               <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4 text-sm text-gray-600">
                 {[
-                  "Barnegat", "Bay Head", "Beach Haven", "Beachwood", "Berkeley", "Brick",
-                  "Eagleswood", "Harvey Cedars", "Island Heights", "Jackson", "Lacey", "Lakehurst",
-                  "Lakewood", "Lavallette", "Little Egg Harbor", "Long Beach Township", "Manchester",
-                  "Mantoloking", "Ocean Gate", "Ocean Township", "Pine Beach", "Plumsted",
-                  "Point Pleasant", "Point Pleasant Beach", "Seaside Heights", "Seaside Park",
-                  "Ship Bottom", "South Toms River", "Stafford", "Surf City", "Toms River"
+                  "Bristol Borough", "Chalfont Borough", "Doylestown Borough", "Dublin Borough", "Hulmeville Borough", "Ivyland Borough",
+                  "Langhorne Borough", "Langhorne Manor Borough", "Morrisville Borough", "New Britain Borough", "New Hope Borough", "Newtown Borough",
+                  "Penndel Borough", "Perkasie Borough", "Quakertown Borough", "Richlandtown Borough", "Riegelsville Borough", "Sellersville Borough",
+                  "Silverdale Borough", "Telford Borough", "Trumbauersville Borough", "Tullytown Borough", "Yardley Borough", "Hatboro Borough",
+                  "Souderton Borough", "Bedminster Township", "Bensalem Township", "Bridgeton Township", "Bristol Township", "Buckingham Township",
+                  "Doylestown Township", "Durham Township", "East Rockhill Township", "Falls Township", "Haycock Township", "Hilltown Township",
+                  "Lower Makefield Township", "Lower Southampton Township", "Middletown Township", "Milford Township", "New Britain Township", "Newtown Township",
+                  "Nockamixon Township", "Northampton Township", "Plumstead Township", "Richland Township", "Solebury Township", "Springfield Township",
+                  "Tinicum Township", "Upper Makefield Township", "Upper Southampton Township", "Warminster Township", "Warrington Township", "Warwick Township",
+                  "West Rockhill Township", "Wrightstown Township"
                 ].map((city, index) => (
                   <div key={index} className="text-center py-2">
-                    <span className="text-blue-600 font-medium">{city}</span>
+                    <span className="text-theme-orange font-medium">{city}</span>
                   </div>
                 ))}
               </div>
@@ -269,22 +298,22 @@ export default function NewAboutPage() {
         </section>
 
         {/* Call to Action */}
-        <section className="py-16 bg-blue-600 text-white">
+        <section className="py-16 bg-theme-primary text-white">
           <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-bold mb-6">
-              Ready to Experience the Ocean County Golf Carts Difference?
+              Ready to Experience the Bucks County Golf Carts Difference?
             </h2>
             <p className="text-xl mb-8">
               Join thousands of satisfied customers who trust us for their golf cart needs.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact">
-                <Button size="lg" className="bg-white text-blue-600 hover:bg-gray-100">
+                <Button size="lg" className="bg-theme-orange hover:bg-orange-600 text-white">
                   Contact Us Today
                 </Button>
               </Link>
               <a href="tel:1-844-844-6638">
-                <Button size="lg" variant="outline" className="text-white border-white hover:bg-white hover:text-blue-600">
+                <Button size="lg" className="bg-white text-theme-primary hover:bg-gray-100">
                   Call 1-844-844-6638
                 </Button>
               </a>
@@ -298,29 +327,29 @@ export default function NewAboutPage() {
             <div className="grid md:grid-cols-4 gap-8">
               <Card className="text-center">
                 <CardHeader>
-                  <Phone className="w-12 h-12 text-blue-500 mx-auto mb-4" />
+                  <Phone className="w-12 h-12 text-theme-orange mx-auto mb-4" />
                   <CardTitle>Call Us</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-2xl font-bold text-blue-600 mb-2">1-844-844-6638</p>
+                  <p className="text-2xl font-bold text-theme-orange mb-2">1-844-844-6638</p>
                   <p className="text-gray-600">Available 7 days a week</p>
                 </CardContent>
               </Card>
 
               <Card className="text-center">
                 <CardHeader>
-                  <Mail className="w-12 h-12 text-green-500 mx-auto mb-4" />
+                  <Mail className="w-12 h-12 text-theme-orange mx-auto mb-4" />
                   <CardTitle>Email Us</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-lg font-medium text-green-600 mb-2">info@oceancountygolfcarts.com</p>
+                  <p className="text-lg font-medium text-theme-orange mb-2">info@bucksgolfcarts.com</p>
                   <p className="text-gray-600">Quick response guaranteed</p>
                 </CardContent>
               </Card>
 
               <Card className="text-center">
                 <CardHeader>
-                  <Calendar className="w-12 h-12 text-purple-500 mx-auto mb-4" />
+                  <Calendar className="w-12 h-12 text-theme-orange mx-auto mb-4" />
                   <CardTitle>Business Hours</CardTitle>
                 </CardHeader>
                 <CardContent>
@@ -334,11 +363,11 @@ export default function NewAboutPage() {
 
               <Card className="text-center">
                 <CardHeader>
-                  <MapPin className="w-12 h-12 text-orange-500 mx-auto mb-4" />
+                  <MapPin className="w-12 h-12 text-theme-orange mx-auto mb-4" />
                   <CardTitle>Service Area</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-gray-600">All 33 Ocean County municipalities plus delivery service</p>
+                  <p className="text-gray-600">All 56 Bucks County municipalities plus delivery service</p>
                 </CardContent>
               </Card>
             </div>
