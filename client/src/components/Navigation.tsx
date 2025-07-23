@@ -30,14 +30,14 @@ export default function Navigation() {
           <div className="flex items-center space-x-3">
             <div className="rounded-lg">
               <img 
-                src="/attached_assets/Bucks County Golf Carts (3)_1753284044185.png" 
-                alt="Bucks County Golf Carts Logo" 
+                src="/attached_assets/berks county golf carts (1)_1753301074190.png" 
+                alt="Berks County Golf Carts Logo" 
                 className="h-16 w-16"
               />
             </div>
             <Link href="/">
               <div className="cursor-pointer">
-                <div className="text-lg font-bold text-theme-primary">BUCKS COUNTY</div>
+                <div className="text-lg font-bold text-theme-primary">BERKS COUNTY</div>
                 <div className="text-lg font-bold text-theme-primary -mt-1">GOLF CARTS</div>
               </div>
             </Link>
