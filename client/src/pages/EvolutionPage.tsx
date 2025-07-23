@@ -120,11 +120,11 @@ export default function EvolutionPage() {
       <div className="min-h-screen bg-gray-50">
         {/* Hero Section */}
         <section className="relative py-20 px-4 bg-gradient-to-r from-blue-900 to-blue-700 text-white overflow-hidden">
-          <div className="absolute inset-0 bg-black opacity-40"></div>
           <div 
             className="absolute inset-0 bg-cover bg-center bg-no-repeat"
             style={{backgroundImage: `url('${evolutionD6MaxXT4Image}')`}}
           ></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-black/70 to-black/40"></div>
           <div className="relative max-w-7xl mx-auto text-center z-10">
             <Badge className="bg-theme-orange text-white px-6 py-2 text-lg font-bold mb-6">
               PREMIUM ELECTRIC VEHICLES
