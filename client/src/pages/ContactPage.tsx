@@ -72,13 +72,23 @@ export default function ContactPage() {
   const contactInfo = [
     {
       icon: MapPin,
-      label: "Hatfield Showroom",
-      value: "Hatfield, PA",
+      label: "TIGON Golf Carts Hatfield",
+      value: "2333 Bethlehem Pike, Hatfield, PA 19440",
+    },
+    {
+      icon: MapPin,
+      label: "TIGON Golf Carts Poconos",
+      value: "1712 Pennsylvania 940, Pocono Pines, PA 18350",
     },
     {
       icon: Phone,
       label: "Hatfield Phone",
       value: "(215) 595-8736",
+    },
+    {
+      icon: Phone,
+      label: "Poconos Phone",
+      value: "(570) 643-0152",
     },
     {
       icon: Phone,
@@ -88,13 +98,13 @@ export default function ContactPage() {
     {
       icon: Mail,
       label: "Email",
-      value: "info@bucksgolfcarts.com",
+      value: "info@berksgolfcarts.com",
     },
     {
       icon: Globe,
       label: "Website",
-      value: "bucksgolfcarts.com",
-      link: "https://bucksgolfcarts.com",
+      value: "berksgolfcarts.com",
+      link: "https://berksgolfcarts.com",
     },
   ];
 
@@ -107,18 +117,18 @@ export default function ContactPage() {
   return (
     <>
       <SEOHead 
-        title="Contact Bucks County Golf Carts - Get in Touch for Sales & Service"
-        description="Contact Bucks County Golf Carts for sales, service, and support. Visit our Hatfield showroom or call 1-844-844-6638. Serving all 56 Bucks County municipalities."
-        keywords="contact Bucks County golf carts, Hatfield showroom, golf cart sales Pennsylvania, TIGON dealer contact"
+        title="Contact Berks County Golf Carts - Get in Touch for Sales & Service"
+        description="Contact Berks County Golf Carts for sales, service, and support. Visit our TIGON Golf Carts locations or call 1-844-844-6638. Serving all 72 Berks County municipalities."
+        keywords="contact Berks County golf carts, TIGON Golf Carts, golf cart sales Pennsylvania, Hatfield showroom, Poconos showroom"
       />
       
       <div className="max-w-7xl mx-auto px-4 py-8">
       <div className="text-center mb-12">
         <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-          Contact Bucks County Golf Carts
+          Contact Berks County Golf Carts
         </h1>
         <p className="text-xl text-gray-600">
-          Get in touch with our team for sales, service, and support
+          Get in touch with our team for sales, service, and support throughout Pennsylvania Dutch Country
         </p>
       </div>
 
