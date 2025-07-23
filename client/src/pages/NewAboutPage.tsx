@@ -4,7 +4,7 @@ import { Badge } from "@/components/ui/badge";
 import { Users, Award, Target, Heart, Phone, Mail, MapPin, Calendar } from "lucide-react";
 import { Link } from "wouter";
 import SEOHead from "@/components/SEOHead";
-import heroImage from "@assets/a-photograph-of-a-modern-golf-cart-deale_c_kG6NR-SA6qC8Vzl1iBww_ILJUjQXFQCGLKMSveOjbrA_1753283141121.png";
+import heroImage from "@assets/a-photograph-of-a-modern-golf-cart-deale_8elKPzmBTsyxj7iHgPaXpg_gCWvAKP5Rm65AC6RGdU8FA_1753302323501.png";
 
 export default function NewAboutPage() {
   const teamMembers = [
@@ -12,7 +12,7 @@ export default function NewAboutPage() {
       name: "Michael Thompson",
       role: "Owner & General Manager",
       experience: "15+ years in recreational vehicle sales",
-      description: "Passionate about providing Bucks County with the best golf cart experience."
+      description: "Passionate about providing Berks County with the best golf cart experience."
     },
     {
       name: "Sarah Martinez",
@@ -48,7 +48,7 @@ export default function NewAboutPage() {
     {
       icon: Target,
       title: "Local Focus",
-      description: "Proud to serve Bucks County with personalized, community-focused service."
+      description: "Proud to serve Berks County with personalized, community-focused service."
     },
     {
       icon: Heart,
@@ -60,9 +60,9 @@ export default function NewAboutPage() {
   return (
     <>
       <SEOHead 
-        title="About Bucks County Golf Carts - Your Premier Golf Cart Dealer"
-        description="Learn about Bucks County Golf Carts, Pennsylvania's trusted golf cart dealer serving all 56 municipalities with premium DENAGO and EVOLUTION vehicles since 2010."
-        keywords="Bucks County golf carts, about us, golf cart dealer Pennsylvania, DENAGO dealer, EVOLUTION dealer"
+        title="About Berks County Golf Carts - Your Premier Golf Cart Dealer"
+        description="Learn about Berks County Golf Carts, Pennsylvania's trusted golf cart dealer serving all 72 municipalities with premium DENAGO and EVOLUTION vehicles since 2010."
+        keywords="Berks County golf carts, about us, golf cart dealer Pennsylvania, DENAGO dealer, EVOLUTION dealer"
       />
       
       <div className="min-h-screen bg-gray-50">
@@ -82,12 +82,12 @@ export default function NewAboutPage() {
           {/* Hero Content */}
           <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
             <h1 className="text-4xl md:text-6xl font-bold mb-6 drop-shadow-lg">
-              About Bucks County Golf Carts
+              About Berks County Golf Carts
             </h1>
             <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto drop-shadow-md">
-              Since 2010, we've been Bucks County's premier destination for premium golf carts, 
-              exceptional service, and unmatched customer care. Serving all 56 municipalities 
-              with pride and professionalism.
+              Since 2010, we've been Berks County's premier destination for premium golf carts, 
+              exceptional service, and unmatched customer care. Serving all 72 municipalities 
+              in Pennsylvania Dutch Country with pride and professionalism.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact">
@@ -112,45 +112,41 @@ export default function NewAboutPage() {
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">Our Story</h2>
                 <div className="space-y-4 text-gray-600">
                   <p>
-                    Founded in 2010, Bucks County Golf Carts began with a simple mission: to provide 
-                    the residents and businesses of Bucks County with the highest quality golf carts 
-                    and unparalleled customer service.
+                    Founded in 2010 in the heart of Pennsylvania Dutch Country, Berks County Golf Carts began with a simple mission: 
+                    to provide high-quality golf carts and exceptional service to customers throughout this historic region.
                   </p>
                   <p>
-                    What started as a small family business has grown into Bucks County's most trusted 
-                    golf cart dealer, serving all 56 municipalities from Warrington to New Hope, 
-                    Doylestown to Bristol, and everywhere in between.
+                    Berks County is renowned for its rich Pennsylvania Dutch heritage, agricultural excellence, and historic landmarks 
+                    including the famous Pagoda atop Mount Penn and the Hawk Mountain Sanctuary. Reading, known as "The Pretzel City," 
+                    represents the entrepreneurial spirit that drives our business forward.
                   </p>
                   <p>
-                    Bucks County itself has a rich history dating back to 1682, when William Penn founded 
-                    the county and named it in honor of Buckinghamshire, England - his family's ancestral 
-                    home. Just as Penn brought tradition and excellence from England to Pennsylvania, we 
-                    continue that legacy by bringing the finest golf cart technology and service to this 
-                    historic region.
+                    Our county boasts remarkable "firsts" - from the world's only Pagoda with a fireplace and chimney, to the first 
+                    menthol cough drops produced by W.H. Luden Candy Company, and the first multi-store factory outlet center at Vanity Fair. 
+                    The Ringgold Light Artillery of Reading was the first volunteer group from Pennsylvania to respond to President Lincoln's call for troops.
                   </p>
                   <p>
-                    Today, we're proud to be authorized dealers for premium brands like DENAGO and 
-                    EVOLUTION, offering our customers access to the latest in electric vehicle 
-                    technology and innovation.
+                    Agriculture has been a major part of Berks County's economy for centuries, with farms covering significant portions of our area. 
+                    Our diverse agricultural heritage includes fruits, wheat, corn, mushrooms, and dairy products, reflecting the hardworking 
+                    Pennsylvania Dutch traditions that continue today.
                   </p>
                   <p>
-                    Our commitment to quality, service, and community has made us the go-to choice 
-                    for golf enthusiasts, resort operators, and anyone seeking reliable electric 
-                    transportation solutions.
+                    Today, we're proud to serve the diverse communities across Berks County's 72 municipalities, from Reading city 
+                    to the Old Order Mennonite communities near Kutztown and Fleetwood, as authorized dealers for EVOLUTION and DENAGO.
                   </p>
                 </div>
 
                 <div className="mt-8 grid grid-cols-3 gap-4">
                   <div className="text-center">
-                    <div className="text-2xl font-bold text-theme-orange">13+</div>
-                    <div className="text-sm text-gray-600">Years Serving Bucks County</div>
+                    <div className="text-2xl font-bold text-theme-orange">15+</div>
+                    <div className="text-sm text-gray-600">Years Serving Berks County</div>
                   </div>
                   <div className="text-center">
-                    <div className="text-2xl font-bold text-theme-orange">5000+</div>
+                    <div className="text-2xl font-bold text-theme-orange">500+</div>
                     <div className="text-sm text-gray-600">Satisfied Customers</div>
                   </div>
                   <div className="text-center">
-                    <div className="text-2xl font-bold text-theme-orange">56</div>
+                    <div className="text-2xl font-bold text-theme-orange">72</div>
                     <div className="text-sm text-gray-600">Municipalities Served</div>
                   </div>
                 </div>
@@ -159,32 +155,32 @@ export default function NewAboutPage() {
               <div className="relative">
                 <div className="h-96 rounded-2xl overflow-hidden shadow-lg">
                   <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d196231.73527331748!2d-75.23646718906256!3d40.31447647158467!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6b0e7e7b1e8b5%3A0x7a1b1b1b1b1b1b1b!2sBucks%20County%2C%20PA!5e0!3m2!1sen!2sus!4v1234567890123!5m2!1sen!2sus"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d194476.0359916091!2d-75.93669447832032!3d40.42041019999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c5ee4b5e3f3ab3%3A0x4f2cb4c0b7b0b0b0!2sBerks%20County%2C%20PA!5e0!3m2!1sen!2sus!4v1753302400000!5m2!1sen!2sus"
                     width="100%"
                     height="100%"
                     style={{ border: 0 }}
                     allowFullScreen
                     loading="lazy"
                     referrerPolicy="no-referrer-when-downgrade"
-                    title="Bucks County Service Area Map"
+                    title="Berks County Service Area Map"
                   ></iframe>
                 </div>
                 <div className="mt-6 text-center">
                   <h3 className="text-xl font-semibold mb-2 text-gray-900">TIGON Golf Carts Locations</h3>
                   <div className="grid md:grid-cols-3 gap-4 text-sm">
                     <div className="bg-white p-4 rounded-lg shadow">
-                      <h4 className="font-semibold text-theme-orange">Hatfield Showroom</h4>
-                      <p className="text-gray-600">Physical Location</p>
+                      <h4 className="font-semibold text-theme-orange">TIGON Golf Carts Poconos</h4>
+                      <p className="text-gray-600">1712 Pennsylvania 940, Pocono Pines, PA 18350</p>
+                      <p className="text-gray-700">(570) 643-0152</p>
+                    </div>
+                    <div className="bg-white p-4 rounded-lg shadow">
+                      <h4 className="font-semibold text-theme-orange">TIGON Golf Carts Hatfield</h4>
+                      <p className="text-gray-600">2333 Bethlehem Pike, Hatfield, PA 19440</p>
                       <p className="text-gray-700">(215) 595-8736</p>
                     </div>
                     <div className="bg-white p-4 rounded-lg shadow">
-                      <h4 className="font-semibold text-theme-orange">Pennsylvania Online</h4>
-                      <p className="text-gray-600">24/7 Service</p>
-                      <p className="text-gray-700">1-844-844-6638</p>
-                    </div>
-                    <div className="bg-white p-4 rounded-lg shadow">
-                      <h4 className="font-semibold text-theme-orange">Philadelphia Online</h4>
-                      <p className="text-gray-600">24/7 Service</p>
+                      <h4 className="font-semibold text-theme-orange">TIGON Golf Carts Pennsylvania</h4>
+                      <p className="text-gray-600">Online Store - Serving All of Pennsylvania</p>
                       <p className="text-gray-700">1-844-844-6638</p>
                     </div>
                   </div>
@@ -405,7 +401,7 @@ export default function NewAboutPage() {
                   <CardTitle>Email Us</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-lg font-medium text-theme-orange mb-2">info@bucksgolfcarts.com</p>
+                  <p className="text-lg font-medium text-theme-orange mb-2">info@berksgolfcarts.com</p>
                   <p className="text-gray-600">Quick response guaranteed</p>
                 </CardContent>
               </Card>
