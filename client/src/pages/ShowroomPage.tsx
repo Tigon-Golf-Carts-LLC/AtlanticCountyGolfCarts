@@ -3,9 +3,23 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { MapPin, Phone, Clock, Star, Facebook, ExternalLink, Youtube } from "lucide-react";
 import { Link } from "wouter";
+import SEOHead from "@/components/SEOHead";
 
 export default function ShowroomPage() {
   const locations = [
+    {
+      name: "TIGON Golf Carts Poconos",
+      address: "1712 Pennsylvania 940, Pocono Pines, PA 18350",
+      phone: "570-643-0152",
+      coordinates: "41.10286354605563,-75.48758590250345",
+      googleMapsUrl: "https://www.google.com/maps?cid=17137841834562046914",
+      facebookUrl: "https://www.facebook.com/TigonGolfCartsPoconos/",
+      youtubeUrl: "https://www.youtube.com/@TIGONGolfCartsPoconosPA",
+      websiteUrl: "https://tigongolfcarts.com/pocono/",
+      reviewUrl: "https://g.page/r/CcJL5i1Z2NXtEBM/review",
+      city: "Poconos",
+      type: "physical"
+    },
     {
       name: "TIGON Golf Carts Hatfield",
       address: "2333 Bethlehem Pike, Hatfield, PA 19440",
@@ -30,30 +44,26 @@ export default function ShowroomPage() {
       reviewUrl: "https://g.page/r/CVHtXfydfmXBEBM/review",
       city: "Pennsylvania",
       type: "online"
-    },
-    {
-      name: "TIGON Golf Cart Philadelphia",
-      address: "Online Store - Serving Philadelphia Area",
-      phone: "1-844-844-6638",
-      coordinates: "40.0024979,-75.1180146",
-      googleMapsUrl: "https://www.google.com/maps?cid=6103352888615501339",
-      websiteUrl: "https://tigongolfcarts.com/philadelphia/",
-      reviewUrl: "https://g.page/r/CRv-x4Add7NUEBM/review",
-      city: "Philadelphia",
-      type: "online"
     }
   ];
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <>
+      <SEOHead 
+        title="Berks County Golf Cart Showroom | TIGON Golf Carts Locations PA"
+        description="Visit our TIGON Golf Cart showroom locations serving Berks County, PA. Poconos, Hatfield, and online locations with complete DENAGO and EVOLUTION golf cart lineup."
+        keywords="golf cart showroom Berks County, TIGON Golf Carts Pennsylvania, golf cart dealership Poconos, golf cart sales Hatfield PA, DENAGO EVOLUTION showroom"
+        canonicalUrl="https://berksgolfcarts.com/showroom"
+      />
+      <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}
       <section className="relative py-20 px-4 bg-gradient-to-r from-theme-primary to-blue-700 text-white bg-cover bg-center bg-no-repeat" style={{backgroundImage: "linear-gradient(rgba(14, 46, 85, 0.8), rgba(29, 78, 216, 0.8)), url('/attached_assets/a-photograph-of-a-modern-golf-cart-deale_OO82J1mtQEyokt1GsD08YQ_vk-WDImPSSq1axdn5SN7Mw_1753301595303.png')"}}>
         <div className="max-w-7xl mx-auto text-center">
           <h1 className="text-5xl font-bold mb-6">
-            Golf Cart Showroom
+            Berks County Golf Cart Showroom
           </h1>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
-            Visit our TIGON Golf Cart dealership locations serving Bucks County, Pennsylvania. 
+            Visit our TIGON Golf Cart dealership locations serving Berks County, Pennsylvania. 
             Experience our full lineup of DENAGO and EVOLUTION electric vehicles in person or online.
           </p>
           <div className="flex justify-center">
@@ -70,7 +80,7 @@ export default function ShowroomPage() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold mb-4 text-theme-primary">Our Locations</h2>
-            <p className="text-xl text-gray-600">Three convenient locations serving Bucks County and all of Pennsylvania</p>
+            <p className="text-xl text-gray-600">Three convenient locations serving Berks County and all of Pennsylvania</p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -242,7 +252,7 @@ export default function ShowroomPage() {
             Ready to Visit Our Showroom?
           </h2>
           <p className="text-xl mb-8">
-            Visit our showroom locations in Bucks County or shop online to see our full inventory of DENAGO and EVOLUTION golf carts.
+            Visit our showroom locations in Berks County or shop online to see our full inventory of DENAGO and EVOLUTION golf carts.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
@@ -258,5 +268,6 @@ export default function ShowroomPage() {
         </div>
       </section>
     </div>
+    </>
   );
 }
