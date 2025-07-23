@@ -47,12 +47,12 @@ export default function AboutPage() {
       />
       <OrganizationSchema pageType="about" />
       {/* Hero Section */}
-      <section className="relative py-20 px-4 bg-gradient-to-r from-theme-primary to-blue-700 text-white bg-cover bg-center bg-no-repeat" style={{backgroundImage: "linear-gradient(rgba(14, 46, 85, 0.8), rgba(29, 78, 216, 0.8)), url('/attached_assets/a-photograph-of-a-modern-golf-cart-deale_OO82J1mtQEyokt1GsD08YQ_vk-WDImPSSq1axdn5SN7Mw_1753301595303.png')"}}>
+      <section className="relative py-20 px-4 bg-gradient-to-r from-theme-primary to-blue-700 text-white bg-cover bg-center bg-no-repeat" style={{backgroundImage: "linear-gradient(rgba(14, 46, 85, 0.8), rgba(29, 78, 216, 0.8)), url('/attached_assets/a-photograph-of-a-modern-golf-cart-deale_8elKPzmBTsyxj7iHgPaXpg_gCWvAKP5Rm65AC6RGdU8FA_1753302323501.png')"}}>
         <div className="max-w-7xl mx-auto text-center">
           <h1 className="text-5xl font-bold mb-6">About Berks County Golf Carts</h1>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
-            Berks County's premier golf cart dealership, dedicated to providing 
-            exceptional service and quality vehicles since 2010.
+            Berks County's premier golf cart dealership, rooted in Pennsylvania Dutch heritage 
+            and dedicated to providing exceptional service since 2010.
           </p>
         </div>
       </section>
@@ -64,17 +64,22 @@ export default function AboutPage() {
             <div>
               <h2 className="text-4xl font-bold mb-6 text-gray-900">Our Story</h2>
               <p className="text-lg text-gray-600 mb-6">
-                Founded in 2010 in Berks County, Berks County Golf Carts began with a simple mission: 
-                to provide high-quality golf carts and exceptional service to customers throughout the region.
+                Founded in 2010 in the heart of Pennsylvania Dutch Country, Berks County Golf Carts began with a simple mission: 
+                to provide high-quality golf carts and exceptional service to customers throughout this historic region.
               </p>
               <p className="text-lg text-gray-600 mb-6">
-                What started as a small local dealership has grown into the area's premier golf cart destination, 
-                serving customers across multiple counties with a comprehensive selection of new and pre-owned vehicles, 
-                professional service, and rental options.
+                Berks County is renowned for its rich Pennsylvania Dutch heritage, agricultural excellence, and historic landmarks 
+                including the famous Pagoda atop Mount Penn and the Hawk Mountain Sanctuary. Reading, known as "The Pretzel City," 
+                represents the entrepreneurial spirit that drives our business forward.
+              </p>
+              <p className="text-lg text-gray-600 mb-6">
+                Our county boasts remarkable "firsts" - from the world's only Pagoda with a fireplace and chimney, to the first 
+                menthol cough drops produced by W.H. Luden Candy Company. This tradition of innovation continues in our approach 
+                to golf cart sales and service.
               </p>
               <p className="text-lg text-gray-600 mb-8">
-                Today, we're proud to be authorized dealers for leading brands like EVOLUTION and DENAGO, 
-                offering our customers the latest in golf cart technology and innovation.
+                Today, we're proud to serve the diverse communities across Berks County's 72 municipalities, from Reading city 
+                to the Old Order Mennonite communities near Kutztown and Fleetwood, as authorized dealers for EVOLUTION and DENAGO.
               </p>
               <Button className="bg-theme-orange hover:bg-orange-600 text-white w-full sm:w-auto">
                 Learn More About Our Services
@@ -206,18 +211,28 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-12 items-start">
             <div>
-              <h2 className="text-4xl font-bold mb-6 text-gray-900">About Ocean County Golf Carts</h2>
+              <h2 className="text-4xl font-bold mb-6 text-gray-900">About Berks County Golf Carts</h2>
               <p className="text-lg text-gray-600 mb-6">
-                From our headquarters in Ocean County, we proudly serve customers throughout 
-                multiple counties in the region. Our commitment to quality service extends 
-                across our service area.
+                From our locations serving Berks County and beyond, we proudly serve customers throughout 
+                Pennsylvania Dutch Country. Our commitment to quality service extends across our 
+                entire service area with multiple convenient locations.
               </p>
-              <div className="flex items-center gap-4 mb-6">
-                <MapPin className="w-6 h-6 text-blue-600" />
-                <span className="text-gray-700">Statewide delivery available</span>
+              <div className="space-y-4 mb-6">
+                <div className="flex items-center gap-4">
+                  <MapPin className="w-6 h-6 text-theme-orange" />
+                  <span className="text-gray-700 font-medium">TIGON Golf Carts Poconos</span>
+                </div>
+                <div className="flex items-center gap-4">
+                  <MapPin className="w-6 h-6 text-theme-orange" />
+                  <span className="text-gray-700 font-medium">TIGON Golf Carts Hatfield</span>
+                </div>
+                <div className="flex items-center gap-4">
+                  <MapPin className="w-6 h-6 text-theme-orange" />
+                  <span className="text-gray-700 font-medium">TIGON Golf Carts Pennsylvania</span>
+                </div>
               </div>
               <div className="flex items-center gap-4 mb-6">
-                <Clock className="w-6 h-6 text-blue-600" />
+                <Clock className="w-6 h-6 text-theme-orange" />
                 <span className="text-gray-700">Monday-Friday: 9AM-5PM, Saturday: 9AM-5PM</span>
               </div>
               <Button className="bg-theme-orange hover:bg-orange-600 text-white">
@@ -228,32 +243,38 @@ export default function AboutPage() {
             {/* Google Maps Embed */}
             <div className="bg-gray-100 rounded-lg overflow-hidden shadow-lg">
               <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d392226.73214689275!2d-74.58890416124524!3d39.8233335737933!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c16c287049b687%3A0x8c25d4d20966015a!2sOcean%20County%2C%20NJ!5e0!3m2!1sen!2sus!4v1753141001225!5m2!1sen!2sus" 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d194476.0359916091!2d-75.93669447832032!3d40.42041019999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c5ee4b5e3f3ab3%3A0x4f2cb4c0b7b0b0b0!2sBerks%20County%2C%20PA!5e0!3m2!1sen!2sus!4v1753302400000!5m2!1sen!2sus" 
                 width="100%" 
                 height="450" 
                 style={{border:0}}
                 allowFullScreen 
                 loading="lazy" 
                 referrerPolicy="no-referrer-when-downgrade"
-                title="Ocean County, NJ Map"
+                title="Berks County, PA Map"
               />
             </div>
           </div>
           
           {/* Towns List Below Map */}
           <div className="mt-12 bg-blue-50 p-8 rounded-lg">
-            <h3 className="text-xl font-semibold mb-4 text-center">Ocean County Towns We Serve</h3>
+            <h3 className="text-xl font-semibold mb-4 text-center">Berks County Municipalities We Serve</h3>
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 text-sm text-gray-700">
               {[
-                "Barnegat Township", "Barnegat Light Borough", "Bay Head Borough", "Beach Haven Borough",
-                "Beachwood Borough", "Berkeley Township", "Brick Township", "Eagleswood Township",
-                "Harvey Cedars Borough", "Island Heights Borough", "Jackson Township", "Lacey Township",
-                "Lakehurst Borough", "Lakewood Township", "Lavallette Borough", "Little Egg Harbor Township",
-                "Long Beach Township", "Manchester Township", "Mantoloking Borough", "Ocean Gate Borough",
-                "Ocean Township", "Pine Beach Borough", "Plumsted Township", "Point Pleasant Borough",
-                "Point Pleasant Beach Borough", "Seaside Heights Borough", "Seaside Park Borough", "Ship Bottom Borough",
-                "South Toms River Borough", "Stafford Township", "Surf City Borough", "Toms River Township",
-                "Tuckerton Borough"
+                "Reading", "Bally", "Bechtelsville", "Bernville", "Birdsboro", "Boyertown", "Centerport", 
+                "Fleetwood", "Hamburg", "Kenhorst", "Kutztown", "Laureldale", "Leesport", "Lenhartsville", 
+                "Lyons", "Mohnton", "Mount Penn", "New Morgan", "Robesonia", "St. Lawrence", "Shillington", 
+                "Shoemakersville", "Sinking Spring", "Topton", "Wernersville", "West Reading", "Womelsdorf", 
+                "Wyomissing", "Albany Township", "Alsace Township", "Amity Township", "Bern Township", 
+                "Bethel Township", "Brecknock Township", "Caernarvon Township", "Centre Township", 
+                "Colebrookdale Township", "Cumru Township", "District Township", "Douglass Township", 
+                "Earl Township", "Exeter Township", "Greenwich Township", "Heidelberg Township", 
+                "Hereford Township", "Jefferson Township", "Longswamp Township", "Lower Alsace Township", 
+                "Lower Heidelberg Township", "Maidencreek Township", "Marion Township", "Maxatawny Township", 
+                "Muhlenberg Township", "North Heidelberg Township", "Oley Township", "Ontelaunee Township", 
+                "Penn Township", "Perry Township", "Pike Township", "Richmond Township", "Robeson Township", 
+                "Rockland Township", "Ruscombmanor Township", "South Heidelberg Township", "Spring Township", 
+                "Tilden Township", "Tulpehocken Township", "Union Township", "Upper Bern Township", 
+                "Upper Tulpehocken Township", "Washington Township", "Windsor Township"
               ].map((town, index) => (
                 <div key={index} className="py-1">
                   {town}
@@ -265,13 +286,13 @@ export default function AboutPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 px-4 bg-blue-600 text-white">
+      <section className="py-16 px-4 bg-theme-primary text-white">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl font-bold mb-6">
             Ready to Join Our Family?
           </h2>
           <p className="text-xl mb-8">
-            Experience the Ocean County Golf Carts difference for yourself
+            Experience the Berks County Golf Carts difference in Pennsylvania Dutch Country
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" className="bg-theme-orange hover:bg-orange-600 text-white">
