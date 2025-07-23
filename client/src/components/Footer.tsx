@@ -72,7 +72,7 @@ export default function Footer() {
             {/* Company Description */}
             <div className="md:col-span-1">
               <p className="text-gray-600 text-sm leading-relaxed">
-                Bucks County's premier golf cart dealership serving customers across 
+                Berks County's premier golf cart dealership serving customers across 
                 the region with quality carts and expert service.
               </p>
             </div>
@@ -106,7 +106,7 @@ export default function Footer() {
             <div className="md:col-span-1">
               <div className="space-y-2">
                 <p className="text-gray-900 font-semibold text-sm">Phone: 1-844-844-6638</p>
-                <p className="text-gray-600 text-sm">Email: info@bucksgolfcarts.com</p>
+                <p className="text-gray-600 text-sm">Email: info@berksgolfcarts.com</p>
                 <div className="text-gray-600 text-sm">
                   <p>Mon-Fri: 9AM-5PM</p>
                   <p>Sat: 9AM-5PM</p>
@@ -120,116 +120,85 @@ export default function Footer() {
         {/* Towns Served - Now with Links */}
         <div className="border-t border-gray-200 pt-8 mb-8">
           <h3 className="text-lg font-semibold text-gray-900 mb-6 text-center">
-            Bucks County Towns We Serve
+            Berks County Municipalities We Serve
           </h3>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 text-center">
-            <Link href="/warrington-township-golf-carts" className="text-gray-600 text-sm hover:text-blue-600 transition-colors">
-              Warrington Township Golf Carts
+            {/* City */}
+            <Link href="/reading-city-golf-carts" className="text-gray-600 text-sm hover:text-blue-600 transition-colors">
+              Reading City Golf Carts
             </Link>
-            <Link href="/newtown-township-golf-carts" className="text-gray-600 text-sm hover:text-blue-600 transition-colors">
-              Newtown Township Golf Carts
+            
+            {/* Popular Boroughs */}
+            <Link href="/boyertown-borough-golf-carts" className="text-gray-600 text-sm hover:text-blue-600 transition-colors">
+              Boyertown Borough Golf Carts
             </Link>
-            <Link href="/northampton-township-golf-carts" className="text-gray-600 text-sm hover:text-blue-600 transition-colors">
-              Northampton Township Golf Carts
+            <Link href="/kutztown-borough-golf-carts" className="text-gray-600 text-sm hover:text-blue-600 transition-colors">
+              Kutztown Borough Golf Carts
             </Link>
-            <Link href="/lower-makefield-township-golf-carts" className="text-gray-600 text-sm hover:text-blue-600 transition-colors">
-              Lower Makefield Golf Carts
+            <Link href="/fleetwood-borough-golf-carts" className="text-gray-600 text-sm hover:text-blue-600 transition-colors">
+              Fleetwood Borough Golf Carts
             </Link>
-            <Link href="/upper-makefield-township-golf-carts" className="text-gray-600 text-sm hover:text-blue-600 transition-colors">
-              Upper Makefield Golf Carts
+            <Link href="/hamburg-borough-golf-carts" className="text-gray-600 text-sm hover:text-blue-600 transition-colors">
+              Hamburg Borough Golf Carts
             </Link>
-            <Link href="/middletown-township-golf-carts" className="text-gray-600 text-sm hover:text-blue-600 transition-colors">
-              Middletown Township Golf Carts
+            <Link href="/wyomissing-borough-golf-carts" className="text-gray-600 text-sm hover:text-blue-600 transition-colors">
+              Wyomissing Borough Golf Carts
             </Link>
-            <Link href="/yardley-borough-golf-carts" className="text-gray-600 text-sm hover:text-blue-600 transition-colors">
-              Yardley Borough Golf Carts
+            <Link href="/shillington-borough-golf-carts" className="text-gray-600 text-sm hover:text-blue-600 transition-colors">
+              Shillington Borough Golf Carts
             </Link>
-            <Link href="/newtown-borough-golf-carts" className="text-gray-600 text-sm hover:text-blue-600 transition-colors">
-              Newtown Borough Golf Carts
+            <Link href="/west-reading-borough-golf-carts" className="text-gray-600 text-sm hover:text-blue-600 transition-colors">
+              West Reading Borough Golf Carts
             </Link>
-            <Link href="/doylestown-township-golf-carts" className="text-gray-600 text-sm hover:text-blue-600 transition-colors">
-              Doylestown Township Golf Carts
+            <Link href="/sinking-spring-borough-golf-carts" className="text-gray-600 text-sm hover:text-blue-600 transition-colors">
+              Sinking Spring Borough Golf Carts
             </Link>
-            <Link href="/doylestown-borough-golf-carts" className="text-gray-600 text-sm hover:text-blue-600 transition-colors">
-              Doylestown Borough Golf Carts
+            <Link href="/wernersville-borough-golf-carts" className="text-gray-600 text-sm hover:text-blue-600 transition-colors">
+              Wernersville Borough Golf Carts
             </Link>
-            <Link href="/warwick-township-golf-carts" className="text-gray-600 text-sm hover:text-blue-600 transition-colors">
-              Warwick Township Golf Carts
+            <Link href="/womelsdorf-borough-golf-carts" className="text-gray-600 text-sm hover:text-blue-600 transition-colors">
+              Womelsdorf Borough Golf Carts
             </Link>
-            <Link href="/warminster-township-golf-carts" className="text-gray-600 text-sm hover:text-blue-600 transition-colors">
-              Warminster Township Golf Carts
+            <Link href="/mohnton-borough-golf-carts" className="text-gray-600 text-sm hover:text-blue-600 transition-colors">
+              Mohnton Borough Golf Carts
             </Link>
-            <Link href="/upper-southampton-township-golf-carts" className="text-gray-600 text-sm hover:text-blue-600 transition-colors">
-              Upper Southampton Golf Carts
+            
+            {/* Popular Townships */}
+            <Link href="/muhlenberg-township-golf-carts" className="text-gray-600 text-sm hover:text-blue-600 transition-colors">
+              Muhlenberg Township Golf Carts
             </Link>
-            <Link href="/lower-southampton-township-golf-carts" className="text-gray-600 text-sm hover:text-blue-600 transition-colors">
-              Lower Southampton Golf Carts
+            <Link href="/exeter-township-golf-carts" className="text-gray-600 text-sm hover:text-blue-600 transition-colors">
+              Exeter Township Golf Carts
             </Link>
-            <Link href="/bristol-township-golf-carts" className="text-gray-600 text-sm hover:text-blue-600 transition-colors">
-              Bristol Township Golf Carts
+            <Link href="/spring-township-golf-carts" className="text-gray-600 text-sm hover:text-blue-600 transition-colors">
+              Spring Township Golf Carts
             </Link>
-            <Link href="/bristol-borough-golf-carts" className="text-gray-600 text-sm hover:text-blue-600 transition-colors">
-              Bristol Borough Golf Carts
+            <Link href="/cumru-township-golf-carts" className="text-gray-600 text-sm hover:text-blue-600 transition-colors">
+              Cumru Township Golf Carts
             </Link>
-            <Link href="/bensalem-township-golf-carts" className="text-gray-600 text-sm hover:text-blue-600 transition-colors">
-              Bensalem Township Golf Carts
+            <Link href="/amity-township-golf-carts" className="text-gray-600 text-sm hover:text-blue-600 transition-colors">
+              Amity Township Golf Carts
             </Link>
-            <Link href="/falls-township-golf-carts" className="text-gray-600 text-sm hover:text-blue-600 transition-colors">
-              Falls Township Golf Carts
+            <Link href="/bern-township-golf-carts" className="text-gray-600 text-sm hover:text-blue-600 transition-colors">
+              Bern Township Golf Carts
             </Link>
-            <Link href="/tullytown-borough-golf-carts" className="text-gray-600 text-sm hover:text-blue-600 transition-colors">
-              Tullytown Borough Golf Carts
+            <Link href="/lower-heidelberg-township-golf-carts" className="text-gray-600 text-sm hover:text-blue-600 transition-colors">
+              Lower Heidelberg Golf Carts
             </Link>
-            <Link href="/levittown-golf-carts" className="text-gray-600 text-sm hover:text-blue-600 transition-colors">
-              Levittown Golf Carts
+            <Link href="/upper-bern-township-golf-carts" className="text-gray-600 text-sm hover:text-blue-600 transition-colors">
+              Upper Bern Township Golf Carts
             </Link>
-            <Link href="/langhorne-borough-golf-carts" className="text-gray-600 text-sm hover:text-blue-600 transition-colors">
-              Langhorne Borough Golf Carts
+            <Link href="/oley-township-golf-carts" className="text-gray-600 text-sm hover:text-blue-600 transition-colors">
+              Oley Township Golf Carts
             </Link>
-            <Link href="/langhorne-manor-borough-golf-carts" className="text-gray-600 text-sm hover:text-blue-600 transition-colors">
-              Langhorne Manor Golf Carts
+            <Link href="/douglass-township-golf-carts" className="text-gray-600 text-sm hover:text-blue-600 transition-colors">
+              Douglass Township Golf Carts
             </Link>
-            <Link href="/pennsbury-manor-golf-carts" className="text-gray-600 text-sm hover:text-blue-600 transition-colors">
-              Pennsbury Manor Golf Carts
+            <Link href="/colebrookdale-township-golf-carts" className="text-gray-600 text-sm hover:text-blue-600 transition-colors">
+              Colebrookdale Golf Carts
             </Link>
-            <Link href="/morrisville-borough-golf-carts" className="text-gray-600 text-sm hover:text-blue-600 transition-colors">
-              Morrisville Borough Golf Carts
-            </Link>
-            <Link href="/buckingham-township-golf-carts" className="text-gray-600 text-sm hover:text-blue-600 transition-colors">
-              Buckingham Township Golf Carts
-            </Link>
-            <Link href="/new-hope-borough-golf-carts" className="text-gray-600 text-sm hover:text-blue-600 transition-colors">
-              New Hope Borough Golf Carts
-            </Link>
-            <Link href="/solebury-township-golf-carts" className="text-gray-600 text-sm hover:text-blue-600 transition-colors">
-              Solebury Township Golf Carts
-            </Link>
-            <Link href="/wrightstown-township-golf-carts" className="text-gray-600 text-sm hover:text-blue-600 transition-colors">
-              Wrightstown Township Golf Carts
-            </Link>
-            <Link href="/hilltown-township-golf-carts" className="text-gray-600 text-sm hover:text-blue-600 transition-colors">
-              Hilltown Township Golf Carts
-            </Link>
-            <Link href="/dublin-borough-golf-carts" className="text-gray-600 text-sm hover:text-blue-600 transition-colors">
-              Dublin Borough Golf Carts
-            </Link>
-            <Link href="/perkasie-borough-golf-carts" className="text-gray-600 text-sm hover:text-blue-600 transition-colors">
-              Perkasie Borough Golf Carts
-            </Link>
-            <Link href="/quakertown-borough-golf-carts" className="text-gray-600 text-sm hover:text-blue-600 transition-colors">
-              Quakertown Borough Golf Carts
-            </Link>
-            <Link href="/richland-township-golf-carts" className="text-gray-600 text-sm hover:text-blue-600 transition-colors">
-              Richland Township Golf Carts
-            </Link>
-            <Link href="/silverdale-borough-golf-carts" className="text-gray-600 text-sm hover:text-blue-600 transition-colors">
-              Silverdale Borough Golf Carts
-            </Link>
-            <Link href="/telford-borough-golf-carts" className="text-gray-600 text-sm hover:text-blue-600 transition-colors">
-              Telford Borough Golf Carts
-            </Link>
-            <Link href="/west-rockhill-township-golf-carts" className="text-gray-600 text-sm hover:text-blue-600 transition-colors">
-              West Rockhill Golf Carts
+            <Link href="/hereford-township-golf-carts" className="text-gray-600 text-sm hover:text-blue-600 transition-colors">
+              Hereford Township Golf Carts
             </Link>
           </div>
         </div>
@@ -238,12 +207,12 @@ export default function Footer() {
         <div className="border-t border-gray-200 pt-6">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="text-gray-600 text-sm">
-              © 2025 Bucks County Golf Carts. All rights reserved. | 
+              © 2025 Berks County Golf Carts. All rights reserved. | 
               <Link href="/privacy-policy" className="hover:text-gray-900 ml-1">Privacy Policy</Link> | 
               <Link href="/terms-of-service" className="hover:text-gray-900 ml-1">Terms of Service</Link>
             </div>
             <div className="text-gray-600 text-sm">
-              Bucks County Golf Carts - Serving all Bucks County towns with premium golf carts and exceptional service.
+              Berks County Golf Carts - Serving all Berks County municipalities with premium golf carts and exceptional service.
             </div>
           </div>
         </div>
