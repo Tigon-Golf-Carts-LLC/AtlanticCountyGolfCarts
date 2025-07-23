@@ -230,9 +230,11 @@ export default function EvolutionPage() {
                     </div>
                     <div className="space-y-1">
                       {series.vehicles.slice(0, 3).map((vehicle, idx) => (
-                        <div key={idx} className="text-xs font-medium text-gray-700 bg-gray-50 px-2 py-1 rounded">
-                          {vehicle}
-                        </div>
+                        <Link key={idx} href={`/vehicles/${vehicle.toLowerCase().replace(/\s+/g, '-')}`}>
+                          <div className="text-xs font-medium text-gray-700 bg-gray-50 px-2 py-1 rounded hover:bg-theme-orange hover:text-white transition-colors cursor-pointer">
+                            {vehicle}
+                          </div>
+                        </Link>
                       ))}
                       {series.vehicles.length > 3 && (
                         <div className="text-xs text-gray-500 text-center py-1">

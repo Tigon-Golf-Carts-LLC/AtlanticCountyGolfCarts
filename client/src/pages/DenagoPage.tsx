@@ -255,9 +255,11 @@ export default function DenagoPage() {
                     </div>
                     <div className="space-y-2">
                       {series.vehicles.map((vehicle, idx) => (
-                        <div key={idx} className="text-sm font-medium text-gray-700 bg-gray-50 px-3 py-2 rounded">
-                          {vehicle}
-                        </div>
+                        <Link key={idx} href={`/vehicles/${vehicle.toLowerCase().replace(/\s+/g, '-')}`}>
+                          <div className="text-sm font-medium text-gray-700 bg-gray-50 px-3 py-2 rounded hover:bg-theme-orange hover:text-white transition-colors cursor-pointer">
+                            {vehicle}
+                          </div>
+                        </Link>
                       ))}
                     </div>
                   </CardContent>
