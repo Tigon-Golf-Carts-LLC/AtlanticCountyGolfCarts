@@ -1,15 +1,15 @@
-# Bucks County Golf Carts - Replit Project Guide
+# Berks County Golf Carts - Replit Project Guide
 
 ## Overview
 
-Bucks County Golf Carts is a full-stack web application for a Pennsylvania-based golf cart dealership. The application serves as both a marketing website and a business management platform, featuring inventory management, customer inquiries, rental systems, and comprehensive service information.
+Berks County Golf Carts is a full-stack web application for a Pennsylvania-based golf cart dealership. The application serves as both a marketing website and a business management platform, featuring inventory management, customer inquiries, rental systems, and comprehensive service information.
 
 ## User Preferences
 
 Preferred communication style: Simple, everyday language.
 Theme Colors: Primary theme color #0e2e55 (dark blue), Orange accent #ff6100 for buttons and highlights.
 SEO Requirements: Complete sitemap.xml with all pages, towns, vehicles, images. Robots.txt allowing all bots and algorithms to crawl and index site.
-Logo: Bucks County Golf Carts logo (Bucks County Golf Carts (3)_1753284044185.png) used as primary logo and favicon across all pages.
+Logo: Berks County Golf Carts logo (Berks County Golf Carts (3)_1753284044185.png) used as primary logo and favicon across all pages.
 
 ## System Architecture
 
@@ -120,13 +120,33 @@ Logo: Bucks County Golf Carts logo (Bucks County Golf Carts (3)_1753284044185.pn
 ```
 
 ### SEO Implementation
-- **sitemap.xml**: Comprehensive XML sitemap including all 8 main pages, 2 brand pages, 23 vehicle detail pages, and all 56 Bucks County town pages (25 boroughs + 31 townships) with proper priority settings and image metadata
+- **sitemap.xml**: Comprehensive XML sitemap including all 8 main pages, 2 brand pages, 23 vehicle detail pages, and all 56 Berks County town pages (25 boroughs + 31 townships) with proper priority settings and image metadata
 - **robots.txt**: Configured to allow all search engines and crawlers full access with 1-second crawl delay and sitemap reference
 - **Schema Markup**: Complete structured data implementation across all page types:
   - OrganizationSchema component for business information with LocalBusiness markup
   - VehicleSchema component for individual golf cart product pages with Product schema
   - Updated SEOHead component with enhanced meta tags, Open Graph, and Twitter Card support
-  - Location-specific schema for all 56 Bucks County town pages
-- **Town Pages**: Complete coverage of all Bucks County municipalities with embedded Google Maps, optimized for local search intent
+  - Location-specific schema for all 56 Berks County town pages
+- **Town Pages**: Complete coverage of all Berks County municipalities with embedded Google Maps, optimized for local search intent
+
+## Recent Changes (January 23, 2025)
+
+### Complete Rebranding: Bucks County → Berks County
+- ✅ **Domain Migration**: Updated all references from bucksgolfcarts.com to berksgolfcarts.com
+- ✅ **Geographic Rebranding**: Changed all location references from Bucks County, PA to Berks County, PA
+- ✅ **Component Updates**: 
+  - Renamed BucksCountyTownPage to BerksCountyTownPage with proper Berks County municipalities
+  - Updated OrganizationSchema with new domain, social media URLs, and Berks County location data
+  - Updated VehicleSchema and SEOHead components for new branding
+- ✅ **Municipality Data**: Replaced 56 Bucks County municipalities with actual Berks County municipalities:
+  - 19 Cities/Boroughs: Reading, Boyertown, Fleetwood, Hamburg, Kutztown, etc.
+  - 33 Townships: Alsace, Bern, Bethel, Brecknock, Caernarvon, etc.
+- ✅ **SEO & Content Updates**:
+  - Updated HomePage hero section and titles
+  - Updated NewAboutPage service areas and municipality listings
+  - Updated sitemap.xml with berksgolfcarts.com domain
+  - Updated robots.txt with new company information
+  - Updated legal pages (Terms of Service, Privacy Policy)
+- ✅ **Routing System**: Updated App.tsx with all new Berks County town page routes
 
 The application follows a monorepo structure with clear separation between frontend, backend, and shared code. The build system is optimized for both development and production deployment, with TypeScript providing type safety across the entire stack.

@@ -29,7 +29,7 @@ export default function VehicleSchema({
         "name": brand
       },
       "description": description,
-      "image": `https://bucksgolfcarts.com/assets/${image}`,
+      "image": `https://berksgolfcarts.com/assets/${image}`,
       "url": url,
       "category": "Golf Cart",
       "manufacturer": {
@@ -43,9 +43,9 @@ export default function VehicleSchema({
         "priceCurrency": "USD",
         "seller": {
           "@type": "Organization",
-          "name": "Bucks County Golf Carts",
+          "name": "Berks County Golf Carts",
           "telephone": "(215) 555-0123",
-          "email": "info@bucksgolfcarts.com",
+          "email": "info@berksgolfcarts.com",
           "address": {
             "@type": "PostalAddress",
             "addressRegion": "PA",

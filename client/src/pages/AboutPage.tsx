@@ -28,7 +28,7 @@ export default function AboutPage() {
   ];
 
   const milestones = [
-    { year: "2010", event: "Bucks County Golf Carts founded in Bucks County" },
+    { year: "2010", event: "Berks County Golf Carts founded in Berks County" },
     { year: "2012", event: "Became authorized EVOLUTION dealer" },
     { year: "2015", event: "Expanded to serve all of Pennsylvania" },
     { year: "2018", event: "Added DENAGO to our brand portfolio" },
@@ -40,18 +40,18 @@ export default function AboutPage() {
     <div className="min-h-screen bg-white">
       {/* SEO and Schema Markup */}
       <SEOHead 
-        title="About Bucks County Golf Carts - Premier Golf Cart Dealership Since 2010"
-        description="Learn about Bucks County Golf Carts, Pennsylvania's premier golf cart dealership since 2010. Expert team, authorized Denago and Evolution dealer with comprehensive service."
-        keywords="about Bucks County Golf Carts, golf cart dealership Pennsylvania, Denago Evolution dealer, golf cart service team"
-        canonicalUrl="https://bucksgolfcarts.com/about"
+        title="About Berks County Golf Carts - Premier Golf Cart Dealership Since 2010"
+        description="Learn about Berks County Golf Carts, Pennsylvania's premier golf cart dealership since 2010. Expert team, authorized Denago and Evolution dealer with comprehensive service."
+        keywords="about Berks County Golf Carts, golf cart dealership Pennsylvania, Denago Evolution dealer, golf cart service team"
+        canonicalUrl="https://berksgolfcarts.com/about"
       />
       <OrganizationSchema pageType="about" />
       {/* Hero Section */}
       <section className="relative py-20 px-4 bg-gradient-to-r from-theme-primary to-blue-700 text-white bg-cover bg-center bg-no-repeat" style={{backgroundImage: "linear-gradient(rgba(14, 46, 85, 0.8), rgba(29, 78, 216, 0.8)), url('/attached_assets/0f46bdfb-c558-4e28-9473-6c85686c5a80 (1)_1753279436268.png')"}}>
         <div className="max-w-7xl mx-auto text-center">
-          <h1 className="text-5xl font-bold mb-6">About Bucks County Golf Carts</h1>
+          <h1 className="text-5xl font-bold mb-6">About Berks County Golf Carts</h1>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
-            Bucks County's premier golf cart dealership, dedicated to providing 
+            Berks County's premier golf cart dealership, dedicated to providing 
             exceptional service and quality vehicles since 2010.
           </p>
         </div>
@@ -64,7 +64,7 @@ export default function AboutPage() {
             <div>
               <h2 className="text-4xl font-bold mb-6 text-gray-900">Our Story</h2>
               <p className="text-lg text-gray-600 mb-6">
-                Founded in 2010 in Bucks County, Bucks County Golf Carts began with a simple mission: 
+                Founded in 2010 in Berks County, Berks County Golf Carts began with a simple mission: 
                 to provide high-quality golf carts and exceptional service to customers throughout the region.
               </p>
               <p className="text-lg text-gray-600 mb-6">

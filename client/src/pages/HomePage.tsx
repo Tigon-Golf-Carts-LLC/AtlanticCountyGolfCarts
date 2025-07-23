@@ -21,10 +21,10 @@ export default function HomePage() {
     <div className="min-h-screen">
       {/* SEO and Schema Markup */}
       <SEOHead 
-        title="Bucks County Golf Carts - Premier Electric Golf Cart Dealership in Pennsylvania"
-        description="Discover premium electric golf carts from Denago and Evolution at Bucks County Golf Carts. Expert sales, service, rentals, and financing throughout Pennsylvania."
-        keywords="golf carts Bucks County PA, electric golf carts Pennsylvania, Denago golf carts, Evolution golf carts, golf cart sales service rentals"
-        canonicalUrl="https://bucksgolfcarts.com/"
+        title="Berks County Golf Carts - Premier Electric Golf Cart Dealership in Pennsylvania"
+        description="Discover premium electric golf carts from Denago and Evolution at Berks County Golf Carts. Expert sales, service, rentals, and financing throughout Pennsylvania."
+        keywords="golf carts Berks County PA, electric golf carts Pennsylvania, Denago golf carts, Evolution golf carts, golf cart sales service rentals"
+        canonicalUrl="https://berksgolfcarts.com/"
       />
       <OrganizationSchema pageType="home" />
       {/* Hero Section */}
@@ -33,11 +33,11 @@ export default function HomePage() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <h1 className="text-5xl font-bold mb-6 leading-tight">
-Bucks County Golf Carts Premier Dealership
+Berks County Golf Carts Premier Dealership
               </h1>
               <p className="text-xl mb-8 text-gray-100">
                 Discover our extensive selection of new electric golf carts from Evolution and Denago with professional services. 
-                Serving Bucks County, and all surrounding towns, townships, and Pennsylvania communities In Bucks County.
+                Serving Berks County, and all surrounding towns, townships, and Pennsylvania communities In Berks County.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link href="/inventory" className="w-full sm:w-auto">
@@ -65,7 +65,7 @@ Bucks County Golf Carts Premier Dealership
       <section className="py-16 px-4 bg-gray-50">
         <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-4xl font-bold mb-4 text-gray-900">
-            Why Choose Bucks County Golf Carts?
+            Why Choose Berks County Golf Carts?
           </h2>
           <p className="text-xl text-gray-600 mb-12 max-w-3xl mx-auto">
             We're more than just a dealership - we're your partner in golf cart ownership 

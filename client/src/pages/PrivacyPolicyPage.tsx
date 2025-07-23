@@ -4,9 +4,9 @@ export function PrivacyPolicyPage() {
   return (
     <>
       <SEOHead 
-        title="Privacy Policy | Bucks County Golf Carts"
-        description="Privacy Policy for Bucks County Golf Carts. Learn how we collect, use, and protect your personal information when you visit our website or purchase golf carts."
-        keywords="privacy policy, data protection, personal information, Bucks County Golf Carts"
+        title="Privacy Policy | Berks County Golf Carts"
+        description="Privacy Policy for Berks County Golf Carts. Learn how we collect, use, and protect your personal information when you visit our website or purchase golf carts."
+        keywords="privacy policy, data protection, personal information, Berks County Golf Carts"
       />
       <div className="min-h-screen bg-gray-50 py-12">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -19,7 +19,7 @@ export function PrivacyPolicyPage() {
               </p>
               
               <p className="mb-6">
-                At Bucks County Golf Carts, we are committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website bucksgolfcarts.com or engage with our services.
+                At Berks County Golf Carts, we are committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website berksgolfcarts.com or engage with our services.
               </p>
 
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">Information We Collect</h2>

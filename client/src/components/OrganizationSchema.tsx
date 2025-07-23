@@ -9,25 +9,25 @@ export default function OrganizationSchema({ pageType = "home" }: OrganizationSc
     const baseStructuredData = {
       "@context": "https://schema.org",
       "@type": "Organization",
-      "name": "Bucks County Golf Carts",
-      "description": "Premier golf cart dealership in Bucks County, Pennsylvania specializing in electric golf carts, sales, service, rentals, and financing.",
-      "url": "https://bucksgolfcarts.com",
-      "logo": "https://bucksgolfcarts.com/assets/Bucks County Golf Carts (3)_1753284044185.png",
-      "image": "https://bucksgolfcarts.com/assets/Bucks County Golf Carts (3)_1753284044185.png",
+      "name": "Berks County Golf Carts",
+      "description": "Premier golf cart dealership in Berks County, Pennsylvania specializing in electric golf carts, sales, service, rentals, and financing.",
+      "url": "https://berksgolfcarts.com",
+      "logo": "https://berksgolfcarts.com/assets/Berks County Golf Carts (3)_1753284044185.png",
+      "image": "https://berksgolfcarts.com/assets/Berks County Golf Carts (3)_1753284044185.png",
       "telephone": "(215) 555-0123",
-      "email": "info@bucksgolfcarts.com",
+      "email": "info@berksgolfcarts.com",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "123 Golf Cart Lane",
-        "addressLocality": "Doylestown",
+        "addressLocality": "Reading",
         "addressRegion": "PA",
-        "postalCode": "18901",
+        "postalCode": "19601",
         "addressCountry": "US"
       },
       "geo": {
         "@type": "GeoCoordinates",
-        "latitude": "40.3073",
-        "longitude": "-75.1292"
+        "latitude": "40.3356",
+        "longitude": "-75.9269"
       },
       "openingHours": [
         "Mo-Fr 09:00-18:00",
@@ -99,9 +99,9 @@ export default function OrganizationSchema({ pageType = "home" }: OrganizationSc
         "worstRating": "1"
       },
       "sameAs": [
-        "https://www.facebook.com/bucksgolfcarts",
-        "https://www.instagram.com/bucksgolfcarts",
-        "https://www.linkedin.com/company/bucksgolfcarts"
+        "https://www.facebook.com/berksgolfcarts",
+        "https://www.instagram.com/berksgolfcarts",
+        "https://www.linkedin.com/company/berksgolfcarts"
       ]
     };
 

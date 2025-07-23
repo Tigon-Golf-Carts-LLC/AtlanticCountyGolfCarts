@@ -11,7 +11,7 @@ interface SEOHeadProps {
 export default function SEOHead({ 
   title, 
   description, 
-  keywords = "golf carts, Bucks County, electric golf carts, golf cart sales, golf cart service", 
+  keywords = "golf carts, Berks County, electric golf carts, golf cart sales, golf cart service", 
   canonicalUrl,
   townName 
 }: SEOHeadProps) {

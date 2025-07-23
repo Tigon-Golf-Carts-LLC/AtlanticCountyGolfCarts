@@ -253,17 +253,17 @@ export default function NewAboutPage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12">
               <h2 className="text-3xl font-bold text-gray-900 mb-4">Our Service Area</h2>
-              <p className="text-lg text-gray-600">Proudly serving all of Bucks County, Pennsylvania</p>
+              <p className="text-lg text-gray-600">Proudly serving all of Berks County, Pennsylvania</p>
             </div>
 
             <div className="grid md:grid-cols-3 gap-8 mb-12">
               <Card className="text-center">
                 <CardHeader>
                   <MapPin className="w-12 h-12 text-theme-orange mx-auto mb-4" />
-                  <CardTitle>Northern Bucks County</CardTitle>
+                  <CardTitle>Northern Berks County</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-gray-600 mb-4">Quakertown, Perkasie, Sellersville, Telford, and surrounding areas</p>
+                  <p className="text-gray-600 mb-4">Hamburg, Kutztown, Fleetwood, Boyertown, and surrounding areas</p>
                   <Badge variant="secondary">18 Municipalities</Badge>
                 </CardContent>
               </Card>
@@ -271,10 +271,10 @@ export default function NewAboutPage() {
               <Card className="text-center">
                 <CardHeader>
                   <MapPin className="w-12 h-12 text-theme-orange mx-auto mb-4" />
-                  <CardTitle>Central Bucks County</CardTitle>
+                  <CardTitle>Central Berks County</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-gray-600 mb-4">Doylestown, Warrington, Warminster, New Britain, and neighboring communities</p>
+                  <p className="text-gray-600 mb-4">Reading, Wyomissing, Shillington, Mount Penn, and neighboring communities</p>
                   <Badge variant="secondary">19 Municipalities</Badge>
                 </CardContent>
               </Card>
@@ -282,75 +282,70 @@ export default function NewAboutPage() {
               <Card className="text-center">
                 <CardHeader>
                   <MapPin className="w-12 h-12 text-theme-orange mx-auto mb-4" />
-                  <CardTitle>Southern Bucks County</CardTitle>
+                  <CardTitle>Southern Berks County</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-gray-600 mb-4">Newtown, Yardley, Bristol, Langhorne, and riverfront communities</p>
+                  <p className="text-gray-600 mb-4">Mohnton, Wernersville, Robesonia, Womelsdorf, and rural communities</p>
                   <Badge variant="secondary">19 Municipalities</Badge>
                 </CardContent>
               </Card>
             </div>
 
             <div className="bg-white p-8 rounded-2xl shadow-lg">
-              <h3 className="text-2xl font-bold text-center mb-6">Complete Bucks County Coverage</h3>
+              <h3 className="text-2xl font-bold text-center mb-6">Complete Berks County Coverage</h3>
               <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4 text-sm text-gray-600">
                 {[
-                  { name: "Bristol Borough", path: "/bristol-borough-golf-carts" },
-                  { name: "Chalfont Borough", path: "/chalfont-borough-golf-carts" },
-                  { name: "Doylestown Borough", path: "/doylestown-borough-golf-carts" },
-                  { name: "Dublin Borough", path: "/dublin-borough-golf-carts" },
-                  { name: "Hulmeville Borough", path: "/hulmeville-borough-golf-carts" },
-                  { name: "Ivyland Borough", path: "/ivyland-borough-golf-carts" },
-                  { name: "Langhorne Borough", path: "/langhorne-borough-golf-carts" },
-                  { name: "Langhorne Manor Borough", path: "/langhorne-manor-borough-golf-carts" },
-                  { name: "Morrisville Borough", path: "/morrisville-borough-golf-carts" },
-                  { name: "New Britain Borough", path: "/new-britain-borough-golf-carts" },
-                  { name: "New Hope Borough", path: "/new-hope-borough-golf-carts" },
-                  { name: "Newtown Borough", path: "/newtown-borough-golf-carts" },
-                  { name: "Penndel Borough", path: "/penndel-borough-golf-carts" },
-                  { name: "Perkasie Borough", path: "/perkasie-borough-golf-carts" },
-                  { name: "Quakertown Borough", path: "/quakertown-borough-golf-carts" },
-                  { name: "Richlandtown Borough", path: "/richlandtown-borough-golf-carts" },
-                  { name: "Riegelsville Borough", path: "/riegelsville-borough-golf-carts" },
-                  { name: "Sellersville Borough", path: "/sellersville-borough-golf-carts" },
-                  { name: "Silverdale Borough", path: "/silverdale-borough-golf-carts" },
-                  { name: "Telford Borough", path: "/telford-borough-golf-carts" },
-                  { name: "Trumbauersville Borough", path: "/trumbauersville-borough-golf-carts" },
-                  { name: "Tullytown Borough", path: "/tullytown-borough-golf-carts" },
-                  { name: "Yardley Borough", path: "/yardley-borough-golf-carts" },
-                  { name: "Hatboro Borough", path: "/hatboro-borough-golf-carts" },
-                  { name: "Souderton Borough", path: "/souderton-borough-golf-carts" },
-                  { name: "Bedminster Township", path: "/bedminster-township-golf-carts" },
-                  { name: "Bensalem Township", path: "/bensalem-township-golf-carts" },
-                  { name: "Bridgeton Township", path: "/bridgeton-township-golf-carts" },
-                  { name: "Bristol Township", path: "/bristol-township-golf-carts" },
-                  { name: "Buckingham Township", path: "/buckingham-township-golf-carts" },
-                  { name: "Doylestown Township", path: "/doylestown-township-golf-carts" },
-                  { name: "Durham Township", path: "/durham-township-golf-carts" },
-                  { name: "East Rockhill Township", path: "/east-rockhill-township-golf-carts" },
-                  { name: "Falls Township", path: "/falls-township-golf-carts" },
-                  { name: "Haycock Township", path: "/haycock-township-golf-carts" },
-                  { name: "Hilltown Township", path: "/hilltown-township-golf-carts" },
-                  { name: "Lower Makefield Township", path: "/lower-makefield-township-golf-carts" },
-                  { name: "Lower Southampton Township", path: "/lower-southampton-township-golf-carts" },
-                  { name: "Middletown Township", path: "/middletown-township-golf-carts" },
-                  { name: "Milford Township", path: "/milford-township-golf-carts" },
-                  { name: "New Britain Township", path: "/new-britain-township-golf-carts" },
-                  { name: "Newtown Township", path: "/newtown-township-golf-carts" },
-                  { name: "Nockamixon Township", path: "/nockamixon-township-golf-carts" },
-                  { name: "Northampton Township", path: "/northampton-township-golf-carts" },
-                  { name: "Plumstead Township", path: "/plumstead-township-golf-carts" },
+                  { name: "Reading City", path: "/reading-city-golf-carts" },
+                  { name: "Boyertown Borough", path: "/boyertown-borough-golf-carts" },
+                  { name: "Fleetwood Borough", path: "/fleetwood-borough-golf-carts" },
+                  { name: "Hamburg Borough", path: "/hamburg-borough-golf-carts" },
+                  { name: "Kenhorst Borough", path: "/kenhorst-borough-golf-carts" },
+                  { name: "Kutztown Borough", path: "/kutztown-borough-golf-carts" },
+                  { name: "Laureldale Borough", path: "/laureldale-borough-golf-carts" },
+                  { name: "Leesport Borough", path: "/leesport-borough-golf-carts" },
+                  { name: "Lyons Borough", path: "/lyons-borough-golf-carts" },
+                  { name: "Mohnton Borough", path: "/mohnton-borough-golf-carts" },
+                  { name: "Mount Penn Borough", path: "/mount-penn-borough-golf-carts" },
+                  { name: "New Morgan Borough", path: "/new-morgan-borough-golf-carts" },
+                  { name: "Robesonia Borough", path: "/robesonia-borough-golf-carts" },
+                  { name: "Shillington Borough", path: "/shillington-borough-golf-carts" },
+                  { name: "Sinking Spring Borough", path: "/sinking-spring-borough-golf-carts" },
+                  { name: "St. Lawrence Borough", path: "/st-lawrence-borough-golf-carts" },
+                  { name: "Wernersville Borough", path: "/wernersville-borough-golf-carts" },
+                  { name: "Womelsdorf Borough", path: "/womelsdorf-borough-golf-carts" },
+                  { name: "Wyomissing Borough", path: "/wyomissing-borough-golf-carts" },
+                  { name: "Alsace Township", path: "/alsace-township-golf-carts" },
+                  { name: "Bern Township", path: "/bern-township-golf-carts" },
+                  { name: "Bethel Township", path: "/bethel-township-golf-carts" },
+                  { name: "Brecknock Township", path: "/brecknock-township-golf-carts" },
+                  { name: "Caernarvon Township", path: "/caernarvon-township-golf-carts" },
+                  { name: "Centre Township", path: "/centre-township-golf-carts" },
+                  { name: "Colebrookdale Township", path: "/colebrookdale-township-golf-carts" },
+                  { name: "Cumru Township", path: "/cumru-township-golf-carts" },
+                  { name: "Douglass Township", path: "/douglass-township-golf-carts" },
+                  { name: "Exeter Township", path: "/exeter-township-golf-carts" },
+                  { name: "Heidelburg Township", path: "/heidelburg-township-golf-carts" },
+                  { name: "Hereford Township", path: "/hereford-township-golf-carts" },
+                  { name: "Jefferson Township", path: "/jefferson-township-golf-carts" },
+                  { name: "Longswamp Township", path: "/longswamp-township-golf-carts" },
+                  { name: "Lower Alsace Township", path: "/lower-alsace-township-golf-carts" },
+                  { name: "Lower Heidelburg Township", path: "/lower-heidelburg-township-golf-carts" },
+                  { name: "Maxatawny Township", path: "/maxatawny-township-golf-carts" },
+                  { name: "Muhlenberg Township", path: "/muhlenberg-township-golf-carts" },
+                  { name: "Ontelaunee Township", path: "/ontelaunee-township-golf-carts" },
+                  { name: "Perry Township", path: "/perry-township-golf-carts" },
+                  { name: "Pike Township", path: "/pike-township-golf-carts" },
                   { name: "Richland Township", path: "/richland-township-golf-carts" },
-                  { name: "Solebury Township", path: "/solebury-township-golf-carts" },
-                  { name: "Springfield Township", path: "/springfield-township-golf-carts" },
-                  { name: "Tinicum Township", path: "/tinicum-township-golf-carts" },
-                  { name: "Upper Makefield Township", path: "/upper-makefield-township-golf-carts" },
-                  { name: "Upper Southampton Township", path: "/upper-southampton-township-golf-carts" },
-                  { name: "Warminster Township", path: "/warminster-township-golf-carts" },
-                  { name: "Warrington Township", path: "/warrington-township-golf-carts" },
-                  { name: "Warwick Township", path: "/warwick-township-golf-carts" },
-                  { name: "West Rockhill Township", path: "/west-rockhill-township-golf-carts" },
-                  { name: "Wrightstown Township", path: "/wrightstown-township-golf-carts" }
+                  { name: "Robeson Township", path: "/robeson-township-golf-carts" },
+                  { name: "Ruscombmanor Township", path: "/ruscombmanor-township-golf-carts" },
+                  { name: "Spring Township", path: "/spring-township-golf-carts" },
+                  { name: "Tilden Township", path: "/tilden-township-golf-carts" },
+                  { name: "Tulpehocken Township", path: "/tulpehocken-township-golf-carts" },
+                  { name: "Union Township", path: "/union-township-golf-carts" },
+                  { name: "Upper Bern Township", path: "/upper-bern-township-golf-carts" },
+                  { name: "Upper Tulpehocken Township", path: "/upper-tulpehocken-township-golf-carts" },
+                  { name: "Washington Township", path: "/washington-township-golf-carts" },
+                  { name: "Windsor Township", path: "/windsor-township-golf-carts" }
                 ].map((city, index) => (
                   <div key={index} className="text-center py-2">
                     <Link href={city.path}>
@@ -369,7 +364,7 @@ export default function NewAboutPage() {
         <section className="py-16 bg-theme-primary text-white">
           <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-bold mb-6">
-              Ready to Experience the Bucks County Golf Carts Difference?
+              Ready to Experience the Berks County Golf Carts Difference?
             </h2>
             <p className="text-xl mb-8">
               Join thousands of satisfied customers who trust us for their golf cart needs.

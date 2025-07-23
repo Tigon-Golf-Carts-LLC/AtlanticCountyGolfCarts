@@ -45,22 +45,22 @@ import EvolutionD5Maverick6Plus from "@/pages/vehicles/EvolutionD5Maverick6Plus"
 import EvolutionD6MaxGT6 from "@/pages/vehicles/EvolutionD6MaxGT6";
 import EvolutionD6MaxXT4 from "@/pages/vehicles/EvolutionD6MaxXT4";
 import EvolutionD6MaxXT6 from "@/pages/vehicles/EvolutionD6MaxXT6";
-// Bucks County Town Pages
+// Berks County Town Pages
 import {
-  BristolPage, ChalfontPage, DoylestownPage, DublinPage, HulmevillePage,
-  IvylandPage, LanghornePage, LanghorneManorPage, MorrisvillePage, NewBritainPage,
-  NewHopePage, NewtownPage, PenndelPage, PerkasiePage, QuakertownPage,
-  RichlandtownPage, RiegelsvillePage, SellersvillePage, SilverdalePage, TelfordPage,
-  TrumbauersvillePage, TullytownPage, YardleyPage, HatboroPage, SoudertonPage,
-  BedminsterTownshipPage, BensalemTownshipPage, BridgetonTownshipPage, BristolTownshipPage,
-  BuckinghamTownshipPage, DoylestownTownshipPage, DurhamTownshipPage, EastRockhillTownshipPage,
-  FallsTownshipPage, HaycockTownshipPage, HilltownTownshipPage, LowerMakefieldTownshipPage,
-  LowerSouthamptonTownshipPage, MiddletownTownshipPage, MilfordTownshipPage, NewBritainTownshipPage,
-  NewtownTownshipPage, NockamixonTownshipPage, NorthamptonTownshipPage, PlumsteadTownshipPage,
-  RichlandTownshipPage, SoleburyTownshipPage, SpringfieldTownshipPage, TinicumTownshipPage,
-  UpperMakefieldTownshipPage, UpperSouthamptonTownshipPage, WarminsterTownshipPage,
-  WarringtonTownshipPage, WarwickTownshipPage, WestRockhillTownshipPage, WrightstownTownshipPage
-} from "@/pages/towns/BucksCountyTownPages";
+  ReadingPage, BoyertownPage, FleetwoodPage, HamburgPage, KenhorstPage,
+  KutzownPage, LaureldalePage, LehightonPage, LyonsPage, MohntonPage,
+  MountPennPage, NewMorganPage, RobersoniaPage, ShillingtonPage, SinkingSpringPage,
+  St_LawrencePage, WernervillePage, WomelsdrfPage, WyomissingPage,
+  AlsaceTownshipPage, BernTownshipPage, BethhelTownshipPage, BrecknockTownshipPage,
+  CaernarvonTownshipPage, CentreTownshipPage, ColebrookdaleTownshipPage, CumruTownshipPage,
+  DouglassTownshipPage, ExeterTownshipPage, HeidelburgTownshipPage, HerefordTownshipPage,
+  JeffersonTownshipPage, KenhorstTownshipPage, LongswampTownshipPage, LowerAlsaceTownshipPage,
+  LowerHeidelburgTownshipPage, MaxatawnyTownshipPage, MuhlenbergTownshipPage, OntelauneeTownshipPage,
+  PerryTownshipPage, PikeTownshipPage, RichlandTownshipPage, RobertsonTownshipPage,
+  RuscombmanorTownshipPage, SpringTownshipPage, TildenTownshipPage, TulpehockenTownshipPage,
+  UnionTownshipPage, UpperBernTownshipPage, UpperTulpehockenTownshipPage, WashingtonTownshipPage,
+  WindsorTownshipPage
+} from "@/pages/towns/BerksCountyTownPages";
 
 const queryClient = new QueryClient();
 
@@ -113,65 +113,61 @@ function App() {
             <Route path="/vehicles/evolution-d6-max-xt4" component={EvolutionD6MaxXT4} />
             <Route path="/vehicles/evolution-d6-max-xt6" component={EvolutionD6MaxXT6} />
             
-            {/* Bucks County Borough Pages */}
-            <Route path="/bristol-borough-golf-carts" component={BristolPage} />
-            <Route path="/chalfont-borough-golf-carts" component={ChalfontPage} />
-            <Route path="/doylestown-borough-golf-carts" component={DoylestownPage} />
-            <Route path="/dublin-borough-golf-carts" component={DublinPage} />
-            <Route path="/hulmeville-borough-golf-carts" component={HulmevillePage} />
-            <Route path="/ivyland-borough-golf-carts" component={IvylandPage} />
-            <Route path="/langhorne-borough-golf-carts" component={LanghornePage} />
-            <Route path="/langhorne-manor-borough-golf-carts" component={LanghorneManorPage} />
-            <Route path="/morrisville-borough-golf-carts" component={MorrisvillePage} />
-            <Route path="/new-britain-borough-golf-carts" component={NewBritainPage} />
-            <Route path="/new-hope-borough-golf-carts" component={NewHopePage} />
-            <Route path="/newtown-borough-golf-carts" component={NewtownPage} />
-            <Route path="/penndel-borough-golf-carts" component={PenndelPage} />
-            <Route path="/perkasie-borough-golf-carts" component={PerkasiePage} />
-            <Route path="/quakertown-borough-golf-carts" component={QuakertownPage} />
-            <Route path="/richlandtown-borough-golf-carts" component={RichlandtownPage} />
-            <Route path="/riegelsville-borough-golf-carts" component={RiegelsvillePage} />
-            <Route path="/sellersville-borough-golf-carts" component={SellersvillePage} />
-            <Route path="/silverdale-borough-golf-carts" component={SilverdalePage} />
-            <Route path="/telford-borough-golf-carts" component={TelfordPage} />
-            <Route path="/trumbauersville-borough-golf-carts" component={TrumbauersvillePage} />
-            <Route path="/tullytown-borough-golf-carts" component={TullytownPage} />
-            <Route path="/yardley-borough-golf-carts" component={YardleyPage} />
-            <Route path="/hatboro-borough-golf-carts" component={HatboroPage} />
-            <Route path="/souderton-borough-golf-carts" component={SoudertonPage} />
+            {/* Berks County City & Borough Pages */}
+            <Route path="/reading-city-golf-carts" component={ReadingPage} />
+            <Route path="/boyertown-borough-golf-carts" component={BoyertownPage} />
+            <Route path="/fleetwood-borough-golf-carts" component={FleetwoodPage} />
+            <Route path="/hamburg-borough-golf-carts" component={HamburgPage} />
+            <Route path="/kenhorst-borough-golf-carts" component={KenhorstPage} />
+            <Route path="/kutztown-borough-golf-carts" component={KutzownPage} />
+            <Route path="/laureldale-borough-golf-carts" component={LaureldalePage} />
+            <Route path="/leesport-borough-golf-carts" component={LehightonPage} />
+            <Route path="/lyons-borough-golf-carts" component={LyonsPage} />
+            <Route path="/mohnton-borough-golf-carts" component={MohntonPage} />
+            <Route path="/mount-penn-borough-golf-carts" component={MountPennPage} />
+            <Route path="/new-morgan-borough-golf-carts" component={NewMorganPage} />
+            <Route path="/robesonia-borough-golf-carts" component={RobersoniaPage} />
+            <Route path="/shillington-borough-golf-carts" component={ShillingtonPage} />
+            <Route path="/sinking-spring-borough-golf-carts" component={SinkingSpringPage} />
+            <Route path="/st-lawrence-borough-golf-carts" component={St_LawrencePage} />
+            <Route path="/wernersville-borough-golf-carts" component={WernervillePage} />
+            <Route path="/womelsdorf-borough-golf-carts" component={WomelsdrfPage} />
+            <Route path="/wyomissing-borough-golf-carts" component={WyomissingPage} />
             
-            {/* Bucks County Township Pages */}
-            <Route path="/bedminster-township-golf-carts" component={BedminsterTownshipPage} />
-            <Route path="/bensalem-township-golf-carts" component={BensalemTownshipPage} />
-            <Route path="/bridgeton-township-golf-carts" component={BridgetonTownshipPage} />
-            <Route path="/bristol-township-golf-carts" component={BristolTownshipPage} />
-            <Route path="/buckingham-township-golf-carts" component={BuckinghamTownshipPage} />
-            <Route path="/doylestown-township-golf-carts" component={DoylestownTownshipPage} />
-            <Route path="/durham-township-golf-carts" component={DurhamTownshipPage} />
-            <Route path="/east-rockhill-township-golf-carts" component={EastRockhillTownshipPage} />
-            <Route path="/falls-township-golf-carts" component={FallsTownshipPage} />
-            <Route path="/haycock-township-golf-carts" component={HaycockTownshipPage} />
-            <Route path="/hilltown-township-golf-carts" component={HilltownTownshipPage} />
-            <Route path="/lower-makefield-township-golf-carts" component={LowerMakefieldTownshipPage} />
-            <Route path="/lower-southampton-township-golf-carts" component={LowerSouthamptonTownshipPage} />
-            <Route path="/middletown-township-golf-carts" component={MiddletownTownshipPage} />
-            <Route path="/milford-township-golf-carts" component={MilfordTownshipPage} />
-            <Route path="/new-britain-township-golf-carts" component={NewBritainTownshipPage} />
-            <Route path="/newtown-township-golf-carts" component={NewtownTownshipPage} />
-            <Route path="/nockamixon-township-golf-carts" component={NockamixonTownshipPage} />
-            <Route path="/northampton-township-golf-carts" component={NorthamptonTownshipPage} />
-            <Route path="/plumstead-township-golf-carts" component={PlumsteadTownshipPage} />
+            {/* Berks County Township Pages */}
+            <Route path="/alsace-township-golf-carts" component={AlsaceTownshipPage} />
+            <Route path="/bern-township-golf-carts" component={BernTownshipPage} />
+            <Route path="/bethel-township-golf-carts" component={BethhelTownshipPage} />
+            <Route path="/brecknock-township-golf-carts" component={BrecknockTownshipPage} />
+            <Route path="/caernarvon-township-golf-carts" component={CaernarvonTownshipPage} />
+            <Route path="/centre-township-golf-carts" component={CentreTownshipPage} />
+            <Route path="/colebrookdale-township-golf-carts" component={ColebrookdaleTownshipPage} />
+            <Route path="/cumru-township-golf-carts" component={CumruTownshipPage} />
+            <Route path="/douglass-township-golf-carts" component={DouglassTownshipPage} />
+            <Route path="/exeter-township-golf-carts" component={ExeterTownshipPage} />
+            <Route path="/heidelburg-township-golf-carts" component={HeidelburgTownshipPage} />
+            <Route path="/hereford-township-golf-carts" component={HerefordTownshipPage} />
+            <Route path="/jefferson-township-golf-carts" component={JeffersonTownshipPage} />
+            <Route path="/kenhorst-township-golf-carts" component={KenhorstTownshipPage} />
+            <Route path="/longswamp-township-golf-carts" component={LongswampTownshipPage} />
+            <Route path="/lower-alsace-township-golf-carts" component={LowerAlsaceTownshipPage} />
+            <Route path="/lower-heidelburg-township-golf-carts" component={LowerHeidelburgTownshipPage} />
+            <Route path="/maxatawny-township-golf-carts" component={MaxatawnyTownshipPage} />
+            <Route path="/muhlenberg-township-golf-carts" component={MuhlenbergTownshipPage} />
+            <Route path="/ontelaunee-township-golf-carts" component={OntelauneeTownshipPage} />
+            <Route path="/perry-township-golf-carts" component={PerryTownshipPage} />
+            <Route path="/pike-township-golf-carts" component={PikeTownshipPage} />
             <Route path="/richland-township-golf-carts" component={RichlandTownshipPage} />
-            <Route path="/solebury-township-golf-carts" component={SoleburyTownshipPage} />
-            <Route path="/springfield-township-golf-carts" component={SpringfieldTownshipPage} />
-            <Route path="/tinicum-township-golf-carts" component={TinicumTownshipPage} />
-            <Route path="/upper-makefield-township-golf-carts" component={UpperMakefieldTownshipPage} />
-            <Route path="/upper-southampton-township-golf-carts" component={UpperSouthamptonTownshipPage} />
-            <Route path="/warminster-township-golf-carts" component={WarminsterTownshipPage} />
-            <Route path="/warrington-township-golf-carts" component={WarringtonTownshipPage} />
-            <Route path="/warwick-township-golf-carts" component={WarwickTownshipPage} />
-            <Route path="/west-rockhill-township-golf-carts" component={WestRockhillTownshipPage} />
-            <Route path="/wrightstown-township-golf-carts" component={WrightstownTownshipPage} />
+            <Route path="/robeson-township-golf-carts" component={RobertsonTownshipPage} />
+            <Route path="/ruscombmanor-township-golf-carts" component={RuscombmanorTownshipPage} />
+            <Route path="/spring-township-golf-carts" component={SpringTownshipPage} />
+            <Route path="/tilden-township-golf-carts" component={TildenTownshipPage} />
+            <Route path="/tulpehocken-township-golf-carts" component={TulpehockenTownshipPage} />
+            <Route path="/union-township-golf-carts" component={UnionTownshipPage} />
+            <Route path="/upper-bern-township-golf-carts" component={UpperBernTownshipPage} />
+            <Route path="/upper-tulpehocken-township-golf-carts" component={UpperTulpehockenTownshipPage} />
+            <Route path="/washington-township-golf-carts" component={WashingtonTownshipPage} />
+            <Route path="/windsor-township-golf-carts" component={WindsorTownshipPage} />
             
             <Route component={NotFound} />
           </Switch>

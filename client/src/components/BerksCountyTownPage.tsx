@@ -29,14 +29,14 @@ interface Vehicle {
   isNew: boolean;
 }
 
-interface BucksCountyTownPageProps {
+interface BerksCountyTownPageProps {
   townName: string;
   townType: string; // "Township", "Borough", etc.
 }
 
-// Function to generate Google Maps embed URL for each Bucks County town
+// Function to generate Google Maps embed URL for each Berks County town
 const getGoogleMapsEmbedUrl = (townName: string, townType: string) => {
-  const fullLocation = `${townName} ${townType}, Bucks County, Pennsylvania`;
+  const fullLocation = `${townName} ${townType}, Berks County, Pennsylvania`;
   const encodedLocation = encodeURIComponent(fullLocation);
   // Using standard Google Maps search URL that works reliably
   return `https://maps.google.com/maps?q=${encodedLocation}&t=&z=13&ie=UTF8&iwloc=&output=embed`;
@@ -48,67 +48,62 @@ const getTownPageUrl = (townName: string, townType: string) => {
   return `/${slug}`;
 };
 
-// Generate Bucks County towns data with proper links
-const getBucksCountyTownsData = () => [
-  { name: "Bristol", type: "Borough" },
-  { name: "Chalfont", type: "Borough" },
-  { name: "Doylestown", type: "Borough" },
-  { name: "Dublin", type: "Borough" },
-  { name: "Hulmeville", type: "Borough" },
-  { name: "Ivyland", type: "Borough" },
-  { name: "Langhorne", type: "Borough" },
-  { name: "Langhorne Manor", type: "Borough" },
-  { name: "Morrisville", type: "Borough" },
-  { name: "New Britain", type: "Borough" },
-  { name: "New Hope", type: "Borough" },
-  { name: "Newtown", type: "Borough" },
-  { name: "Penndel", type: "Borough" },
-  { name: "Perkasie", type: "Borough" },
-  { name: "Quakertown", type: "Borough" },
-  { name: "Richlandtown", type: "Borough" },
-  { name: "Riegelsville", type: "Borough" },
-  { name: "Sellersville", type: "Borough" },
-  { name: "Silverdale", type: "Borough" },
-  { name: "Telford", type: "Borough" },
-  { name: "Trumbauersville", type: "Borough" },
-  { name: "Tullytown", type: "Borough" },
-  { name: "Yardley", type: "Borough" },
-  { name: "Hatboro", type: "Borough" },
-  { name: "Souderton", type: "Borough" },
-  { name: "Bedminster", type: "Township" },
-  { name: "Bensalem", type: "Township" },
-  { name: "Bridgeton", type: "Township" },
-  { name: "Bristol", type: "Township" },
-  { name: "Buckingham", type: "Township" },
-  { name: "Doylestown", type: "Township" },
-  { name: "Durham", type: "Township" },
-  { name: "East Rockhill", type: "Township" },
-  { name: "Falls", type: "Township" },
-  { name: "Haycock", type: "Township" },
-  { name: "Hilltown", type: "Township" },
-  { name: "Lower Makefield", type: "Township" },
-  { name: "Lower Southampton", type: "Township" },
-  { name: "Middletown", type: "Township" },
-  { name: "Milford", type: "Township" },
-  { name: "New Britain", type: "Township" },
-  { name: "Newtown", type: "Township" },
-  { name: "Nockamixon", type: "Township" },
-  { name: "Northampton", type: "Township" },
-  { name: "Plumstead", type: "Township" },
+// Generate Berks County towns data with proper links
+const getBerksCountyTownsData = () => [
+  { name: "Reading", type: "City" },
+  { name: "Boyertown", type: "Borough" },
+  { name: "Fleetwood", type: "Borough" },
+  { name: "Hamburg", type: "Borough" },
+  { name: "Kenhorst", type: "Borough" },
+  { name: "Kutztown", type: "Borough" },
+  { name: "Laureldale", type: "Borough" },
+  { name: "Leesport", type: "Borough" },
+  { name: "Lyons", type: "Borough" },
+  { name: "Mohnton", type: "Borough" },
+  { name: "Mount Penn", type: "Borough" },
+  { name: "New Morgan", type: "Borough" },
+  { name: "Robesonia", type: "Borough" },
+  { name: "Shillington", type: "Borough" },
+  { name: "Sinking Spring", type: "Borough" },
+  { name: "St. Lawrence", type: "Borough" },
+  { name: "Wernersville", type: "Borough" },
+  { name: "Womelsdorf", type: "Borough" },
+  { name: "Wyomissing", type: "Borough" },
+  { name: "Alsace", type: "Township" },
+  { name: "Bern", type: "Township" },
+  { name: "Bethel", type: "Township" },
+  { name: "Brecknock", type: "Township" },
+  { name: "Caernarvon", type: "Township" },
+  { name: "Centre", type: "Township" },
+  { name: "Colebrookdale", type: "Township" },
+  { name: "Cumru", type: "Township" },
+  { name: "Douglass", type: "Township" },
+  { name: "Exeter", type: "Township" },
+  { name: "Heidelburg", type: "Township" },
+  { name: "Hereford", type: "Township" },
+  { name: "Jefferson", type: "Township" },
+  { name: "Longswamp", type: "Township" },
+  { name: "Lower Alsace", type: "Township" },
+  { name: "Lower Heidelburg", type: "Township" },
+  { name: "Maxatawny", type: "Township" },
+  { name: "Muhlenberg", type: "Township" },
+  { name: "Ontelaunee", type: "Township" },
+  { name: "Perry", type: "Township" },
+  { name: "Pike", type: "Township" },
   { name: "Richland", type: "Township" },
-  { name: "Solebury", type: "Township" },
-  { name: "Springfield", type: "Township" },
-  { name: "Tinicum", type: "Township" },
-  { name: "Upper Makefield", type: "Township" },
-  { name: "Upper Southampton", type: "Township" },
-  { name: "Warminster", type: "Township" },
-  { name: "Warrington", type: "Township" },
-  { name: "Warwick", type: "Township" },
-  { name: "West Rockhill", type: "Township" },
-  { name: "Wrightstown", type: "Township" }
+  { name: "Robeson", type: "Township" },
+  { name: "Ruscombmanor", type: "Township" },
+  { name: "Spring", type: "Township" },
+  { name: "Tilden", type: "Township" },
+  { name: "Tulpehocken", type: "Township" },
+  { name: "Union", type: "Township" },
+  { name: "Upper Bern", type: "Township" },
+  { name: "Upper Tulpehocken", type: "Township" },
+  { name: "Washington", type: "Township" },
+  { name: "Windsor", type: "Township" }
 ];
 
-export default function BucksCountyTownPage({ townName, townType }: BucksCountyTownPageProps) {
+export default function BerksCountyTownPage({ townName, townType }: BerksCountyTownPageProps) {
   const { data: vehicles } = useQuery<Vehicle[]>({
     queryKey: ["/api/vehicles"],
   });
@@ -116,14 +111,14 @@ export default function BucksCountyTownPage({ townName, townType }: BucksCountyT
   const featuredVehicles = vehicles?.slice(0, 3) || [];
   const fullTownName = `${townName} ${townType}`;
   
-  // SEO optimization for Bucks County
-  const pageTitle = `${townName} Golf Carts - Bucks County's Premier Dealership | Sales, Service & Rentals`;
-  const pageDescription = `Professional golf cart sales, service, and rentals in ${fullTownName}. Bucks County Golf Carts offers premium DENAGO and EVOLUTION electric golf carts with expert service for ${townName} residents.`;
-  const pageKeywords = `${townName} golf carts, ${fullTownName} golf cart sales, Bucks County golf carts, electric golf carts ${townName}, golf cart service ${townName}, golf cart rentals ${townName}, Pennsylvania golf carts`;
-  const canonicalUrl = `https://bucksgolfcarts.com/${townName.toLowerCase().replace(/\s+/g, '-')}-${townType.toLowerCase()}-golf-carts`;
+  // SEO optimization for Berks County
+  const pageTitle = `${townName} Golf Carts - Berks County's Premier Dealership | Sales, Service & Rentals`;
+  const pageDescription = `Professional golf cart sales, service, and rentals in ${fullTownName}. Berks County Golf Carts offers premium DENAGO and EVOLUTION electric golf carts with expert service for ${townName} residents.`;
+  const pageKeywords = `${townName} golf carts, ${fullTownName} golf cart sales, Berks County golf carts, electric golf carts ${townName}, golf cart service ${townName}, golf cart rentals ${townName}, Pennsylvania golf carts`;
+  const canonicalUrl = `https://berksgolfcarts.com/${townName.toLowerCase().replace(/\s+/g, '-')}-${townType.toLowerCase()}-golf-carts`;
 
   const breadcrumbItems = [
-    { name: "Home", url: "https://bucksgolfcarts.com" },
+    { name: "Home", url: "https://berksgolfcarts.com" },
     { name: `${townName} Golf Carts`, url: canonicalUrl }
   ];
 
@@ -145,7 +140,7 @@ export default function BucksCountyTownPage({ townName, townType }: BucksCountyT
             <div className="flex items-center gap-2 text-sm text-gray-600">
               <Link href="/" className="text-theme-primary hover:text-blue-800">Home</Link>
               <span>→</span>
-              <Link href="/bucks-county-golf-carts" className="text-theme-primary hover:text-blue-800">Bucks County</Link>
+              <Link href="/berks-county-golf-carts" className="text-theme-primary hover:text-blue-800">Berks County</Link>
               <span>→</span>
               <span className="text-gray-900">{fullTownName} Golf Carts</span>
             </div>
@@ -163,7 +158,7 @@ export default function BucksCountyTownPage({ townName, townType }: BucksCountyT
             </h1>
             <p className="text-xl mb-8 max-w-3xl mx-auto">
               Premium DENAGO® and EVOLUTION® electric golf carts delivered to {fullTownName}. 
-              Professional sales, service, and rentals with expert support throughout Bucks County, Pennsylvania.
+              Professional sales, service, and rentals with expert support throughout Berks County, Pennsylvania.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" className="bg-theme-orange hover:bg-orange-600 text-white">
@@ -348,20 +343,20 @@ export default function BucksCountyTownPage({ townName, townType }: BucksCountyT
           </div>
         </section>
 
-        {/* All Bucks County Locations */}
+        {/* All Berks County Locations */}
         <section className="py-16 px-4 bg-gray-50">
           <div className="max-w-7xl mx-auto">
             <div className="text-center mb-12">
               <h2 className="text-4xl font-bold mb-4 text-gray-900">
-                All Bucks County Service Areas
+                All Berks County Service Areas
               </h2>
               <p className="text-xl text-gray-600">
-                Professional golf cart services throughout Bucks County, Pennsylvania
+                Professional golf cart services throughout Berks County, Pennsylvania
               </p>
             </div>
             
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 text-center">
-              {getBucksCountyTownsData().map((town, index) => (
+              {getBerksCountyTownsData().map((town: any, index: number) => (
                 <Link 
                   key={index} 
                   href={getTownPageUrl(town.name, town.type)}
@@ -376,7 +371,7 @@ export default function BucksCountyTownPage({ townName, townType }: BucksCountyT
             
             <div className="text-center mt-12">
               <p className="text-lg text-gray-600 mb-6">
-                Don't see your location? We serve all of Bucks County, Pennsylvania.
+                Don't see your location? We serve all of Berks County, Pennsylvania.
               </p>
               <Button size="lg" variant="outline" className="border-theme-primary text-theme-primary hover:bg-theme-primary hover:text-white">
                 Contact Us About Your Area
@@ -392,7 +387,7 @@ export default function BucksCountyTownPage({ townName, townType }: BucksCountyT
               Ready for Your New Golf Cart in {townName}?
             </h2>
             <p className="text-xl mb-8">
-              Contact Bucks County Golf Carts today for personalized service and expert advice 
+              Contact Berks County Golf Carts today for personalized service and expert advice 
               on the perfect golf cart for your {fullTownName} lifestyle.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

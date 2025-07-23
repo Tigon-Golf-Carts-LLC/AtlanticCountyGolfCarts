@@ -4,9 +4,9 @@ export function TermsOfServicePage() {
   return (
     <>
       <SEOHead 
-        title="Terms of Service | Bucks County Golf Carts"
-        description="Terms of Service for Bucks County Golf Carts. Review our terms and conditions for purchasing golf carts, rental services, and using our website."
-        keywords="terms of service, terms and conditions, golf cart purchase, rental agreement, Bucks County Golf Carts"
+        title="Terms of Service | Berks County Golf Carts"
+        description="Terms of Service for Berks County Golf Carts. Review our terms and conditions for purchasing golf carts, rental services, and using our website."
+        keywords="terms of service, terms and conditions, golf cart purchase, rental agreement, Berks County Golf Carts"
       />
       <div className="min-h-screen bg-gray-50 py-12">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -19,7 +19,7 @@ export function TermsOfServicePage() {
               </p>
               
               <p className="mb-6">
-                Welcome to Bucks County Golf Carts. These Terms of Service ("Terms") govern your use of our website bucksgolfcarts.com and your relationship with us regarding the purchase, rental, and servicing of golf carts. By accessing our website or engaging our services, you agree to be bound by these Terms.
+                Welcome to Berks County Golf Carts. These Terms of Service ("Terms") govern your use of our website berksgolfcarts.com and your relationship with us regarding the purchase, rental, and servicing of golf carts. By accessing our website or engaging our services, you agree to be bound by these Terms.
               </p>
 
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">Acceptance of Terms</h2>
@@ -28,13 +28,13 @@ export function TermsOfServicePage() {
               </p>
 
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">About Our Services</h2>
-              <p className="mb-4">Bucks County Golf Carts provides:</p>
+              <p className="mb-4">Berks County Golf Carts provides:</p>
               <ul className="list-disc pl-6 mb-6">
                 <li>New and used golf cart sales</li>
                 <li>Golf cart rentals for various durations</li>
                 <li>Maintenance and repair services</li>
                 <li>Parts and accessories</li>
-                <li>Delivery and pickup services throughout Bucks County, Pennsylvania</li>
+                <li>Delivery and pickup services throughout Berks County, Pennsylvania</li>
               </ul>
 
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">Website Use and Restrictions</h2>
