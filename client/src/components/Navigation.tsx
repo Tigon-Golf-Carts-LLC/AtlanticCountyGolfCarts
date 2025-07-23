@@ -30,7 +30,7 @@ export default function Navigation() {
           <div className="flex items-center space-x-3">
             <div className="rounded-lg">
               <img 
-                src="/attached_assets/Ocean County Golf Carts (3)_1753196262875.png" 
+                src="/attached_assets/Bucks County Golf Carts (3)_1753284044185.png" 
                 alt="Bucks County Golf Carts Logo" 
                 className="h-16 w-16"
               />

@@ -9,6 +9,7 @@ Bucks County Golf Carts is a full-stack web application for a Pennsylvania-based
 Preferred communication style: Simple, everyday language.
 Theme Colors: Primary theme color #0e2e55 (dark blue), Orange accent #ff6100 for buttons and highlights.
 SEO Requirements: Complete sitemap.xml with all pages, towns, vehicles, images. Robots.txt allowing all bots and algorithms to crawl and index site.
+Logo: Bucks County Golf Carts logo (Bucks County Golf Carts (3)_1753284044185.png) used as primary logo and favicon across all pages.
 
 ## System Architecture
 

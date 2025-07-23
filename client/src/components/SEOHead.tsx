@@ -11,7 +11,7 @@ interface SEOHeadProps {
 export default function SEOHead({ 
   title, 
   description, 
-  keywords = "golf carts, Ocean County, electric golf carts, golf cart sales, golf cart service", 
+  keywords = "golf carts, Bucks County, electric golf carts, golf cart sales, golf cart service", 
   canonicalUrl,
   townName 
 }: SEOHeadProps) {
@@ -57,23 +57,23 @@ export default function SEOHead({
     // Set favicon
     const existingFavicon = document.querySelector('link[rel="icon"]');
     if (existingFavicon) {
-      existingFavicon.setAttribute("href", "/attached_assets/Ocean County Golf Carts (3)_1753196262875.png");
+      existingFavicon.setAttribute("href", "/attached_assets/Bucks County Golf Carts (3)_1753284044185.png");
     } else {
       const favicon = document.createElement("link");
       favicon.rel = "icon";
       favicon.type = "image/png";
-      favicon.href = "/attached_assets/Ocean County Golf Carts (3)_1753196262875.png";
+      favicon.href = "/attached_assets/Bucks County Golf Carts (3)_1753284044185.png";
       document.head.appendChild(favicon);
     }
     
     // Set apple touch icon
     const existingAppleIcon = document.querySelector('link[rel="apple-touch-icon"]');
     if (existingAppleIcon) {
-      existingAppleIcon.setAttribute("href", "/attached_assets/Ocean County Golf Carts (3)_1753196262875.png");
+      existingAppleIcon.setAttribute("href", "/attached_assets/Bucks County Golf Carts (3)_1753284044185.png");
     } else {
       const appleIcon = document.createElement("link");
       appleIcon.rel = "apple-touch-icon";
-      appleIcon.href = "/attached_assets/Ocean County Golf Carts (3)_1753196262875.png";
+      appleIcon.href = "/attached_assets/Bucks County Golf Carts (3)_1753284044185.png";
       document.head.appendChild(appleIcon);
     }
     
