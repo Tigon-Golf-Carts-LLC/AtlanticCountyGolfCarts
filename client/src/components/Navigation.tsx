@@ -32,7 +32,7 @@ export default function Navigation() {
               <img 
                 src="/attached_assets/berks county golf carts (1)_1753301074190.png" 
                 alt="Berks County Golf Carts Logo" 
-                className="h-16 w-16"
+                className="h-20 w-20"
               />
             </div>
             <Link href="/">
