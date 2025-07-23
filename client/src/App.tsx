@@ -21,6 +21,31 @@ import NewServicesPage from "@/pages/NewServicesPage";
 import NewAboutPage from "@/pages/NewAboutPage";
 import { PrivacyPolicyPage } from "@/pages/PrivacyPolicyPage";
 import { TermsOfServicePage } from "@/pages/TermsOfServicePage";
+// Municipality Rental Pages
+import {
+  // Cities
+  ReadingCityRentalPage,
+  // Boroughs
+  BallyBoroughRentalPage, BechtelvilleBoroughRentalPage, BernvilleBoroughRentalPage, BirdsboroBoroughRentalPage,
+  BoyertownBoroughRentalPage, CenterportBoroughRentalPage, FleetwoodBoroughRentalPage, HamburgBoroughRentalPage,
+  KenhorstBoroughRentalPage, KutzownBoroughRentalPage, LaureldaleBoroughRentalPage, LeesportBoroughRentalPage,
+  LenhartsvilleBoroughRentalPage, LyonsBoroughRentalPage, MohntonBoroughRentalPage, MountPennBoroughRentalPage,
+  NewMorganBoroughRentalPage, RobosoniaBoroughRentalPage, StLawrenceBoroughRentalPage, ShillingtonBoroughRentalPage,
+  ShoemakersvilleBoroughRentalPage, SinkingSpringBoroughRentalPage, ToptonBoroughRentalPage, WernersvilleBoroughRentalPage,
+  WestReadingBoroughRentalPage, WomelsdorfBoroughRentalPage, WyomissingBoroughRentalPage,
+  // Townships
+  AlbanyTownshipRentalPage, AlsaceTownshipRentalPage, AmityTownshipRentalPage, BernTownshipRentalPage,
+  BethelTownshipRentalPage, BrecknockTownshipRentalPage, CaernarvonTownshipRentalPage, CentreTownshipRentalPage,
+  ColebrookdaleTownshipRentalPage, CumruTownshipRentalPage, DistrictTownshipRentalPage, DouglassTownshipRentalPage,
+  EarlTownshipRentalPage, ExeterTownshipRentalPage, GreenwichTownshipRentalPage, HeidelbergTownshipRentalPage,
+  HerefordTownshipRentalPage, JeffersonTownshipRentalPage, LongswampTownshipRentalPage, LowerAlsaceTownshipRentalPage,
+  LowerHeidelbergTownshipRentalPage, MaidencreekTownshipRentalPage, MarionTownshipRentalPage, MaxatawnyTownshipRentalPage,
+  MuhlenbergTownshipRentalPage, NorthHeidelbergTownshipRentalPage, OleyTownshipRentalPage, OntelauneeTownshipRentalPage,
+  PennTownshipRentalPage, PerryTownshipRentalPage, PikeTownshipRentalPage, RichmondTownshipRentalPage,
+  RobesonTownshipRentalPage, RocklandTownshipRentalPage, RuscombmanorTownshipRentalPage, SouthHeidelbergTownshipRentalPage,
+  SpringTownshipRentalPage, TildenTownshipRentalPage, TulpehockenTownshipRentalPage, UnionTownshipRentalPage,
+  UpperBernTownshipRentalPage, UpperTulpehockenTownshipRentalPage, WashingtonTownshipRentalPage, WindsorTownshipRentalPage
+} from "@/pages/rentals/BerksCountyMunicipalityRentals";
 // Vehicle Page Imports
 import EvolutionD5Ranger6Plus from "@/pages/vehicles/EvolutionD5Ranger6Plus";
 import EvolutionD5Ranger22Plus from "@/pages/vehicles/EvolutionD5Ranger22Plus";
@@ -199,6 +224,84 @@ function App() {
             <Route path="/upper-tulpehocken-township-golf-carts" component={UpperTulpehockenTownshipPage} />
             <Route path="/washington-township-golf-carts" component={WashingtonTownshipPage} />
             <Route path="/windsor-township-golf-carts" component={WindsorTownshipPage} />
+            
+            {/* Municipality Rental Pages - Berks County Cities (1) */}
+            <Route path="/reading-city-golf-carts/rentals" component={ReadingCityRentalPage} />
+            
+            {/* Municipality Rental Pages - Berks County Boroughs (27) */}
+            <Route path="/bally-borough-golf-carts/rentals" component={BallyBoroughRentalPage} />
+            <Route path="/bechtelsville-borough-golf-carts/rentals" component={BechtelvilleBoroughRentalPage} />
+            <Route path="/bernville-borough-golf-carts/rentals" component={BernvilleBoroughRentalPage} />
+            <Route path="/birdsboro-borough-golf-carts/rentals" component={BirdsboroBoroughRentalPage} />
+            <Route path="/boyertown-borough-golf-carts/rentals" component={BoyertownBoroughRentalPage} />
+            <Route path="/centerport-borough-golf-carts/rentals" component={CenterportBoroughRentalPage} />
+            <Route path="/fleetwood-borough-golf-carts/rentals" component={FleetwoodBoroughRentalPage} />
+            <Route path="/hamburg-borough-golf-carts/rentals" component={HamburgBoroughRentalPage} />
+            <Route path="/kenhorst-borough-golf-carts/rentals" component={KenhorstBoroughRentalPage} />
+            <Route path="/kutztown-borough-golf-carts/rentals" component={KutzownBoroughRentalPage} />
+            <Route path="/laureldale-borough-golf-carts/rentals" component={LaureldaleBoroughRentalPage} />
+            <Route path="/leesport-borough-golf-carts/rentals" component={LeesportBoroughRentalPage} />
+            <Route path="/lenhartsville-borough-golf-carts/rentals" component={LenhartsvilleBoroughRentalPage} />
+            <Route path="/lyons-borough-golf-carts/rentals" component={LyonsBoroughRentalPage} />
+            <Route path="/mohnton-borough-golf-carts/rentals" component={MohntonBoroughRentalPage} />
+            <Route path="/mount-penn-borough-golf-carts/rentals" component={MountPennBoroughRentalPage} />
+            <Route path="/new-morgan-borough-golf-carts/rentals" component={NewMorganBoroughRentalPage} />
+            <Route path="/robesonia-borough-golf-carts/rentals" component={RobosoniaBoroughRentalPage} />
+            <Route path="/st-lawrence-borough-golf-carts/rentals" component={StLawrenceBoroughRentalPage} />
+            <Route path="/shillington-borough-golf-carts/rentals" component={ShillingtonBoroughRentalPage} />
+            <Route path="/shoemakersville-borough-golf-carts/rentals" component={ShoemakersvilleBoroughRentalPage} />
+            <Route path="/sinking-spring-borough-golf-carts/rentals" component={SinkingSpringBoroughRentalPage} />
+            <Route path="/topton-borough-golf-carts/rentals" component={ToptonBoroughRentalPage} />
+            <Route path="/wernersville-borough-golf-carts/rentals" component={WernersvilleBoroughRentalPage} />
+            <Route path="/west-reading-borough-golf-carts/rentals" component={WestReadingBoroughRentalPage} />
+            <Route path="/womelsdorf-borough-golf-carts/rentals" component={WomelsdorfBoroughRentalPage} />
+            <Route path="/wyomissing-borough-golf-carts/rentals" component={WyomissingBoroughRentalPage} />
+            
+            {/* Municipality Rental Pages - Berks County Townships (44) */}
+            <Route path="/albany-township-golf-carts/rentals" component={AlbanyTownshipRentalPage} />
+            <Route path="/alsace-township-golf-carts/rentals" component={AlsaceTownshipRentalPage} />
+            <Route path="/amity-township-golf-carts/rentals" component={AmityTownshipRentalPage} />
+            <Route path="/bern-township-golf-carts/rentals" component={BernTownshipRentalPage} />
+            <Route path="/bethel-township-golf-carts/rentals" component={BethelTownshipRentalPage} />
+            <Route path="/brecknock-township-golf-carts/rentals" component={BrecknockTownshipRentalPage} />
+            <Route path="/caernarvon-township-golf-carts/rentals" component={CaernarvonTownshipRentalPage} />
+            <Route path="/centre-township-golf-carts/rentals" component={CentreTownshipRentalPage} />
+            <Route path="/colebrookdale-township-golf-carts/rentals" component={ColebrookdaleTownshipRentalPage} />
+            <Route path="/cumru-township-golf-carts/rentals" component={CumruTownshipRentalPage} />
+            <Route path="/district-township-golf-carts/rentals" component={DistrictTownshipRentalPage} />
+            <Route path="/douglass-township-golf-carts/rentals" component={DouglassTownshipRentalPage} />
+            <Route path="/earl-township-golf-carts/rentals" component={EarlTownshipRentalPage} />
+            <Route path="/exeter-township-golf-carts/rentals" component={ExeterTownshipRentalPage} />
+            <Route path="/greenwich-township-golf-carts/rentals" component={GreenwichTownshipRentalPage} />
+            <Route path="/heidelberg-township-golf-carts/rentals" component={HeidelbergTownshipRentalPage} />
+            <Route path="/hereford-township-golf-carts/rentals" component={HerefordTownshipRentalPage} />
+            <Route path="/jefferson-township-golf-carts/rentals" component={JeffersonTownshipRentalPage} />
+            <Route path="/longswamp-township-golf-carts/rentals" component={LongswampTownshipRentalPage} />
+            <Route path="/lower-alsace-township-golf-carts/rentals" component={LowerAlsaceTownshipRentalPage} />
+            <Route path="/lower-heidelberg-township-golf-carts/rentals" component={LowerHeidelbergTownshipRentalPage} />
+            <Route path="/maidencreek-township-golf-carts/rentals" component={MaidencreekTownshipRentalPage} />
+            <Route path="/marion-township-golf-carts/rentals" component={MarionTownshipRentalPage} />
+            <Route path="/maxatawny-township-golf-carts/rentals" component={MaxatawnyTownshipRentalPage} />
+            <Route path="/muhlenberg-township-golf-carts/rentals" component={MuhlenbergTownshipRentalPage} />
+            <Route path="/north-heidelberg-township-golf-carts/rentals" component={NorthHeidelbergTownshipRentalPage} />
+            <Route path="/oley-township-golf-carts/rentals" component={OleyTownshipRentalPage} />
+            <Route path="/ontelaunee-township-golf-carts/rentals" component={OntelauneeTownshipRentalPage} />
+            <Route path="/penn-township-golf-carts/rentals" component={PennTownshipRentalPage} />
+            <Route path="/perry-township-golf-carts/rentals" component={PerryTownshipRentalPage} />
+            <Route path="/pike-township-golf-carts/rentals" component={PikeTownshipRentalPage} />
+            <Route path="/richmond-township-golf-carts/rentals" component={RichmondTownshipRentalPage} />
+            <Route path="/robeson-township-golf-carts/rentals" component={RobesonTownshipRentalPage} />
+            <Route path="/rockland-township-golf-carts/rentals" component={RocklandTownshipRentalPage} />
+            <Route path="/ruscombmanor-township-golf-carts/rentals" component={RuscombmanorTownshipRentalPage} />
+            <Route path="/south-heidelberg-township-golf-carts/rentals" component={SouthHeidelbergTownshipRentalPage} />
+            <Route path="/spring-township-golf-carts/rentals" component={SpringTownshipRentalPage} />
+            <Route path="/tilden-township-golf-carts/rentals" component={TildenTownshipRentalPage} />
+            <Route path="/tulpehocken-township-golf-carts/rentals" component={TulpehockenTownshipRentalPage} />
+            <Route path="/union-township-golf-carts/rentals" component={UnionTownshipRentalPage} />
+            <Route path="/upper-bern-township-golf-carts/rentals" component={UpperBernTownshipRentalPage} />
+            <Route path="/upper-tulpehocken-township-golf-carts/rentals" component={UpperTulpehockenTownshipRentalPage} />
+            <Route path="/washington-township-golf-carts/rentals" component={WashingtonTownshipRentalPage} />
+            <Route path="/windsor-township-golf-carts/rentals" component={WindsorTownshipRentalPage} />
             
             <Route component={NotFound} />
           </Switch>
