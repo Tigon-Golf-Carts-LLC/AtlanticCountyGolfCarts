@@ -3,218 +3,418 @@ import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Skeleton } from "@/components/ui/skeleton";
-import { Vehicle } from "@shared/schema";
+import { Check, Star, Zap, Shield, Truck, Phone, MapPin, Award } from "lucide-react";
+import SEOHead from "@/components/SEOHead";
+import VehicleCard from "@/components/VehicleCard";
+
+// Import EVOLUTION vehicle images
 import evolutionD5Ranger6Image from "@assets/EVOLUTIOND5RANGER6_1751893159004_1753135350623.jpg";
 import evolutionD5Ranger4PlusImage from "@assets/EVOLUTIOND5RANGER4PLUS_1751893115782_1753135350622.jpg";
 import evolutionForester4PlusImage from "@assets/EVOLUTIONFORESTER4PLUS_1751893159005_1753135437836.jpg";
-import evolutionTurfman800Image from "@assets/EVOLUTIONTURFMAN800_1751893159006_1753135437836.jpg";
-import evolutionD6MaxXT4Image from "@assets/EVOLUTIOND6MAXXT4_1751893159005_1753135437836.jpg";
 import evolutionTurfman1000Image from "@assets/EVOLUTIONTURFMAN1000_1751893159006_1753135437836.jpg";
+import evolutionD6MaxXT4Image from "@assets/EVOLUTIOND6MAXXT4_1751893159005_1753135437836.jpg";
+import evolutionClassic4PlusImage from "@assets/EVOLUTIONCLASSIC4PLUS_1751893115779_1753135231314.jpg";
+import evolutionCarrier6PlusImage from "@assets/EVOLUTIONCARRIER6PLUS_1751893115778_1753135231314.jpg";
+import evolutionD5Maverick4PlusImage from "@assets/EVOLUTIOND5MAVERICK4PLUS_1751893115781_1753135231312.jpg";
+
+interface Vehicle {
+  id: string;
+  name: string;
+  brand: string;
+  category: string;
+  price: number;
+  images: string[];
+  specifications: {
+    topSpeed: string;
+    range: string;
+    seatingCapacity: number;
+    batteryType: string;
+    chargingTime: string;
+    payload: string;
+  };
+  features: string[];
+  inStock: boolean;
+  isNew: boolean;
+  description: string;
+}
 
 export default function EvolutionPage() {
-  const { data: evolutionVehicles, isLoading } = useQuery<Vehicle[]>({
-    queryKey: ["/api/vehicles/brand/evolution"],
+  const { data: vehicles } = useQuery<Vehicle[]>({
+    queryKey: ["/api/vehicles"],
   });
 
-  const modelCategories = [
+  // Filter EVOLUTION vehicles
+  const evolutionVehicles = vehicles?.filter(vehicle => 
+    vehicle.brand.toLowerCase().includes('evolution')
+  ) || [];
+
+  const evolutionFeatures = [
+    "Premium Quality Construction",
+    "Advanced LED Lighting Systems",
+    "Comfortable Ergonomic Seating",
+    "Reliable Electric Performance",
+    "Weather-Resistant Design",
+    "Comprehensive Warranty Coverage"
+  ];
+
+  const evolutionSeries = [
     {
-      title: "Ranger Series",
+      title: "D5 RANGER Series",
       description: "Premium recreational vehicles with LED lighting and modern styling",
       image: evolutionD5Ranger4PlusImage,
-      badge: "4-6 Seats Available",
-      badgeColor: "bg-ocean-blue text-white",
+      features: ["LED Lighting Package", "Premium Seating", "Modern Design"],
+      vehicles: ["D5 RANGER 2+2", "D5 RANGER 4", "D5 RANGER 6", "D5 RANGER 6 PLUS"]
     },
     {
-      title: "Forester Series", 
+      title: "D5 MAVERICK Series", 
+      description: "Versatile family vehicles with comfort and performance features",
+      image: evolutionD5Maverick4PlusImage,
+      features: ["Family Seating", "Comfort Package", "Storage Solutions"],
+      vehicles: ["D5 MAVERICK 4", "D5 MAVERICK 6", "D5 MAVERICK 4 PLUS", "D5 MAVERICK 6 PLUS"]
+    },
+    {
+      title: "CLASSIC Series",
+      description: "Traditional golf cart design with reliable performance",
+      image: evolutionClassic4PlusImage,
+      features: ["Classic Styling", "Proven Reliability", "Value Pricing"],
+      vehicles: ["CLASSIC 2 PLUS", "CLASSIC 2 PRO", "CLASSIC 4 PLUS"]
+    },
+    {
+      title: "CARRIER Series",
+      description: "Utility vehicles designed for work and cargo transportation",
+      image: evolutionCarrier6PlusImage,
+      features: ["Cargo Capacity", "Utility Features", "Heavy-Duty Build"],
+      vehicles: ["CARRIER 6 PLUS", "CARRIER 8 PLUS"]
+    },
+    {
+      title: "FORESTER Series", 
       description: "Lifted recreational vehicles designed for off-road adventures",
       image: evolutionForester4PlusImage,
-      badge: "4X4 Terrain Ready",
-      badgeColor: "bg-emerald-500 text-white",
+      features: ["Lifted Suspension", "All-Terrain Capability", "Adventure Ready"],
+      vehicles: ["FORESTER 4 PLUS", "FORESTER 6 PLUS"]
     },
     {
-      title: "Turfman Series",
-      description: "Versatile utility vehicles for work and recreational use", 
-      image: evolutionTurfman800Image,
-      badge: "Utility Ready",
-      badgeColor: "bg-accent-orange text-white",
-    },
-  ];
-
-  const featuredModels = [
-    {
-      title: "D6 MaxXT Series",
-      description: "The future of recreational vehicles with advanced technology, premium seating, and striking LED accents.",
-      image: evolutionD6MaxXT4Image,
-      price: "Starting at $24,999",
-      buttonText: "View Models",
-      buttonLink: "/inventory",
-      buttonColor: "bg-theme-orange hover:bg-orange-600",
-    },
-    {
-      title: "Turfman 1000", 
-      description: "Heavy-duty utility vehicle with extended bed for maximum cargo capacity and versatility.",
+      title: "TURFMAN Series",
+      description: "Commercial-grade utility vehicles for professional applications", 
       image: evolutionTurfman1000Image,
-      price: "Contact for Pricing",
-      buttonText: "Get Quote",
-      buttonLink: "/contact",
-      buttonColor: "bg-accent-orange hover:bg-orange-600",
+      features: ["Commercial Grade", "Heavy-Duty Operation", "Professional Use"],
+      vehicles: ["TURFMAN 200", "TURFMAN 800", "TURFMAN 1000"]
     },
+    {
+      title: "D6 MAX Series",
+      description: "High-performance vehicles with advanced technology and features",
+      image: evolutionD6MaxXT4Image,
+      features: ["High Performance", "Advanced Tech", "Premium Features"],
+      vehicles: ["D6 MAX GT4", "D6 MAX GT6", "D6 MAX XT4", "D6 MAX XT6"]
+    }
   ];
-
-  const formatPrice = (price: number) => {
-    return new Intl.NumberFormat("en-US", {
-      style: "currency",
-      currency: "USD",
-      minimumFractionDigits: 0,
-    }).format(price);
-  };
 
   return (
-    <div className="max-w-7xl mx-auto px-4 py-8">
-      {/* Brand Hero */}
-      <div 
-        className="relative bg-cover bg-center h-64 md:h-80 rounded-xl mb-8"
-        style={{
-          backgroundImage: `linear-gradient(rgba(14, 165, 233, 0.6), rgba(14, 165, 233, 0.6)), url(${evolutionD5Ranger6Image})`
-        }}
-      >
-        <div className="absolute inset-0 flex items-center justify-center">
-          <div className="text-center text-white px-4">
-            <h1 className="text-4xl md:text-5xl font-bold mb-4">EVOLUTION</h1>
-            <p className="text-xl md:text-2xl max-w-3xl mx-auto">
-              Advanced recreational vehicles with innovative technology and superior comfort
+    <>
+      <SEOHead 
+        title="EVOLUTION Golf Carts Bucks County | Premium Electric Vehicles PA"
+        description="Discover EVOLUTION golf carts in Bucks County, PA. Complete lineup of D5 RANGER, MAVERICK, CLASSIC, CARRIER, FORESTER, TURFMAN, and D6 MAX series. Expert sales & service."
+        keywords="EVOLUTION golf carts Bucks County, electric golf carts Pennsylvania, EVOLUTION D5 RANGER, EVOLUTION MAVERICK, EVOLUTION CLASSIC, golf cart sales Pennsylvania, EVOLUTION dealers"
+      />
+      
+      <div className="min-h-screen bg-gray-50">
+        {/* Hero Section */}
+        <section className="relative py-20 px-4 bg-gradient-to-r from-blue-900 to-blue-700 text-white overflow-hidden">
+          <div className="absolute inset-0 bg-black opacity-40"></div>
+          <div 
+            className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+            style={{backgroundImage: `url('${evolutionD6MaxXT4Image}')`}}
+          ></div>
+          <div className="relative max-w-7xl mx-auto text-center z-10">
+            <Badge className="bg-theme-orange text-white px-6 py-2 text-lg font-bold mb-6">
+              PREMIUM ELECTRIC VEHICLES
+            </Badge>
+            <h1 className="text-6xl font-bold mb-6">
+              EVOLUTION<sup className="text-2xl">®</sup>
+            </h1>
+            <p className="text-2xl mb-8 max-w-4xl mx-auto">
+              Experience the evolution of electric vehicle excellence. EVOLUTION golf carts deliver 
+              premium quality, innovative design, and reliable performance for Bucks County, Pennsylvania.
             </p>
-          </div>
-        </div>
-      </div>
-
-      {/* Model Categories */}
-      <div className="mb-12">
-        <h2 className="text-3xl font-bold text-gray-900 mb-8">Evolution Model Categories</h2>
-        
-        <div className="grid md:grid-cols-3 gap-6">
-          {modelCategories.map((category, index) => (
-            <Card key={index} className="overflow-hidden shadow-lg">
-              <div className="relative h-48">
-                <img
-                  src={category.image}
-                  alt={category.title}
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <CardContent className="p-6">
-                <h3 className="text-xl font-semibold mb-2">{category.title}</h3>
-                <p className="text-gray-600 mb-4">{category.description}</p>
-                <Badge className={category.badgeColor}>
-                  {category.badge}
-                </Badge>
-              </CardContent>
-            </Card>
-          ))}
-        </div>
-      </div>
-
-      {/* Featured Models */}
-      <div className="mb-12">
-        <h2 className="text-3xl font-bold text-gray-900 mb-8">Featured Evolution Models</h2>
-        
-        <div className="grid md:grid-cols-2 gap-8">
-          {featuredModels.map((model, index) => (
-            <Card key={index} className="overflow-hidden shadow-lg">
-              <div className="relative h-64">
-                <img
-                  src={model.image}
-                  alt={model.title}
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <CardContent className="p-6">
-                <h3 className="text-2xl font-semibold mb-2">{model.title}</h3>
-                <p className="text-gray-600 mb-4">{model.description}</p>
-                <div className="flex justify-between items-center">
-                  <span className="text-lg font-bold text-navy">{model.price}</span>
-                  <Link href={model.buttonLink}>
-                    <Button className={`text-white ${model.buttonColor}`}>
-                      {model.buttonText}
-                    </Button>
-                  </Link>
-                </div>
-              </CardContent>
-            </Card>
-          ))}
-        </div>
-      </div>
-
-      {/* Current Evolution Inventory */}
-      <div>
-        <h2 className="text-3xl font-bold text-gray-900 mb-8">Current Evolution Inventory</h2>
-        
-        {isLoading ? (
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {Array.from({ length: 6 }).map((_, i) => (
-              <Card key={i} className="overflow-hidden shadow-lg">
-                <Skeleton className="w-full h-48" />
-                <CardContent className="p-6 space-y-3">
-                  <Skeleton className="h-6 w-3/4" />
-                  <Skeleton className="h-4 w-full" />
-                  <Skeleton className="h-4 w-1/2" />
-                  <Skeleton className="h-10 w-full" />
-                </CardContent>
-              </Card>
-            ))}
-          </div>
-        ) : evolutionVehicles && evolutionVehicles.length > 0 ? (
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {evolutionVehicles.map((vehicle) => (
-              <Card key={vehicle.id} className="overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
-                <div className="relative h-48">
-                  <img
-                    src={vehicle.images[0]}
-                    alt={vehicle.name}
-                    className="w-full h-full object-cover"
-                  />
-                  <div className="absolute top-4 right-4">
-                    <Badge className={vehicle.status === "available" ? "bg-emerald-100 text-emerald-800" : "bg-yellow-100 text-yellow-800"}>
-                      {vehicle.status === "available" ? "Available" : "Pre-Order"}
-                    </Badge>
-                  </div>
-                </div>
-                <CardContent className="p-6">
-                  <h3 className="text-lg font-semibold mb-2">{vehicle.name}</h3>
-                  <p className="text-gray-600 text-sm mb-4">{vehicle.description}</p>
-                  <div className="flex justify-between items-center mb-4">
-                    <span className="text-sm text-gray-500">
-                      {vehicle.driveType.toUpperCase()} • {vehicle.seats} Seats
-                    </span>
-                    <span className="text-lg font-bold text-navy">
-                      {formatPrice(vehicle.price)}
-                    </span>
-                  </div>
-                  <Link href={`/vehicle/${vehicle.id}`}>
-                    <Button className="w-full bg-theme-orange hover:bg-orange-600 text-white">
-                      View Details
-                    </Button>
-                  </Link>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
-        ) : (
-          <Card className="shadow-lg">
-            <CardContent className="p-8 text-center">
-              <p className="text-lg text-gray-600 mb-6">
-                No Evolution vehicles are currently in our inventory. Contact us for availability updates.
-              </p>
-              <Link href="/contact">
-                <Button size="lg" className="bg-theme-orange hover:bg-orange-600 text-white">
-                  Contact for Availability
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <Button size="lg" className="bg-theme-orange hover:bg-orange-600 text-white">
+                <Phone className="w-5 h-5 mr-2" />
+                Call (267) 645-6271
+              </Button>
+              <Link href="/inventory">
+                <Button size="lg" variant="outline" className="bg-white text-gray-900 border-white hover:bg-gray-100">
+                  View EVOLUTION Models
                 </Button>
               </Link>
-            </CardContent>
-          </Card>
-        )}
+            </div>
+          </div>
+        </section>
+
+        {/* Brand Story */}
+        <section className="py-16 px-4">
+          <div className="max-w-7xl mx-auto">
+            <div className="grid lg:grid-cols-2 gap-12 items-center">
+              <div>
+                <h2 className="text-4xl font-bold mb-6 text-gray-900">
+                  The EVOLUTION Difference
+                </h2>
+                <p className="text-lg text-gray-600 mb-6">
+                  EVOLUTION represents the perfect balance of innovation, quality, and value in 
+                  electric vehicle manufacturing. With a comprehensive lineup ranging from classic 
+                  golf carts to high-performance utility vehicles, EVOLUTION delivers solutions 
+                  for every need in Bucks County's diverse communities.
+                </p>
+                <div className="grid grid-cols-1 gap-4">
+                  {evolutionFeatures.map((feature, index) => (
+                    <div key={index} className="flex items-center">
+                      <Check className="w-6 h-6 text-theme-orange mr-3 flex-shrink-0" />
+                      <span className="text-gray-700 font-medium">{feature}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+              <div className="relative">
+                <img
+                  src={evolutionD5Ranger6Image}
+                  alt="EVOLUTION Quality"
+                  className="rounded-xl shadow-2xl w-full"
+                />
+                <div className="absolute top-4 left-4 bg-theme-orange text-white px-4 py-2 rounded-lg">
+                  <Award className="w-5 h-5 inline mr-2" />
+                  Industry Leading
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* EVOLUTION Series Overview */}
+        <section className="py-16 px-4 bg-white">
+          <div className="max-w-7xl mx-auto">
+            <div className="text-center mb-12">
+              <h2 className="text-4xl font-bold mb-4 text-gray-900">
+                Complete EVOLUTION Lineup
+              </h2>
+              <p className="text-xl text-gray-600">
+                Discover the full range of EVOLUTION electric vehicles available in Bucks County
+              </p>
+            </div>
+            
+            <div className="grid lg:grid-cols-3 xl:grid-cols-4 gap-6">
+              {evolutionSeries.map((series, index) => (
+                <Card key={index} className="overflow-hidden shadow-lg hover:shadow-xl transition-shadow h-full">
+                  <div className="relative h-48">
+                    <img 
+                      src={series.image} 
+                      alt={series.title}
+                      className="w-full h-full object-cover"
+                    />
+                    <div className="absolute top-2 right-2">
+                      <Badge className="bg-theme-primary text-white text-xs">
+                        {series.vehicles.length} Model{series.vehicles.length > 1 ? 's' : ''}
+                      </Badge>
+                    </div>
+                  </div>
+                  <CardHeader className="pb-2">
+                    <CardTitle className="text-lg text-gray-900">{series.title}</CardTitle>
+                    <p className="text-sm text-gray-600">{series.description}</p>
+                  </CardHeader>
+                  <CardContent className="pt-0">
+                    <div className="space-y-1 mb-3">
+                      {series.features.map((feature, idx) => (
+                        <div key={idx} className="flex items-center text-xs text-gray-600">
+                          <Zap className="w-3 h-3 text-theme-orange mr-1" />
+                          {feature}
+                        </div>
+                      ))}
+                    </div>
+                    <div className="space-y-1">
+                      {series.vehicles.slice(0, 3).map((vehicle, idx) => (
+                        <div key={idx} className="text-xs font-medium text-gray-700 bg-gray-50 px-2 py-1 rounded">
+                          {vehicle}
+                        </div>
+                      ))}
+                      {series.vehicles.length > 3 && (
+                        <div className="text-xs text-gray-500 text-center py-1">
+                          +{series.vehicles.length - 3} more models
+                        </div>
+                      )}
+                    </div>
+                  </CardContent>
+                </Card>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* Available EVOLUTION Models */}
+        <section className="py-16 px-4 bg-gray-50">
+          <div className="max-w-7xl mx-auto">
+            <div className="text-center mb-12">
+              <h2 className="text-4xl font-bold mb-4 text-gray-900">
+                Available EVOLUTION Models
+              </h2>
+              <p className="text-xl text-gray-600">
+                Browse our current selection of EVOLUTION electric vehicles in stock
+              </p>
+            </div>
+            
+            {evolutionVehicles.length > 0 ? (
+              <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                {evolutionVehicles.map((vehicle) => (
+                  <VehicleCard key={vehicle.id} vehicle={vehicle} />
+                ))}
+              </div>
+            ) : (
+              <Card className="text-center py-12">
+                <CardContent>
+                  <Truck className="w-16 h-16 text-gray-400 mx-auto mb-4" />
+                  <h3 className="text-2xl font-bold text-gray-900 mb-4">EVOLUTION Models in Stock</h3>
+                  <p className="text-lg text-gray-600 mb-6">
+                    We maintain a comprehensive inventory of EVOLUTION vehicles. Contact us to check 
+                    current availability or schedule a viewing of our EVOLUTION lineup in Bucks County.
+                  </p>
+                  <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                    <Link href="/contact">
+                      <Button size="lg" className="bg-theme-orange hover:bg-orange-600 text-white">
+                        Check Availability
+                      </Button>
+                    </Link>
+                    <Link href="/inventory">
+                      <Button size="lg" variant="outline" className="border-theme-primary text-theme-primary hover:bg-theme-primary hover:text-white">
+                        View All Inventory
+                      </Button>
+                    </Link>
+                  </div>
+                </CardContent>
+              </Card>
+            )}
+          </div>
+        </section>
+
+        {/* EVOLUTION Advantages */}
+        <section className="py-16 px-4 bg-white">
+          <div className="max-w-7xl mx-auto">
+            <div className="text-center mb-12">
+              <h2 className="text-4xl font-bold mb-4 text-gray-900">
+                Why Choose EVOLUTION in Bucks County?
+              </h2>
+            </div>
+            
+            <div className="grid lg:grid-cols-4 gap-8">
+              <div className="text-center">
+                <Award className="w-16 h-16 text-theme-orange mx-auto mb-4" />
+                <h3 className="text-xl font-bold text-gray-900 mb-4">Proven Quality</h3>
+                <p className="text-gray-600">
+                  EVOLUTION vehicles are built to the highest standards with rigorous quality 
+                  control and premium components for lasting performance.
+                </p>
+              </div>
+              
+              <div className="text-center">
+                <Zap className="w-16 h-16 text-theme-orange mx-auto mb-4" />
+                <h3 className="text-xl font-bold text-gray-900 mb-4">Advanced Features</h3>
+                <p className="text-gray-600">
+                  From LED lighting systems to premium seating, EVOLUTION incorporates 
+                  innovative features that enhance comfort and functionality.
+                </p>
+              </div>
+              
+              <div className="text-center">
+                <Shield className="w-16 h-16 text-theme-orange mx-auto mb-4" />
+                <h3 className="text-xl font-bold text-gray-900 mb-4">Reliable Performance</h3>
+                <p className="text-gray-600">
+                  Count on EVOLUTION's dependable electric systems and robust construction 
+                  for years of reliable service in Pennsylvania's varied conditions.
+                </p>
+              </div>
+              
+              <div className="text-center">
+                <MapPin className="w-16 h-16 text-theme-orange mx-auto mb-4" />
+                <h3 className="text-xl font-bold text-gray-900 mb-4">Local Support</h3>
+                <p className="text-gray-600">
+                  Expert EVOLUTION service and genuine parts support right here in Bucks County 
+                  with factory-trained technicians and comprehensive warranties.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Featured Series Highlight */}
+        <section className="py-16 px-4 bg-gradient-to-r from-gray-800 to-gray-600 text-white">
+          <div className="max-w-7xl mx-auto">
+            <div className="grid lg:grid-cols-2 gap-12 items-center">
+              <div>
+                <Badge className="bg-theme-orange text-white px-4 py-2 mb-4">
+                  FEATURED SERIES
+                </Badge>
+                <h2 className="text-4xl font-bold mb-6">
+                  D6 MAX Series
+                </h2>
+                <p className="text-xl mb-6">
+                  The pinnacle of EVOLUTION engineering, the D6 MAX series combines high-performance 
+                  capabilities with advanced technology and premium styling for the ultimate driving experience.
+                </p>
+                <div className="grid grid-cols-2 gap-4 mb-8">
+                  <div>
+                    <h4 className="font-bold text-theme-orange mb-2">Performance</h4>
+                    <ul className="text-sm space-y-1">
+                      <li>• High-speed capability</li>
+                      <li>• Advanced suspension</li>
+                      <li>• Precision handling</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-theme-orange mb-2">Technology</h4>
+                    <ul className="text-sm space-y-1">
+                      <li>• LED lighting package</li>
+                      <li>• Premium dashboard</li>
+                      <li>• Advanced safety features</li>
+                    </ul>
+                  </div>
+                </div>
+                <Link href="/vehicles/evolution-d6-max-gt4">
+                  <Button size="lg" className="bg-theme-orange hover:bg-orange-600 text-white">
+                    Explore D6 MAX Series
+                  </Button>
+                </Link>
+              </div>
+              <div className="relative">
+                <img
+                  src={evolutionD6MaxXT4Image}
+                  alt="EVOLUTION D6 MAX Series"
+                  className="rounded-xl shadow-2xl w-full"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Contact CTA */}
+        <section className="py-16 px-4 bg-theme-primary text-white">
+          <div className="max-w-4xl mx-auto text-center">
+            <h2 className="text-4xl font-bold mb-6">
+              Ready to Experience EVOLUTION?
+            </h2>
+            <p className="text-xl mb-8">
+              Contact Bucks County Golf Carts today to explore the complete EVOLUTION lineup 
+              and find the perfect electric vehicle for your needs.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <Button size="lg" className="bg-theme-orange hover:bg-orange-600 text-white">
+                <Phone className="w-5 h-5 mr-2" />
+                Call (267) 645-6271
+              </Button>
+              <Link href="/contact">
+                <Button size="lg" variant="outline" className="text-gray-900 bg-white border-white hover:bg-gray-100 hover:text-gray-900">
+                  Schedule Test Drive
+                </Button>
+              </Link>
+            </div>
+          </div>
+        </section>
       </div>
-    </div>
+    </>
   );
 }
