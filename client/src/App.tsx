@@ -45,22 +45,31 @@ import EvolutionD5Maverick6Plus from "@/pages/vehicles/EvolutionD5Maverick6Plus"
 import EvolutionD6MaxGT6 from "@/pages/vehicles/EvolutionD6MaxGT6";
 import EvolutionD6MaxXT4 from "@/pages/vehicles/EvolutionD6MaxXT4";
 import EvolutionD6MaxXT6 from "@/pages/vehicles/EvolutionD6MaxXT6";
-// Berks County Town Pages
+// New Berks County Municipality Pages - All 72 municipalities
 import {
-  ReadingPage, BoyertownPage, FleetwoodPage, HamburgPage, KenhorstPage,
-  KutzownPage, LaureldalePage, LehightonPage, LyonsPage, MohntonPage,
-  MountPennPage, NewMorganPage, RobersoniaPage, ShillingtonPage, SinkingSpringPage,
-  St_LawrencePage, WernervillePage, WomelsdrfPage, WyomissingPage,
-  AlsaceTownshipPage, BernTownshipPage, BethhelTownshipPage, BrecknockTownshipPage,
-  CaernarvonTownshipPage, CentreTownshipPage, ColebrookdaleTownshipPage, CumruTownshipPage,
-  DouglassTownshipPage, ExeterTownshipPage, HeidelburgTownshipPage, HerefordTownshipPage,
-  JeffersonTownshipPage, KenhorstTownshipPage, LongswampTownshipPage, LowerAlsaceTownshipPage,
-  LowerHeidelburgTownshipPage, MaxatawnyTownshipPage, MuhlenbergTownshipPage, OntelauneeTownshipPage,
-  PerryTownshipPage, PikeTownshipPage, RichlandTownshipPage, RobertsonTownshipPage,
-  RuscombmanorTownshipPage, SpringTownshipPage, TildenTownshipPage, TulpehockenTownshipPage,
-  UnionTownshipPage, UpperBernTownshipPage, UpperTulpehockenTownshipPage, WashingtonTownshipPage,
-  WindsorTownshipPage
-} from "@/pages/towns/BerksCountyTownPages";
+  // Cities (1)
+  ReadingCityPage,
+  // Boroughs (27)
+  BallyBoroughPage, BechtelvilleBoroughPage, BernvilleBoroughPage, BirdsboroBoroughPage,
+  BoyertownBoroughPage, CenterportBoroughPage, FleetwoodBoroughPage, HamburgBoroughPage,
+  KenhorstBoroughPage, KutzownBoroughPage, LaureldaleBoroughPage, LeesportBoroughPage,
+  LenhartsvilleBoroughPage, LyonsBoroughPage, MohntonBoroughPage, MountPennBoroughPage,
+  NewMorganBoroughPage, RobosoniaBoroughPage, StLawrenceBoroughPage, ShillingtonBoroughPage,
+  ShoemakersvilleBoroughPage, SinkingSpringBoroughPage, ToptonBoroughPage, WernersvilleBoroughPage,
+  WestReadingBoroughPage, WomelsdorfBoroughPage, WyomissingBoroughPage,
+  // Townships (44)
+  AlbanyTownshipPage, AlsaceTownshipPage, AmityTownshipPage, BernTownshipPage,
+  BethelTownshipPage, BrecknockTownshipPage, CaernarvonTownshipPage, CentreTownshipPage,
+  ColebrookdaleTownshipPage, CumruTownshipPage, DistrictTownshipPage, DouglassTownshipPage,
+  EarlTownshipPage, ExeterTownshipPage, GreenwichTownshipPage, HeidelbergTownshipPage,
+  HerefordTownshipPage, JeffersonTownshipPage, LongswampTownshipPage, LowerAlsaceTownshipPage,
+  LowerHeidelbergTownshipPage, MaidencreekTownshipPage, MarionTownshipPage, MaxatawnyTownshipPage,
+  MuhlenbergTownshipPage, NorthHeidelbergTownshipPage, OleyTownshipPage, OntelauneeTownshipPage,
+  PennTownshipPage, PerryTownshipPage, PikeTownshipPage, RichmondTownshipPage,
+  RobesonTownshipPage, RocklandTownshipPage, RuscombmanorTownshipPage, SouthHeidelbergTownshipPage,
+  SpringTownshipPage, TildenTownshipPage, TulpehockenTownshipPage, UnionTownshipPage,
+  UpperBernTownshipPage, UpperTulpehockenTownshipPage, WashingtonTownshipPage, WindsorTownshipPage
+} from "@/pages/towns/NewBerksCountyTownPages";
 
 const queryClient = new QueryClient();
 
@@ -113,53 +122,75 @@ function App() {
             <Route path="/vehicles/evolution-d6-max-xt4" component={EvolutionD6MaxXT4} />
             <Route path="/vehicles/evolution-d6-max-xt6" component={EvolutionD6MaxXT6} />
             
-            {/* Berks County City & Borough Pages */}
-            <Route path="/reading-city-golf-carts" component={ReadingPage} />
-            <Route path="/boyertown-borough-golf-carts" component={BoyertownPage} />
-            <Route path="/fleetwood-borough-golf-carts" component={FleetwoodPage} />
-            <Route path="/hamburg-borough-golf-carts" component={HamburgPage} />
-            <Route path="/kenhorst-borough-golf-carts" component={KenhorstPage} />
-            <Route path="/kutztown-borough-golf-carts" component={KutzownPage} />
-            <Route path="/laureldale-borough-golf-carts" component={LaureldalePage} />
-            <Route path="/leesport-borough-golf-carts" component={LehightonPage} />
-            <Route path="/lyons-borough-golf-carts" component={LyonsPage} />
-            <Route path="/mohnton-borough-golf-carts" component={MohntonPage} />
-            <Route path="/mount-penn-borough-golf-carts" component={MountPennPage} />
-            <Route path="/new-morgan-borough-golf-carts" component={NewMorganPage} />
-            <Route path="/robesonia-borough-golf-carts" component={RobersoniaPage} />
-            <Route path="/shillington-borough-golf-carts" component={ShillingtonPage} />
-            <Route path="/sinking-spring-borough-golf-carts" component={SinkingSpringPage} />
-            <Route path="/st-lawrence-borough-golf-carts" component={St_LawrencePage} />
-            <Route path="/wernersville-borough-golf-carts" component={WernervillePage} />
-            <Route path="/womelsdorf-borough-golf-carts" component={WomelsdrfPage} />
-            <Route path="/wyomissing-borough-golf-carts" component={WyomissingPage} />
+            {/* Berks County Cities (1) */}
+            <Route path="/reading-city-golf-carts" component={ReadingCityPage} />
             
-            {/* Berks County Township Pages */}
+            {/* Berks County Boroughs (27) */}
+            <Route path="/bally-borough-golf-carts" component={BallyBoroughPage} />
+            <Route path="/bechtelsville-borough-golf-carts" component={BechtelvilleBoroughPage} />
+            <Route path="/bernville-borough-golf-carts" component={BernvilleBoroughPage} />
+            <Route path="/birdsboro-borough-golf-carts" component={BirdsboroBoroughPage} />
+            <Route path="/boyertown-borough-golf-carts" component={BoyertownBoroughPage} />
+            <Route path="/centerport-borough-golf-carts" component={CenterportBoroughPage} />
+            <Route path="/fleetwood-borough-golf-carts" component={FleetwoodBoroughPage} />
+            <Route path="/hamburg-borough-golf-carts" component={HamburgBoroughPage} />
+            <Route path="/kenhorst-borough-golf-carts" component={KenhorstBoroughPage} />
+            <Route path="/kutztown-borough-golf-carts" component={KutzownBoroughPage} />
+            <Route path="/laureldale-borough-golf-carts" component={LaureldaleBoroughPage} />
+            <Route path="/leesport-borough-golf-carts" component={LeesportBoroughPage} />
+            <Route path="/lenhartsville-borough-golf-carts" component={LenhartsvilleBoroughPage} />
+            <Route path="/lyons-borough-golf-carts" component={LyonsBoroughPage} />
+            <Route path="/mohnton-borough-golf-carts" component={MohntonBoroughPage} />
+            <Route path="/mount-penn-borough-golf-carts" component={MountPennBoroughPage} />
+            <Route path="/new-morgan-borough-golf-carts" component={NewMorganBoroughPage} />
+            <Route path="/robesonia-borough-golf-carts" component={RobosoniaBoroughPage} />
+            <Route path="/st-lawrence-borough-golf-carts" component={StLawrenceBoroughPage} />
+            <Route path="/shillington-borough-golf-carts" component={ShillingtonBoroughPage} />
+            <Route path="/shoemakersville-borough-golf-carts" component={ShoemakersvilleBoroughPage} />
+            <Route path="/sinking-spring-borough-golf-carts" component={SinkingSpringBoroughPage} />
+            <Route path="/topton-borough-golf-carts" component={ToptonBoroughPage} />
+            <Route path="/wernersville-borough-golf-carts" component={WernersvilleBoroughPage} />
+            <Route path="/west-reading-borough-golf-carts" component={WestReadingBoroughPage} />
+            <Route path="/womelsdorf-borough-golf-carts" component={WomelsdorfBoroughPage} />
+            <Route path="/wyomissing-borough-golf-carts" component={WyomissingBoroughPage} />
+            
+            {/* Berks County Townships (44) */}
+            <Route path="/albany-township-golf-carts" component={AlbanyTownshipPage} />
             <Route path="/alsace-township-golf-carts" component={AlsaceTownshipPage} />
+            <Route path="/amity-township-golf-carts" component={AmityTownshipPage} />
             <Route path="/bern-township-golf-carts" component={BernTownshipPage} />
-            <Route path="/bethel-township-golf-carts" component={BethhelTownshipPage} />
+            <Route path="/bethel-township-golf-carts" component={BethelTownshipPage} />
             <Route path="/brecknock-township-golf-carts" component={BrecknockTownshipPage} />
             <Route path="/caernarvon-township-golf-carts" component={CaernarvonTownshipPage} />
             <Route path="/centre-township-golf-carts" component={CentreTownshipPage} />
             <Route path="/colebrookdale-township-golf-carts" component={ColebrookdaleTownshipPage} />
             <Route path="/cumru-township-golf-carts" component={CumruTownshipPage} />
+            <Route path="/district-township-golf-carts" component={DistrictTownshipPage} />
             <Route path="/douglass-township-golf-carts" component={DouglassTownshipPage} />
+            <Route path="/earl-township-golf-carts" component={EarlTownshipPage} />
             <Route path="/exeter-township-golf-carts" component={ExeterTownshipPage} />
-            <Route path="/heidelburg-township-golf-carts" component={HeidelburgTownshipPage} />
+            <Route path="/greenwich-township-golf-carts" component={GreenwichTownshipPage} />
+            <Route path="/heidelberg-township-golf-carts" component={HeidelbergTownshipPage} />
             <Route path="/hereford-township-golf-carts" component={HerefordTownshipPage} />
             <Route path="/jefferson-township-golf-carts" component={JeffersonTownshipPage} />
-            <Route path="/kenhorst-township-golf-carts" component={KenhorstTownshipPage} />
             <Route path="/longswamp-township-golf-carts" component={LongswampTownshipPage} />
             <Route path="/lower-alsace-township-golf-carts" component={LowerAlsaceTownshipPage} />
-            <Route path="/lower-heidelburg-township-golf-carts" component={LowerHeidelburgTownshipPage} />
+            <Route path="/lower-heidelberg-township-golf-carts" component={LowerHeidelbergTownshipPage} />
+            <Route path="/maidencreek-township-golf-carts" component={MaidencreekTownshipPage} />
+            <Route path="/marion-township-golf-carts" component={MarionTownshipPage} />
             <Route path="/maxatawny-township-golf-carts" component={MaxatawnyTownshipPage} />
             <Route path="/muhlenberg-township-golf-carts" component={MuhlenbergTownshipPage} />
+            <Route path="/north-heidelberg-township-golf-carts" component={NorthHeidelbergTownshipPage} />
+            <Route path="/oley-township-golf-carts" component={OleyTownshipPage} />
             <Route path="/ontelaunee-township-golf-carts" component={OntelauneeTownshipPage} />
+            <Route path="/penn-township-golf-carts" component={PennTownshipPage} />
             <Route path="/perry-township-golf-carts" component={PerryTownshipPage} />
             <Route path="/pike-township-golf-carts" component={PikeTownshipPage} />
-            <Route path="/richland-township-golf-carts" component={RichlandTownshipPage} />
-            <Route path="/robeson-township-golf-carts" component={RobertsonTownshipPage} />
+            <Route path="/richmond-township-golf-carts" component={RichmondTownshipPage} />
+            <Route path="/robeson-township-golf-carts" component={RobesonTownshipPage} />
+            <Route path="/rockland-township-golf-carts" component={RocklandTownshipPage} />
             <Route path="/ruscombmanor-township-golf-carts" component={RuscombmanorTownshipPage} />
+            <Route path="/south-heidelberg-township-golf-carts" component={SouthHeidelbergTownshipPage} />
             <Route path="/spring-township-golf-carts" component={SpringTownshipPage} />
             <Route path="/tilden-township-golf-carts" component={TildenTownshipPage} />
             <Route path="/tulpehocken-township-golf-carts" component={TulpehockenTownshipPage} />

@@ -5,16 +5,16 @@
   <!-- Main Pages -->
   <url>
     <loc>https://berksgolfcarts.com/</loc>
-    <lastmod>2025-01-22</lastmod>
+    <lastmod>2025-01-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image>
-      <image:loc>https://berksgolfcarts.com/attached_assets/Ocean County Golf Carts New Jersey 3_1753197335727.jpeg</image:loc>
-      <image:caption>Ocean County Golf Carts showroom and service center</image:caption>
+      <image:loc>https://berksgolfcarts.com/attached_assets/Bucks County Golf Carts (3)_1753284044185.png</image:loc>
+      <image:caption>Berks County Golf Carts showroom and service center</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://berksgolfcarts.com/attached_assets/D6-XT6-4wd-color-PORTIMAO-BLUE_1753135231312.png</image:loc>
-      <image:caption>Golf cart available at Ocean County Golf Carts</image:caption>
+      <image:caption>Golf cart available at Berks County Golf Carts</image:caption>
     </image:image>
   </url>
 
@@ -365,255 +365,509 @@
     </image:image>
   </url>
 
-  <!-- Ocean County Town Pages -->
+  <!-- Cities (1) -->
   <url>
-    <loc>https://berksgolfcarts.com/barnegat-township-golf-carts</loc>
-    <lastmod>2025-01-22</lastmod>
+    <loc>https://berksgolfcarts.com/reading-city-golf-carts</loc>
+    <lastmod>2025-01-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Boroughs (27) -->
+  <url>
+    <loc>https://berksgolfcarts.com/bally-borough-golf-carts</loc>
+    <lastmod>2025-01-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://berksgolfcarts.com/barnegat-light-borough-golf-carts</loc>
-    <lastmod>2025-01-22</lastmod>
+    <loc>https://berksgolfcarts.com/bechtelsville-borough-golf-carts</loc>
+    <lastmod>2025-01-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://berksgolfcarts.com/bay-head-borough-golf-carts</loc>
-    <lastmod>2025-01-22</lastmod>
+    <loc>https://berksgolfcarts.com/bernville-borough-golf-carts</loc>
+    <lastmod>2025-01-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://berksgolfcarts.com/beach-haven-borough-golf-carts</loc>
-    <lastmod>2025-01-22</lastmod>
+    <loc>https://berksgolfcarts.com/birdsboro-borough-golf-carts</loc>
+    <lastmod>2025-01-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://berksgolfcarts.com/beachwood-borough-golf-carts</loc>
-    <lastmod>2025-01-22</lastmod>
+    <loc>https://berksgolfcarts.com/boyertown-borough-golf-carts</loc>
+    <lastmod>2025-01-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://berksgolfcarts.com/berkeley-township-golf-carts</loc>
-    <lastmod>2025-01-22</lastmod>
+    <loc>https://berksgolfcarts.com/centerport-borough-golf-carts</loc>
+    <lastmod>2025-01-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://berksgolfcarts.com/brick-township-golf-carts</loc>
-    <lastmod>2025-01-22</lastmod>
+    <loc>https://berksgolfcarts.com/fleetwood-borough-golf-carts</loc>
+    <lastmod>2025-01-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://berksgolfcarts.com/eagleswood-township-golf-carts</loc>
-    <lastmod>2025-01-22</lastmod>
+    <loc>https://berksgolfcarts.com/hamburg-borough-golf-carts</loc>
+    <lastmod>2025-01-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://berksgolfcarts.com/harvey-cedars-borough-golf-carts</loc>
-    <lastmod>2025-01-22</lastmod>
+    <loc>https://berksgolfcarts.com/kenhorst-borough-golf-carts</loc>
+    <lastmod>2025-01-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://berksgolfcarts.com/island-heights-borough-golf-carts</loc>
-    <lastmod>2025-01-22</lastmod>
+    <loc>https://berksgolfcarts.com/kutztown-borough-golf-carts</loc>
+    <lastmod>2025-01-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://berksgolfcarts.com/jackson-township-golf-carts</loc>
-    <lastmod>2025-01-22</lastmod>
+    <loc>https://berksgolfcarts.com/laureldale-borough-golf-carts</loc>
+    <lastmod>2025-01-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://berksgolfcarts.com/lacey-township-golf-carts</loc>
-    <lastmod>2025-01-22</lastmod>
+    <loc>https://berksgolfcarts.com/leesport-borough-golf-carts</loc>
+    <lastmod>2025-01-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://berksgolfcarts.com/lakehurst-borough-golf-carts</loc>
-    <lastmod>2025-01-22</lastmod>
+    <loc>https://berksgolfcarts.com/lenhartsville-borough-golf-carts</loc>
+    <lastmod>2025-01-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://berksgolfcarts.com/lakewood-township-golf-carts</loc>
-    <lastmod>2025-01-22</lastmod>
+    <loc>https://berksgolfcarts.com/lyons-borough-golf-carts</loc>
+    <lastmod>2025-01-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://berksgolfcarts.com/lavallette-borough-golf-carts</loc>
-    <lastmod>2025-01-22</lastmod>
+    <loc>https://berksgolfcarts.com/mohnton-borough-golf-carts</loc>
+    <lastmod>2025-01-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://berksgolfcarts.com/little-egg-harbor-township-golf-carts</loc>
-    <lastmod>2025-01-22</lastmod>
+    <loc>https://berksgolfcarts.com/mount-penn-borough-golf-carts</loc>
+    <lastmod>2025-01-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://berksgolfcarts.com/long-beach-township-golf-carts</loc>
-    <lastmod>2025-01-22</lastmod>
+    <loc>https://berksgolfcarts.com/new-morgan-borough-golf-carts</loc>
+    <lastmod>2025-01-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://berksgolfcarts.com/manchester-township-golf-carts</loc>
-    <lastmod>2025-01-22</lastmod>
+    <loc>https://berksgolfcarts.com/robesonia-borough-golf-carts</loc>
+    <lastmod>2025-01-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://berksgolfcarts.com/mantoloking-borough-golf-carts</loc>
-    <lastmod>2025-01-22</lastmod>
+    <loc>https://berksgolfcarts.com/st-lawrence-borough-golf-carts</loc>
+    <lastmod>2025-01-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://berksgolfcarts.com/ocean-gate-borough-golf-carts</loc>
-    <lastmod>2025-01-22</lastmod>
+    <loc>https://berksgolfcarts.com/shillington-borough-golf-carts</loc>
+    <lastmod>2025-01-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://berksgolfcarts.com/ocean-township-golf-carts</loc>
-    <lastmod>2025-01-22</lastmod>
+    <loc>https://berksgolfcarts.com/shoemakersville-borough-golf-carts</loc>
+    <lastmod>2025-01-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://berksgolfcarts.com/pine-beach-borough-golf-carts</loc>
-    <lastmod>2025-01-22</lastmod>
+    <loc>https://berksgolfcarts.com/sinking-spring-borough-golf-carts</loc>
+    <lastmod>2025-01-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://berksgolfcarts.com/plumsted-township-golf-carts</loc>
-    <lastmod>2025-01-22</lastmod>
+    <loc>https://berksgolfcarts.com/topton-borough-golf-carts</loc>
+    <lastmod>2025-01-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://berksgolfcarts.com/point-pleasant-township-golf-carts</loc>
-    <lastmod>2025-01-22</lastmod>
+    <loc>https://berksgolfcarts.com/wernersville-borough-golf-carts</loc>
+    <lastmod>2025-01-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://berksgolfcarts.com/point-pleasant-beach-borough-golf-carts</loc>
-    <lastmod>2025-01-22</lastmod>
+    <loc>https://berksgolfcarts.com/west-reading-borough-golf-carts</loc>
+    <lastmod>2025-01-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://berksgolfcarts.com/seaside-heights-borough-golf-carts</loc>
-    <lastmod>2025-01-22</lastmod>
+    <loc>https://berksgolfcarts.com/womelsdorf-borough-golf-carts</loc>
+    <lastmod>2025-01-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://berksgolfcarts.com/seaside-park-borough-golf-carts</loc>
-    <lastmod>2025-01-22</lastmod>
+    <loc>https://berksgolfcarts.com/wyomissing-borough-golf-carts</loc>
+    <lastmod>2025-01-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Townships (44) -->
+  <url>
+    <loc>https://berksgolfcarts.com/albany-township-golf-carts</loc>
+    <lastmod>2025-01-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://berksgolfcarts.com/ship-bottom-borough-golf-carts</loc>
-    <lastmod>2025-01-22</lastmod>
+    <loc>https://berksgolfcarts.com/alsace-township-golf-carts</loc>
+    <lastmod>2025-01-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://berksgolfcarts.com/south-toms-river-borough-golf-carts</loc>
-    <lastmod>2025-01-22</lastmod>
+    <loc>https://berksgolfcarts.com/amity-township-golf-carts</loc>
+    <lastmod>2025-01-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://berksgolfcarts.com/stafford-township-golf-carts</loc>
-    <lastmod>2025-01-22</lastmod>
+    <loc>https://berksgolfcarts.com/bern-township-golf-carts</loc>
+    <lastmod>2025-01-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://berksgolfcarts.com/surf-city-borough-golf-carts</loc>
-    <lastmod>2025-01-22</lastmod>
+    <loc>https://berksgolfcarts.com/bethel-township-golf-carts</loc>
+    <lastmod>2025-01-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://berksgolfcarts.com/toms-river-township-golf-carts</loc>
-    <lastmod>2025-01-22</lastmod>
+    <loc>https://berksgolfcarts.com/brecknock-township-golf-carts</loc>
+    <lastmod>2025-01-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://berksgolfcarts.com/tuckerton-borough-golf-carts</loc>
-    <lastmod>2025-01-22</lastmod>
+    <loc>https://berksgolfcarts.com/caernarvon-township-golf-carts</loc>
+    <lastmod>2025-01-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://berksgolfcarts.com/dover-township-golf-carts</loc>
-    <lastmod>2025-01-22</lastmod>
+    <loc>https://berksgolfcarts.com/centre-township-golf-carts</loc>
+    <lastmod>2025-01-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://berksgolfcarts.com/new-hanover-township-golf-carts</loc>
-    <lastmod>2025-01-22</lastmod>
+    <loc>https://berksgolfcarts.com/colebrookdale-township-golf-carts</loc>
+    <lastmod>2025-01-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://berksgolfcarts.com/point-pleasant-borough-golf-carts</loc>
-    <lastmod>2025-01-22</lastmod>
+    <loc>https://berksgolfcarts.com/cumru-township-golf-carts</loc>
+    <lastmod>2025-01-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://berksgolfcarts.com/district-township-golf-carts</loc>
+    <lastmod>2025-01-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://berksgolfcarts.com/douglass-township-golf-carts</loc>
+    <lastmod>2025-01-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://berksgolfcarts.com/earl-township-golf-carts</loc>
+    <lastmod>2025-01-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://berksgolfcarts.com/exeter-township-golf-carts</loc>
+    <lastmod>2025-01-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://berksgolfcarts.com/greenwich-township-golf-carts</loc>
+    <lastmod>2025-01-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://berksgolfcarts.com/heidelberg-township-golf-carts</loc>
+    <lastmod>2025-01-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://berksgolfcarts.com/hereford-township-golf-carts</loc>
+    <lastmod>2025-01-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://berksgolfcarts.com/jefferson-township-golf-carts</loc>
+    <lastmod>2025-01-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://berksgolfcarts.com/longswamp-township-golf-carts</loc>
+    <lastmod>2025-01-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://berksgolfcarts.com/lower-alsace-township-golf-carts</loc>
+    <lastmod>2025-01-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://berksgolfcarts.com/lower-heidelberg-township-golf-carts</loc>
+    <lastmod>2025-01-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://berksgolfcarts.com/maidencreek-township-golf-carts</loc>
+    <lastmod>2025-01-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://berksgolfcarts.com/marion-township-golf-carts</loc>
+    <lastmod>2025-01-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://berksgolfcarts.com/maxatawny-township-golf-carts</loc>
+    <lastmod>2025-01-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://berksgolfcarts.com/muhlenberg-township-golf-carts</loc>
+    <lastmod>2025-01-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://berksgolfcarts.com/north-heidelberg-township-golf-carts</loc>
+    <lastmod>2025-01-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://berksgolfcarts.com/oley-township-golf-carts</loc>
+    <lastmod>2025-01-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://berksgolfcarts.com/ontelaunee-township-golf-carts</loc>
+    <lastmod>2025-01-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://berksgolfcarts.com/penn-township-golf-carts</loc>
+    <lastmod>2025-01-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://berksgolfcarts.com/perry-township-golf-carts</loc>
+    <lastmod>2025-01-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://berksgolfcarts.com/pike-township-golf-carts</loc>
+    <lastmod>2025-01-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://berksgolfcarts.com/richmond-township-golf-carts</loc>
+    <lastmod>2025-01-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://berksgolfcarts.com/robeson-township-golf-carts</loc>
+    <lastmod>2025-01-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://berksgolfcarts.com/rockland-township-golf-carts</loc>
+    <lastmod>2025-01-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://berksgolfcarts.com/ruscombmanor-township-golf-carts</loc>
+    <lastmod>2025-01-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://berksgolfcarts.com/south-heidelberg-township-golf-carts</loc>
+    <lastmod>2025-01-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://berksgolfcarts.com/spring-township-golf-carts</loc>
+    <lastmod>2025-01-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://berksgolfcarts.com/tilden-township-golf-carts</loc>
+    <lastmod>2025-01-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://berksgolfcarts.com/tulpehocken-township-golf-carts</loc>
+    <lastmod>2025-01-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://berksgolfcarts.com/union-township-golf-carts</loc>
+    <lastmod>2025-01-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://berksgolfcarts.com/upper-bern-township-golf-carts</loc>
+    <lastmod>2025-01-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://berksgolfcarts.com/upper-tulpehocken-township-golf-carts</loc>
+    <lastmod>2025-01-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://berksgolfcarts.com/washington-township-golf-carts</loc>
+    <lastmod>2025-01-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://berksgolfcarts.com/windsor-township-golf-carts</loc>
+    <lastmod>2025-01-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
