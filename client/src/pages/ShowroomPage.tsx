@@ -1,32 +1,45 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { MapPin, Phone, Clock, Star, Facebook, ExternalLink } from "lucide-react";
+import { MapPin, Phone, Clock, Star, Facebook, ExternalLink, Youtube } from "lucide-react";
 import { Link } from "wouter";
 
 export default function ShowroomPage() {
   const locations = [
     {
-      name: "TIGON Golf Carts Bayville",
-      address: "155 Atlantic City Blvd, Bayville, NJ 08721",
-      phone: "(732) 908-7166",
-      coordinates: "39.9277698,-74.1748497",
-      googleMapsUrl: "https://www.google.com/maps?cid=16812778070531162551",
-      facebookUrl: "https://www.facebook.com/TigonGolfCartsBayville/",
-      websiteUrl: "https://tigongolfcarts.com/bayville/",
-      reviewUrl: "https://g.page/r/CbfBfMWT_FLpEBM/review",
-      city: "Bayville"
+      name: "TIGON Golf Carts Hatfield",
+      address: "2333 Bethlehem Pike, Hatfield, PA 19440",
+      phone: "215-595-8736",
+      coordinates: "40.29839945958623,-75.28308913039525",
+      googleMapsUrl: "https://www.google.com/maps?cid=8221925612164093496",
+      facebookUrl: "https://www.facebook.com/TigonGolfCartsHatfield/",
+      youtubeUrl: "https://www.youtube.com/@TIGONGolfCartsHatfieldPA",
+      websiteUrl: "https://tigongolfcarts.com/hatfield/",
+      reviewUrl: "https://g.page/r/CTgWulrIJRpyEBM/review",
+      city: "Hatfield",
+      type: "physical"
     },
     {
-      name: "TIGON Golf Carts Waretown",
-      address: "526 US-9, Waretown, NJ 08758",
-      phone: "(732) 998-8146",
-      coordinates: "",
-      googleMapsUrl: "https://www.google.com/maps?cid=11595558320608622005",
-      facebookUrl: "https://www.facebook.com/TigonGolfCartsWaretown/",
-      websiteUrl: "https://tigongolfcarts.com/waretown/",
-      reviewUrl: "https://g.page/r/CbW1M1DbsuugEBM/review",
-      city: "Waretown"
+      name: "TIGON Golf Carts Pennsylvania",
+      address: "Online Store - Serving All of Pennsylvania",
+      phone: "1-844-844-6638",
+      coordinates: "41.1169824,-77.6047047",
+      googleMapsUrl: "https://www.google.com/maps?cid=13935683838976847185",
+      youtubeUrl: "https://www.youtube.com/@TIGONGolfCartsPennsylvania",
+      websiteUrl: "https://tigongolfcarts.com/pennsylvania/",
+      reviewUrl: "https://g.page/r/CVHtXfydfmXBEBM/review",
+      city: "Pennsylvania",
+      type: "online"
+    },
+    {
+      name: "TIGON Golf Cart Philadelphia",
+      address: "Online Store - Serving Philadelphia Area",
+      phone: "1-844-844-6638",
+      coordinates: "40.0024979,-75.1180146",
+      googleMapsUrl: "https://www.google.com/maps?cid=6103352888615501339",
+      reviewUrl: "https://g.page/r/CRv-x4Add7NUEBM/review",
+      city: "Philadelphia",
+      type: "online"
     }
   ];
 
@@ -39,8 +52,8 @@ export default function ShowroomPage() {
             Golf Cart Showroom
           </h1>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
-            Visit our TIGON Golf Cart dealership locations in Ocean County, New Jersey. 
-            Experience our full lineup of DENAGO and EVOLUTION electric vehicles in person.
+            Visit our TIGON Golf Cart dealership locations serving Bucks County, Pennsylvania. 
+            Experience our full lineup of DENAGO and EVOLUTION electric vehicles in person or online.
           </p>
           <div className="flex justify-center">
             <Button size="lg" className="bg-theme-orange hover:bg-orange-600 text-white">
@@ -56,10 +69,10 @@ export default function ShowroomPage() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold mb-4 text-theme-primary">Our Locations</h2>
-            <p className="text-xl text-gray-600">Two convenient locations serving Ocean County and surrounding areas</p>
+            <p className="text-xl text-gray-600">Three convenient locations serving Bucks County and all of Pennsylvania</p>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {locations.map((location, index) => (
               <Card key={index} className="hover:shadow-xl transition-shadow border-2 hover:border-theme-orange">
                 <CardHeader className="pb-4">
@@ -108,9 +121,15 @@ export default function ShowroomPage() {
                       <Clock className="w-5 h-5 text-theme-orange mt-1 flex-shrink-0" />
                       <div>
                         <p className="font-medium text-gray-900">Business Hours</p>
-                        <p className="text-gray-600 text-sm">Mon-Fri: 9:00 AM - 5:00 PM</p>
-                        <p className="text-gray-600 text-sm">Sat: 9:00 AM - 5:00 PM</p>
-                        <p className="text-gray-600 text-sm">Sun: CLOSED</p>
+                        {location.type === "physical" ? (
+                          <>
+                            <p className="text-gray-600 text-sm">Mon-Fri: 9:00 AM - 5:00 PM</p>
+                            <p className="text-gray-600 text-sm">Sat: 9:00 AM - 5:00 PM</p>
+                            <p className="text-gray-600 text-sm">Sun: CLOSED</p>
+                          </>
+                        ) : (
+                          <p className="text-gray-600 text-sm">24 Hours - Online Store</p>
+                        )}
                       </div>
                     </div>
 
@@ -132,10 +151,18 @@ export default function ShowroomPage() {
 
                     {/* Social Links */}
                     <div className="flex gap-3 pt-2">
-                      <a href={location.facebookUrl} target="_blank" rel="noopener noreferrer" 
-                         className="text-gray-600 hover:text-blue-600 transition-colors">
-                        <Facebook className="w-5 h-5" />
-                      </a>
+                      {location.facebookUrl && (
+                        <a href={location.facebookUrl} target="_blank" rel="noopener noreferrer" 
+                           className="text-gray-600 hover:text-blue-600 transition-colors">
+                          <Facebook className="w-5 h-5" />
+                        </a>
+                      )}
+                      {location.youtubeUrl && (
+                        <a href={location.youtubeUrl} target="_blank" rel="noopener noreferrer"
+                           className="text-gray-600 hover:text-red-600 transition-colors">
+                          <Youtube className="w-5 h-5" />
+                        </a>
+                      )}
                       <a href={location.websiteUrl} target="_blank" rel="noopener noreferrer"
                          className="text-gray-600 hover:text-theme-orange transition-colors">
                         <ExternalLink className="w-5 h-5" />
@@ -214,7 +241,7 @@ export default function ShowroomPage() {
             Ready to Visit Our Showroom?
           </h2>
           <p className="text-xl mb-8">
-            Stop by either of our convenient Ocean County locations to see our full inventory of DENAGO and EVOLUTION golf carts.
+            Visit our showroom locations in Bucks County or shop online to see our full inventory of DENAGO and EVOLUTION golf carts.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
