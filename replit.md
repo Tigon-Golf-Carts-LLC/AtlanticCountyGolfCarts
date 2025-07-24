@@ -174,6 +174,12 @@ Logo: Berks County Golf Carts logo (Berks County Golf Carts (3)_1753284044185.pn
   - Includes both official municipalities (boroughs/townships) and unincorporated communities
   - All pages feature proper SEO optimization, local business information, and parent municipality references
   - Complete coverage from Abington to Zieglerville with working navigation
+- ✅ **Location-Specific Google Maps Integration**: Updated all municipality and community pages with proper embedded Google Maps:
+  - Created googleMaps utility function for generating location-specific embed URLs
+  - Updated MontgomeryCountyMunicipalityPage component to show correct location maps for each municipality
+  - Updated MontgomeryCountyCommunityPages component to show specific community locations
+  - Each page now displays accurate Google Maps for that specific location rather than generic Montgomery County map
+  - All 99 community pages now have properly targeted geographic information
 
 ## Recent Changes (January 24, 2025)
 

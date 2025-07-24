@@ -8,6 +8,7 @@ import SEOHead from "@/components/SEOHead";
 import SchemaMarkup, { generateTownPageSchema } from "@/components/SchemaMarkup";
 import VehicleCard from "@/components/VehicleCard";
 import { MONTGOMERY_COUNTY_MUNICIPALITIES, Municipality } from "@/data/montgomeryCountyMunicipalities";
+import { generateSimpleGoogleMapsEmbed } from "@/utils/googleMaps";
 
 interface Vehicle {
   description: string;
@@ -34,11 +35,9 @@ interface MontgomeryCountyMunicipalityPageProps {
   municipality: Municipality;
 }
 
-// Function to generate Google Maps embed URL for each Montgomery County municipality
+// Generate location-specific Google Maps embed URL
 const getGoogleMapsEmbedUrl = (municipality: Municipality) => {
-  const fullLocation = `${municipality.name} ${municipality.type}, Montgomery County, Pennsylvania`;
-  const encodedLocation = encodeURIComponent(fullLocation);
-  return `https://maps.google.com/maps?q=${encodedLocation}&t=&z=13&ie=UTF8&iwloc=&output=embed`;
+  return generateSimpleGoogleMapsEmbed(municipality.name, municipality.type);
 };
 
 export default function MontgomeryCountyMunicipalityPage({ municipality }: MontgomeryCountyMunicipalityPageProps) {

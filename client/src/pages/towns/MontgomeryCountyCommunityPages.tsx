@@ -4,6 +4,7 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Link } from "wouter";
 import { MapPin, Phone, Mail, Clock, Battery, Wrench, Calendar, Star } from "lucide-react";
+import { generateSimpleGoogleMapsEmbed } from "@/utils/googleMaps";
 
 interface CommunityPageProps {
   communityName: string;
@@ -114,7 +115,7 @@ function MontgomeryCountyCommunityPage({ communityName, isUnincorporated = false
               <div className="relative">
                 <div className="rounded-lg overflow-hidden shadow-lg">
                   <iframe 
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d196350.40123456789!2d-75.4119873!3d40.2259765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6998fd82b5e07%3A0xf5e3f4f5a2b8b7a6!2sMontgomery%20County%2C%20PA!5e0!3m2!1sen!2sus!4v1753377000000!5m2!1sen!2sus" 
+                    src={generateSimpleGoogleMapsEmbed(communityName)} 
                     className="w-full h-96"
                     style={{border: 0}} 
                     allowFullScreen={true} 
