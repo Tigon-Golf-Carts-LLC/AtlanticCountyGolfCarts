@@ -294,40 +294,41 @@ Berks County Golf Carts Premier Dealership
         </div>
       </section>
 
-      {/* About NJ Golf Carts Section */}
-      <section className="py-16 px-4 bg-white">
+      {/* About Berks County Golf Carts Section */}
+      <section className="py-12 md:py-16 px-4 bg-white">
         <div className="max-w-7xl mx-auto">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <h2 className="text-4xl font-bold mb-6 text-gray-900">
+          <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
+            <div className="order-2 lg:order-1">
+              <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4 md:mb-6 text-gray-900">
                 About Berks County Golf Carts
               </h2>
-              <p className="text-lg text-gray-600 mb-8">
+              <p className="text-base md:text-lg text-gray-600 mb-6 md:mb-8">
                 With over 15 years of experience in the golf cart industry, we've built our reputation on providing exceptional service and quality products to customers throughout Berks County and surrounding areas.
               </p>
               
-              <div className="grid grid-cols-2 gap-8 mb-8">
+              <div className="grid grid-cols-2 gap-4 md:gap-8 mb-6 md:mb-8">
                 <div className="text-center">
-                  <div className="text-4xl font-bold text-blue-600 mb-2">500+</div>
-                  <div className="text-gray-600">Happy Customers</div>
+                  <div className="text-2xl md:text-3xl lg:text-4xl font-bold text-blue-600 mb-1 md:mb-2">500+</div>
+                  <div className="text-sm md:text-base text-gray-600">Happy Customers</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-4xl font-bold text-blue-600 mb-2">15+</div>
-                  <div className="text-gray-600">Years Experience</div>
+                  <div className="text-2xl md:text-3xl lg:text-4xl font-bold text-blue-600 mb-1 md:mb-2">15+</div>
+                  <div className="text-sm md:text-base text-gray-600">Years Experience</div>
                 </div>
               </div>
 
-              <Button className="bg-theme-orange hover:bg-orange-600 text-white">
-                Learn More
-              </Button>
+              <Link href="/about">
+                <Button className="bg-theme-orange hover:bg-orange-600 text-white w-full md:w-auto">
+                  Learn More
+                </Button>
+              </Link>
             </div>
             
-            <div className="relative">
+            <div className="relative order-1 lg:order-2">
               <div className="rounded-lg overflow-hidden shadow-lg">
                 <iframe 
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d197606.77354288096!2d-76.0293865!3d40.416859!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c68c0b6c5a9da1%3A0x89a2fdc5ed5b2f8!2sBerks%20County%2C%20PA!5e0!3m2!1sen!2sus!4v1753300000000!5m2!1sen!2sus" 
-                  width="600" 
-                  height="450" 
+                  className="w-full h-64 md:h-80 lg:h-96"
                   style={{border: 0}} 
                   allowFullScreen={true} 
                   loading="lazy" 
@@ -450,51 +451,32 @@ Berks County Golf Carts Premier Dealership
             Contact us today for personalized service and expert advice
           </p>
           
-          <div className="grid grid-cols-1 md:grid-cols-5 gap-6 mb-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
             <div className="bg-white p-6 rounded-lg shadow-sm text-center">
-              <MapPin className="w-8 h-8 text-blue-500 mx-auto mb-3" />
-              <h3 className="font-semibold text-gray-900 mb-2">Ocean View</h3>
-              <p className="text-sm text-gray-600 mb-2">101 NJ 50, Ocean View, NJ 08230</p>
-              <p className="text-blue-600 font-semibold">609-840-0404</p>
+              <MapPin className="w-8 h-8 text-theme-orange mx-auto mb-3" />
+              <h3 className="font-semibold text-gray-900 mb-2">TIGON Golf Carts Hatfield</h3>
+              <p className="text-sm text-gray-600 mb-2">2333 Bethlehem Pike, Hatfield, PA 19440</p>
+              <p className="text-theme-orange font-semibold">(215) 595-8736</p>
             </div>
             
             <div className="bg-white p-6 rounded-lg shadow-sm text-center">
-              <MapPin className="w-8 h-8 text-blue-500 mx-auto mb-3" />
-              <h3 className="font-semibold text-gray-900 mb-2">Bayville</h3>
-              <p className="text-sm text-gray-600 mb-2">155 Atlantic City Blvd, Bayville, NJ 08721</p>
-              <p className="text-blue-600 font-semibold">(732) 908-7166</p>
-            </div>
-            
-            <div className="bg-white p-6 rounded-lg shadow-sm text-center">
-              <MapPin className="w-8 h-8 text-blue-500 mx-auto mb-3" />
-              <h3 className="font-semibold text-gray-900 mb-2">Waretown</h3>
-              <p className="text-sm text-gray-600 mb-2">526 US 9, Waretown, NJ 08758</p>
-              <p className="text-blue-600 font-semibold">(732) 998-8146</p>
-            </div>
-            
-            <div className="bg-white p-6 rounded-lg shadow-sm text-center">
-              <MapPin className="w-8 h-8 text-blue-500 mx-auto mb-3" />
-              <h3 className="font-semibold text-gray-900 mb-2">Pleasantville</h3>
-              <p className="text-sm text-gray-600 mb-2">7000 Black Horse Pike, Pleasantville, NJ 08232</p>
-              <p className="text-blue-600 font-semibold">640-444-3094</p>
-            </div>
-            
-            <div className="bg-white p-6 rounded-lg shadow-sm text-center">
-              <MapPin className="w-8 h-8 text-blue-500 mx-auto mb-3" />
-              <h3 className="font-semibold text-gray-900 mb-2">Ocean County Golf Carts</h3>
-              <p className="text-sm text-gray-600 mb-2">Ocean County</p>
-              <p className="text-blue-600 font-semibold">1-844-844-6638</p>
+              <MapPin className="w-8 h-8 text-theme-orange mx-auto mb-3" />
+              <h3 className="font-semibold text-gray-900 mb-2">TIGON Golf Carts Poconos</h3>
+              <p className="text-sm text-gray-600 mb-2">1712 Pennsylvania 940, Pocono Pines, PA 18350</p>
+              <p className="text-theme-orange font-semibold">(570) 643-0152</p>
             </div>
           </div>
 
           <div className="bg-white p-8 rounded-lg shadow-sm">
             <h3 className="text-2xl font-bold text-gray-900 mb-4">Main Contact</h3>
-            <p className="text-gray-600 mb-4">For general inquiries and support</p>
-            <div className="flex justify-center items-center gap-4">
-              <span className="text-2xl font-bold text-blue-600">1-844-844-6638</span>
-              <Button className="bg-theme-orange hover:bg-orange-600 text-white">
-                Contact Us
-              </Button>
+            <p className="text-gray-600 mb-4">For general inquiries and support throughout Berks County</p>
+            <div className="flex flex-col md:flex-row justify-center items-center gap-4">
+              <span className="text-2xl font-bold text-theme-orange">1-844-844-6638</span>
+              <Link href="/contact">
+                <Button className="bg-theme-orange hover:bg-orange-600 text-white">
+                  Contact Us
+                </Button>
+              </Link>
             </div>
           </div>
         </div>
