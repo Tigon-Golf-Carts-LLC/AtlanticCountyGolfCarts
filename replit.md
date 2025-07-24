@@ -145,6 +145,14 @@ Logo: Berks County Golf Carts logo (Berks County Golf Carts (3)_1753284044185.pn
 - ✅ **Phone Number Update**: Changed main contact from (215) 855-6400 to (267) 645-6271 for Montgomery County
 - ✅ **SEO Optimization**: Updated all meta tags, descriptions, and canonical URLs for montcogolfcarts.com domain
 - ✅ **Clean Deployment**: Resolved all routing conflicts and compilation errors for seamless Montgomery County operation
+- ✅ **Cleanup of Old Files**: Removed all unused Berks County pages, components, and data files:
+  - Deleted client/src/data/berksCountyMunicipalities.ts
+  - Deleted client/src/components/BerksCountyMunicipalityPage.tsx  
+  - Deleted client/src/pages/towns/NewBerksCountyTownPages.tsx
+  - Deleted client/src/pages/rentals/BerksCountyMunicipalityRentals.tsx
+  - Removed duplicate Montgomery County town page files
+  - Updated sitemap.xml to replace all berksgolfcarts.com references with montcogolfcarts.com
+  - Fixed remaining Berks County references in DenagoPage.tsx
 
 ## Recent Changes (January 24, 2025)
 

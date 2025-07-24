@@ -187,7 +187,7 @@ export default function DenagoPage() {
                   DENAGO represents the pinnacle of electric vehicle engineering, combining innovative 
                   all-wheel drive technology with premium comfort features. Each DENAGO is built to 
                   exceed expectations on any terrain while delivering exceptional reliability for 
-                  Bucks County's diverse landscapes.
+                  Montgomery County's diverse landscapes.
                 </p>
                 <div className="grid grid-cols-1 gap-4">
                   {denagoFeatures.map((feature, index) => (
