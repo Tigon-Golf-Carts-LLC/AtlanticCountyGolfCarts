@@ -6,6 +6,7 @@ import { Phone, MapPin, Clock, Truck, Star, Users, Wrench, Battery } from "lucid
 import { Link } from "wouter";
 import SEOHead from "@/components/SEOHead";
 import SchemaMarkup, { generateTownPageSchema } from "@/components/SchemaMarkup";
+import LocationSchema from "@/components/LocationSchema";
 import VehicleCard from "@/components/VehicleCard";
 import { MONTGOMERY_COUNTY_MUNICIPALITIES, Municipality } from "@/data/montgomeryCountyMunicipalities";
 import { generateSimpleGoogleMapsEmbed } from "@/utils/googleMaps";
@@ -69,6 +70,11 @@ export default function MontgomeryCountyMunicipalityPage({ municipality }: Montg
       />
       
       <SchemaMarkup schema={generateTownPageSchema(municipality.name)} />
+      <LocationSchema 
+        municipalityName={municipality.name}
+        municipalityType={municipality.type}
+        pageType="location"
+      />
       
       <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
         {/* Breadcrumb */}

@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import SEOHead from "@/components/SEOHead";
+import LocationSchema from "@/components/LocationSchema";
 import { Check, Phone, Users, Car, MapPin, Clock, Shield } from "lucide-react";
 import { Link } from "wouter";
 
@@ -17,9 +18,9 @@ export default function MunicipalityRentalPage({
   slug 
 }: MunicipalityRentalPageProps) {
   const fullLocationName = `${municipalityName} ${municipalityType}`;
-  const pageTitle = `Golf Cart Rentals in ${fullLocationName}, PA | Berks County Golf Carts`;
-  const pageDescription = `Rent premium golf carts in ${fullLocationName}, Berks County, PA. Daily, weekly, monthly rentals available. 4-seater, 6-seater, and utility golf carts. Free delivery within ${fullLocationName}.`;
-  const keywords = `golf cart rental ${municipalityName}, ${fullLocationName} golf cart rental, Berks County golf cart rental, Pennsylvania golf cart rental, street legal golf cart rental`;
+  const pageTitle = `Golf Cart Rentals in ${fullLocationName}, PA | Montgomery County Golf Carts`;
+  const pageDescription = `Rent premium golf carts in ${fullLocationName}, Montgomery County, PA. Daily, weekly, monthly rentals available. 4-seater, 6-seater, and utility golf carts. Free delivery within ${fullLocationName}.`;
+  const keywords = `golf cart rental ${municipalityName}, ${fullLocationName} golf cart rental, Montgomery County golf cart rental, Pennsylvania golf cart rental, street legal golf cart rental`;
 
   const rentalFeatures = [
     "Street legal with seat belts and safety features",
@@ -202,6 +203,12 @@ export default function MunicipalityRentalPage({
         title={pageTitle}
         description={pageDescription}
         keywords={keywords}
+        canonicalUrl={`https://montcogolfcarts.com/${slug}`}
+      />
+      <LocationSchema 
+        municipalityName={municipalityName}
+        municipalityType={municipalityType as 'Borough' | 'Township'}
+        pageType="rental"
       />
       
       <div className="min-h-screen bg-gray-50">

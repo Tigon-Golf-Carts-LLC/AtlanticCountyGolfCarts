@@ -9,25 +9,25 @@ export default function OrganizationSchema({ pageType = "home" }: OrganizationSc
     const baseStructuredData = {
       "@context": "https://schema.org",
       "@type": "Organization",
-      "name": "Berks County Golf Carts",
-      "description": "Premier golf cart dealership in Berks County, Pennsylvania specializing in electric golf carts, sales, service, rentals, and financing.",
-      "url": "https://berksgolfcarts.com",
-      "logo": "https://berksgolfcarts.com/assets/Berks County Golf Carts (3)_1753284044185.png",
-      "image": "https://berksgolfcarts.com/assets/Berks County Golf Carts (3)_1753284044185.png",
-      "telephone": "(215) 555-0123",
-      "email": "info@berksgolfcarts.com",
+      "name": "Montgomery County Golf Carts",
+      "description": "Premier golf cart dealership in Montgomery County, Pennsylvania specializing in electric golf carts, sales, service, rentals, and financing.",
+      "url": "https://montcogolfcarts.com",
+      "logo": "https://montcogolfcarts.com/attached_assets/MONTCO Golf Carts_1753384274720.png",
+      "image": "https://montcogolfcarts.com/attached_assets/MONTCO Golf Carts_1753384274720.png",
+      "telephone": "1-844-844-6638",
+      "email": "info@montcogolfcarts.com",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "123 Golf Cart Lane",
-        "addressLocality": "Reading",
+        "addressLocality": "King of Prussia",
         "addressRegion": "PA",
-        "postalCode": "19601",
+        "postalCode": "19406",
         "addressCountry": "US"
       },
       "geo": {
         "@type": "GeoCoordinates",
-        "latitude": "40.3356",
-        "longitude": "-75.9269"
+        "latitude": "40.0896",
+        "longitude": "-75.3857"
       },
       "openingHours": [
         "Mo-Fr 09:00-18:00",
@@ -99,9 +99,9 @@ export default function OrganizationSchema({ pageType = "home" }: OrganizationSc
         "worstRating": "1"
       },
       "sameAs": [
-        "https://www.facebook.com/berksgolfcarts",
-        "https://www.instagram.com/berksgolfcarts",
-        "https://www.linkedin.com/company/berksgolfcarts"
+        "https://www.facebook.com/montcogolfcarts",
+        "https://www.instagram.com/montcogolfcarts",
+        "https://www.linkedin.com/company/montcogolfcarts"
       ]
     };
 
@@ -132,7 +132,7 @@ export default function OrganizationSchema({ pageType = "home" }: OrganizationSc
         "@type": "Organization",
         "provider": {
           "@type": "Organization",
-          "name": "Bucks County Golf Carts"
+          "name": "Montgomery County Golf Carts"
         }
       } as any;
     }

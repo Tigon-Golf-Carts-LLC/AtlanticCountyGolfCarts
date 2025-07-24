@@ -1,5 +1,6 @@
 import React from 'react';
 import SEOHead from "@/components/SEOHead";
+import LocationSchema from "@/components/LocationSchema";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -181,6 +182,11 @@ function CommunityRentalPage({
         description={pageDescription}
         keywords={keywords}
         canonicalUrl={`https://montcogolfcarts.com/${slug}`}
+      />
+      <LocationSchema 
+        municipalityName={communityName}
+        municipalityType="Township"
+        pageType="rental"
       />
       
       <div className="min-h-screen bg-gray-50">

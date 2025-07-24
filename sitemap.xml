@@ -5,7 +5,7 @@
   <!-- Main Pages -->
   <url>
     <loc>https://montcogolfcarts.com/</loc>
-    <lastmod>2025-01-23</lastmod>
+    <lastmod>2025-01-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image>
@@ -13,8 +13,8 @@
       <image:caption>MONTCO Golf Carts logo and branding</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://montcogolfcarts.com/attached_assets/D6-XT6-4wd-color-PORTIMAO-BLUE_1753135231312.png</image:loc>
-      <image:caption>Golf cart available at Montgomery County Golf Carts</image:caption>
+      <image:loc>https://montcogolfcarts.com/attached_assets/a-photograph-of-a-modern-golf-cart-deale_OlTDU4v9StGOZo5AygNb9A_bbx-4nIbSSGW4LKOIV9o3w_1753383770677.png</image:loc>
+      <image:caption>Modern golf cart dealership showroom</image:caption>
     </image:image>
   </url>
 
@@ -365,81 +365,158 @@
     </image:image>
   </url>
 
-  <!-- Cities (1) -->
+  <!-- Policy Pages -->
   <url>
-    <loc>https://montcogolfcarts.com/reading-city-golf-carts</loc>
-    <lastmod>2025-01-23</lastmod>
+    <loc>https://montcogolfcarts.com/policies/terms-conditions</loc>
+    <lastmod>2025-01-24</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+
+  <url>
+    <loc>https://montcogolfcarts.com/policies/return-policy</loc>
+    <lastmod>2025-01-24</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+
+  <url>
+    <loc>https://montcogolfcarts.com/policies/privacy-policy</loc>
+    <lastmod>2025-01-24</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+
+  <url>
+    <loc>https://montcogolfcarts.com/policies/delivery-policy</loc>
+    <lastmod>2025-01-24</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+
+  <url>
+    <loc>https://montcogolfcarts.com/policies/rental-policy</loc>
+    <lastmod>2025-01-24</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+
+  <url>
+    <loc>https://montcogolfcarts.com/policies/storage-policy</loc>
+    <lastmod>2025-01-24</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+
+  <url>
+    <loc>https://montcogolfcarts.com/policies/publishing-policy</loc>
+    <lastmod>2025-01-24</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <url>
+    <loc>https://montcogolfcarts.com/policies/feedback-policy</loc>
+    <lastmod>2025-01-24</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <url>
+    <loc>https://montcogolfcarts.com/policies/corrections-policy</loc>
+    <lastmod>2025-01-24</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <url>
+    <loc>https://montcogolfcarts.com/policies/diversity-policy</loc>
+    <lastmod>2025-01-24</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <url>
+    <loc>https://montcogolfcarts.com/policies/ethics-policy</loc>
+    <lastmod>2025-01-24</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <url>
+    <loc>https://montcogolfcarts.com/policies/staffing-report</loc>
+    <lastmod>2025-01-24</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <!-- Montgomery County Boroughs (24) -->
+  <url>
+    <loc>https://montcogolfcarts.com/ambler-borough-golf-carts</loc>
+    <lastmod>2025-01-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
-  <!-- Boroughs (27) -->
   <url>
-    <loc>https://montcogolfcarts.com/bally-borough-golf-carts</loc>
-    <lastmod>2025-01-23</lastmod>
+    <loc>https://montcogolfcarts.com/bridgeport-borough-golf-carts</loc>
+    <lastmod>2025-01-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://montcogolfcarts.com/bechtelsville-borough-golf-carts</loc>
-    <lastmod>2025-01-23</lastmod>
+    <loc>https://montcogolfcarts.com/bryn-athyn-borough-golf-carts</loc>
+    <lastmod>2025-01-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://montcogolfcarts.com/bernville-borough-golf-carts</loc>
-    <lastmod>2025-01-23</lastmod>
+    <loc>https://montcogolfcarts.com/collegeville-borough-golf-carts</loc>
+    <lastmod>2025-01-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://montcogolfcarts.com/birdsboro-borough-golf-carts</loc>
-    <lastmod>2025-01-23</lastmod>
+    <loc>https://montcogolfcarts.com/conshohocken-borough-golf-carts</loc>
+    <lastmod>2025-01-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://montcogolfcarts.com/boyertown-borough-golf-carts</loc>
-    <lastmod>2025-01-23</lastmod>
+    <loc>https://montcogolfcarts.com/east-greenville-borough-golf-carts</loc>
+    <lastmod>2025-01-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://montcogolfcarts.com/centerport-borough-golf-carts</loc>
-    <lastmod>2025-01-23</lastmod>
+    <loc>https://montcogolfcarts.com/green-lane-borough-golf-carts</loc>
+    <lastmod>2025-01-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://montcogolfcarts.com/fleetwood-borough-golf-carts</loc>
-    <lastmod>2025-01-23</lastmod>
+    <loc>https://montcogolfcarts.com/hatboro-borough-golf-carts</loc>
+    <lastmod>2025-01-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://montcogolfcarts.com/hamburg-borough-golf-carts</loc>
-    <lastmod>2025-01-23</lastmod>
+    <loc>https://montcogolfcarts.com/hatfield-borough-golf-carts</loc>
+    <lastmod>2025-01-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://montcogolfcarts.com/kenhorst-borough-golf-carts</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://montcogolfcarts.com/kutztown-borough-golf-carts</loc>
-    <lastmod>2025-01-23</lastmod>
+    <loc>https://montcogolfcarts.com/jenkintown-borough-golf-carts</loc>
+    <lastmod>2025-01-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -865,11 +942,147 @@
     <priority>0.6</priority>
   </url>
 
+  <!-- Montgomery County Community Pages -->
   <url>
-    <loc>https://montcogolfcarts.com/windsor-township-golf-carts</loc>
-    <lastmod>2025-01-23</lastmod>
+    <loc>https://montcogolfcarts.com/king-of-prussia</loc>
+    <lastmod>2025-01-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://montcogolfcarts.com/ardmore</loc>
+    <lastmod>2025-01-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://montcogolfcarts.com/blue-bell</loc>
+    <lastmod>2025-01-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://montcogolfcarts.com/fort-washington</loc>
+    <lastmod>2025-01-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://montcogolfcarts.com/plymouth-meeting</loc>
+    <lastmod>2025-01-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://montcogolfcarts.com/willow-grove</loc>
+    <lastmod>2025-01-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://montcogolfcarts.com/gladwyne</loc>
+    <lastmod>2025-01-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://montcogolfcarts.com/elkins-park</loc>
+    <lastmod>2025-01-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://montcogolfcarts.com/lafayette-hill</loc>
+    <lastmod>2025-01-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://montcogolfcarts.com/bala-cynwyd</loc>
+    <lastmod>2025-01-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://montcogolfcarts.com/spring-house</loc>
+    <lastmod>2025-01-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://montcogolfcarts.com/wyncote</loc>
+    <lastmod>2025-01-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://montcogolfcarts.com/wynnewood</loc>
+    <lastmod>2025-01-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Community Rental Pages -->
+  <url>
+    <loc>https://montcogolfcarts.com/king-of-prussia-rentals</loc>
+    <lastmod>2025-01-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://montcogolfcarts.com/ardmore-rentals</loc>
+    <lastmod>2025-01-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://montcogolfcarts.com/blue-bell-rentals</loc>
+    <lastmod>2025-01-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://montcogolfcarts.com/fort-washington-rentals</loc>
+    <lastmod>2025-01-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://montcogolfcarts.com/plymouth-meeting-rentals</loc>
+    <lastmod>2025-01-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://montcogolfcarts.com/willow-grove-rentals</loc>
+    <lastmod>2025-01-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Thank You Page -->
+  <url>
+    <loc>https://montcogolfcarts.com/thank-you</loc>
+    <lastmod>2025-01-24</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
   </url>
 
 </urlset>

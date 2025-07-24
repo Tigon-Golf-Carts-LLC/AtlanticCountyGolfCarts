@@ -29,7 +29,7 @@ export default function VehicleSchema({
         "name": brand
       },
       "description": description,
-      "image": `https://berksgolfcarts.com/assets/${image}`,
+      "image": `https://montcogolfcarts.com/attached_assets/${image}`,
       "url": url,
       "category": "Golf Cart",
       "manufacturer": {
@@ -43,9 +43,9 @@ export default function VehicleSchema({
         "priceCurrency": "USD",
         "seller": {
           "@type": "Organization",
-          "name": "Berks County Golf Carts",
-          "telephone": "(215) 555-0123",
-          "email": "info@berksgolfcarts.com",
+          "name": "Montgomery County Golf Carts",
+          "telephone": "1-844-844-6638",
+          "email": "info@montcogolfcarts.com",
           "address": {
             "@type": "PostalAddress",
             "addressRegion": "PA",

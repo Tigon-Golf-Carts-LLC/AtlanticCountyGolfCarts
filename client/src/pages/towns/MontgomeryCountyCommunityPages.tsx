@@ -1,5 +1,6 @@
 import React from 'react';
 import SEOHead from "@/components/SEOHead";
+import LocationSchema from "@/components/LocationSchema";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Link } from "wouter";
@@ -34,6 +35,11 @@ function MontgomeryCountyCommunityPage({ communityName, isUnincorporated = false
         keywords={pageKeywords}
         canonicalUrl={canonicalUrl}
         townName={communityName}
+      />
+      <LocationSchema 
+        municipalityName={communityName}
+        municipalityType="Township"
+        pageType="location"
       />
       
       <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
