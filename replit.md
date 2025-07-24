@@ -226,6 +226,11 @@ Logo: Berks County Golf Carts logo (Berks County Golf Carts (3)_1753284044185.pn
   - Built CommunityRentalPage component with full pricing structures and service features
   - Added all community rental routes to App.tsx routing system
   - All location pages now have functional "Rental Services" buttons linking to dedicated rental pages
+- ✅ **Inventory Page Button Text Fix**: Fixed white text visibility issue on inventory page:
+  - Changed both buttons in "Can't Find What You're Looking For?" section to white background with blue text
+  - Updated phone number from (732) 908-7166 to unified 1-844-844-6638 contact number
+  - Ensured proper text contrast across all inventory page buttons
+  - Completed Montgomery County branding updates on both InventoryPage and NewInventoryPage files
 
 ## Recent Changes (January 24, 2025)
 

@@ -243,7 +243,7 @@ export default function NewInventoryPage() {
                 </Button>
               </Link>
               <a href="tel:1-844-844-6638">
-                <Button size="lg" variant="outline" className="text-white border-white hover:bg-white hover:text-blue-600">
+                <Button size="lg" className="bg-white text-blue-600 hover:bg-gray-100">
                   Call 1-844-844-6638
                 </Button>
               </a>
