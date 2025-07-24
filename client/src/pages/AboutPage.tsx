@@ -28,7 +28,7 @@ export default function AboutPage() {
   ];
 
   const milestones = [
-    { year: "2010", event: "Berks County Golf Carts founded in Berks County" },
+    { year: "2010", event: "Montgomery County Golf Carts founded in Montgomery County" },
     { year: "2012", event: "Became authorized EVOLUTION dealer" },
     { year: "2015", event: "Expanded to serve all of Pennsylvania" },
     { year: "2018", event: "Added DENAGO to our brand portfolio" },
@@ -40,18 +40,18 @@ export default function AboutPage() {
     <div className="min-h-screen bg-white">
       {/* SEO and Schema Markup */}
       <SEOHead 
-        title="About Berks County Golf Carts - Premier Golf Cart Dealership Since 2010"
-        description="Learn about Berks County Golf Carts, Pennsylvania's premier golf cart dealership since 2010. Expert team, authorized Denago and Evolution dealer with comprehensive service."
-        keywords="about Berks County Golf Carts, golf cart dealership Pennsylvania, Denago Evolution dealer, golf cart service team"
-        canonicalUrl="https://berksgolfcarts.com/about"
+        title="About Montgomery County Golf Carts - Premier Golf Cart Dealership Since 2010"
+        description="Learn about Montgomery County Golf Carts, Pennsylvania's premier golf cart dealership since 2010. Expert team, authorized Denago and Evolution dealer with comprehensive service."
+        keywords="about Montgomery County Golf Carts, golf cart dealership Pennsylvania, Denago Evolution dealer, golf cart service team"
+        canonicalUrl="https://montcogolfcarts.com/about"
       />
       <OrganizationSchema pageType="about" />
       {/* Hero Section */}
       <section className="relative py-20 px-4 bg-gradient-to-r from-theme-primary to-blue-700 text-white bg-cover bg-center bg-no-repeat" style={{backgroundImage: "linear-gradient(rgba(14, 46, 85, 0.8), rgba(29, 78, 216, 0.8)), url('/attached_assets/a-photograph-of-a-modern-golf-cart-deale_8elKPzmBTsyxj7iHgPaXpg_gCWvAKP5Rm65AC6RGdU8FA_1753302323501.png')"}}>
         <div className="max-w-7xl mx-auto text-center">
-          <h1 className="text-5xl font-bold mb-6">About Berks County Golf Carts</h1>
+          <h1 className="text-5xl font-bold mb-6">About Montgomery County Golf Carts</h1>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
-            Berks County's premier golf cart dealership, rooted in Pennsylvania Dutch heritage 
+            Montgomery County's premier golf cart dealership, serving southeastern Pennsylvania 
             and dedicated to providing exceptional service since 2010.
           </p>
         </div>
@@ -64,22 +64,22 @@ export default function AboutPage() {
             <div>
               <h2 className="text-4xl font-bold mb-6 text-gray-900">Our Story</h2>
               <p className="text-lg text-gray-600 mb-6">
-                Founded in 2010 in the heart of Pennsylvania Dutch Country, Berks County Golf Carts began with a simple mission: 
-                to provide high-quality golf carts and exceptional service to customers throughout this historic region.
+                Founded in 2010 in Montgomery County, Pennsylvania, Montgomery County Golf Carts began with a simple mission: 
+                to provide high-quality golf carts and exceptional service to customers throughout southeastern Pennsylvania.
               </p>
               <p className="text-lg text-gray-600 mb-6">
-                Berks County is renowned for its rich Pennsylvania Dutch heritage, agricultural excellence, and historic landmarks 
-                including the famous Pagoda atop Mount Penn and the Hawk Mountain Sanctuary. Reading, known as "The Pretzel City," 
-                represents the entrepreneurial spirit that drives our business forward.
+                Montgomery County is home to some of Pennsylvania's most vibrant communities, from the bustling King of Prussia 
+                to historic Norristown, from the suburban neighborhoods of Lansdale to the Main Line communities. Our location 
+                in one of Pennsylvania's most dynamic counties drives our commitment to excellence.
               </p>
               <p className="text-lg text-gray-600 mb-6">
-                Our county boasts remarkable "firsts" - from the world's only Pagoda with a fireplace and chimney, to the first 
-                menthol cough drops produced by W.H. Luden Candy Company. This tradition of innovation continues in our approach 
-                to golf cart sales and service.
+                Our county is known for innovation and business excellence, home to major corporations and thriving small businesses. 
+                This tradition of excellence continues in our approach to golf cart sales and service, where we combine cutting-edge 
+                technology with personalized customer care.
               </p>
               <p className="text-lg text-gray-600 mb-8">
-                Today, we're proud to serve the diverse communities across Berks County's 72 municipalities, from Reading city 
-                to the Old Order Mennonite communities near Kutztown and Fleetwood, as authorized dealers for EVOLUTION and DENAGO.
+                Today, we're proud to serve the diverse communities across Montgomery County's 62 municipalities, from Norristown 
+                to King of Prussia, from Pottstown to Abington, as authorized dealers for EVOLUTION and DENAGO electric golf carts.
               </p>
               <Button className="bg-theme-orange hover:bg-orange-600 text-white w-full sm:w-auto">
                 Learn More About Our Services

@@ -93,18 +93,18 @@ export default function ContactPage() {
     {
       icon: Phone,
       label: "Main Line",
-      value: "1-844-844-6638",
+      value: "(267) 645-6271",
     },
     {
       icon: Mail,
       label: "Email",
-      value: "info@berksgolfcarts.com",
+      value: "info@montcogolfcarts.com",
     },
     {
       icon: Globe,
       label: "Website",
-      value: "berksgolfcarts.com",
-      link: "https://berksgolfcarts.com",
+      value: "montcogolfcarts.com",
+      link: "https://montcogolfcarts.com",
     },
   ];
 
@@ -117,18 +117,18 @@ export default function ContactPage() {
   return (
     <>
       <SEOHead 
-        title="Contact Berks County Golf Carts - Get in Touch for Sales & Service"
-        description="Contact Berks County Golf Carts for sales, service, and support. Visit our TIGON Golf Carts locations or call 1-844-844-6638. Serving all 72 Berks County municipalities."
-        keywords="contact Berks County golf carts, TIGON Golf Carts, golf cart sales Pennsylvania, Hatfield showroom, Poconos showroom"
+        title="Contact Montgomery County Golf Carts - Get in Touch for Sales & Service"
+        description="Contact Montgomery County Golf Carts for sales, service, and support. Visit our TIGON Golf Carts locations or call (267) 645-6271. Serving all 62 Montgomery County municipalities."
+        keywords="contact Montgomery County golf carts, TIGON Golf Carts, golf cart sales Pennsylvania, Hatfield showroom, Poconos showroom"
       />
       
       <div className="max-w-7xl mx-auto px-4 py-8">
       <div className="text-center mb-12">
         <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-          Contact Berks County Golf Carts
+          Contact Montgomery County Golf Carts
         </h1>
         <p className="text-xl text-gray-600">
-          Get in touch with our team for sales, service, and support throughout Pennsylvania Dutch Country
+          Get in touch with our team for sales, service, and support throughout Montgomery County, PA
         </p>
       </div>
 

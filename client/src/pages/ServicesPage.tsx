@@ -84,10 +84,10 @@ export default function ServicesPage() {
       {/* Hero Section */}
       <section className="relative py-20 px-4 bg-gradient-to-r from-theme-primary to-blue-700 text-white bg-cover bg-center bg-no-repeat" style={{backgroundImage: "linear-gradient(rgba(14, 46, 85, 0.8), rgba(29, 78, 216, 0.8)), url('/attached_assets/a-photograph-of-a-modern-golf-cart-deale_OO82J1mtQEyokt1GsD08YQ_vk-WDImPSSq1axdn5SN7Mw_1753301595303.png')"}}>
         <div className="max-w-7xl mx-auto text-center">
-          <h1 className="text-5xl font-bold mb-6">Professional Services</h1>
+          <h1 className="text-5xl font-bold mb-6">Montgomery County Golf Cart Services</h1>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
             Expert maintenance, repair, and customization services to keep your golf cart 
-            running perfectly and looking great.
+            running perfectly and looking great throughout Montgomery County, PA.
           </p>
           <Button size="lg" className="bg-theme-orange hover:bg-orange-600 text-white">
             Schedule Service
@@ -183,15 +183,15 @@ export default function ServicesPage() {
         <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-4xl font-bold mb-4 text-gray-900">Service Areas</h2>
           <p className="text-xl text-gray-600 mb-8">
-            We proudly serve customers throughout Bucks County and surrounding areas
+            We proudly serve customers throughout Montgomery County and surrounding areas
           </p>
           
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-gray-700">
             {[
-              "Doylestown Township", "Newtown Township", "Warrington Township", "Northampton Township",
-              "Lower Makefield Township", "Upper Makefield Township", "Middletown Township", "Bristol Township",
-              "Bensalem Township", "Falls Township", "Warminster Township", "Upper Southampton Township",
-              "Lower Southampton Township", "Warwick Township", "Buckingham Township", "Plumstead Township"
+              "King of Prussia", "Lansdale", "Norristown", "Pottstown",
+              "Abington Township", "Upper Merion Township", "Lower Merion Township", "Cheltenham Township",
+              "Plymouth Township", "Upper Dublin Township", "Horsham Township", "Lower Providence Township",
+              "Conshohocken", "North Wales", "Ambler", "Bridgeport"
             ].map((town, index) => (
               <div key={index} className="bg-gray-50 p-3 rounded-lg">
                 {town}
