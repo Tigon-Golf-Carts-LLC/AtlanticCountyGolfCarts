@@ -108,6 +108,19 @@ import {
   PottstownPage, RoyersfordPage, WillowGrovePage
 } from "@/pages/towns/AllMontgomeryCountyTowns";
 
+// Import Montgomery County Community Pages (unincorporated communities and neighborhoods)
+import {
+  ArdmorePage as ArdmoreCommunityPage, AudubonPage as AudubonCommunityPage, BalaCynwydPage, BlueBellPage as BlueBellCommunityPage,
+  CedarsPage, ColmarPage, CreameryPage, DresherPage, EaglevillePage, ElkinsParkPage,
+  FairviewVillagePage, FlourtownPage, FortWashingtonPage as FortWashingtonCommunityPage, FrederickPage, GilbertsvillePage, GladwynePage,
+  GlensidePage, GwyneddPage, GwyneddValleyPage, HarleysvillePage, HaverfordPage, HuntingdonValleyPage,
+  KingOfPrussiaPage as KingOfPrussiaCommunityPage, KulpsvillePage, LafayetteHillPage, LederachPage, MainlandPage, MelroseParkPage,
+  MerionStationPage, MontClarePage, MontgomeryvillePage, OaksPage, OrelandPage, PalmPage,
+  PerkiomenPage, PerkiomenvillePage, PlymouthPage, PlymouthMeetingPage as PlymouthMeetingCommunityPage, SalfordvillePage, SassamansvillePage,
+  SpringfieldPage, SpringHousePage, SpringMountPage, SumneytownPage, TylersportPage, WestPointPage,
+  WorcesterPage, WoxallPage, WyncotePage, WynnewoodPage, ZieglervillePage
+} from "@/pages/towns/MontgomeryCountyCommunityPages";
+
 const queryClient = new QueryClient();
 
 function App() {
@@ -303,6 +316,108 @@ function App() {
             <Route path="/whitemarsh-township-golf-carts/rentals" component={WhitemarshTownshipRentalPage} />
             <Route path="/whitpain-township-golf-carts/rentals" component={WhitpainTownshipRentalPage} />
             <Route path="/worcester-township-golf-carts/rentals" component={WorcesterTownshipRentalPage} />
+            
+            {/* Montgomery County Community Pages (Unincorporated Communities & Neighborhoods) */}
+            <Route path="/ardmore" component={ArdmoreCommunityPage} />
+            <Route path="/audubon" component={AudubonCommunityPage} />
+            <Route path="/bala-cynwyd" component={BalaCynwydPage} />
+            <Route path="/blue-bell" component={BlueBellCommunityPage} />
+            <Route path="/cedars" component={CedarsPage} />
+            <Route path="/colmar" component={ColmarPage} />
+            <Route path="/creamery" component={CreameryPage} />
+            <Route path="/dresher" component={DresherPage} />
+            <Route path="/eagleville" component={EaglevillePage} />
+            <Route path="/elkins-park" component={ElkinsParkPage} />
+            <Route path="/fairview-village" component={FairviewVillagePage} />
+            <Route path="/flourtown" component={FlourtownPage} />
+            <Route path="/fort-washington" component={FortWashingtonCommunityPage} />
+            <Route path="/frederick" component={FrederickPage} />
+            <Route path="/gilbertsville" component={GilbertsvillePage} />
+            <Route path="/gladwyne" component={GladwynePage} />
+            <Route path="/glenside" component={GlensidePage} />
+            <Route path="/gwynedd" component={GwyneddPage} />
+            <Route path="/gwynedd-valley" component={GwyneddValleyPage} />
+            <Route path="/harleysville" component={HarleysvillePage} />
+            <Route path="/haverford" component={HaverfordPage} />
+            <Route path="/huntingdon-valley" component={HuntingdonValleyPage} />
+            <Route path="/king-of-prussia" component={KingOfPrussiaCommunityPage} />
+            <Route path="/kulpsville" component={KulpsvillePage} />
+            <Route path="/lafayette-hill" component={LafayetteHillPage} />
+            <Route path="/lederach" component={LederachPage} />
+            <Route path="/mainland" component={MainlandPage} />
+            <Route path="/melrose-park" component={MelroseParkPage} />
+            <Route path="/merion-station" component={MerionStationPage} />
+            <Route path="/mont-clare" component={MontClarePage} />
+            <Route path="/montgomeryville" component={MontgomeryvillePage} />
+            <Route path="/oaks" component={OaksPage} />
+            <Route path="/oreland" component={OrelandPage} />
+            <Route path="/palm" component={PalmPage} />
+            <Route path="/perkiomen" component={PerkiomenPage} />
+            <Route path="/perkiomenville" component={PerkiomenvillePage} />
+            <Route path="/plymouth" component={PlymouthPage} />
+            <Route path="/plymouth-meeting" component={PlymouthMeetingCommunityPage} />
+            <Route path="/salfordville" component={SalfordvillePage} />
+            <Route path="/sassamansville" component={SassamansvillePage} />
+            <Route path="/springfield" component={SpringfieldPage} />
+            <Route path="/spring-house" component={SpringHousePage} />
+            <Route path="/spring-mount" component={SpringMountPage} />
+            <Route path="/sumneytown" component={SumneytownPage} />
+            <Route path="/tylersport" component={TylersportPage} />
+            <Route path="/west-point" component={WestPointPage} />
+            <Route path="/worcester" component={WorcesterPage} />
+            <Route path="/woxall" component={WoxallPage} />
+            <Route path="/wyncote" component={WyncotePage} />
+            <Route path="/wynnewood" component={WynnewoodPage} />
+            <Route path="/zieglerville" component={ZieglervillePage} />
+            
+            {/* Official Municipality Pages (Simplified URLs) */}
+            <Route path="/abington" component={AbingtonTownshipPage} />
+            <Route path="/ambler" component={AmblerBoroughPage} />
+            <Route path="/bridgeport" component={BridgeportBoroughPage} />
+            <Route path="/cheltenham" component={CheltenhamTownshipPage} />
+            <Route path="/collegeville" component={CollegevilleBoroughPage} />
+            <Route path="/conshohocken" component={ConshohockenBoroughPage} />
+            <Route path="/east-greenville" component={EastGreenvilleBoroughPage} />
+            <Route path="/franconia" component={FranconiaTownshipPage} />
+            <Route path="/green-lane" component={GreenLaneBoroughPage} />
+            <Route path="/hatboro" component={HatboroBoroughPage} />
+            <Route path="/hatfield" component={HatfieldBoroughPage} />
+            <Route path="/horsham" component={HorshamTownshipPage} />
+            <Route path="/jenkintown" component={JenkintownBoroughPage} />
+            <Route path="/lansdale" component={LansdaleBoroughPage} />
+            <Route path="/marlborough" component={MarlboroughTownshipPage} />
+            <Route path="/montgomery" component={MontgomeryTownshipPage} />
+            <Route path="/narberth" component={NarberthBoroughPage} />
+            <Route path="/new-hanover" component={NewHanoverTownshipPage} />
+            <Route path="/norristown" component={NorristownBoroughPage} />
+            <Route path="/north-wales" component={NorthWalesBoroughPage} />
+            <Route path="/pennsburg" component={PennsburgBoroughPage} />
+            <Route path="/pottstown" component={PottstownBoroughPage} />
+            <Route path="/red-hill" component={RedHillBoroughPage} />
+            <Route path="/rockledge" component={RockledgeBoroughPage} />
+            <Route path="/royersford" component={RoyersfordBoroughPage} />
+            <Route path="/salford" component={SalfordTownshipPage} />
+            <Route path="/schwenksville" component={SchwenksvilleBoroughPage} />
+            <Route path="/skippack" component={SkippackTownshipPage} />
+            <Route path="/souderton" component={SoudertonBoroughPage} />
+            <Route path="/telford" component={TelfordBoroughPage} />
+            <Route path="/towamencin" component={TowamencinTownshipPage} />
+            <Route path="/trappe" component={TrappeBoroughPage} />
+            <Route path="/upper-dublin" component={UpperDublinTownshipPage} />
+            <Route path="/upper-frederick" component={UpperFrederickTownshipPage} />
+            <Route path="/upper-gwynedd" component={UpperGwyneddTownshipPage} />
+            <Route path="/upper-hanover" component={UpperHanoverTownshipPage} />
+            <Route path="/upper-merion" component={UpperMerionTownshipPage} />
+            <Route path="/upper-moreland" component={UpperMorelandTownshipPage} />
+            <Route path="/upper-pottsgrove" component={UpperPottsgroveTownshipPage} />
+            <Route path="/upper-providence" component={UpperProvidenceTownshipPage} />
+            <Route path="/upper-salford" component={UpperSalfordTownshipPage} />
+            <Route path="/west-conshohocken" component={WestConshohockenBoroughPage} />
+            <Route path="/west-norriton" component={WestNorritonTownshipPage} />
+            <Route path="/west-pottsgrove" component={WestPottsgroveTownshipPage} />
+            <Route path="/whitemarsh" component={WhitemarshTownshipPage} />
+            <Route path="/whitpain" component={WhitpainTownshipPage} />
+            <Route path="/willow-grove" component={WillowGrovePage} />
             
             {/* Essential Montgomery County Town Pages */}
             <Route path="/abington-golf-carts" component={AbingtonPage} />
