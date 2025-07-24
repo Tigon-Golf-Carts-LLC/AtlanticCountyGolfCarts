@@ -71,9 +71,9 @@ function MontgomeryCountyCommunityPage({ communityName, isUnincorporated = false
                 </Link>
               </Button>
               <Button size="lg" className="bg-white text-blue-600 hover:bg-gray-100 border-white">
-                <Link href="/contact" className="flex items-center gap-2">
+                <Link href={`/${communityName.toLowerCase().replace(/\s+/g, '-')}-rentals`} className="flex items-center gap-2">
                   <Phone className="h-5 w-5" />
-                  Contact Us Today
+                  Rental Services
                 </Link>
               </Button>
             </div>

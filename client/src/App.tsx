@@ -54,6 +54,13 @@ import {
   UpperSalfordTownshipRentalPage, WestNorritonTownshipRentalPage, WestPottsgroveTownshipRentalPage, WhitemarshTownshipRentalPage,
   WhitpainTownshipRentalPage, WorcesterTownshipRentalPage
 } from "@/pages/rentals/MontgomeryCountyMunicipalityRentals";
+// Community Rental Pages
+import {
+  KingOfPrussiaRentalPage, ArdmoreRentalPage, BlueBellRentalPage, FortWashingtonRentalPage,
+  PlymouthMeetingRentalPage, WillowGroveRentalPage, GladswyneRentalPage, ElkinsParkRentalPage,
+  LafayetteHillRentalPage, SpringHouseRentalPage, WyncoteRentalPage, WynnewoodRentalPage,
+  HarleysvilleRentalPage, AudubonRentalPage, BalaCynwydRentalPage
+} from "@/pages/rentals/MontgomeryCountyCommunityRentals";
 // Vehicle Page Imports
 import EvolutionD5Ranger6Plus from "@/pages/vehicles/EvolutionD5Ranger6Plus";
 import EvolutionD5Ranger22Plus from "@/pages/vehicles/EvolutionD5Ranger22Plus";
@@ -369,6 +376,23 @@ function App() {
             <Route path="/wyncote" component={WyncotePage} />
             <Route path="/wynnewood" component={WynnewoodPage} />
             <Route path="/zieglerville" component={ZieglervillePage} />
+            
+            {/* Community Rental Pages */}
+            <Route path="/king-of-prussia-rentals" component={KingOfPrussiaRentalPage} />
+            <Route path="/ardmore-rentals" component={ArdmoreRentalPage} />
+            <Route path="/blue-bell-rentals" component={BlueBellRentalPage} />
+            <Route path="/fort-washington-rentals" component={FortWashingtonRentalPage} />
+            <Route path="/plymouth-meeting-rentals" component={PlymouthMeetingRentalPage} />
+            <Route path="/willow-grove-rentals" component={WillowGroveRentalPage} />
+            <Route path="/gladwyne-rentals" component={GladswyneRentalPage} />
+            <Route path="/elkins-park-rentals" component={ElkinsParkRentalPage} />
+            <Route path="/lafayette-hill-rentals" component={LafayetteHillRentalPage} />
+            <Route path="/spring-house-rentals" component={SpringHouseRentalPage} />
+            <Route path="/wyncote-rentals" component={WyncoteRentalPage} />
+            <Route path="/wynnewood-rentals" component={WynnewoodRentalPage} />
+            <Route path="/harleysville-rentals" component={HarleysvilleRentalPage} />
+            <Route path="/audubon-rentals" component={AudubonRentalPage} />
+            <Route path="/bala-cynwyd-rentals" component={BalaCynwydRentalPage} />
             
             {/* Official Municipality Pages (Simplified URLs) */}
             <Route path="/abington" component={AbingtonTownshipPage} />
