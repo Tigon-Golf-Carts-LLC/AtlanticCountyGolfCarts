@@ -64,6 +64,9 @@ export default function NewAboutPage() {
         title="About Montgomery County Golf Carts - Your Premier Golf Cart Dealer"
         description="Learn about Montgomery County Golf Carts, Pennsylvania's trusted golf cart dealer serving all 62 municipalities with premium DENAGO and EVOLUTION vehicles since 2010."
         keywords="Montgomery County golf carts, about us, golf cart dealer Pennsylvania, DENAGO dealer, EVOLUTION dealer"
+        canonicalUrl="https://montcogolfcarts.com/about"
+        ogImage="/attached_assets/a-photograph-of-a-modern-golf-cart-deale_OlTDU4v9StGOZo5AygNb9A_bbx-4nIbSSGW4LKOIV9o3w_1753383770677.png"
+        ogType="website"
       />
       
       <div className="min-h-screen bg-gray-50">

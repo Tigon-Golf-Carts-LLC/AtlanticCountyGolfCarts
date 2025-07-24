@@ -120,6 +120,9 @@ export default function ContactPage() {
         title="Contact Montgomery County Golf Carts - Get in Touch for Sales & Service"
         description="Contact Montgomery County Golf Carts for sales, service, and support. Visit our TIGON Golf Carts locations or call 1-844-844-6638. Serving all 62 Montgomery County municipalities."
         keywords="contact Montgomery County golf carts, TIGON Golf Carts, golf cart sales Pennsylvania, Hatfield showroom, Poconos showroom"
+        canonicalUrl="https://montcogolfcarts.com/contact"
+        ogImage="/attached_assets/a-photograph-of-a-modern-golf-cart-deale_OlTDU4v9StGOZo5AygNb9A_bbx-4nIbSSGW4LKOIV9o3w_1753383770677.png"
+        ogType="website"
       />
       
       <div className="max-w-7xl mx-auto px-4 py-8">

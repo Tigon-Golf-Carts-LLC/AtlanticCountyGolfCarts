@@ -48,6 +48,9 @@ export default function NewInventoryPage() {
         title="Golf Cart Inventory - New & Used | Montgomery County Golf Carts"
         description="Browse our extensive inventory of new and used golf carts from top brands like DENAGO and EVOLUTION. Find the perfect electric vehicle for your needs in Montgomery County, PA."
         keywords="golf cart inventory, new golf carts, used golf carts, DENAGO, EVOLUTION, Montgomery County golf carts"
+        canonicalUrl="https://montcogolfcarts.com/inventory"
+        ogImage="/attached_assets/a-photograph-of-a-modern-golf-cart-deale_OlTDU4v9StGOZo5AygNb9A_bbx-4nIbSSGW4LKOIV9o3w_1753383770677.png"
+        ogType="website"
       />
       
       <div className="min-h-screen bg-gray-50">

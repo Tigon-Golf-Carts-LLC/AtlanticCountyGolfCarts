@@ -40,9 +40,12 @@ export default function NewServicesPage() {
   return (
     <>
       <SEOHead 
-        title="Golf Cart Services & Repair | Bucks County Golf Carts"
-        description="Professional golf cart services including maintenance, repair, battery service, and custom modifications. Serving Bucks County, PA with certified technicians."
-        keywords="golf cart service, golf cart repair, battery replacement, maintenance, Bucks County"
+        title="Golf Cart Services & Repair | Montgomery County Golf Carts"
+        description="Professional golf cart services including maintenance, repair, battery service, and custom modifications. Serving Montgomery County, PA with certified technicians."
+        keywords="golf cart service, golf cart repair, battery replacement, maintenance, Montgomery County"
+        canonicalUrl="https://montcogolfcarts.com/services"
+        ogImage="/attached_assets/a-photograph-of-a-modern-golf-cart-deale_OlTDU4v9StGOZo5AygNb9A_bbx-4nIbSSGW4LKOIV9o3w_1753383770677.png"
+        ogType="website"
       />
       
       <div className="min-h-screen bg-gray-50">

@@ -25,6 +25,8 @@ export default function HomePage() {
         description="Discover premium electric golf carts from Denago and Evolution at Montgomery County Golf Carts. Expert sales, service, rentals, and financing throughout Pennsylvania."
         keywords="golf carts Montgomery County PA, electric golf carts Pennsylvania, Denago golf carts, Evolution golf carts, golf cart sales service rentals"
         canonicalUrl="https://montcogolfcarts.com/"
+        ogImage="/attached_assets/a-photograph-of-a-modern-golf-cart-deale_OlTDU4v9StGOZo5AygNb9A_bbx-4nIbSSGW4LKOIV9o3w_1753383770677.png"
+        ogType="website"
       />
       <OrganizationSchema pageType="home" />
       {/* Hero Section */}

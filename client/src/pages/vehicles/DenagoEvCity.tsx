@@ -11,10 +11,12 @@ export default function DenagoEvCity() {
   return (
     <>
       <SEOHead 
-        title="DENAGO® EV CITY - Urban Electric Vehicle | Bucks County Golf Carts"
-        description="Discover the DENAGO EV CITY lineup and its unique features designed for urban mobility. Street-legal NEV perfect for city transportation and neighborhood use in Bucks County, PA."
-        keywords="DENAGO EV CITY, street legal electric vehicle, NEV, urban mobility, DENAGO dealer Bucks County PA"
-        canonicalUrl="https://bucksgolfcarts.com/vehicles/denago-ev-city"
+        title="DENAGO® EV CITY - Urban Electric Vehicle | Montgomery County Golf Carts"
+        description="Discover the DENAGO EV CITY lineup and its unique features designed for urban mobility. Street-legal NEV perfect for city transportation and neighborhood use in Montgomery County, PA."
+        keywords="DENAGO EV CITY, street legal electric vehicle, NEV, urban mobility, DENAGO dealer Montgomery County PA"
+        canonicalUrl="https://montcogolfcarts.com/vehicles/denago-ev-city"
+        ogImage="/attached_assets/DENAGONEVCITY_1751893047472_1753135231313.jpg"
+        ogType="product"
       />
       <VehicleSchema 
         name="DENAGO EV CITY"

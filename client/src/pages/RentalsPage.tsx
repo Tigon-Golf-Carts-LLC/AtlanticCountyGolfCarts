@@ -197,9 +197,12 @@ export default function RentalsPage() {
   return (
     <>
       <SEOHead 
-        title="Golf Cart Rentals - Ocean County Golf Carts"
-        description="Rent premium golf carts in Ocean County, NJ. Daily, weekly, and monthly rental options available with full insurance and delivery service."
-        keywords="golf cart rental, Ocean County rentals, golf cart hire, New Jersey golf cart rental"
+        title="Golf Cart Rentals - Montgomery County Golf Carts"
+        description="Rent premium golf carts in Montgomery County, PA. Daily, weekly, and monthly rental options available with full insurance and delivery service."
+        keywords="golf cart rental, Montgomery County rentals, golf cart hire, Pennsylvania golf cart rental"
+        canonicalUrl="https://montcogolfcarts.com/rentals"
+        ogImage="/attached_assets/a-photograph-of-a-modern-golf-cart-deale_OlTDU4v9StGOZo5AygNb9A_bbx-4nIbSSGW4LKOIV9o3w_1753383770677.png"
+        ogType="website"
       />
       
       <div className="min-h-screen bg-gray-50">

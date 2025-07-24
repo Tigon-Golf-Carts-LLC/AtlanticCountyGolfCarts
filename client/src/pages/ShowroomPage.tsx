@@ -65,6 +65,8 @@ export default function ShowroomPage() {
         description="Visit our TIGON Golf Cart showroom locations serving Montgomery County, PA. Poconos, Hatfield, Philadelphia, and online locations with complete DENAGO and EVOLUTION golf cart lineup."
         keywords="golf cart showroom Montgomery County, TIGON Golf Carts Pennsylvania, golf cart dealership Poconos, golf cart sales Hatfield PA, Philadelphia golf carts, DENAGO EVOLUTION showroom"
         canonicalUrl="https://montcogolfcarts.com/showroom"
+        ogImage="/attached_assets/a-photograph-of-a-modern-golf-cart-deale_OlTDU4v9StGOZo5AygNb9A_bbx-4nIbSSGW4LKOIV9o3w_1753383770677.png"
+        ogType="website"
       />
       <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}

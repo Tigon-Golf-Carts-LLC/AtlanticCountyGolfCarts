@@ -140,6 +140,9 @@ export default function DenagoPage() {
         title="DENAGO Electric Golf Carts Montgomery County | Premium Off-Road Vehicles"
         description="Discover DENAGO electric golf carts in Montgomery County, PA. Premium EV CITY, EV NOMAD, and EV ROVER series with advanced all-wheel drive technology. Sales, service & delivery."
         keywords="DENAGO golf carts Montgomery County, electric golf carts Pennsylvania, DENAGO EV CITY, DENAGO EV NOMAD, DENAGO EV ROVER, off-road golf carts, all-wheel drive golf carts"
+        canonicalUrl="https://montcogolfcarts.com/denago"
+        ogImage="/attached_assets/DENAGONEVROVERXL_1751893047473_1753135231313.jpg"
+        ogType="product.group"
       />
       
       <div className="min-h-screen bg-gray-50">

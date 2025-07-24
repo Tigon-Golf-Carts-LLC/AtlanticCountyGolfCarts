@@ -115,6 +115,9 @@ export default function EvolutionPage() {
         title="EVOLUTION Golf Carts Montgomery County | Premium Electric Vehicles PA"
         description="Discover EVOLUTION golf carts in Montgomery County, PA. Complete lineup of D5 RANGER, MAVERICK, CLASSIC, CARRIER, FORESTER, TURFMAN, and D6 MAX series. Expert sales & service."
         keywords="EVOLUTION golf carts Montgomery County, electric golf carts Pennsylvania, EVOLUTION D5 RANGER, EVOLUTION MAVERICK, EVOLUTION CLASSIC, golf cart sales Pennsylvania, EVOLUTION dealers"
+        canonicalUrl="https://montcogolfcarts.com/evolution"
+        ogImage="/attached_assets/EVOLUTIOND6MAXXT4_1751893159005_1753135437836.jpg"
+        ogType="product.group"
       />
       
       <div className="min-h-screen bg-gray-50">

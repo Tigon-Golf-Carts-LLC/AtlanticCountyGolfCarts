@@ -10,9 +10,12 @@ export default function DenagoEvNomad() {
   return (
     <>
       <SEOHead 
-        title="DENAGO® EV NOMAD - Adventure Electric Vehicle | Ocean County Golf Carts"
+        title="DENAGO® EV NOMAD - Adventure Electric Vehicle | Montgomery County Golf Carts"
         description="Discover the DENAGO® EV NOMAD designed for outdoor adventures and off-road capability. Perfect for camping, hunting, and recreational activities."
-        keywords="DENAGO EV NOMAD, adventure electric vehicle, off-road golf cart, outdoor recreation, DENAGO dealer Ocean County"
+        keywords="DENAGO EV NOMAD, adventure electric vehicle, off-road golf cart, outdoor recreation, DENAGO dealer Montgomery County"
+        canonicalUrl="https://montcogolfcarts.com/vehicles/denago-ev-nomad"
+        ogImage="/attached_assets/DENAGONEVNOMAD_1751893047472_1753135231313.jpg"
+        ogType="product"
       />
       
       <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">

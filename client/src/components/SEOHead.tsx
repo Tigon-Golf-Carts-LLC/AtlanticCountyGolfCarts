@@ -6,14 +6,18 @@ interface SEOHeadProps {
   keywords?: string;
   canonicalUrl?: string;
   townName?: string;
+  ogImage?: string;
+  ogType?: string;
 }
 
 export default function SEOHead({ 
   title, 
   description, 
-  keywords = "golf carts, Berks County, electric golf carts, golf cart sales, golf cart service", 
+  keywords = "golf carts, Montgomery County, electric golf carts, golf cart sales, golf cart service", 
   canonicalUrl,
-  townName 
+  townName,
+  ogImage = "/attached_assets/a-photograph-of-a-modern-golf-cart-deale_OlTDU4v9StGOZo5AygNb9A_bbx-4nIbSSGW4LKOIV9o3w_1753383770677.png",
+  ogType = "website"
 }: SEOHeadProps) {
   useEffect(() => {
     // Set page title
@@ -92,7 +96,10 @@ export default function SEOHead({
     
     updateOGTag("og:title", title);
     updateOGTag("og:description", description);
-    updateOGTag("og:type", "website");
+    updateOGTag("og:type", ogType);
+    updateOGTag("og:image", `https://montcogolfcarts.com${ogImage}`);
+    updateOGTag("og:site_name", "Montgomery County Golf Carts");
+    updateOGTag("og:locale", "en_US");
     if (canonicalUrl) {
       updateOGTag("og:url", canonicalUrl);
     }
@@ -113,13 +120,16 @@ export default function SEOHead({
     updateTwitterTag("twitter:card", "summary_large_image");
     updateTwitterTag("twitter:title", title);
     updateTwitterTag("twitter:description", description);
+    updateTwitterTag("twitter:image", `https://montcogolfcarts.com${ogImage}`);
+    updateTwitterTag("twitter:site", "@MontcoGolfCarts");
+    updateTwitterTag("twitter:creator", "@MontcoGolfCarts");
     
     // Structured Data (JSON-LD)
     if (townName) {
       const structuredData = {
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
-        "name": `Bucks County Golf Carts - ${townName}`,
+        "name": `Montgomery County Golf Carts - ${townName}`,
         "description": description,
         "address": {
           "@type": "PostalAddress",
@@ -127,11 +137,11 @@ export default function SEOHead({
           "addressRegion": "PA",
           "addressCountry": "US"
         },
-        "telephone": "(215) 555-0123",
-        "email": "info@bucksgolfcarts.com",
+        "telephone": "1-844-844-6638",
+        "email": "info@montcogolfcarts.com",
         "url": canonicalUrl,
-        "logo": "https://bucksgolfcarts.com/assets/Bucks County Golf Carts (3)_1753284044185.png",
-        "image": "https://bucksgolfcarts.com/assets/Bucks County Golf Carts (3)_1753284044185.png",
+        "logo": "https://montcogolfcarts.com/attached_assets/MONTCO Golf Carts_1753384274720.png",
+        "image": `https://montcogolfcarts.com${ogImage}`,
         "serviceArea": {
           "@type": "GeoCircle",
           "geoMidpoint": {
@@ -202,7 +212,7 @@ export default function SEOHead({
         document.head.appendChild(script);
       }
     }
-  }, [title, description, keywords, canonicalUrl, townName]);
+  }, [title, description, keywords, canonicalUrl, townName, ogImage, ogType]);
 
   return null;
 }
