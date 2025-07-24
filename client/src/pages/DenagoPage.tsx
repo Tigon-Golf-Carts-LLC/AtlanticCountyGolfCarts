@@ -137,9 +137,9 @@ export default function DenagoPage() {
   return (
     <>
       <SEOHead 
-        title="DENAGO Electric Golf Carts Bucks County | Premium Off-Road Vehicles"
-        description="Discover DENAGO electric golf carts in Bucks County, PA. Premium EV CITY, EV NOMAD, and EV ROVER series with advanced all-wheel drive technology. Sales, service & delivery."
-        keywords="DENAGO golf carts Bucks County, electric golf carts Pennsylvania, DENAGO EV CITY, DENAGO EV NOMAD, DENAGO EV ROVER, off-road golf carts, all-wheel drive golf carts"
+        title="DENAGO Electric Golf Carts Montgomery County | Premium Off-Road Vehicles"
+        description="Discover DENAGO electric golf carts in Montgomery County, PA. Premium EV CITY, EV NOMAD, and EV ROVER series with advanced all-wheel drive technology. Sales, service & delivery."
+        keywords="DENAGO golf carts Montgomery County, electric golf carts Pennsylvania, DENAGO EV CITY, DENAGO EV NOMAD, DENAGO EV ROVER, off-road golf carts, all-wheel drive golf carts"
       />
       
       <div className="min-h-screen bg-gray-50">
@@ -159,7 +159,7 @@ export default function DenagoPage() {
             </h1>
             <p className="text-2xl mb-8 max-w-4xl mx-auto">
               Experience the ultimate in electric off-road performance. DENAGO vehicles combine cutting-edge 
-              technology with rugged durability for unmatched adventure capability in Bucks County, Pennsylvania.
+              technology with rugged durability for unmatched adventure capability in Montgomery County, Pennsylvania.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" className="bg-theme-orange hover:bg-orange-600 text-white">
@@ -396,7 +396,7 @@ export default function DenagoPage() {
                 <MapPin className="w-16 h-16 text-theme-orange mx-auto mb-4" />
                 <h3 className="text-xl font-bold text-gray-900 mb-4">Local Service</h3>
                 <p className="text-gray-600">
-                  Expert DENAGO service and support right here in Bucks County with 
+                  Expert DENAGO service and support right here in Montgomery County with 
                   genuine parts and factory-trained technicians.
                 </p>
               </div>
@@ -411,7 +411,7 @@ export default function DenagoPage() {
               Ready to Experience DENAGO?
             </h2>
             <p className="text-xl mb-8">
-              Contact Bucks County Golf Carts today to schedule a test drive or learn more 
+              Contact Montgomery County Golf Carts today to schedule a test drive or learn more 
               about DENAGO's revolutionary electric vehicle technology.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

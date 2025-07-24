@@ -112,9 +112,9 @@ export default function EvolutionPage() {
   return (
     <>
       <SEOHead 
-        title="EVOLUTION Golf Carts Bucks County | Premium Electric Vehicles PA"
-        description="Discover EVOLUTION golf carts in Bucks County, PA. Complete lineup of D5 RANGER, MAVERICK, CLASSIC, CARRIER, FORESTER, TURFMAN, and D6 MAX series. Expert sales & service."
-        keywords="EVOLUTION golf carts Bucks County, electric golf carts Pennsylvania, EVOLUTION D5 RANGER, EVOLUTION MAVERICK, EVOLUTION CLASSIC, golf cart sales Pennsylvania, EVOLUTION dealers"
+        title="EVOLUTION Golf Carts Montgomery County | Premium Electric Vehicles PA"
+        description="Discover EVOLUTION golf carts in Montgomery County, PA. Complete lineup of D5 RANGER, MAVERICK, CLASSIC, CARRIER, FORESTER, TURFMAN, and D6 MAX series. Expert sales & service."
+        keywords="EVOLUTION golf carts Montgomery County, electric golf carts Pennsylvania, EVOLUTION D5 RANGER, EVOLUTION MAVERICK, EVOLUTION CLASSIC, golf cart sales Pennsylvania, EVOLUTION dealers"
       />
       
       <div className="min-h-screen bg-gray-50">
@@ -134,7 +134,7 @@ export default function EvolutionPage() {
             </h1>
             <p className="text-2xl mb-8 max-w-4xl mx-auto">
               Experience the evolution of electric vehicle excellence. EVOLUTION golf carts deliver 
-              premium quality, innovative design, and reliable performance for Bucks County, Pennsylvania.
+              premium quality, innovative design, and reliable performance for Montgomery County, Pennsylvania.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" className="bg-theme-orange hover:bg-orange-600 text-white">
@@ -162,7 +162,7 @@ export default function EvolutionPage() {
                   EVOLUTION represents the perfect balance of innovation, quality, and value in 
                   electric vehicle manufacturing. With a comprehensive lineup ranging from classic 
                   golf carts to high-performance utility vehicles, EVOLUTION delivers solutions 
-                  for every need in Bucks County's diverse communities.
+                  for every need in Montgomery County's diverse communities.
                 </p>
                 <div className="grid grid-cols-1 gap-4">
                   {evolutionFeatures.map((feature, index) => (
@@ -196,7 +196,7 @@ export default function EvolutionPage() {
                 Complete EVOLUTION Lineup
               </h2>
               <p className="text-xl text-gray-600">
-                Discover the full range of EVOLUTION electric vehicles available in Bucks County
+                Discover the full range of EVOLUTION electric vehicles available in Montgomery County
               </p>
             </div>
             
@@ -257,7 +257,7 @@ export default function EvolutionPage() {
                 Complete EVOLUTION Vehicle Lineup
               </h2>
               <p className="text-xl text-gray-600">
-                Explore all EVOLUTION electric vehicle models available in Bucks County
+                Explore all EVOLUTION electric vehicle models available in Montgomery County
               </p>
             </div>
             
@@ -656,7 +656,7 @@ export default function EvolutionPage() {
           <div className="max-w-7xl mx-auto">
             <div className="text-center mb-12">
               <h2 className="text-4xl font-bold mb-4 text-gray-900">
-                Why Choose EVOLUTION in Bucks County?
+                Why Choose EVOLUTION in Montgomery County?
               </h2>
             </div>
             
@@ -692,7 +692,7 @@ export default function EvolutionPage() {
                 <MapPin className="w-16 h-16 text-theme-orange mx-auto mb-4" />
                 <h3 className="text-xl font-bold text-gray-900 mb-4">Local Support</h3>
                 <p className="text-gray-600">
-                  Expert EVOLUTION service and genuine parts support right here in Bucks County 
+                  Expert EVOLUTION service and genuine parts support right here in Montgomery County 
                   with factory-trained technicians and comprehensive warranties.
                 </p>
               </div>
@@ -757,7 +757,7 @@ export default function EvolutionPage() {
               Ready to Experience EVOLUTION?
             </h2>
             <p className="text-xl mb-8">
-              Contact Bucks County Golf Carts today to explore the complete EVOLUTION lineup 
+              Contact Montgomery County Golf Carts today to explore the complete EVOLUTION lineup 
               and find the perfect electric vehicle for your needs.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
