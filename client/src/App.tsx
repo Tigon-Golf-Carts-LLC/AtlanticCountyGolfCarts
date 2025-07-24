@@ -35,29 +35,25 @@ import EthicsPolicyPage from "@/pages/policies/EthicsPolicyPage";
 import StaffingReportPage from "@/pages/policies/StaffingReportPage";
 // Municipality Rental Pages
 import {
-  // Cities
-  ReadingCityRentalPage,
   // Boroughs
-  BallyBoroughRentalPage, BechtelvilleBoroughRentalPage, BernvilleBoroughRentalPage, BirdsboroBoroughRentalPage,
-  BoyertownBoroughRentalPage, CenterportBoroughRentalPage, FleetwoodBoroughRentalPage, HamburgBoroughRentalPage,
-  KenhorstBoroughRentalPage, KutzownBoroughRentalPage, LaureldaleBoroughRentalPage, LeesportBoroughRentalPage,
-  LenhartsvilleBoroughRentalPage, LyonsBoroughRentalPage, MohntonBoroughRentalPage, MountPennBoroughRentalPage,
-  NewMorganBoroughRentalPage, RobosoniaBoroughRentalPage, StLawrenceBoroughRentalPage, ShillingtonBoroughRentalPage,
-  ShoemakersvilleBoroughRentalPage, SinkingSpringBoroughRentalPage, ToptonBoroughRentalPage, WernersvilleBoroughRentalPage,
-  WestReadingBoroughRentalPage, WomelsdorfBoroughRentalPage, WyomissingBoroughRentalPage,
+  AmblerBoroughRentalPage, BridgeportBoroughRentalPage, BrynAthynBoroughRentalPage, CollegevilleBoroughRentalPage,
+  ConshohockenBoroughRentalPage, EastGreenvilleBoroughRentalPage, GreenLaneBoroughRentalPage, HatboroBoroughRentalPage,
+  HatfieldBoroughRentalPage, JenkintownBoroughRentalPage, LansdaleBoroughRentalPage, NarberthBoroughRentalPage,
+  NorristownBoroughRentalPage, NorthWalesBoroughRentalPage, PennsburgBoroughRentalPage, PottstownBoroughRentalPage,
+  RedHillBoroughRentalPage, RockledgeBoroughRentalPage, RoyersfordBoroughRentalPage, SchwenksvilleBoroughRentalPage,
+  SoudertonBoroughRentalPage, TelfordBoroughRentalPage, TrappeBoroughRentalPage, WestConshohockenBoroughRentalPage,
   // Townships
-  AlbanyTownshipRentalPage, AlsaceTownshipRentalPage, AmityTownshipRentalPage, BernTownshipRentalPage,
-  BethelTownshipRentalPage, BrecknockTownshipRentalPage, CaernarvonTownshipRentalPage, CentreTownshipRentalPage,
-  ColebrookdaleTownshipRentalPage, CumruTownshipRentalPage, DistrictTownshipRentalPage, DouglassTownshipRentalPage,
-  EarlTownshipRentalPage, ExeterTownshipRentalPage, GreenwichTownshipRentalPage, HeidelbergTownshipRentalPage,
-  HerefordTownshipRentalPage, JeffersonTownshipRentalPage, LongswampTownshipRentalPage, LowerAlsaceTownshipRentalPage,
-  LowerHeidelbergTownshipRentalPage, MaidencreekTownshipRentalPage, MarionTownshipRentalPage, MaxatawnyTownshipRentalPage,
-  MuhlenbergTownshipRentalPage, NorthHeidelbergTownshipRentalPage, OleyTownshipRentalPage, OntelauneeTownshipRentalPage,
-  PennTownshipRentalPage, PerryTownshipRentalPage, PikeTownshipRentalPage, RichmondTownshipRentalPage,
-  RobesonTownshipRentalPage, RocklandTownshipRentalPage, RuscombmanorTownshipRentalPage, SouthHeidelbergTownshipRentalPage,
-  SpringTownshipRentalPage, TildenTownshipRentalPage, TulpehockenTownshipRentalPage, UnionTownshipRentalPage,
-  UpperBernTownshipRentalPage, UpperTulpehockenTownshipRentalPage, WashingtonTownshipRentalPage, WindsorTownshipRentalPage
-} from "@/pages/rentals/BerksCountyMunicipalityRentals";
+  AbingtonTownshipRentalPage, CheltenhamTownshipRentalPage, DouglassTownshipRentalPage, EastNorritonTownshipRentalPage,
+  FranconiaTownshipRentalPage, HatfieldTownshipRentalPage, HorshamTownshipRentalPage, LimerickTownshipRentalPage,
+  LowerFrederickTownshipRentalPage, LowerGwyneddTownshipRentalPage, LowerMerionTownshipRentalPage, LowerMorelandTownshipRentalPage,
+  LowerPottsgroveTownshipRentalPage, LowerProvidenceTownshipRentalPage, LowerSalfordTownshipRentalPage, MarlboroughTownshipRentalPage,
+  MontgomeryTownshipRentalPage, NewHanoverTownshipRentalPage, PerkiomenTownshipRentalPage, PlymouthTownshipRentalPage,
+  SalfordTownshipRentalPage, SkippackTownshipRentalPage, SpringfieldTownshipRentalPage, TowamencinTownshipRentalPage,
+  UpperDublinTownshipRentalPage, UpperFrederickTownshipRentalPage, UpperGwyneddTownshipRentalPage, UpperHanoverTownshipRentalPage,
+  UpperMerionTownshipRentalPage, UpperMorelandTownshipRentalPage, UpperPottsgroveTownshipRentalPage, UpperProvidenceTownshipRentalPage,
+  UpperSalfordTownshipRentalPage, WestNorritonTownshipRentalPage, WestPottsgroveTownshipRentalPage, WhitemarshTownshipRentalPage,
+  WhitpainTownshipRentalPage, WorcesterTownshipRentalPage
+} from "@/pages/rentals/MontgomeryCountyMunicipalityRentals";
 // Vehicle Page Imports
 import EvolutionD5Ranger6Plus from "@/pages/vehicles/EvolutionD5Ranger6Plus";
 import EvolutionD5Ranger22Plus from "@/pages/vehicles/EvolutionD5Ranger22Plus";
@@ -82,31 +78,35 @@ import EvolutionD5Maverick6Plus from "@/pages/vehicles/EvolutionD5Maverick6Plus"
 import EvolutionD6MaxGT6 from "@/pages/vehicles/EvolutionD6MaxGT6";
 import EvolutionD6MaxXT4 from "@/pages/vehicles/EvolutionD6MaxXT4";
 import EvolutionD6MaxXT6 from "@/pages/vehicles/EvolutionD6MaxXT6";
-// New Berks County Municipality Pages - All 72 municipalities
+// New Montgomery County Municipality Pages - All 62 municipalities
 import {
-  // Cities (1)
-  ReadingCityPage,
-  // Boroughs (27)
-  BallyBoroughPage, BechtelvilleBoroughPage, BernvilleBoroughPage, BirdsboroBoroughPage,
-  BoyertownBoroughPage, CenterportBoroughPage, FleetwoodBoroughPage, HamburgBoroughPage,
-  KenhorstBoroughPage, KutzownBoroughPage, LaureldaleBoroughPage, LeesportBoroughPage,
-  LenhartsvilleBoroughPage, LyonsBoroughPage, MohntonBoroughPage, MountPennBoroughPage,
-  NewMorganBoroughPage, RobosoniaBoroughPage, StLawrenceBoroughPage, ShillingtonBoroughPage,
-  ShoemakersvilleBoroughPage, SinkingSpringBoroughPage, ToptonBoroughPage, WernersvilleBoroughPage,
-  WestReadingBoroughPage, WomelsdorfBoroughPage, WyomissingBoroughPage,
-  // Townships (44)
-  AlbanyTownshipPage, AlsaceTownshipPage, AmityTownshipPage, BernTownshipPage,
-  BethelTownshipPage, BrecknockTownshipPage, CaernarvonTownshipPage, CentreTownshipPage,
-  ColebrookdaleTownshipPage, CumruTownshipPage, DistrictTownshipPage, DouglassTownshipPage,
-  EarlTownshipPage, ExeterTownshipPage, GreenwichTownshipPage, HeidelbergTownshipPage,
-  HerefordTownshipPage, JeffersonTownshipPage, LongswampTownshipPage, LowerAlsaceTownshipPage,
-  LowerHeidelbergTownshipPage, MaidencreekTownshipPage, MarionTownshipPage, MaxatawnyTownshipPage,
-  MuhlenbergTownshipPage, NorthHeidelbergTownshipPage, OleyTownshipPage, OntelauneeTownshipPage,
-  PennTownshipPage, PerryTownshipPage, PikeTownshipPage, RichmondTownshipPage,
-  RobesonTownshipPage, RocklandTownshipPage, RuscombmanorTownshipPage, SouthHeidelbergTownshipPage,
-  SpringTownshipPage, TildenTownshipPage, TulpehockenTownshipPage, UnionTownshipPage,
-  UpperBernTownshipPage, UpperTulpehockenTownshipPage, WashingtonTownshipPage, WindsorTownshipPage
-} from "@/pages/towns/NewBerksCountyTownPages";
+  // Boroughs (24)
+  AmblerBoroughPage, BridgeportBoroughPage, BrynAthynBoroughPage, CollegevilleBoroughPage,
+  ConshohockenBoroughPage, EastGreenvilleBoroughPage, GreenLaneBoroughPage, HatboroBoroughPage,
+  HatfieldBoroughPage, JenkintownBoroughPage, LansdaleBoroughPage, NarberthBoroughPage,
+  NorristownBoroughPage, NorthWalesBoroughPage, PennsburgBoroughPage, PottstownBoroughPage,
+  RedHillBoroughPage, RockledgeBoroughPage, RoyersfordBoroughPage, SchwenksvilleBoroughPage,
+  SoudertonBoroughPage, TelfordBoroughPage, TrappeBoroughPage, WestConshohockenBoroughPage,
+  // Townships (38)
+  AbingtonTownshipPage, CheltenhamTownshipPage, DouglassTownshipPage, EastNorritonTownshipPage,
+  FranconiaTownshipPage, HatfieldTownshipPage, HorshamTownshipPage, LimerickTownshipPage,
+  LowerFrederickTownshipPage, LowerGwyneddTownshipPage, LowerMerionTownshipPage, LowerMorelandTownshipPage,
+  LowerPottsgroveTownshipPage, LowerProvidenceTownshipPage, LowerSalfordTownshipPage, MarlboroughTownshipPage,
+  MontgomeryTownshipPage, NewHanoverTownshipPage, PerkiomenTownshipPage, PlymouthTownshipPage,
+  SalfordTownshipPage, SkippackTownshipPage, SpringfieldTownshipPage, TowamencinTownshipPage,
+  UpperDublinTownshipPage, UpperFrederickTownshipPage, UpperGwyneddTownshipPage, UpperHanoverTownshipPage,
+  UpperMerionTownshipPage, UpperMorelandTownshipPage, UpperPottsgroveTownshipPage, UpperProvidenceTownshipPage,
+  UpperSalfordTownshipPage, WestNorritonTownshipPage, WestPottsgroveTownshipPage, WhitemarshTownshipPage,
+  WhitpainTownshipPage, WorcesterTownshipPage
+} from "@/pages/towns/NewMontgomeryCountyTownPages";
+
+// Import comprehensive town pages - consolidated for clean structure
+import {
+  AbingtonPage, AmblerPage, ArdmorePage, AudubonPage, BlueBellPage,
+  BridgeportPage, ConshohockenPage, FortWashingtonPage, KingOfPrussiaPage,
+  LansdalePage, NorristownPage, NorthWalesPage, PlymouthMeetingPage,
+  PottstownPage, RoyersfordPage, WillowGrovePage
+} from "@/pages/towns/AllMontgomeryCountyTowns";
 
 const queryClient = new QueryClient();
 
@@ -172,161 +172,155 @@ function App() {
             <Route path="/vehicles/evolution-d6-max-xt4" component={EvolutionD6MaxXT4} />
             <Route path="/vehicles/evolution-d6-max-xt6" component={EvolutionD6MaxXT6} />
             
-            {/* Berks County Cities (1) */}
-            <Route path="/reading-city-golf-carts" component={ReadingCityPage} />
+            {/* Montgomery County Boroughs (24) */}
+            <Route path="/ambler-borough-golf-carts" component={AmblerBoroughPage} />
+            <Route path="/bridgeport-borough-golf-carts" component={BridgeportBoroughPage} />
+            <Route path="/bryn-athyn-borough-golf-carts" component={BrynAthynBoroughPage} />
+            <Route path="/collegeville-borough-golf-carts" component={CollegevilleBoroughPage} />
+            <Route path="/conshohocken-borough-golf-carts" component={ConshohockenBoroughPage} />
+            <Route path="/east-greenville-borough-golf-carts" component={EastGreenvilleBoroughPage} />
+            <Route path="/green-lane-borough-golf-carts" component={GreenLaneBoroughPage} />
+            <Route path="/hatboro-borough-golf-carts" component={HatboroBoroughPage} />
+            <Route path="/hatfield-borough-golf-carts" component={HatfieldBoroughPage} />
+            <Route path="/jenkintown-borough-golf-carts" component={JenkintownBoroughPage} />
+            <Route path="/lansdale-borough-golf-carts" component={LansdaleBoroughPage} />
+            <Route path="/narberth-borough-golf-carts" component={NarberthBoroughPage} />
+            <Route path="/norristown-borough-golf-carts" component={NorristownBoroughPage} />
+            <Route path="/north-wales-borough-golf-carts" component={NorthWalesBoroughPage} />
+            <Route path="/pennsburg-borough-golf-carts" component={PennsburgBoroughPage} />
+            <Route path="/pottstown-borough-golf-carts" component={PottstownBoroughPage} />
+            <Route path="/red-hill-borough-golf-carts" component={RedHillBoroughPage} />
+            <Route path="/rockledge-borough-golf-carts" component={RockledgeBoroughPage} />
+            <Route path="/royersford-borough-golf-carts" component={RoyersfordBoroughPage} />
+            <Route path="/schwenksville-borough-golf-carts" component={SchwenksvilleBoroughPage} />
+            <Route path="/souderton-borough-golf-carts" component={SoudertonBoroughPage} />
+            <Route path="/telford-borough-golf-carts" component={TelfordBoroughPage} />
+            <Route path="/trappe-borough-golf-carts" component={TrappeBoroughPage} />
+            <Route path="/west-conshohocken-borough-golf-carts" component={WestConshohockenBoroughPage} />
             
-            {/* Berks County Boroughs (27) */}
-            <Route path="/bally-borough-golf-carts" component={BallyBoroughPage} />
-            <Route path="/bechtelsville-borough-golf-carts" component={BechtelvilleBoroughPage} />
-            <Route path="/bernville-borough-golf-carts" component={BernvilleBoroughPage} />
-            <Route path="/birdsboro-borough-golf-carts" component={BirdsboroBoroughPage} />
-            <Route path="/boyertown-borough-golf-carts" component={BoyertownBoroughPage} />
-            <Route path="/centerport-borough-golf-carts" component={CenterportBoroughPage} />
-            <Route path="/fleetwood-borough-golf-carts" component={FleetwoodBoroughPage} />
-            <Route path="/hamburg-borough-golf-carts" component={HamburgBoroughPage} />
-            <Route path="/kenhorst-borough-golf-carts" component={KenhorstBoroughPage} />
-            <Route path="/kutztown-borough-golf-carts" component={KutzownBoroughPage} />
-            <Route path="/laureldale-borough-golf-carts" component={LaureldaleBoroughPage} />
-            <Route path="/leesport-borough-golf-carts" component={LeesportBoroughPage} />
-            <Route path="/lenhartsville-borough-golf-carts" component={LenhartsvilleBoroughPage} />
-            <Route path="/lyons-borough-golf-carts" component={LyonsBoroughPage} />
-            <Route path="/mohnton-borough-golf-carts" component={MohntonBoroughPage} />
-            <Route path="/mount-penn-borough-golf-carts" component={MountPennBoroughPage} />
-            <Route path="/new-morgan-borough-golf-carts" component={NewMorganBoroughPage} />
-            <Route path="/robesonia-borough-golf-carts" component={RobosoniaBoroughPage} />
-            <Route path="/st-lawrence-borough-golf-carts" component={StLawrenceBoroughPage} />
-            <Route path="/shillington-borough-golf-carts" component={ShillingtonBoroughPage} />
-            <Route path="/shoemakersville-borough-golf-carts" component={ShoemakersvilleBoroughPage} />
-            <Route path="/sinking-spring-borough-golf-carts" component={SinkingSpringBoroughPage} />
-            <Route path="/topton-borough-golf-carts" component={ToptonBoroughPage} />
-            <Route path="/wernersville-borough-golf-carts" component={WernersvilleBoroughPage} />
-            <Route path="/west-reading-borough-golf-carts" component={WestReadingBoroughPage} />
-            <Route path="/womelsdorf-borough-golf-carts" component={WomelsdorfBoroughPage} />
-            <Route path="/wyomissing-borough-golf-carts" component={WyomissingBoroughPage} />
-            
-            {/* Berks County Townships (44) */}
-            <Route path="/albany-township-golf-carts" component={AlbanyTownshipPage} />
-            <Route path="/alsace-township-golf-carts" component={AlsaceTownshipPage} />
-            <Route path="/amity-township-golf-carts" component={AmityTownshipPage} />
-            <Route path="/bern-township-golf-carts" component={BernTownshipPage} />
-            <Route path="/bethel-township-golf-carts" component={BethelTownshipPage} />
-            <Route path="/brecknock-township-golf-carts" component={BrecknockTownshipPage} />
-            <Route path="/caernarvon-township-golf-carts" component={CaernarvonTownshipPage} />
-            <Route path="/centre-township-golf-carts" component={CentreTownshipPage} />
-            <Route path="/colebrookdale-township-golf-carts" component={ColebrookdaleTownshipPage} />
-            <Route path="/cumru-township-golf-carts" component={CumruTownshipPage} />
-            <Route path="/district-township-golf-carts" component={DistrictTownshipPage} />
+            {/* Montgomery County Townships (38) */}
+            <Route path="/abington-township-golf-carts" component={AbingtonTownshipPage} />
+            <Route path="/cheltenham-township-golf-carts" component={CheltenhamTownshipPage} />
             <Route path="/douglass-township-golf-carts" component={DouglassTownshipPage} />
-            <Route path="/earl-township-golf-carts" component={EarlTownshipPage} />
-            <Route path="/exeter-township-golf-carts" component={ExeterTownshipPage} />
-            <Route path="/greenwich-township-golf-carts" component={GreenwichTownshipPage} />
-            <Route path="/heidelberg-township-golf-carts" component={HeidelbergTownshipPage} />
-            <Route path="/hereford-township-golf-carts" component={HerefordTownshipPage} />
-            <Route path="/jefferson-township-golf-carts" component={JeffersonTownshipPage} />
-            <Route path="/longswamp-township-golf-carts" component={LongswampTownshipPage} />
-            <Route path="/lower-alsace-township-golf-carts" component={LowerAlsaceTownshipPage} />
-            <Route path="/lower-heidelberg-township-golf-carts" component={LowerHeidelbergTownshipPage} />
-            <Route path="/maidencreek-township-golf-carts" component={MaidencreekTownshipPage} />
-            <Route path="/marion-township-golf-carts" component={MarionTownshipPage} />
-            <Route path="/maxatawny-township-golf-carts" component={MaxatawnyTownshipPage} />
-            <Route path="/muhlenberg-township-golf-carts" component={MuhlenbergTownshipPage} />
-            <Route path="/north-heidelberg-township-golf-carts" component={NorthHeidelbergTownshipPage} />
-            <Route path="/oley-township-golf-carts" component={OleyTownshipPage} />
-            <Route path="/ontelaunee-township-golf-carts" component={OntelauneeTownshipPage} />
-            <Route path="/penn-township-golf-carts" component={PennTownshipPage} />
-            <Route path="/perry-township-golf-carts" component={PerryTownshipPage} />
-            <Route path="/pike-township-golf-carts" component={PikeTownshipPage} />
-            <Route path="/richmond-township-golf-carts" component={RichmondTownshipPage} />
-            <Route path="/robeson-township-golf-carts" component={RobesonTownshipPage} />
-            <Route path="/rockland-township-golf-carts" component={RocklandTownshipPage} />
-            <Route path="/ruscombmanor-township-golf-carts" component={RuscombmanorTownshipPage} />
-            <Route path="/south-heidelberg-township-golf-carts" component={SouthHeidelbergTownshipPage} />
-            <Route path="/spring-township-golf-carts" component={SpringTownshipPage} />
-            <Route path="/tilden-township-golf-carts" component={TildenTownshipPage} />
-            <Route path="/tulpehocken-township-golf-carts" component={TulpehockenTownshipPage} />
-            <Route path="/union-township-golf-carts" component={UnionTownshipPage} />
-            <Route path="/upper-bern-township-golf-carts" component={UpperBernTownshipPage} />
-            <Route path="/upper-tulpehocken-township-golf-carts" component={UpperTulpehockenTownshipPage} />
-            <Route path="/washington-township-golf-carts" component={WashingtonTownshipPage} />
-            <Route path="/windsor-township-golf-carts" component={WindsorTownshipPage} />
+            <Route path="/east-norriton-township-golf-carts" component={EastNorritonTownshipPage} />
+            <Route path="/franconia-township-golf-carts" component={FranconiaTownshipPage} />
+            <Route path="/hatfield-township-golf-carts" component={HatfieldTownshipPage} />
+            <Route path="/horsham-township-golf-carts" component={HorshamTownshipPage} />
+            <Route path="/limerick-township-golf-carts" component={LimerickTownshipPage} />
+            <Route path="/lower-frederick-township-golf-carts" component={LowerFrederickTownshipPage} />
+            <Route path="/lower-gwynedd-township-golf-carts" component={LowerGwyneddTownshipPage} />
+            <Route path="/lower-merion-township-golf-carts" component={LowerMerionTownshipPage} />
+            <Route path="/lower-moreland-township-golf-carts" component={LowerMorelandTownshipPage} />
+            <Route path="/lower-pottsgrove-township-golf-carts" component={LowerPottsgroveTownshipPage} />
+            <Route path="/lower-providence-township-golf-carts" component={LowerProvidenceTownshipPage} />
+            <Route path="/lower-salford-township-golf-carts" component={LowerSalfordTownshipPage} />
+            <Route path="/marlborough-township-golf-carts" component={MarlboroughTownshipPage} />
+            <Route path="/montgomery-township-golf-carts" component={MontgomeryTownshipPage} />
+            <Route path="/new-hanover-township-golf-carts" component={NewHanoverTownshipPage} />
+            <Route path="/perkiomen-township-golf-carts" component={PerkiomenTownshipPage} />
+            <Route path="/plymouth-township-golf-carts" component={PlymouthTownshipPage} />
+            <Route path="/salford-township-golf-carts" component={SalfordTownshipPage} />
+            <Route path="/skippack-township-golf-carts" component={SkippackTownshipPage} />
+            <Route path="/springfield-township-golf-carts" component={SpringfieldTownshipPage} />
+            <Route path="/towamencin-township-golf-carts" component={TowamencinTownshipPage} />
+            <Route path="/upper-dublin-township-golf-carts" component={UpperDublinTownshipPage} />
+            <Route path="/upper-frederick-township-golf-carts" component={UpperFrederickTownshipPage} />
+            <Route path="/upper-gwynedd-township-golf-carts" component={UpperGwyneddTownshipPage} />
+            <Route path="/upper-hanover-township-golf-carts" component={UpperHanoverTownshipPage} />
+            <Route path="/upper-merion-township-golf-carts" component={UpperMerionTownshipPage} />
+            <Route path="/upper-moreland-township-golf-carts" component={UpperMorelandTownshipPage} />
+            <Route path="/upper-pottsgrove-township-golf-carts" component={UpperPottsgroveTownshipPage} />
+            <Route path="/upper-providence-township-golf-carts" component={UpperProvidenceTownshipPage} />
+            <Route path="/upper-salford-township-golf-carts" component={UpperSalfordTownshipPage} />
+            <Route path="/west-norriton-township-golf-carts" component={WestNorritonTownshipPage} />
+            <Route path="/west-pottsgrove-township-golf-carts" component={WestPottsgroveTownshipPage} />
+            <Route path="/whitemarsh-township-golf-carts" component={WhitemarshTownshipPage} />
+            <Route path="/whitpain-township-golf-carts" component={WhitpainTownshipPage} />
+            <Route path="/worcester-township-golf-carts" component={WorcesterTownshipPage} />
             
-            {/* Municipality Rental Pages - Berks County Cities (1) */}
-            <Route path="/reading-city-golf-carts/rentals" component={ReadingCityRentalPage} />
+            {/* Municipality Rental Pages - Montgomery County Boroughs (24) */}
+            <Route path="/ambler-borough-golf-carts/rentals" component={AmblerBoroughRentalPage} />
+            <Route path="/bridgeport-borough-golf-carts/rentals" component={BridgeportBoroughRentalPage} />
+            <Route path="/bryn-athyn-borough-golf-carts/rentals" component={BrynAthynBoroughRentalPage} />
+            <Route path="/collegeville-borough-golf-carts/rentals" component={CollegevilleBoroughRentalPage} />
+            <Route path="/conshohocken-borough-golf-carts/rentals" component={ConshohockenBoroughRentalPage} />
+            <Route path="/east-greenville-borough-golf-carts/rentals" component={EastGreenvilleBoroughRentalPage} />
+            <Route path="/green-lane-borough-golf-carts/rentals" component={GreenLaneBoroughRentalPage} />
+            <Route path="/hatboro-borough-golf-carts/rentals" component={HatboroBoroughRentalPage} />
+            <Route path="/hatfield-borough-golf-carts/rentals" component={HatfieldBoroughRentalPage} />
+            <Route path="/jenkintown-borough-golf-carts/rentals" component={JenkintownBoroughRentalPage} />
+            <Route path="/lansdale-borough-golf-carts/rentals" component={LansdaleBoroughRentalPage} />
+            <Route path="/narberth-borough-golf-carts/rentals" component={NarberthBoroughRentalPage} />
+            <Route path="/norristown-borough-golf-carts/rentals" component={NorristownBoroughRentalPage} />
+            <Route path="/north-wales-borough-golf-carts/rentals" component={NorthWalesBoroughRentalPage} />
+            <Route path="/pennsburg-borough-golf-carts/rentals" component={PennsburgBoroughRentalPage} />
+            <Route path="/pottstown-borough-golf-carts/rentals" component={PottstownBoroughRentalPage} />
+            <Route path="/red-hill-borough-golf-carts/rentals" component={RedHillBoroughRentalPage} />
+            <Route path="/rockledge-borough-golf-carts/rentals" component={RockledgeBoroughRentalPage} />
+            <Route path="/royersford-borough-golf-carts/rentals" component={RoyersfordBoroughRentalPage} />
+            <Route path="/schwenksville-borough-golf-carts/rentals" component={SchwenksvilleBoroughRentalPage} />
+            <Route path="/souderton-borough-golf-carts/rentals" component={SoudertonBoroughRentalPage} />
+            <Route path="/telford-borough-golf-carts/rentals" component={TelfordBoroughRentalPage} />
+            <Route path="/trappe-borough-golf-carts/rentals" component={TrappeBoroughRentalPage} />
+            <Route path="/west-conshohocken-borough-golf-carts/rentals" component={WestConshohockenBoroughRentalPage} />
             
-            {/* Municipality Rental Pages - Berks County Boroughs (27) */}
-            <Route path="/bally-borough-golf-carts/rentals" component={BallyBoroughRentalPage} />
-            <Route path="/bechtelsville-borough-golf-carts/rentals" component={BechtelvilleBoroughRentalPage} />
-            <Route path="/bernville-borough-golf-carts/rentals" component={BernvilleBoroughRentalPage} />
-            <Route path="/birdsboro-borough-golf-carts/rentals" component={BirdsboroBoroughRentalPage} />
-            <Route path="/boyertown-borough-golf-carts/rentals" component={BoyertownBoroughRentalPage} />
-            <Route path="/centerport-borough-golf-carts/rentals" component={CenterportBoroughRentalPage} />
-            <Route path="/fleetwood-borough-golf-carts/rentals" component={FleetwoodBoroughRentalPage} />
-            <Route path="/hamburg-borough-golf-carts/rentals" component={HamburgBoroughRentalPage} />
-            <Route path="/kenhorst-borough-golf-carts/rentals" component={KenhorstBoroughRentalPage} />
-            <Route path="/kutztown-borough-golf-carts/rentals" component={KutzownBoroughRentalPage} />
-            <Route path="/laureldale-borough-golf-carts/rentals" component={LaureldaleBoroughRentalPage} />
-            <Route path="/leesport-borough-golf-carts/rentals" component={LeesportBoroughRentalPage} />
-            <Route path="/lenhartsville-borough-golf-carts/rentals" component={LenhartsvilleBoroughRentalPage} />
-            <Route path="/lyons-borough-golf-carts/rentals" component={LyonsBoroughRentalPage} />
-            <Route path="/mohnton-borough-golf-carts/rentals" component={MohntonBoroughRentalPage} />
-            <Route path="/mount-penn-borough-golf-carts/rentals" component={MountPennBoroughRentalPage} />
-            <Route path="/new-morgan-borough-golf-carts/rentals" component={NewMorganBoroughRentalPage} />
-            <Route path="/robesonia-borough-golf-carts/rentals" component={RobosoniaBoroughRentalPage} />
-            <Route path="/st-lawrence-borough-golf-carts/rentals" component={StLawrenceBoroughRentalPage} />
-            <Route path="/shillington-borough-golf-carts/rentals" component={ShillingtonBoroughRentalPage} />
-            <Route path="/shoemakersville-borough-golf-carts/rentals" component={ShoemakersvilleBoroughRentalPage} />
-            <Route path="/sinking-spring-borough-golf-carts/rentals" component={SinkingSpringBoroughRentalPage} />
-            <Route path="/topton-borough-golf-carts/rentals" component={ToptonBoroughRentalPage} />
-            <Route path="/wernersville-borough-golf-carts/rentals" component={WernersvilleBoroughRentalPage} />
-            <Route path="/west-reading-borough-golf-carts/rentals" component={WestReadingBoroughRentalPage} />
-            <Route path="/womelsdorf-borough-golf-carts/rentals" component={WomelsdorfBoroughRentalPage} />
-            <Route path="/wyomissing-borough-golf-carts/rentals" component={WyomissingBoroughRentalPage} />
-            
-            {/* Municipality Rental Pages - Berks County Townships (44) */}
-            <Route path="/albany-township-golf-carts/rentals" component={AlbanyTownshipRentalPage} />
-            <Route path="/alsace-township-golf-carts/rentals" component={AlsaceTownshipRentalPage} />
-            <Route path="/amity-township-golf-carts/rentals" component={AmityTownshipRentalPage} />
-            <Route path="/bern-township-golf-carts/rentals" component={BernTownshipRentalPage} />
-            <Route path="/bethel-township-golf-carts/rentals" component={BethelTownshipRentalPage} />
-            <Route path="/brecknock-township-golf-carts/rentals" component={BrecknockTownshipRentalPage} />
-            <Route path="/caernarvon-township-golf-carts/rentals" component={CaernarvonTownshipRentalPage} />
-            <Route path="/centre-township-golf-carts/rentals" component={CentreTownshipRentalPage} />
-            <Route path="/colebrookdale-township-golf-carts/rentals" component={ColebrookdaleTownshipRentalPage} />
-            <Route path="/cumru-township-golf-carts/rentals" component={CumruTownshipRentalPage} />
-            <Route path="/district-township-golf-carts/rentals" component={DistrictTownshipRentalPage} />
+            {/* Municipality Rental Pages - Montgomery County Townships (38) */}
+            <Route path="/abington-township-golf-carts/rentals" component={AbingtonTownshipRentalPage} />
+            <Route path="/cheltenham-township-golf-carts/rentals" component={CheltenhamTownshipRentalPage} />
             <Route path="/douglass-township-golf-carts/rentals" component={DouglassTownshipRentalPage} />
-            <Route path="/earl-township-golf-carts/rentals" component={EarlTownshipRentalPage} />
-            <Route path="/exeter-township-golf-carts/rentals" component={ExeterTownshipRentalPage} />
-            <Route path="/greenwich-township-golf-carts/rentals" component={GreenwichTownshipRentalPage} />
-            <Route path="/heidelberg-township-golf-carts/rentals" component={HeidelbergTownshipRentalPage} />
-            <Route path="/hereford-township-golf-carts/rentals" component={HerefordTownshipRentalPage} />
-            <Route path="/jefferson-township-golf-carts/rentals" component={JeffersonTownshipRentalPage} />
-            <Route path="/longswamp-township-golf-carts/rentals" component={LongswampTownshipRentalPage} />
-            <Route path="/lower-alsace-township-golf-carts/rentals" component={LowerAlsaceTownshipRentalPage} />
-            <Route path="/lower-heidelberg-township-golf-carts/rentals" component={LowerHeidelbergTownshipRentalPage} />
-            <Route path="/maidencreek-township-golf-carts/rentals" component={MaidencreekTownshipRentalPage} />
-            <Route path="/marion-township-golf-carts/rentals" component={MarionTownshipRentalPage} />
-            <Route path="/maxatawny-township-golf-carts/rentals" component={MaxatawnyTownshipRentalPage} />
-            <Route path="/muhlenberg-township-golf-carts/rentals" component={MuhlenbergTownshipRentalPage} />
-            <Route path="/north-heidelberg-township-golf-carts/rentals" component={NorthHeidelbergTownshipRentalPage} />
-            <Route path="/oley-township-golf-carts/rentals" component={OleyTownshipRentalPage} />
-            <Route path="/ontelaunee-township-golf-carts/rentals" component={OntelauneeTownshipRentalPage} />
-            <Route path="/penn-township-golf-carts/rentals" component={PennTownshipRentalPage} />
-            <Route path="/perry-township-golf-carts/rentals" component={PerryTownshipRentalPage} />
-            <Route path="/pike-township-golf-carts/rentals" component={PikeTownshipRentalPage} />
-            <Route path="/richmond-township-golf-carts/rentals" component={RichmondTownshipRentalPage} />
-            <Route path="/robeson-township-golf-carts/rentals" component={RobesonTownshipRentalPage} />
-            <Route path="/rockland-township-golf-carts/rentals" component={RocklandTownshipRentalPage} />
-            <Route path="/ruscombmanor-township-golf-carts/rentals" component={RuscombmanorTownshipRentalPage} />
-            <Route path="/south-heidelberg-township-golf-carts/rentals" component={SouthHeidelbergTownshipRentalPage} />
-            <Route path="/spring-township-golf-carts/rentals" component={SpringTownshipRentalPage} />
-            <Route path="/tilden-township-golf-carts/rentals" component={TildenTownshipRentalPage} />
-            <Route path="/tulpehocken-township-golf-carts/rentals" component={TulpehockenTownshipRentalPage} />
-            <Route path="/union-township-golf-carts/rentals" component={UnionTownshipRentalPage} />
-            <Route path="/upper-bern-township-golf-carts/rentals" component={UpperBernTownshipRentalPage} />
-            <Route path="/upper-tulpehocken-township-golf-carts/rentals" component={UpperTulpehockenTownshipRentalPage} />
-            <Route path="/washington-township-golf-carts/rentals" component={WashingtonTownshipRentalPage} />
-            <Route path="/windsor-township-golf-carts/rentals" component={WindsorTownshipRentalPage} />
+            <Route path="/east-norriton-township-golf-carts/rentals" component={EastNorritonTownshipRentalPage} />
+            <Route path="/franconia-township-golf-carts/rentals" component={FranconiaTownshipRentalPage} />
+            <Route path="/hatfield-township-golf-carts/rentals" component={HatfieldTownshipRentalPage} />
+            <Route path="/horsham-township-golf-carts/rentals" component={HorshamTownshipRentalPage} />
+            <Route path="/limerick-township-golf-carts/rentals" component={LimerickTownshipRentalPage} />
+            <Route path="/lower-frederick-township-golf-carts/rentals" component={LowerFrederickTownshipRentalPage} />
+            <Route path="/lower-gwynedd-township-golf-carts/rentals" component={LowerGwyneddTownshipRentalPage} />
+            <Route path="/lower-merion-township-golf-carts/rentals" component={LowerMerionTownshipRentalPage} />
+            <Route path="/lower-moreland-township-golf-carts/rentals" component={LowerMorelandTownshipRentalPage} />
+            <Route path="/lower-pottsgrove-township-golf-carts/rentals" component={LowerPottsgroveTownshipRentalPage} />
+            <Route path="/lower-providence-township-golf-carts/rentals" component={LowerProvidenceTownshipRentalPage} />
+            <Route path="/lower-salford-township-golf-carts/rentals" component={LowerSalfordTownshipRentalPage} />
+            <Route path="/marlborough-township-golf-carts/rentals" component={MarlboroughTownshipRentalPage} />
+            <Route path="/montgomery-township-golf-carts/rentals" component={MontgomeryTownshipRentalPage} />
+            <Route path="/new-hanover-township-golf-carts/rentals" component={NewHanoverTownshipRentalPage} />
+            <Route path="/perkiomen-township-golf-carts/rentals" component={PerkiomenTownshipRentalPage} />
+            <Route path="/plymouth-township-golf-carts/rentals" component={PlymouthTownshipRentalPage} />
+            <Route path="/salford-township-golf-carts/rentals" component={SalfordTownshipRentalPage} />
+            <Route path="/skippack-township-golf-carts/rentals" component={SkippackTownshipRentalPage} />
+            <Route path="/springfield-township-golf-carts/rentals" component={SpringfieldTownshipRentalPage} />
+            <Route path="/towamencin-township-golf-carts/rentals" component={TowamencinTownshipRentalPage} />
+            <Route path="/upper-dublin-township-golf-carts/rentals" component={UpperDublinTownshipRentalPage} />
+            <Route path="/upper-frederick-township-golf-carts/rentals" component={UpperFrederickTownshipRentalPage} />
+            <Route path="/upper-gwynedd-township-golf-carts/rentals" component={UpperGwyneddTownshipRentalPage} />
+            <Route path="/upper-hanover-township-golf-carts/rentals" component={UpperHanoverTownshipRentalPage} />
+            <Route path="/upper-merion-township-golf-carts/rentals" component={UpperMerionTownshipRentalPage} />
+            <Route path="/upper-moreland-township-golf-carts/rentals" component={UpperMorelandTownshipRentalPage} />
+            <Route path="/upper-pottsgrove-township-golf-carts/rentals" component={UpperPottsgroveTownshipRentalPage} />
+            <Route path="/upper-providence-township-golf-carts/rentals" component={UpperProvidenceTownshipRentalPage} />
+            <Route path="/upper-salford-township-golf-carts/rentals" component={UpperSalfordTownshipRentalPage} />
+            <Route path="/west-norriton-township-golf-carts/rentals" component={WestNorritonTownshipRentalPage} />
+            <Route path="/west-pottsgrove-township-golf-carts/rentals" component={WestPottsgroveTownshipRentalPage} />
+            <Route path="/whitemarsh-township-golf-carts/rentals" component={WhitemarshTownshipRentalPage} />
+            <Route path="/whitpain-township-golf-carts/rentals" component={WhitpainTownshipRentalPage} />
+            <Route path="/worcester-township-golf-carts/rentals" component={WorcesterTownshipRentalPage} />
+            
+            {/* Essential Montgomery County Town Pages */}
+            <Route path="/abington-golf-carts" component={AbingtonPage} />
+            <Route path="/ambler-golf-carts" component={AmblerPage} />
+            <Route path="/ardmore-golf-carts" component={ArdmorePage} />
+            <Route path="/audubon-golf-carts" component={AudubonPage} />
+            <Route path="/blue-bell-golf-carts" component={BlueBellPage} />
+            <Route path="/bridgeport-golf-carts" component={BridgeportPage} />
+            <Route path="/conshohocken-golf-carts" component={ConshohockenPage} />
+            <Route path="/fort-washington-golf-carts" component={FortWashingtonPage} />
+            <Route path="/king-of-prussia-golf-carts" component={KingOfPrussiaPage} />
+            <Route path="/lansdale-golf-carts" component={LansdalePage} />
+            <Route path="/norristown-golf-carts" component={NorristownPage} />
+            <Route path="/north-wales-golf-carts" component={NorthWalesPage} />
+            <Route path="/plymouth-meeting-golf-carts" component={PlymouthMeetingPage} />
+            <Route path="/pottstown-golf-carts" component={PottstownPage} />
+            <Route path="/royersford-golf-carts" component={RoyersfordPage} />
+            <Route path="/willow-grove-golf-carts" component={WillowGrovePage} />
             
             <Route component={NotFound} />
           </Switch>
