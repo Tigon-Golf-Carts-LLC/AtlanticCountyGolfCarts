@@ -55,7 +55,7 @@ export default function MontgomeryCountyMunicipalityPage({ municipality }: Montg
   const canonicalUrl = `https://montcogolfcarts.com${municipality.url}`;
 
   const businessHours = "Mon-Fri: 8:00 AM - 6:00 PM, Sat: 9:00 AM - 4:00 PM, Sun: Closed";
-  const businessPhone = "(267) 645-6271";
+  const businessPhone = "1-844-844-6638";
   const businessEmail = "info@montcogolfcarts.com";
 
   return (
