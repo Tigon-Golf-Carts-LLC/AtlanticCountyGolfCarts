@@ -96,102 +96,102 @@ export default function ShowroomPage() {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 gap-8">
             {locations.map((location, index) => (
-              <Card key={index} className="hover:shadow-xl transition-shadow border-2 hover:border-theme-orange">
-                <CardHeader className="pb-4">
+              <Card key={index} className="hover:shadow-xl transition-shadow border border-gray-200 hover:border-theme-orange h-full">
+                <CardHeader className="pb-3">
                   <div className="flex justify-between items-start">
                     <div>
-                      <CardTitle className="text-2xl text-theme-primary mb-2">
+                      <CardTitle className="text-lg font-bold text-theme-primary mb-2 leading-tight">
                         <a href={location.websiteUrl} target="_blank" rel="noopener noreferrer" 
                            className="hover:text-theme-orange transition-colors cursor-pointer">
                           {location.name}
                         </a>
                       </CardTitle>
-                      <Badge className="bg-theme-orange text-white">
+                      <Badge className="bg-theme-orange text-white text-xs px-2 py-1">
                         {location.city} Location
                       </Badge>
                     </div>
-                    <div className="flex gap-2">
-                      <Star className="w-5 h-5 text-yellow-500 fill-current" />
-                      <Star className="w-5 h-5 text-yellow-500 fill-current" />
-                      <Star className="w-5 h-5 text-yellow-500 fill-current" />
-                      <Star className="w-5 h-5 text-yellow-500 fill-current" />
-                      <Star className="w-5 h-5 text-yellow-500 fill-current" />
+                    <div className="flex gap-1 flex-shrink-0">
+                      <Star className="w-4 h-4 text-yellow-500 fill-current" />
+                      <Star className="w-4 h-4 text-yellow-500 fill-current" />
+                      <Star className="w-4 h-4 text-yellow-500 fill-current" />
+                      <Star className="w-4 h-4 text-yellow-500 fill-current" />
+                      <Star className="w-4 h-4 text-yellow-500 fill-current" />
                     </div>
                   </div>
                 </CardHeader>
                 
                 <CardContent>
-                  <div className="space-y-4">
+                  <div className="space-y-3">
                     {/* Address */}
-                    <div className="flex items-start gap-3">
-                      <MapPin className="w-5 h-5 text-theme-orange mt-1 flex-shrink-0" />
+                    <div className="flex items-start gap-2">
+                      <MapPin className="w-4 h-4 text-theme-orange mt-0.5 flex-shrink-0" />
                       <div>
-                        <p className="font-medium text-gray-900">{location.address}</p>
+                        <p className="text-sm font-medium text-gray-900">{location.address}</p>
                       </div>
                     </div>
 
                     {/* Phone */}
-                    <div className="flex items-center gap-3">
-                      <Phone className="w-5 h-5 text-theme-orange flex-shrink-0" />
-                      <a href={`tel:${location.phone}`} className="font-medium text-theme-primary hover:text-theme-orange transition-colors">
+                    <div className="flex items-center gap-2">
+                      <Phone className="w-4 h-4 text-theme-orange flex-shrink-0" />
+                      <a href={`tel:${location.phone}`} className="text-sm font-medium text-theme-primary hover:text-theme-orange transition-colors">
                         {location.phone}
                       </a>
                     </div>
 
                     {/* Hours */}
-                    <div className="flex items-start gap-3">
-                      <Clock className="w-5 h-5 text-theme-orange mt-1 flex-shrink-0" />
+                    <div className="flex items-start gap-2">
+                      <Clock className="w-4 h-4 text-theme-orange mt-0.5 flex-shrink-0" />
                       <div>
-                        <p className="font-medium text-gray-900">Business Hours</p>
+                        <p className="text-sm font-medium text-gray-900">Business Hours</p>
                         {location.type === "physical" ? (
                           <>
-                            <p className="text-gray-600 text-sm">Mon-Fri: 9:00 AM - 5:00 PM</p>
-                            <p className="text-gray-600 text-sm">Sat: 9:00 AM - 5:00 PM</p>
-                            <p className="text-gray-600 text-sm">Sun: CLOSED</p>
+                            <p className="text-gray-600 text-xs">Mon-Fri: 9:00 AM - 5:00 PM</p>
+                            <p className="text-gray-600 text-xs">Sat: 9:00 AM - 5:00 PM</p>
+                            <p className="text-gray-600 text-xs">Sun: CLOSED</p>
                           </>
                         ) : (
-                          <p className="text-gray-600 text-sm">24 Hours - Online Store</p>
+                          <p className="text-gray-600 text-xs">24 Hours - Online Store</p>
                         )}
                       </div>
                     </div>
 
                     {/* Action Buttons */}
-                    <div className="grid grid-cols-2 gap-3 pt-4">
+                    <div className="grid grid-cols-2 gap-2 pt-3">
                       <a href={location.googleMapsUrl} target="_blank" rel="noopener noreferrer">
-                        <Button className="w-full bg-theme-orange hover:bg-orange-600 text-white">
-                          <MapPin className="w-4 h-4 mr-2" />
+                        <Button size="sm" className="w-full bg-theme-orange hover:bg-orange-600 text-white text-xs">
+                          <MapPin className="w-3 h-3 mr-1" />
                           Directions
                         </Button>
                       </a>
                       <a href={`tel:${location.phone}`}>
-                        <Button variant="outline" className="w-full border-theme-orange text-theme-orange hover:bg-orange-50">
-                          <Phone className="w-4 h-4 mr-2" />
+                        <Button size="sm" variant="outline" className="w-full border-theme-orange text-theme-orange hover:bg-orange-50 text-xs">
+                          <Phone className="w-3 h-3 mr-1" />
                           Call Now
                         </Button>
                       </a>
                     </div>
 
                     {/* Social Links */}
-                    <div className="flex gap-3 pt-2">
+                    <div className="flex gap-2 pt-2 justify-center">
                       {location.facebookUrl && (
                         <a href={location.facebookUrl} target="_blank" rel="noopener noreferrer" 
-                           className="text-gray-600 hover:text-blue-600 transition-colors">
-                          <Facebook className="w-5 h-5" />
+                           className="text-gray-500 hover:text-blue-600 transition-colors">
+                          <Facebook className="w-4 h-4" />
                         </a>
                       )}
                       {location.youtubeUrl && (
                         <a href={location.youtubeUrl} target="_blank" rel="noopener noreferrer"
-                           className="text-gray-600 hover:text-red-600 transition-colors">
-                          <Youtube className="w-5 h-5" />
+                           className="text-gray-500 hover:text-red-600 transition-colors">
+                          <Youtube className="w-4 h-4" />
                         </a>
                       )}
                       <a href={location.websiteUrl} target="_blank" rel="noopener noreferrer"
-                         className="text-gray-600 hover:text-theme-orange transition-colors">
-                        <ExternalLink className="w-5 h-5" />
+                         className="text-gray-500 hover:text-theme-orange transition-colors">
+                        <ExternalLink className="w-4 h-4" />
                       </a>
                       <a href={location.reviewUrl} target="_blank" rel="noopener noreferrer"
-                         className="text-gray-600 hover:text-yellow-500 transition-colors">
-                        <Star className="w-5 h-5" />
+                         className="text-gray-500 hover:text-yellow-500 transition-colors">
+                        <Star className="w-4 h-4" />
                       </a>
                     </div>
                   </div>

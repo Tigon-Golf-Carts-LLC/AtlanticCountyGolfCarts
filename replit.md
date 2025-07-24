@@ -238,6 +238,14 @@ Logo: Berks County Golf Carts logo (Berks County Golf Carts (3)_1753284044185.pn
   - Changed grid layout to accommodate 4 locations (Poconos, Hatfield, Philadelphia, Online)
   - Updated location description from "Three convenient locations" to "Four convenient locations"
   - All locations now display unified 1-844-844-6638 phone number for Philadelphia and Online locations
+- ✅ **Showroom Cards Visual Enhancement**: Improved location card design and layout:
+  - Reduced heading size from text-2xl to text-lg for better proportions
+  - Made stars smaller (w-4 h-4) and closer together for cleaner appearance
+  - Reduced all content text sizes for better density and readability
+  - Made buttons smaller with text-xs for more compact design
+  - Centered social media icons and made them smaller (w-4 h-4)
+  - Added h-full class to cards for consistent height alignment
+  - Improved spacing and reduced gaps throughout the cards
 
 ## Recent Changes (January 24, 2025)
 
