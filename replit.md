@@ -193,6 +193,13 @@ Logo: Berks County Golf Carts logo (Berks County Golf Carts (3)_1753284044185.pn
   - Updated sitemap.xml logo image reference
   - Removed old Berks County logo references
   - All pages now display consistent MONTCO Golf Carts branding with new logo as favicon
+- ✅ **Updated Phone Number CTA**: Changed main contact phone number from (267) 645-6271 to 1-844-844-6638 across all pages:
+  - Updated HomePage main contact section phone number
+  - Updated MontgomeryCountyCommunityPages business phone number
+  - Updated EvolutionPage call-to-action buttons (both hero and contact sections)  
+  - Updated ContactPage main line contact info and SEO description
+  - Updated DenagoPage call-to-action buttons (both hero and contact sections)
+  - All call-to-action buttons and contact sections now display the unified 1-844-844-6638 number
 
 ## Recent Changes (January 24, 2025)
 

@@ -688,7 +688,7 @@ Montgomery County Golf Carts Premier Dealership
             <h3 className="text-2xl font-bold text-gray-900 mb-4">Main Contact</h3>
             <p className="text-gray-600 mb-4">For general inquiries and support throughout Montgomery County</p>
             <div className="flex flex-col md:flex-row justify-center items-center gap-4">
-              <span className="text-2xl font-bold text-theme-orange">(267) 645-6271</span>
+              <span className="text-2xl font-bold text-theme-orange">1-844-844-6638</span>
               <Link href="/contact">
                 <Button className="bg-theme-orange hover:bg-orange-600 text-white">
                   Contact Us
