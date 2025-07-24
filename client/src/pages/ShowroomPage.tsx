@@ -57,7 +57,7 @@ export default function ShowroomPage() {
       />
       <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}
-      <section className="relative py-20 px-4 bg-gradient-to-r from-theme-primary to-blue-700 text-white bg-cover bg-center bg-no-repeat" style={{backgroundImage: "linear-gradient(rgba(14, 46, 85, 0.8), rgba(29, 78, 216, 0.8)), url('/attached_assets/a-photograph-of-a-modern-golf-cart-deale_OO82J1mtQEyokt1GsD08YQ_vk-WDImPSSq1axdn5SN7Mw_1753301595303.png')"}}>
+      <section className="relative py-20 px-4 bg-gradient-to-r from-theme-primary to-blue-700 text-white bg-cover bg-center bg-no-repeat" style={{backgroundImage: "linear-gradient(rgba(14, 46, 85, 0.8), rgba(29, 78, 216, 0.8)), url('/attached_assets/a-photograph-of-a-modern-golf-cart-deale_OlTDU4v9StGOZo5AygNb9A_bbx-4nIbSSGW4LKOIV9o3w_1753383770677.png')"}}>
         <div className="max-w-7xl mx-auto text-center">
           <h1 className="text-5xl font-bold mb-6">
             Berks County Golf Cart Showroom

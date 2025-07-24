@@ -4,7 +4,7 @@ import { Badge } from "@/components/ui/badge";
 import { Users, Award, Target, Heart, Phone, Mail, MapPin, Calendar } from "lucide-react";
 import { Link } from "wouter";
 import SEOHead from "@/components/SEOHead";
-import heroImage from "@assets/a-photograph-of-a-modern-golf-cart-deale_8elKPzmBTsyxj7iHgPaXpg_gCWvAKP5Rm65AC6RGdU8FA_1753302323501.png";
+import heroImage from "@assets/a-photograph-of-a-modern-golf-cart-deale_OlTDU4v9StGOZo5AygNb9A_bbx-4nIbSSGW4LKOIV9o3w_1753383770677.png";
 
 export default function NewAboutPage() {
   const teamMembers = [
