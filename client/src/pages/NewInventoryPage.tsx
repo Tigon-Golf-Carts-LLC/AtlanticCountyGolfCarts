@@ -45,9 +45,9 @@ export default function NewInventoryPage() {
   return (
     <>
       <SEOHead 
-        title="Golf Cart Inventory - New & Used | Ocean County Golf Carts"
-        description="Browse our extensive inventory of new and used golf carts from top brands like DENAGO and EVOLUTION. Find the perfect electric vehicle for your needs in Ocean County, NJ."
-        keywords="golf cart inventory, new golf carts, used golf carts, DENAGO, EVOLUTION, Ocean County golf carts"
+        title="Golf Cart Inventory - New & Used | Montgomery County Golf Carts"
+        description="Browse our extensive inventory of new and used golf carts from top brands like DENAGO and EVOLUTION. Find the perfect electric vehicle for your needs in Montgomery County, PA."
+        keywords="golf cart inventory, new golf carts, used golf carts, DENAGO, EVOLUTION, Montgomery County golf carts"
       />
       
       <div className="min-h-screen bg-gray-50">
@@ -283,11 +283,11 @@ export default function NewInventoryPage() {
               <Card className="text-center">
                 <CardHeader>
                   <MapPin className="w-12 h-12 text-purple-500 mx-auto mb-4" />
-                  <CardTitle>Bucks County Service</CardTitle>
+                  <CardTitle>Montgomery County Service</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-600">
-                    Delivery and pickup available throughout Bucks County and surrounding areas.
+                    Delivery and pickup available throughout Montgomery County and surrounding areas.
                   </p>
                 </CardContent>
               </Card>

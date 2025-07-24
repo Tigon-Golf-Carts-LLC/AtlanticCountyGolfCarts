@@ -45,8 +45,8 @@ export default function InventoryPage() {
   }
 
   const breadcrumbItems = [
-    { name: "Home", url: "https://oceancountygolfcarts.com" },
-    { name: "Inventory", url: "https://oceancountygolfcarts.com/inventory" }
+    { name: "Home", url: "https://montcogolfcarts.com" },
+    { name: "Inventory", url: "https://montcogolfcarts.com/inventory" }
   ];
 
   return (
@@ -122,8 +122,8 @@ export default function InventoryPage() {
                 Contact Our Team
               </Button>
             </Link>
-            <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-blue-600 w-full sm:w-auto">
-              Call (732) 908-7166
+            <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-blue-600 w-full sm:w-auto" onClick={() => window.open("tel:1-844-844-6638")}>
+              Call 1-844-844-6638
             </Button>
           </div>
         </div>
