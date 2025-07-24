@@ -64,13 +64,13 @@ function MontgomeryCountyCommunityPage({ communityName, isUnincorporated = false
               service, and rental solutions delivered directly to {communityName} residents.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" className="bg-white text-blue-600 hover:bg-gray-100">
+              <Button size="lg" className="bg-theme-orange hover:bg-orange-600 text-white">
                 <Link href="/inventory" className="flex items-center gap-2">
                   <Battery className="h-5 w-5" />
                   Browse Golf Carts
                 </Link>
               </Button>
-              <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-blue-600">
+              <Button size="lg" className="bg-white text-blue-600 hover:bg-gray-100 border-white">
                 <Link href="/contact" className="flex items-center gap-2">
                   <Phone className="h-5 w-5" />
                   Contact Us Today
