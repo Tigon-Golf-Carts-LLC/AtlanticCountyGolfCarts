@@ -37,7 +37,7 @@ export default function Navigation() {
             </div>
             <Link href="/">
               <div className="cursor-pointer">
-                <div className="text-lg font-bold text-theme-primary">BERKS COUNTY</div>
+                <div className="text-lg font-bold text-theme-primary">MONTCO</div>
                 <div className="text-lg font-bold text-theme-primary -mt-1">GOLF CARTS</div>
               </div>
             </Link>
