@@ -57,23 +57,23 @@ export default function SEOHead({
     // Set favicon
     const existingFavicon = document.querySelector('link[rel="icon"]');
     if (existingFavicon) {
-      existingFavicon.setAttribute("href", "/attached_assets/berks county golf carts (1)_1753301074190.png");
+      existingFavicon.setAttribute("href", "/attached_assets/MONTCO Golf Carts_1753384274720.png");
     } else {
       const favicon = document.createElement("link");
       favicon.rel = "icon";
       favicon.type = "image/png";
-      favicon.href = "/attached_assets/berks county golf carts (1)_1753301074190.png";
+      favicon.href = "/attached_assets/MONTCO Golf Carts_1753384274720.png";
       document.head.appendChild(favicon);
     }
     
     // Set apple touch icon
     const existingAppleIcon = document.querySelector('link[rel="apple-touch-icon"]');
     if (existingAppleIcon) {
-      existingAppleIcon.setAttribute("href", "/attached_assets/berks county golf carts (1)_1753301074190.png");
+      existingAppleIcon.setAttribute("href", "/attached_assets/MONTCO Golf Carts_1753384274720.png");
     } else {
       const appleIcon = document.createElement("link");
       appleIcon.rel = "apple-touch-icon";
-      appleIcon.href = "/attached_assets/berks county golf carts (1)_1753301074190.png";
+      appleIcon.href = "/attached_assets/MONTCO Golf Carts_1753384274720.png";
       document.head.appendChild(appleIcon);
     }
     

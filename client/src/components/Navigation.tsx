@@ -30,8 +30,8 @@ export default function Navigation() {
           <div className="flex items-center space-x-3">
             <div className="rounded-lg">
               <img 
-                src="/attached_assets/berks county golf carts (1)_1753301074190.png" 
-                alt="Berks County Golf Carts Logo" 
+                src="/attached_assets/MONTCO Golf Carts_1753384274720.png" 
+                alt="MONTCO Golf Carts Logo" 
                 className="h-20 w-20"
               />
             </div>
