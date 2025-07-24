@@ -4,9 +4,9 @@ export default function ReturnPolicyPage() {
   return (
     <>
       <SEOHead 
-        title="Return Policy | Berks County Golf Carts"
-        description="Learn about Berks County Golf Carts return policy for golf cart purchases, accessories, and parts. Understand return conditions, timelines, and procedures."
-        keywords="return policy, golf cart returns, Berks County golf carts, refund policy Pennsylvania"
+        title="Return Policy | Montgomery County Golf Carts"
+        description="Learn about Montgomery County Golf Carts return policy for golf cart purchases, accessories, and parts. Understand return conditions, timelines, and procedures."
+        keywords="return policy, golf cart returns, Montgomery County golf carts, refund policy Pennsylvania"
       />
       
       <div className="min-h-screen bg-gray-50 py-12">
@@ -20,7 +20,7 @@ export default function ReturnPolicyPage() {
             <div className="prose max-w-none">
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">General Return Policy</h2>
               <p className="mb-6">
-                At Berks County Golf Carts, we strive for complete customer satisfaction. This return policy 
+                At Montgomery County Golf Carts, we strive for complete customer satisfaction. This return policy 
                 outlines the conditions and procedures for returns on golf carts, parts, and accessories 
                 purchased from our Pennsylvania locations.
               </p>

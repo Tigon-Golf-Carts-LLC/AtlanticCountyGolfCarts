@@ -4,9 +4,9 @@ export default function FeedbackPolicyPage() {
   return (
     <>
       <SEOHead 
-        title="Feedback Policy | Berks County Golf Carts"
-        description="Learn how to provide feedback to Berks County Golf Carts. Our commitment to customer feedback, review process, and continuous improvement in Pennsylvania."
-        keywords="feedback policy, customer feedback, Berks County golf carts, customer service policy"
+        title="Feedback Policy | Montgomery County Golf Carts"
+        description="Learn how to provide feedback to Montgomery County Golf Carts. Our commitment to customer feedback, review process, and continuous improvement in Pennsylvania."
+        keywords="feedback policy, customer feedback, Montgomery County golf carts, customer service policy"
       />
       
       <div className="min-h-screen bg-gray-50 py-12">
@@ -20,7 +20,7 @@ export default function FeedbackPolicyPage() {
             <div className="prose max-w-none">
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">Our Commitment to Customer Feedback</h2>
               <p className="mb-6">
-                At Berks County Golf Carts, we value every customer's voice. Your feedback drives our 
+                At Montgomery County Golf Carts, we value every customer's voice. Your feedback drives our 
                 continuous improvement efforts and helps us provide exceptional service throughout 
                 Pennsylvania. This policy outlines how we collect, process, and act on customer feedback.
               </p>
@@ -56,7 +56,7 @@ export default function FeedbackPolicyPage() {
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">How to Provide Feedback</h2>
               <h3 className="text-xl font-semibold text-gray-800 mt-6 mb-3">Direct Communication Channels</h3>
               <ul className="list-disc pl-6 mb-6">
-                <li><strong>Email:</strong> info@berksgolfcarts.com</li>
+                <li><strong>Email:</strong> info@montcogolfcarts.com</li>
                 <li><strong>Phone:</strong> 1-844-844-6638</li>
                 <li><strong>In-Person:</strong> Any TIGON Golf Carts location</li>
                 <li><strong>Mail:</strong> Written feedback to our business addresses</li>

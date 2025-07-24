@@ -4,9 +4,9 @@ export default function RentalPolicyPage() {
   return (
     <>
       <SEOHead 
-        title="Rental Policy | Berks County Golf Carts"
-        description="Complete golf cart rental policy for Berks County Golf Carts. Learn about rental requirements, responsibilities, insurance, and terms for Pennsylvania golf cart rentals."
-        keywords="rental policy, golf cart rental, Berks County rentals, Pennsylvania golf cart rental policy"
+        title="Rental Policy | Montgomery County Golf Carts"
+        description="Complete golf cart rental policy for Montgomery County Golf Carts. Learn about rental requirements, responsibilities, insurance, and terms for Pennsylvania golf cart rentals."
+        keywords="rental policy, golf cart rental, Montgomery County rentals, Pennsylvania golf cart rental policy"
       />
       
       <div className="min-h-screen bg-gray-50 py-12">

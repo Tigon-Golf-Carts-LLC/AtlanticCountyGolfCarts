@@ -1,4 +1,4 @@
-# Berks County Golf Carts - Robots.txt
+# Montgomery County Golf Carts - Robots.txt
 # Allow all web crawlers and search engine bots
 # Follow all links and index all content
 
@@ -41,7 +41,7 @@ Allow: /
 Crawl-delay: 1
 
 # Sitemap location
-Sitemap: https://berksgolfcarts.com/sitemap.xml
+Sitemap: https://montcogolfcarts.com/sitemap.xml
 
 # Additional sitemaps (if needed in future)
 # Sitemap: https://oceancountygolfcarts.com/sitemap-images.xml
@@ -60,10 +60,10 @@ Allow: /*.svg
 Allow: /*.pdf
 
 # Company Information for SEO
-# Business: Berks County Golf Carts
-# Location: Berks County, Pennsylvania
+# Business: Montgomery County Golf Carts
+# Location: Montgomery County, Pennsylvania
 # Services: Golf Cart Sales, Service, Rentals, Parts
 # Brands: DENAGO, Evolution
 # Phone: 1-844-844-6638
-# Email: info@berksgolfcarts.com
-# Coverage: All Berks County municipalities
+# Email: info@montcogolfcarts.com
+# Coverage: All Montgomery County municipalities

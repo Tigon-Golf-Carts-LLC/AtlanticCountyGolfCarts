@@ -4,9 +4,9 @@ export default function DiversityPolicyPage() {
   return (
     <>
       <SEOHead 
-        title="Diversity Policy | Berks County Golf Carts"
-        description="Learn about Berks County Golf Carts' commitment to diversity, equity, and inclusion in our Pennsylvania workplace and customer service practices."
-        keywords="diversity policy, equity inclusion, Berks County golf carts, workplace diversity Pennsylvania"
+        title="Diversity Policy | Montgomery County Golf Carts"
+        description="Learn about Montgomery County Golf Carts' commitment to diversity, equity, and inclusion in our Pennsylvania workplace and customer service practices."
+        keywords="diversity policy, equity inclusion, Montgomery County golf carts, workplace diversity Pennsylvania"
       />
       
       <div className="min-h-screen bg-gray-50 py-12">
@@ -20,7 +20,7 @@ export default function DiversityPolicyPage() {
             <div className="prose max-w-none">
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">Our Commitment to Diversity</h2>
               <p className="mb-6">
-                Berks County Golf Carts is committed to fostering a diverse, equitable, and inclusive 
+                Montgomery County Golf Carts is committed to fostering a diverse, equitable, and inclusive 
                 environment for all employees, customers, and business partners. We believe that 
                 diversity strengthens our organization and enhances our ability to serve the 
                 Pennsylvania community effectively.
@@ -206,12 +206,12 @@ export default function DiversityPolicyPage() {
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">Contact Information</h2>
               <div className="bg-gray-50 p-6 rounded-lg">
                 <p className="mb-2"><strong>Human Resources Department</strong></p>
-                <p className="mb-2">Berks County Golf Carts</p>
-                <p className="mb-2">Email: info@berksgolfcarts.com</p>
+                <p className="mb-2">Montgomery County Golf Carts</p>
+                <p className="mb-2">Email: info@montcogolfcarts.com</p>
                 <p className="mb-2">Phone: 1-844-844-6638</p>
                 <p className="mb-2">TIGON Golf Carts Hatfield: 2333 Bethlehem Pike, Hatfield, PA 19440 | (215) 595-8736</p>
                 <p className="mb-2">TIGON Golf Carts Poconos: 1712 Pennsylvania 940, Pocono Pines, PA 18350 | (570) 643-0152</p>
-                <p className="mb-2">Website: berksgolfcarts.com</p>
+                <p className="mb-2">Website: montcogolfcarts.com</p>
                 <p>Confidential reporting and support available</p>
               </div>
             </div>

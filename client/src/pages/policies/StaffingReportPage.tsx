@@ -4,9 +4,9 @@ export default function StaffingReportPage() {
   return (
     <>
       <SEOHead 
-        title="Staffing Report | Berks County Golf Carts"
-        description="Learn about Berks County Golf Carts' staffing structure, employment practices, and workforce development in Pennsylvania."
-        keywords="staffing report, employment, Berks County golf carts, workforce Pennsylvania"
+        title="Staffing Report | Montgomery County Golf Carts"
+        description="Learn about Montgomery County Golf Carts' staffing structure, employment practices, and workforce development in Pennsylvania."
+        keywords="staffing report, employment, Montgomery County golf carts, workforce Pennsylvania"
       />
       
       <div className="min-h-screen bg-gray-50 py-12">
@@ -20,7 +20,7 @@ export default function StaffingReportPage() {
             <div className="prose max-w-none">
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">Executive Summary</h2>
               <p className="mb-6">
-                Berks County Golf Carts maintains a dedicated workforce committed to providing 
+                Montgomery County Golf Carts maintains a dedicated workforce committed to providing 
                 exceptional golf cart sales, rental, and service throughout Pennsylvania. This 
                 annual staffing report provides transparency on our employment practices, 
                 workforce composition, and professional development initiatives.
@@ -216,12 +216,12 @@ export default function StaffingReportPage() {
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">Contact Human Resources</h2>
               <div className="bg-gray-50 p-6 rounded-lg">
                 <p className="mb-2"><strong>Human Resources Department</strong></p>
-                <p className="mb-2">Berks County Golf Carts</p>
-                <p className="mb-2">Email: info@berksgolfcarts.com</p>
+                <p className="mb-2">Montgomery County Golf Carts</p>
+                <p className="mb-2">Email: info@montcogolfcarts.com</p>
                 <p className="mb-2">Phone: 1-844-844-6638</p>
                 <p className="mb-2">TIGON Golf Carts Hatfield: 2333 Bethlehem Pike, Hatfield, PA 19440 | (215) 595-8736</p>
                 <p className="mb-2">TIGON Golf Carts Poconos: 1712 Pennsylvania 940, Pocono Pines, PA 18350 | (570) 643-0152</p>
-                <p className="mb-2">Website: berksgolfcarts.com</p>
+                <p className="mb-2">Website: montcogolfcarts.com</p>
                 <p>Career opportunities and employment inquiries welcome</p>
               </div>
             </div>

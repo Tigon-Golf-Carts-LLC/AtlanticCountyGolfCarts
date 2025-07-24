@@ -4,9 +4,9 @@ export default function TermsConditionsPage() {
   return (
     <>
       <SEOHead 
-        title="Terms & Conditions | Berks County Golf Carts"
-        description="Read the complete terms and conditions for Berks County Golf Carts. Understand your rights and responsibilities when purchasing, renting, or servicing golf carts in Pennsylvania."
-        keywords="terms conditions, Berks County golf carts, Pennsylvania golf cart terms, legal agreement"
+        title="Terms & Conditions | Montgomery County Golf Carts"
+        description="Read the complete terms and conditions for Montgomery County Golf Carts. Understand your rights and responsibilities when purchasing, renting, or servicing golf carts in Pennsylvania."
+        keywords="terms conditions, Montgomery County golf carts, Pennsylvania golf cart terms, legal agreement"
       />
       
       <div className="min-h-screen bg-gray-50 py-12">
@@ -20,7 +20,7 @@ export default function TermsConditionsPage() {
             <div className="prose max-w-none">
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">Agreement Overview</h2>
               <p className="mb-6">
-                These Terms & Conditions ("Terms") govern your use of services provided by Berks County Golf Carts, 
+                These Terms & Conditions ("Terms") govern your use of services provided by Montgomery County Golf Carts, 
                 including golf cart sales, rentals, service, and related products. By engaging with our services, 
                 you agree to be bound by these Terms.
               </p>
