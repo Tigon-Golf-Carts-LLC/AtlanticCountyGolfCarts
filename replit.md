@@ -153,6 +153,14 @@ Logo: Berks County Golf Carts logo (Berks County Golf Carts (3)_1753284044185.pn
   - Removed duplicate Montgomery County town page files
   - Updated sitemap.xml to replace all berksgolfcarts.com references with montcogolfcarts.com
   - Fixed remaining Berks County references in DenagoPage.tsx
+- ✅ **Homepage Municipality Section Update**: Replaced the entire "Golf Carts for Every Berks County Municipality" section with Montgomery County municipalities:
+  - Updated section title and description for Montgomery County
+  - Replaced all 24 old Berks County municipality links with 24 major Montgomery County communities
+  - Included King of Prussia, Norristown, Lansdale, Pottstown, Abington, Conshohocken, and Main Line communities
+  - Updated "About Berks County Golf Carts" section to "About Montgomery County Golf Carts"
+  - Replaced embedded map from Berks County to Montgomery County
+  - Updated main contact phone number from 1-844-844-6638 to (267) 645-6271
+  - Changed footer text to reference "62 Montgomery County municipalities"
 
 ## Recent Changes (January 24, 2025)
 
