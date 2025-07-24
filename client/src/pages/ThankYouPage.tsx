@@ -8,9 +8,9 @@ export default function ThankYouPage() {
   return (
     <div className="min-h-screen bg-gray-50">
       <SEOHead 
-        title="Thank You - Ocean County Golf Carts"
-        description="Thank you for contacting Ocean County Golf Carts. We'll respond to your inquiry within 24 hours."
-        keywords="thank you, contact confirmation, Ocean County Golf Carts"
+        title="Thank You - Berks County Golf Carts"
+        description="Thank you for contacting Berks County Golf Carts. We'll respond to your inquiry within 24 hours. Serving all 72 Berks County municipalities."
+        keywords="thank you, contact confirmation, Berks County Golf Carts, TIGON Golf Carts"
       />
       
       <div className="py-20 px-4">
@@ -24,8 +24,8 @@ export default function ThankYouPage() {
               Thank You for Your Message!
             </h1>
             <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-              We've received your inquiry and appreciate your interest in Ocean County Golf Carts. 
-              Our team will review your message and get back to you soon.
+              We've received your inquiry and appreciate your interest in Berks County Golf Carts. 
+              Our TIGON Golf Carts team will review your message and get back to you soon.
             </p>
           </div>
 
@@ -110,6 +110,33 @@ export default function ThankYouPage() {
             </CardContent>
           </Card>
 
+          {/* Service Area Information */}
+          <Card className="bg-blue-50 border-blue-200 mb-12">
+            <CardContent className="p-8 text-center">
+              <h2 className="text-2xl font-bold text-gray-900 mb-4">
+                Serving All of Berks County
+              </h2>
+              <p className="text-lg text-gray-600 mb-6">
+                Professional golf cart sales, rentals, and service delivered to all 72 Berks County municipalities - 
+                from Reading City to the smallest townships throughout Pennsylvania Dutch Country.
+              </p>
+              <div className="grid md:grid-cols-2 gap-6 text-left">
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-2">TIGON Golf Carts Hatfield</h3>
+                  <p className="text-gray-600 text-sm mb-1">2333 Bethlehem Pike</p>
+                  <p className="text-gray-600 text-sm mb-1">Hatfield, PA 19440</p>
+                  <p className="text-theme-orange font-semibold">(215) 595-8736</p>
+                </div>
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-2">TIGON Golf Carts Poconos</h3>
+                  <p className="text-gray-600 text-sm mb-1">1712 Pennsylvania 940</p>
+                  <p className="text-gray-600 text-sm mb-1">Pocono Pines, PA 18350</p>
+                  <p className="text-theme-orange font-semibold">(570) 643-0152</p>
+                </div>
+              </div>
+            </CardContent>
+          </Card>
+
           {/* Quick Links */}
           <div className="text-center space-y-6">
             <h2 className="text-2xl font-bold text-gray-900">
@@ -126,9 +153,9 @@ export default function ThankYouPage() {
                   View Rental Options
                 </Button>
               </Link>
-              <Link href="/financing">
+              <Link href="/services">
                 <Button size="lg" variant="outline" className="border-theme-primary text-theme-primary hover:bg-theme-primary hover:text-white w-full sm:w-auto">
-                  Financing Options
+                  Service & Maintenance
                 </Button>
               </Link>
             </div>

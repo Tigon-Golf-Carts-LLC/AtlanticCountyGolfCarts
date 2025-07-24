@@ -129,6 +129,36 @@ Logo: Berks County Golf Carts logo (Berks County Golf Carts (3)_1753284044185.pn
   - Location-specific schema for all 56 Berks County town pages
 - **Town Pages**: Complete coverage of all Berks County municipalities with embedded Google Maps, optimized for local search intent
 
+## Recent Changes (January 24, 2025)
+
+### Mobile Responsiveness & Thank You Page Updates (January 24, 2025)
+- ✅ **Mobile Homepage Optimization**: Fixed "About Berks County Golf Carts" section mobile sizing
+  - Responsive text sizing: 2xl mobile, 3xl tablet, 4xl desktop for headings
+  - Optimized spacing and layout for mobile devices
+  - Statistics section (500+ customers, 15+ years) properly sized for mobile
+  - Button responsiveness improved (full width mobile, auto desktop)
+- ✅ **Google Maps Mobile Fix**: Fixed embedded map overflow issues on mobile
+  - Removed fixed dimensions that caused horizontal scrolling
+  - Added responsive classes: w-full with h-64 mobile, h-80 tablet, h-96 desktop
+  - Map now properly fits all screen sizes without overflow
+- ✅ **Contact Information Corrections**: Updated homepage contact section
+  - Removed incorrect Ocean County locations
+  - Added proper TIGON Golf Carts Hatfield and Poconos locations
+  - Updated phone numbers and addresses to match business locations
+  - Color scheme updated to use theme-orange branding
+- ✅ **Thank You Page Complete Rebranding**: Updated /thank-you page for Berks County
+  - Changed all Ocean County references to Berks County Golf Carts
+  - Added TIGON Golf Carts branding and team references
+  - Updated SEO meta tags and descriptions for Berks County
+  - Added service area information highlighting 72 Berks County municipalities
+  - Included both TIGON locations (Hatfield and Poconos) with contact details
+  - Updated navigation links to relevant services (removed financing, added services)
+- ✅ **Contact Form Verification**: Confirmed contact form functionality
+  - API endpoint working properly with successful submissions
+  - Form validates and processes data correctly
+  - Successful redirect to /thank-you page after submission
+  - Backend logging contact information for business follow-up
+
 ## Recent Changes (January 23, 2025)
 
 ### Comprehensive Policy Pages Implementation (January 23, 2025 - Night)
