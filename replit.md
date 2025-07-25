@@ -129,6 +129,20 @@ Logo: Atlantic County Golf Carts logo used as primary logo and favicon across al
   - Location-specific schema for all 56 Berks County town pages
 - **Town Pages**: Complete coverage of all Berks County municipalities with embedded Google Maps, optimized for local search intent
 
+## Recent Changes (January 25, 2025)
+
+### Hero Section Standardization (January 25, 2025)
+- ✅ **Consistent Hero Section Sizing**: Standardized all hero sections across the entire website to use uniform `py-20` padding:
+  - Updated all main pages: HomePage, AboutPage, ServicesPage, ShowroomPage
+  - Updated all 27 Atlantic County municipality pages  
+  - Updated all 27 Atlantic County rental pages
+  - Updated all individual vehicle detail pages (DENAGO and EVOLUTION series)
+  - All hero sections now provide consistent visual experience with proper vertical spacing
+- ✅ **Background Image Updates**: Replaced all hero background images with new Atlantic County Golf Carts showroom photograph:
+  - Updated hero backgrounds across all main pages, location pages, rental pages, and vehicle pages
+  - Updated SEO metadata and sitemap.xml references to new background image
+  - Consistent professional Atlantic County Golf Carts branding throughout the site
+
 ## Recent Changes (January 24, 2025)
 
 ### Complete Policy Pages Montgomery County Rebranding (January 24, 2025 - Evening)

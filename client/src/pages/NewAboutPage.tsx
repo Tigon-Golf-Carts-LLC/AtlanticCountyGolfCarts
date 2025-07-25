@@ -71,20 +71,9 @@ export default function NewAboutPage() {
       
       <div className="min-h-screen bg-gray-50">
         {/* Hero Section */}
-        <section className="relative min-h-[600px] flex items-center justify-center overflow-hidden">
-          {/* Hero Background Image */}
-          <div 
-            className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-            style={{
-              backgroundImage: `url(${heroImage})`
-            }}
-          >
-            {/* Overlay for better text readability */}
-            <div className="absolute inset-0 bg-gradient-to-r from-black/50 to-black/30"></div>
-          </div>
-          
-          {/* Hero Content */}
-          <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
+        <section className="relative py-20 px-4 bg-gradient-to-r from-theme-primary to-blue-700 text-white bg-cover bg-center bg-no-repeat overflow-hidden" 
+                 style={{backgroundImage: "linear-gradient(rgba(14, 46, 85, 0.8), rgba(29, 78, 216, 0.8)), url('/attached_assets/a-photograph-of-a-modern-golf-cart-deale_1Cnk505HSlGhjw-TPLFg9w_nDZV9Dn5QHiGR5OY8JPBgA_1753453234033.png')"}}>
+          <div className="max-w-7xl mx-auto text-center">
             <h1 className="text-4xl md:text-6xl font-bold mb-6 drop-shadow-lg">
               About Atlantic County Golf Carts
             </h1>
