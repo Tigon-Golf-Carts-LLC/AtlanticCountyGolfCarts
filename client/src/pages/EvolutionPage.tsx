@@ -63,49 +63,56 @@ export default function EvolutionPage() {
       description: "Premium recreational vehicles with LED lighting and modern styling",
       image: evolutionD5Ranger4PlusImage,
       features: ["LED Lighting Package", "Premium Seating", "Modern Design"],
-      vehicles: ["D5 RANGER 2+2", "D5 RANGER 4", "D5 RANGER 6", "D5 RANGER 6 PLUS"]
+      vehicles: ["D5 RANGER 2+2", "D5 RANGER 4", "D5 RANGER 6", "D5 RANGER 6 PLUS"],
+      price: "Starting at $7,695"
     },
     {
       title: "D5 MAVERICK Series", 
       description: "Versatile family vehicles with comfort and performance features",
       image: evolutionD5Maverick4PlusImage,
       features: ["Family Seating", "Comfort Package", "Storage Solutions"],
-      vehicles: ["D5 MAVERICK 4", "D5 MAVERICK 6", "D5 MAVERICK 4 PLUS", "D5 MAVERICK 6 PLUS"]
+      vehicles: ["D5 MAVERICK 4", "D5 MAVERICK 6", "D5 MAVERICK 4 PLUS", "D5 MAVERICK 6 PLUS"],
+      price: "Starting at $7,995"
     },
     {
       title: "CLASSIC Series",
       description: "Traditional golf cart design with reliable performance",
       image: evolutionClassic4PlusImage,
       features: ["Classic Styling", "Proven Reliability", "Value Pricing"],
-      vehicles: ["CLASSIC 2 PLUS", "CLASSIC 2 PRO", "CLASSIC 4 PLUS"]
+      vehicles: ["CLASSIC 2 PLUS", "CLASSIC 2 PRO", "CLASSIC 4 PLUS"],
+      price: "Starting at $6,695"
     },
     {
       title: "CARRIER Series",
       description: "Utility vehicles designed for work and cargo transportation",
       image: evolutionCarrier6PlusImage,
       features: ["Cargo Capacity", "Utility Features", "Heavy-Duty Build"],
-      vehicles: ["CARRIER 6 PLUS", "CARRIER 8 PLUS"]
+      vehicles: ["CARRIER 6 PLUS", "CARRIER 8 PLUS"],
+      price: "Starting at $9,595"
     },
     {
       title: "FORESTER Series", 
       description: "Lifted recreational vehicles designed for off-road adventures",
       image: evolutionForester4PlusImage,
       features: ["Lifted Suspension", "All-Terrain Capability", "Adventure Ready"],
-      vehicles: ["FORESTER 4 PLUS", "FORESTER 6 PLUS"]
+      vehicles: ["FORESTER 4 PLUS", "FORESTER 6 PLUS"],
+      price: "Starting at $6,995"
     },
     {
       title: "TURFMAN Series",
       description: "Commercial-grade utility vehicles for professional applications", 
       image: evolutionTurfman1000Image,
       features: ["Commercial Grade", "Heavy-Duty Operation", "Professional Use"],
-      vehicles: ["TURFMAN 200", "TURFMAN 800", "TURFMAN 1000"]
+      vehicles: ["TURFMAN 200", "TURFMAN 800", "TURFMAN 1000"],
+      price: "Starting at $6,795"
     },
     {
       title: "D6 MAX Series",
       description: "High-performance vehicles with advanced technology and features",
       image: evolutionD6MaxXT4Image,
       features: ["High Performance", "Advanced Tech", "Premium Features"],
-      vehicles: ["D6 MAX GT4", "D6 MAX GT6", "D6 MAX XT4", "D6 MAX XT6"]
+      vehicles: ["D6 MAX GT4", "D6 MAX GT6", "D6 MAX XT4", "D6 MAX XT6"],
+      price: "Starting at $13,595"
     }
   ];
 
@@ -223,6 +230,11 @@ export default function EvolutionPage() {
                     <p className="text-sm text-gray-600">{series.description}</p>
                   </CardHeader>
                   <CardContent className="pt-0">
+                    {(series as any).price && (
+                      <div className="mb-3 text-center">
+                        <span className="text-lg font-bold text-theme-orange">{(series as any).price}</span>
+                      </div>
+                    )}
                     <div className="space-y-1 mb-3">
                       {series.features.map((feature, idx) => (
                         <div key={idx} className="flex items-center text-xs text-gray-600">

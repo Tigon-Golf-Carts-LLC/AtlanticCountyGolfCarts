@@ -7,7 +7,7 @@ export default function DenagoEvRoverXl6Page() {
       vehicleName="DENAGO EV ROVER XL6"
       brand="DENAGO"
       series="EV ROVER"
-      price="$28,999"
+      price="$11,995"
       image={denagoEvRoverXL6Image}
       seoTitle="DENAGO EV ROVER XL6 - Extended 6-Seat Golf Cart | Atlantic County Golf Carts"
       seoDescription="Experience the DENAGO EV ROVER XL6 electric golf cart in Atlantic County, NJ. Extended 6-seat configuration with premium materials and enhanced comfort."

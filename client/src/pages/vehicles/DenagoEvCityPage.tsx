@@ -7,7 +7,7 @@ export default function DenagoEvCityPage() {
       vehicleName="DENAGO EV CITY"
       brand="DENAGO"
       series="EV CITY"
-      price="$18,999"
+      price="$15,000"
       image={denagoEvCityImage}
       seoTitle="DENAGO EV CITY - Urban Electric Golf Cart | Atlantic County Golf Carts"
       seoDescription="Discover the DENAGO EV CITY electric golf cart in Atlantic County, NJ. Street legal ready urban mobility with sleek design and efficient performance. Sales, service & delivery."

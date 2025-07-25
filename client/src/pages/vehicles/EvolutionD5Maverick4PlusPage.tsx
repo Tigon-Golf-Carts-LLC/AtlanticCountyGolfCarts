@@ -7,7 +7,7 @@ export default function EvolutionD5Maverick4PlusPage() {
       vehicleName="EVOLUTION D5 MAVERICK 4 PLUS"
       brand="EVOLUTION"
       series="D5 MAVERICK"
-      price="$17,999"
+      price="$9,995"
       image={evolutionD5Maverick4PlusImage}
       seoTitle="EVOLUTION D5 MAVERICK 4 PLUS - Sport Golf Cart | Atlantic County Golf Carts"
       seoDescription="Discover the EVOLUTION D5 MAVERICK 4 PLUS electric golf cart in Atlantic County, NJ. Sport-oriented 4-passenger vehicle with enhanced performance and agility."

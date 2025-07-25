@@ -7,7 +7,7 @@ export default function EvolutionD5Ranger4PlusPage() {
       vehicleName="EVOLUTION D5 RANGER 4 PLUS"
       brand="EVOLUTION"
       series="D5 RANGER"
-      price="$16,999"
+      price="$9,595"
       image={evolutionD5Ranger4PlusImage}
       seoTitle="EVOLUTION D5 RANGER 4 PLUS - Premium 4-Seat Golf Cart | Atlantic County Golf Carts"
       seoDescription="Discover the EVOLUTION D5 RANGER 4 PLUS electric golf cart in Atlantic County, NJ. Premium 4-passenger vehicle with enhanced comfort and performance features."

@@ -62,7 +62,7 @@ export default function DenagoPage() {
       image: denagoEvCityImage,
       features: ["Street Legal Ready", "LED Lighting", "Premium Interior"],
       vehicles: ["DENAGO EV CITY"],
-      price: "Starting at $18,999"
+      price: "Starting at $15,000"
     },
     {
       title: "EV NOMAD Series", 
@@ -70,7 +70,7 @@ export default function DenagoPage() {
       image: denagoEvNomadImage,
       features: ["All-Terrain Tires", "Lifted Suspension", "Adventure Package"],
       vehicles: ["DENAGO EV NOMAD", "DENAGO EV NOMAD XL"],
-      price: "Starting at $22,999"
+      price: "Starting at $8,495"
     },
     {
       title: "EV ROVER Series",
@@ -78,7 +78,7 @@ export default function DenagoPage() {
       image: denagoEvRoverXLImage,
       features: ["6-Passenger Seating", "Premium Materials", "Advanced Safety"],
       vehicles: ["DENAGO EV ROVER XL", "DENAGO EV ROVER XL6", "DENAGO EV ROVER XXL"],
-      price: "Starting at $24,999"
+      price: "Starting at $9,995"
     }
   ];
 
@@ -88,7 +88,7 @@ export default function DenagoPage() {
       name: "DENAGO EV CITY",
       series: "EV CITY",
       image: denagoEvCityImage,
-      price: "$18,999",
+      price: "$15,000",
       features: ["Street Legal Ready", "LED Light Package", "Premium Seating", "Weather Protection"],
       specs: { seats: "2", range: "40 miles", topSpeed: "25 mph", driveType: "All-Wheel Drive" }
     },
@@ -96,7 +96,7 @@ export default function DenagoPage() {
       name: "DENAGO EV NOMAD",
       series: "EV NOMAD",
       image: denagoEvNomadImage,
-      price: "$22,999",
+      price: "$8,495",
       features: ["Off-Road Suspension", "All-Terrain Tires", "Adventure Package", "Enhanced Ground Clearance"],
       specs: { seats: "4", range: "45 miles", topSpeed: "25 mph", driveType: "All-Wheel Drive" }
     },
@@ -104,7 +104,7 @@ export default function DenagoPage() {
       name: "DENAGO EV NOMAD XL",
       series: "EV NOMAD",
       image: denagoEvNomadXLImage,
-      price: "$24,999",
+      price: "$8,495",
       features: ["Extended Range", "Premium Off-Road Package", "Enhanced Cargo Space", "All-Weather Protection"],
       specs: { seats: "4", range: "55 miles", topSpeed: "25 mph", driveType: "All-Wheel Drive" }
     },
@@ -112,7 +112,7 @@ export default function DenagoPage() {
       name: "DENAGO EV ROVER XL",
       series: "EV ROVER",
       image: denagoEvRoverXLImage,
-      price: "$26,999",
+      price: "$9,995",
       features: ["6-Passenger Seating", "Luxury Interior", "Advanced Safety Features", "Premium Sound"],
       specs: { seats: "6", range: "50 miles", topSpeed: "25 mph", driveType: "All-Wheel Drive" }
     },
@@ -120,7 +120,7 @@ export default function DenagoPage() {
       name: "DENAGO EV ROVER XL6",
       series: "EV ROVER",
       image: denagoEvRoverXL6Image,
-      price: "$28,999",
+      price: "$11,995",
       features: ["Extended 6-Seat Configuration", "Premium Materials", "Enhanced Comfort", "Smart Technology"],
       specs: { seats: "6", range: "50 miles", topSpeed: "25 mph", driveType: "All-Wheel Drive" }
     },
@@ -128,7 +128,7 @@ export default function DenagoPage() {
       name: "DENAGO EV ROVER XXL",
       series: "EV ROVER",
       image: denagoEvRoverXXLImage,
-      price: "$31,999",
+      price: "$11,995",
       features: ["Maximum Capacity", "Ultra-Premium Interior", "Advanced Technology Suite", "Superior Performance"],
       specs: { seats: "8", range: "60 miles", topSpeed: "25 mph", driveType: "All-Wheel Drive" }
     }

@@ -7,7 +7,7 @@ export default function DenagoEvRoverXlPage() {
       vehicleName="DENAGO EV ROVER XL"
       brand="DENAGO"
       series="EV ROVER"
-      price="$26,999"
+      price="$9,995"
       image={denagoEvRoverXLImage}
       seoTitle="DENAGO EV ROVER XL - Luxury Family Golf Cart | Atlantic County Golf Carts"
       seoDescription="Discover the DENAGO EV ROVER XL electric golf cart in Atlantic County, NJ. 6-passenger seating with luxury interior and advanced safety features."

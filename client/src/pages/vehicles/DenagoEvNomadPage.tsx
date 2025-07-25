@@ -7,7 +7,7 @@ export default function DenagoEvNomadPage() {
       vehicleName="DENAGO EV NOMAD"
       brand="DENAGO"
       series="EV NOMAD"
-      price="$22,999"
+      price="$8,495"
       image={denagoEvNomadImage}
       seoTitle="DENAGO EV NOMAD - Adventure Electric Golf Cart | Atlantic County Golf Carts"
       seoDescription="Explore with the DENAGO EV NOMAD electric golf cart in Atlantic County, NJ. Adventure-ready vehicles built for exploration and off-road adventures."

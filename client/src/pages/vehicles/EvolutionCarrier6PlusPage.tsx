@@ -7,7 +7,7 @@ export default function EvolutionCarrier6PlusPage() {
       vehicleName="EVOLUTION CARRIER 6 PLUS"
       brand="EVOLUTION"
       series="CARRIER"
-      price="$21,999"
+      price="$9,595"
       image={evolutionCarrier6PlusImage}
       seoTitle="EVOLUTION CARRIER 6 PLUS - Utility Golf Cart | Atlantic County Golf Carts"
       seoDescription="Discover the EVOLUTION CARRIER 6 PLUS electric golf cart in Atlantic County, NJ. 6-passenger utility vehicle with enhanced cargo capacity and work features."

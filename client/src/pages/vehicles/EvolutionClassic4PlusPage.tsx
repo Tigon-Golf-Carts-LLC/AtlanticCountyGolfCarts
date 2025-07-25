@@ -7,7 +7,7 @@ export default function EvolutionClassic4PlusPage() {
       vehicleName="EVOLUTION CLASSIC 4 PLUS"
       brand="EVOLUTION"
       series="CLASSIC"
-      price="$14,999"
+      price="$6,995"
       image={evolutionClassic4PlusImage}
       seoTitle="EVOLUTION CLASSIC 4 PLUS - Traditional Golf Cart | Atlantic County Golf Carts"
       seoDescription="Experience the EVOLUTION CLASSIC 4 PLUS electric golf cart in Atlantic County, NJ. Traditional 4-passenger golf cart with classic design and reliable performance."

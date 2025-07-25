@@ -1,0 +1,38 @@
+Model	URL to link to	price	
+EVolution® Carrier 6 Plus	https://tigongolfcarts.com/evolution/carrier/6-plus/	$9,595	
+EVolution® Carrier 8 Plus	https://tigongolfcarts.com/evolution/carrier/8-plus/	$13,995	
+EVolution® Classic 2 Plus	https://tigongolfcarts.com/evolution/classic/2-plus/	$6,695	
+EVolution® Classic 2 Pro	https://tigongolfcarts.com/evolution/classic/2-pro/	$6,995	
+EVolution® Classic 4 Plus	https://tigongolfcarts.com/evolution/classic/4-plus/	$6,995	
+EVolution® Classic 4 Pro	https://tigongolfcarts.com/evolution/classic/4-pro/	$6,995	
+EVolution® D3 Standard	https://tigongolfcarts.com/evolution/d3/standard/	$14,995	
+EVolution® D3 Lifted	https://tigongolfcarts.com/evolution/d3/lifted/	$17,995	
+EVolution® D5 Maverick 2+2	https://tigongolfcarts.com/evolution/d5-maverick/2-plus-2/	$7,995	
+EVolution® D5 Maverick 2+2 Plus	https://tigongolfcarts.com/evolution/d5-maverick/2-plus-2-plus/	$8,995	
+EVolution® D5 Maverick 4	https://tigongolfcarts.com/evolution/d5-maverick/4/	$8,995	
+EVolution® D5 Maverick 4 Plus	https://tigongolfcarts.com/evolution/d5-maverick/4-plus/	$9,995	
+EVolution® D5 Maverick 4+2 Plus	https://tigongolfcarts.com/evolution/d5-maverick/4-2-plus/	$11,995	
+EVolution® D5 Maverick 6	https://tigongolfcarts.com/evolution/d5-maverick/6/	$10,995	
+EVolution® D5 Maverick 6 Plus	https://tigongolfcarts.com/evolution/d5-maverick/6-plus/	$11,995	
+EVolution® D5 Ranger 2+2	https://tigongolfcarts.com/evolution/d5-ranger/2-plus-2/	$7,695	
+EVolution® D5 Ranger 2+2 Plus	https://tigongolfcarts.com/evolution/d5-ranger/2-plus-2-plus/	$8,695	
+EVolution® D5 Ranger 4	https://tigongolfcarts.com/evolution/d5-ranger/4/	$8,695	
+EVolution® D5 Ranger 4 Plus	https://tigongolfcarts.com/evolution/d5-ranger/4-plus/	$9,595	
+EVolution® D5 Ranger 4+2 Plus	https://tigongolfcarts.com/evolution/d5-ranger/4-2-plus/	$11,595	
+EVolution® D5 Ranger 6	https://tigongolfcarts.com/evolution/d5-ranger/6/	$10,595	
+EVolution® D5 Ranger 6 Plus	https://tigongolfcarts.com/evolution/d5-ranger/6-plus/	$11,595	
+EVolution® D6 Max GT4	https://tigongolfcarts.com/evolution/d6-max/gt4/	$13,595	
+EVolution® D6 Max GT6	https://tigongolfcarts.com/evolution/d6-max/gt6/	$15,595	
+EVolution® D6 Max XT4	https://tigongolfcarts.com/evolution/d6-max/xt4/	$15,595	
+EVolution® D6 Max XT6	https://tigongolfcarts.com/evolution/d6-max/xt6/	$17,595	
+EVolution® Forester 4 Plus	https://tigongolfcarts.com/evolution/forester/4-plus/	$6,995	
+EVolution® Forester 6 Plus	https://tigongolfcarts.com/evolution/forester/6-plus/	$9,995	
+EVolution® Turfman 1000	https://tigongolfcarts.com/evolution/turfman/1000/	$9,995	
+EVolution® Turfman 200	https://tigongolfcarts.com/evolution/turfman/200/	$6,795	
+EVolution® Turfman 800	https://tigongolfcarts.com/evolution/turfman/800/	$9,995	
+DENAGO® EV CITY	https://tigongolfcarts.com/denago-ev/city/	$15,000	
+DENAGO® EV NOMAD	https://tigongolfcarts.com/denago-ev/nomad/	$8,495	
+DENAGO® EV NOMAD XL	https://tigongolfcarts.com/denago-ev/nomad-xl/	$8,495	
+DENAGO® EV ROVER XL	https://tigongolfcarts.com/denago-ev/rover-xl/	$9,995	
+DENAGO® EV ROVER XL6	https://tigongolfcarts.com/denago-ev/rover-xl6/	$11,995	
+DENAGO® EV ROVER XXL	https://tigongolfcarts.com/denago-ev/rover-xxl/	$11,995	

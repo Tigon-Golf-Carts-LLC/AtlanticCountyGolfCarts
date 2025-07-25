@@ -7,7 +7,7 @@ export default function EvolutionD6MaxXt4Page() {
       vehicleName="EVOLUTION D6 MAX XT4"
       brand="EVOLUTION"
       series="D6 MAX"
-      price="$24,999"
+      price="$15,595"
       image={evolutionD6MaxXT4Image}
       seoTitle="EVOLUTION D6 MAX XT4 - High-Performance Golf Cart | Atlantic County Golf Carts"
       seoDescription="Experience the EVOLUTION D6 MAX XT4 electric golf cart in Atlantic County, NJ. High-performance 4-passenger vehicle with advanced technology and premium features."
