@@ -9,6 +9,7 @@ import InventorySection from "@/components/InventorySection";
 import BrandsSection from "@/components/BrandsSection";
 import OrganizationSchema from "@/components/OrganizationSchema";
 import SEOHead from "@/components/SEOHead";
+import { ATLANTIC_COUNTY_MUNICIPALITIES } from "@/data/atlanticCountyMunicipalities";
 
 export default function HomePage() {
   const { data: vehicles } = useQuery<Vehicle[]>({
@@ -353,95 +354,22 @@ Atlantic County Golf Carts Premier Dealership
             Professional golf cart services delivered to your city, borough, or township
           </p>
           <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-3 mb-12">
-            {/* Complete Atlantic County Municipality List */}
-            <Link href="/absecon-golf-carts" className="bg-blue-50 hover:bg-blue-100 p-3 rounded-lg transition-colors">
-              <div className="text-sm font-semibold text-blue-700">Absecon</div>
-            </Link>
-            <Link href="/atlantic-city-golf-carts" className="bg-blue-50 hover:bg-blue-100 p-3 rounded-lg transition-colors">
-              <div className="text-sm font-semibold text-blue-700">Atlantic City</div>
-            </Link>
-            <Link href="/brigantine-golf-carts" className="bg-blue-50 hover:bg-blue-100 p-3 rounded-lg transition-colors">
-              <div className="text-sm font-semibold text-blue-700">Brigantine</div>
-            </Link>
-            <Link href="/buena-golf-carts" className="bg-blue-50 hover:bg-blue-100 p-3 rounded-lg transition-colors">
-              <div className="text-sm font-semibold text-blue-700">Buena</div>
-            </Link>
-            <Link href="/cologne-golf-carts" className="bg-blue-50 hover:bg-blue-100 p-3 rounded-lg transition-colors">
-              <div className="text-sm font-semibold text-blue-700">Cologne</div>
-            </Link>
-            <Link href="/dorothy-golf-carts" className="bg-blue-50 hover:bg-blue-100 p-3 rounded-lg transition-colors">
-              <div className="text-sm font-semibold text-blue-700">Dorothy</div>
-            </Link>
-            <Link href="/egg-harbor-city-golf-carts" className="bg-blue-50 hover:bg-blue-100 p-3 rounded-lg transition-colors">
-              <div className="text-sm font-semibold text-blue-700">Egg Harbor City</div>
-            </Link>
-            <Link href="/egg-harbor-township-golf-carts" className="bg-blue-50 hover:bg-blue-100 p-3 rounded-lg transition-colors">
-              <div className="text-sm font-semibold text-blue-700">Egg Harbor Township</div>
-            </Link>
-            <Link href="/elwood-golf-carts" className="bg-blue-50 hover:bg-blue-100 p-3 rounded-lg transition-colors">
-              <div className="text-sm font-semibold text-blue-700">Elwood</div>
-            </Link>
-            <Link href="/estell-manor-golf-carts" className="bg-blue-50 hover:bg-blue-100 p-3 rounded-lg transition-colors">
-              <div className="text-sm font-semibold text-blue-700">Estell Manor</div>
-            </Link>
-            <Link href="/hammonton-golf-carts" className="bg-blue-50 hover:bg-blue-100 p-3 rounded-lg transition-colors">
-              <div className="text-sm font-semibold text-blue-700">Hammonton</div>
-            </Link>
-            <Link href="/landisville-golf-carts" className="bg-blue-50 hover:bg-blue-100 p-3 rounded-lg transition-colors">
-              <div className="text-sm font-semibold text-blue-700">Landisville</div>
-            </Link>
-            <Link href="/leeds-point-golf-carts" className="bg-blue-50 hover:bg-blue-100 p-3 rounded-lg transition-colors">
-              <div className="text-sm font-semibold text-blue-700">Leeds Point</div>
-            </Link>
-            <Link href="/linwood-golf-carts" className="bg-blue-50 hover:bg-blue-100 p-3 rounded-lg transition-colors">
-              <div className="text-sm font-semibold text-blue-700">Linwood</div>
-            </Link>
-            <Link href="/longport-golf-carts" className="bg-blue-50 hover:bg-blue-100 p-3 rounded-lg transition-colors">
-              <div className="text-sm font-semibold text-blue-700">Longport</div>
-            </Link>
-            <Link href="/margate-city-golf-carts" className="bg-blue-50 hover:bg-blue-100 p-3 rounded-lg transition-colors">
-              <div className="text-sm font-semibold text-blue-700">Margate City</div>
-            </Link>
-            <Link href="/mays-landing-golf-carts" className="bg-blue-50 hover:bg-blue-100 p-3 rounded-lg transition-colors">
-              <div className="text-sm font-semibold text-blue-700">Mays Landing</div>
-            </Link>
-            <Link href="/milmay-golf-carts" className="bg-blue-50 hover:bg-blue-100 p-3 rounded-lg transition-colors">
-              <div className="text-sm font-semibold text-blue-700">Milmay</div>
-            </Link>
-            <Link href="/minotola-golf-carts" className="bg-blue-50 hover:bg-blue-100 p-3 rounded-lg transition-colors">
-              <div className="text-sm font-semibold text-blue-700">Minotola</div>
-            </Link>
-            <Link href="/mizpah-golf-carts" className="bg-blue-50 hover:bg-blue-100 p-3 rounded-lg transition-colors">
-              <div className="text-sm font-semibold text-blue-700">Mizpah</div>
-            </Link>
-            <Link href="/newtonville-golf-carts" className="bg-blue-50 hover:bg-blue-100 p-3 rounded-lg transition-colors">
-              <div className="text-sm font-semibold text-blue-700">Newtonville</div>
-            </Link>
-            <Link href="/northfield-golf-carts" className="bg-blue-50 hover:bg-blue-100 p-3 rounded-lg transition-colors">
-              <div className="text-sm font-semibold text-blue-700">Northfield</div>
-            </Link>
-            <Link href="/pleasantville-golf-carts" className="bg-blue-50 hover:bg-blue-100 p-3 rounded-lg transition-colors">
-              <div className="text-sm font-semibold text-blue-700">Pleasantville</div>
-            </Link>
-            <Link href="/pomona-golf-carts" className="bg-blue-50 hover:bg-blue-100 p-3 rounded-lg transition-colors">
-              <div className="text-sm font-semibold text-blue-700">Pomona</div>
-            </Link>
-            <Link href="/port-republic-golf-carts" className="bg-blue-50 hover:bg-blue-100 p-3 rounded-lg transition-colors">
-              <div className="text-sm font-semibold text-blue-700">Port Republic</div>
-            </Link>
-            <Link href="/richland-golf-carts" className="bg-blue-50 hover:bg-blue-100 p-3 rounded-lg transition-colors">
-              <div className="text-sm font-semibold text-blue-700">Richland</div>
-            </Link>
-            <Link href="/somers-point-golf-carts" className="bg-blue-50 hover:bg-blue-100 p-3 rounded-lg transition-colors">
-              <div className="text-sm font-semibold text-blue-700">Somers Point</div>
-            </Link>
-            <Link href="/ventnor-city-golf-carts" className="bg-blue-50 hover:bg-blue-100 p-3 rounded-lg transition-colors">
-              <div className="text-sm font-semibold text-blue-700">Ventnor City</div>
-            </Link>
+            {/* Complete Atlantic County Municipality List - dynamically generated */}
+            {ATLANTIC_COUNTY_MUNICIPALITIES.map((municipality) => (
+              <Link 
+                key={municipality.slug} 
+                href={`${municipality.url}-golf-carts`} 
+                className="bg-blue-50 hover:bg-blue-100 p-3 rounded-lg transition-colors"
+              >
+                <div className="text-sm font-semibold text-blue-700">
+                  {municipality.name}
+                </div>
+              </Link>
+            ))}
           </div>
           
           <p className="text-gray-600 mb-8">
-            Serving all Atlantic County municipalities! Professional golf cart sales, service, and rentals delivered throughout the region.
+            Serving all {ATLANTIC_COUNTY_MUNICIPALITIES.length} Atlantic County municipalities! Professional golf cart sales, service, and rentals delivered throughout the region.
           </p>
         </div>
       </section>
