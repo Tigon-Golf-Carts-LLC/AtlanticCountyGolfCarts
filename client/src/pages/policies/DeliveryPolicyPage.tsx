@@ -4,9 +4,9 @@ export default function DeliveryPolicyPage() {
   return (
     <>
       <SEOHead 
-        title="Delivery Policy | Montgomery County Golf Carts"
-        description="Learn about delivery options, fees, and policies for golf cart purchases and rentals in Montgomery County, Pennsylvania. Free delivery zones and scheduling information."
-        keywords="delivery policy, golf cart delivery, Montgomery County delivery, Pennsylvania golf cart shipping"
+        title="Delivery Policy | Atlantic County Golf Carts"
+        description="Learn about delivery options, fees, and policies for golf cart purchases and rentals in Atlantic County, New Jersey. Free delivery zones and scheduling information."
+        keywords="delivery policy, golf cart delivery, Atlantic County delivery, New Jersey golf cart shipping"
       />
       
       <div className="min-h-screen bg-gray-50 py-12">
@@ -20,7 +20,7 @@ export default function DeliveryPolicyPage() {
             <div className="prose max-w-none">
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">Delivery Overview</h2>
               <p className="mb-6">
-                Montgomery County Golf Carts offers comprehensive delivery services throughout Pennsylvania 
+                Atlantic County Golf Carts offers comprehensive delivery services throughout New Jersey 
                 and surrounding areas. Our delivery policy ensures safe, timely, and professional 
                 transport of your golf cart purchase or rental.
               </p>
@@ -29,7 +29,7 @@ export default function DeliveryPolicyPage() {
               <h3 className="text-xl font-semibold text-gray-800 mt-6 mb-3">Free Delivery Zone</h3>
               <p className="mb-4">Complimentary delivery within:</p>
               <ul className="list-disc pl-6 mb-6">
-                <li>All Montgomery County municipalities (62 locations)</li>
+                <li>All Atlantic County municipalities (27 locations)</li>
                 <li>20-mile radius from TIGON Golf Carts Hatfield location</li>
                 <li>15-mile radius from TIGON Golf Carts Poconos location</li>
                 <li>Minimum purchase of $5,000 for golf cart sales</li>
@@ -71,7 +71,7 @@ export default function DeliveryPolicyPage() {
                 <li>Available for orders placed before 2:00 PM</li>
                 <li>Subject to vehicle availability</li>
                 <li>Additional $50 rush delivery fee within free zone</li>
-                <li>Limited to Berks County municipalities</li>
+                <li>Limited to Atlantic County municipalities</li>
               </ul>
 
               <h3 className="text-xl font-semibold text-gray-800 mt-6 mb-3">Standard Rental Delivery</h3>

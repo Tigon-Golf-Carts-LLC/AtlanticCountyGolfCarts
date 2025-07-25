@@ -4,9 +4,9 @@ export default function TermsConditionsPage() {
   return (
     <>
       <SEOHead 
-        title="Terms & Conditions | Montgomery County Golf Carts"
-        description="Read the complete terms and conditions for Montgomery County Golf Carts. Understand your rights and responsibilities when purchasing, renting, or servicing golf carts in Pennsylvania."
-        keywords="terms conditions, Montgomery County golf carts, Pennsylvania golf cart terms, legal agreement"
+        title="Terms & Conditions | Atlantic County Golf Carts"
+        description="Read the complete terms and conditions for Atlantic County Golf Carts. Understand your rights and responsibilities when purchasing, renting, or servicing golf carts in New Jersey."
+        keywords="terms conditions, Atlantic County golf carts, New Jersey golf cart terms, legal agreement"
       />
       
       <div className="min-h-screen bg-gray-50 py-12">
@@ -20,7 +20,7 @@ export default function TermsConditionsPage() {
             <div className="prose max-w-none">
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">Agreement Overview</h2>
               <p className="mb-6">
-                These Terms & Conditions ("Terms") govern your use of services provided by Montgomery County Golf Carts, 
+                These Terms & Conditions ("Terms") govern your use of services provided by Atlantic County Golf Carts, 
                 including golf cart sales, rentals, service, and related products. By engaging with our services, 
                 you agree to be bound by these Terms.
               </p>
@@ -32,7 +32,7 @@ export default function TermsConditionsPage() {
                 <li>Prices are subject to change without notice until purchase is finalized</li>
                 <li>Payment terms must be agreed upon prior to delivery</li>
                 <li>Title transfer occurs upon full payment completion</li>
-                <li>Pennsylvania sales tax applies to all purchases</li>
+                <li>New Jersey sales tax applies to all purchases</li>
               </ul>
 
               <h3 className="text-xl font-semibold text-gray-800 mt-6 mb-3">Warranties and Returns</h3>

@@ -13,7 +13,7 @@ interface SEOHeadProps {
 export default function SEOHead({ 
   title, 
   description, 
-  keywords = "golf carts, Montgomery County, electric golf carts, golf cart sales, golf cart service", 
+  keywords = "golf carts, Atlantic County, electric golf carts, golf cart sales, golf cart service", 
   canonicalUrl,
   townName,
   ogImage = "/attached_assets/a-photograph-of-a-modern-golf-cart-deale_OlTDU4v9StGOZo5AygNb9A_bbx-4nIbSSGW4LKOIV9o3w_1753383770677.png",
@@ -61,23 +61,23 @@ export default function SEOHead({
     // Set favicon
     const existingFavicon = document.querySelector('link[rel="icon"]');
     if (existingFavicon) {
-      existingFavicon.setAttribute("href", "/attached_assets/MONTCO Golf Carts_1753384274720.png");
+      existingFavicon.setAttribute("href", "/attached_assets/Atlantic County Golf Carts_1753457095668.png");
     } else {
       const favicon = document.createElement("link");
       favicon.rel = "icon";
       favicon.type = "image/png";
-      favicon.href = "/attached_assets/MONTCO Golf Carts_1753384274720.png";
+      favicon.href = "/attached_assets/Atlantic County Golf Carts_1753457095668.png";
       document.head.appendChild(favicon);
     }
     
     // Set apple touch icon
     const existingAppleIcon = document.querySelector('link[rel="apple-touch-icon"]');
     if (existingAppleIcon) {
-      existingAppleIcon.setAttribute("href", "/attached_assets/MONTCO Golf Carts_1753384274720.png");
+      existingAppleIcon.setAttribute("href", "/attached_assets/Atlantic County Golf Carts_1753457095668.png");
     } else {
       const appleIcon = document.createElement("link");
       appleIcon.rel = "apple-touch-icon";
-      appleIcon.href = "/attached_assets/MONTCO Golf Carts_1753384274720.png";
+      appleIcon.href = "/attached_assets/Atlantic County Golf Carts_1753457095668.png";
       document.head.appendChild(appleIcon);
     }
     
@@ -97,8 +97,8 @@ export default function SEOHead({
     updateOGTag("og:title", title);
     updateOGTag("og:description", description);
     updateOGTag("og:type", ogType);
-    updateOGTag("og:image", `https://montcogolfcarts.com${ogImage}`);
-    updateOGTag("og:site_name", "Montgomery County Golf Carts");
+    updateOGTag("og:image", `https://AtlanticCountyGolfCarts.com${ogImage}`);
+    updateOGTag("og:site_name", "Atlantic County Golf Carts");
     updateOGTag("og:locale", "en_US");
     if (canonicalUrl) {
       updateOGTag("og:url", canonicalUrl);
@@ -120,28 +120,28 @@ export default function SEOHead({
     updateTwitterTag("twitter:card", "summary_large_image");
     updateTwitterTag("twitter:title", title);
     updateTwitterTag("twitter:description", description);
-    updateTwitterTag("twitter:image", `https://montcogolfcarts.com${ogImage}`);
-    updateTwitterTag("twitter:site", "@MontcoGolfCarts");
-    updateTwitterTag("twitter:creator", "@MontcoGolfCarts");
+    updateTwitterTag("twitter:image", `https://AtlanticCountyGolfCarts.com${ogImage}`);
+    updateTwitterTag("twitter:site", "@AtlanticCountyGolfCarts");
+    updateTwitterTag("twitter:creator", "@AtlanticCountyGolfCarts");
     
     // Structured Data (JSON-LD)
     if (townName) {
       const structuredData = {
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
-        "name": `Montgomery County Golf Carts - ${townName}`,
+        "name": `Atlantic County Golf Carts - ${townName}`,
         "description": description,
         "address": {
           "@type": "PostalAddress",
           "addressLocality": townName,
-          "addressRegion": "PA",
+          "addressRegion": "NJ",
           "addressCountry": "US"
         },
         "telephone": "1-844-844-6638",
-        "email": "info@montcogolfcarts.com",
+        "email": "info@AtlanticCountyGolfCarts.com",
         "url": canonicalUrl,
-        "logo": "https://montcogolfcarts.com/attached_assets/MONTCO Golf Carts_1753384274720.png",
-        "image": `https://montcogolfcarts.com${ogImage}`,
+        "logo": "https://AtlanticCountyGolfCarts.com/attached_assets/Atlantic County Golf Carts_1753457095668.png",
+        "image": `https://AtlanticCountyGolfCarts.com${ogImage}`,
         "serviceArea": {
           "@type": "GeoCircle",
           "geoMidpoint": {

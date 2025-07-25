@@ -29,7 +29,7 @@ export default function VehicleSchema({
         "name": brand
       },
       "description": description,
-      "image": `https://montcogolfcarts.com/attached_assets/${image}`,
+      "image": `https://AtlanticCountyGolfCarts.com/attached_assets/${image}`,
       "url": url,
       "category": "Golf Cart",
       "manufacturer": {
@@ -43,12 +43,12 @@ export default function VehicleSchema({
         "priceCurrency": "USD",
         "seller": {
           "@type": "Organization",
-          "name": "Montgomery County Golf Carts",
+          "name": "Atlantic County Golf Carts",
           "telephone": "1-844-844-6638",
-          "email": "info@montcogolfcarts.com",
+          "email": "info@AtlanticCountyGolfCarts.com",
           "address": {
             "@type": "PostalAddress",
-            "addressRegion": "PA",
+            "addressRegion": "NJ",
             "addressCountry": "US"
           }
         }

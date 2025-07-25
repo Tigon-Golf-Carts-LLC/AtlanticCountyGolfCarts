@@ -4,9 +4,9 @@ export default function ReturnPolicyPage() {
   return (
     <>
       <SEOHead 
-        title="Return Policy | Montgomery County Golf Carts"
-        description="Learn about Montgomery County Golf Carts return policy for golf cart purchases, accessories, and parts. Understand return conditions, timelines, and procedures."
-        keywords="return policy, golf cart returns, Montgomery County golf carts, refund policy Pennsylvania"
+        title="Return Policy | Atlantic County Golf Carts"
+        description="Learn about Atlantic County Golf Carts return policy for golf cart purchases, accessories, and parts. Understand return conditions, timelines, and procedures."
+        keywords="return policy, golf cart returns, Atlantic County golf carts, refund policy New Jersey"
       />
       
       <div className="min-h-screen bg-gray-50 py-12">
@@ -20,9 +20,9 @@ export default function ReturnPolicyPage() {
             <div className="prose max-w-none">
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">General Return Policy</h2>
               <p className="mb-6">
-                At Montgomery County Golf Carts, we strive for complete customer satisfaction. This return policy 
+                At Atlantic County Golf Carts, we strive for complete customer satisfaction. This return policy 
                 outlines the conditions and procedures for returns on golf carts, parts, and accessories 
-                purchased from our Pennsylvania locations.
+                purchased from our New Jersey locations.
               </p>
 
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">Golf Cart Returns</h2>
@@ -68,7 +68,7 @@ export default function ReturnPolicyPage() {
               <h3 className="text-xl font-semibold text-gray-800 mt-6 mb-3">Authorization Required</h3>
               <p className="mb-4">All returns must be pre-authorized. To initiate a return:</p>
               <ul className="list-disc pl-6 mb-6">
-                <li>Contact us at info@berksgolfcarts.com or 1-844-844-6638</li>
+                <li>Contact us at info@AtlanticCountyGolfCarts.com or 1-844-844-6638</li>
                 <li>Provide order number and reason for return</li>
                 <li>Receive return authorization number (RMA)</li>
                 <li>Include RMA number with returned item</li>
@@ -80,7 +80,7 @@ export default function ReturnPolicyPage() {
                 <li>Customer responsible for return shipping costs unless item is defective</li>
                 <li>Items must be properly packaged to prevent damage</li>
                 <li>Insurance recommended for high-value returns</li>
-                <li>Berks County Golf Carts not responsible for items lost in transit</li>
+                <li>Atlantic County Golf Carts not responsible for items lost in transit</li>
               </ul>
 
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">Defective Items</h2>
@@ -112,12 +112,12 @@ export default function ReturnPolicyPage() {
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">Contact Information</h2>
               <div className="bg-gray-50 p-6 rounded-lg">
                 <p className="mb-2"><strong>Returns Department</strong></p>
-                <p className="mb-2">Berks County Golf Carts</p>
-                <p className="mb-2">Email: info@berksgolfcarts.com</p>
+                <p className="mb-2">Atlantic County Golf Carts</p>
+                <p className="mb-2">Email: info@AtlanticCountyGolfCarts.com</p>
                 <p className="mb-2">Phone: 1-844-844-6638</p>
                 <p className="mb-2">TIGON Golf Carts Hatfield: 2333 Bethlehem Pike, Hatfield, PA 19440 | (215) 595-8736</p>
                 <p className="mb-2">TIGON Golf Carts Poconos: 1712 Pennsylvania 940, Pocono Pines, PA 18350 | (570) 643-0152</p>
-                <p>Website: berksgolfcarts.com</p>
+                <p>Website: AtlanticCountyGolfCarts.com</p>
               </div>
             </div>
           </div>

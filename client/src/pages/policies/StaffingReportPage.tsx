@@ -4,9 +4,9 @@ export default function StaffingReportPage() {
   return (
     <>
       <SEOHead 
-        title="Staffing Report | Montgomery County Golf Carts"
-        description="Learn about Montgomery County Golf Carts' staffing structure, employment practices, and workforce development in Pennsylvania."
-        keywords="staffing report, employment, Montgomery County golf carts, workforce Pennsylvania"
+        title="Staffing Report | Atlantic County Golf Carts"
+        description="Learn about Atlantic County Golf Carts' staffing structure, employment practices, and workforce development in New Jersey."
+        keywords="staffing report, employment, Atlantic County golf carts, workforce New Jersey"
       />
       
       <div className="min-h-screen bg-gray-50 py-12">
@@ -20,8 +20,8 @@ export default function StaffingReportPage() {
             <div className="prose max-w-none">
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">Executive Summary</h2>
               <p className="mb-6">
-                Montgomery County Golf Carts maintains a dedicated workforce committed to providing 
-                exceptional golf cart sales, rental, and service throughout Pennsylvania. This 
+                Atlantic County Golf Carts maintains a dedicated workforce committed to providing 
+                exceptional golf cart sales, rental, and service throughout New Jersey. This 
                 annual staffing report provides transparency on our employment practices, 
                 workforce composition, and professional development initiatives.
               </p>
@@ -206,22 +206,22 @@ export default function StaffingReportPage() {
 
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">Community Impact</h2>
               <ul className="list-disc pl-6 mb-6">
-                <li><strong>Local Hiring:</strong> 85% of employees are Berks County residents</li>
+                <li><strong>Local Hiring:</strong> 85% of employees are Atlantic County residents</li>
                 <li><strong>Economic Impact:</strong> $2.1 million in local payroll annually</li>
                 <li><strong>Volunteer Hours:</strong> 240 hours of community service by employees</li>
                 <li><strong>Educational Partnerships:</strong> Internship programs with 3 local schools</li>
-                <li><strong>Local Supplier Preference:</strong> Supporting Pennsylvania businesses</li>
+                <li><strong>Local Supplier Preference:</strong> Supporting New Jersey businesses</li>
               </ul>
 
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">Contact Human Resources</h2>
               <div className="bg-gray-50 p-6 rounded-lg">
                 <p className="mb-2"><strong>Human Resources Department</strong></p>
-                <p className="mb-2">Montgomery County Golf Carts</p>
-                <p className="mb-2">Email: info@montcogolfcarts.com</p>
+                <p className="mb-2">Atlantic County Golf Carts</p>
+                <p className="mb-2">Email: info@AtlanticCountyGolfCarts.com</p>
                 <p className="mb-2">Phone: 1-844-844-6638</p>
                 <p className="mb-2">TIGON Golf Carts Hatfield: 2333 Bethlehem Pike, Hatfield, PA 19440 | (215) 595-8736</p>
                 <p className="mb-2">TIGON Golf Carts Poconos: 1712 Pennsylvania 940, Pocono Pines, PA 18350 | (570) 643-0152</p>
-                <p className="mb-2">Website: montcogolfcarts.com</p>
+                <p className="mb-2">Website: AtlanticCountyGolfCarts.com</p>
                 <p>Career opportunities and employment inquiries welcome</p>
               </div>
             </div>

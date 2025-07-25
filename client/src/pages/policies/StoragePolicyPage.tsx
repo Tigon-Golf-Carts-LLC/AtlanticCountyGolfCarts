@@ -4,9 +4,9 @@ export default function StoragePolicyPage() {
   return (
     <>
       <SEOHead 
-        title="Storage Policy | Montgomery County Golf Carts"
-        description="Learn about golf cart storage services and policies at Montgomery County Golf Carts. Seasonal storage, maintenance, and security information for Pennsylvania customers."
-        keywords="golf cart storage, storage policy, Montgomery County storage, Pennsylvania golf cart storage"
+        title="Storage Policy | Atlantic County Golf Carts"
+        description="Learn about golf cart storage services and policies at Atlantic County Golf Carts. Seasonal storage, maintenance, and security information for New Jersey customers."
+        keywords="golf cart storage, storage policy, Atlantic County storage, New Jersey golf cart storage"
       />
       
       <div className="min-h-screen bg-gray-50 py-12">
@@ -20,8 +20,8 @@ export default function StoragePolicyPage() {
             <div className="prose max-w-none">
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">Storage Services Overview</h2>
               <p className="mb-6">
-                Montgomery County Golf Carts provides secure, climate-controlled storage services for golf carts 
-                at our Pennsylvania facilities. Our storage policy ensures the protection and maintenance 
+                Atlantic County Golf Carts provides secure, climate-controlled storage services for golf carts 
+                at our New Jersey facilities. Our storage policy ensures the protection and maintenance 
                 of your investment during storage periods.
               </p>
 
@@ -180,12 +180,12 @@ export default function StoragePolicyPage() {
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">Contact Storage Department</h2>
               <div className="bg-gray-50 p-6 rounded-lg">
                 <p className="mb-2"><strong>Storage Services</strong></p>
-                <p className="mb-2">Montgomery County Golf Carts</p>
-                <p className="mb-2">Email: info@montcogolfcarts.com</p>
+                <p className="mb-2">Atlantic County Golf Carts</p>
+                <p className="mb-2">Email: info@AtlanticCountyGolfCarts.com</p>
                 <p className="mb-2">Phone: 1-844-844-6638</p>
                 <p className="mb-2">TIGON Golf Carts Hatfield: 2333 Bethlehem Pike, Hatfield, PA 19440 | (215) 595-8736</p>
                 <p className="mb-2">TIGON Golf Carts Poconos: 1712 Pennsylvania 940, Pocono Pines, PA 18350 | (570) 643-0152</p>
-                <p>Website: montcogolfcarts.com</p>
+                <p>Website: AtlanticCountyGolfCarts.com</p>
               </div>
             </div>
           </div>

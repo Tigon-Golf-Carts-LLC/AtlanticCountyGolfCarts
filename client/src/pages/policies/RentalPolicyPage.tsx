@@ -4,9 +4,9 @@ export default function RentalPolicyPage() {
   return (
     <>
       <SEOHead 
-        title="Rental Policy | Montgomery County Golf Carts"
-        description="Complete golf cart rental policy for Montgomery County Golf Carts. Learn about rental requirements, responsibilities, insurance, and terms for Pennsylvania golf cart rentals."
-        keywords="rental policy, golf cart rental, Montgomery County rentals, Pennsylvania golf cart rental policy"
+        title="Rental Policy | Atlantic County Golf Carts"
+        description="Complete golf cart rental policy for Atlantic County Golf Carts. Learn about rental requirements, responsibilities, insurance, and terms for New Jersey golf cart rentals."
+        keywords="rental policy, golf cart rental, Atlantic County rentals, New Jersey golf cart rental policy"
       />
       
       <div className="min-h-screen bg-gray-50 py-12">
@@ -64,7 +64,7 @@ export default function RentalPolicyPage() {
                 <li>Keep golf cart clean and in good condition</li>
                 <li>No smoking, pets, or food/beverages in golf cart</li>
                 <li>Maximum speed and weight limits must be observed</li>
-                <li>Golf cart must remain within Pennsylvania unless approved</li>
+                <li>Golf cart must remain within New Jersey unless approved</li>
               </ul>
 
               <h3 className="text-xl font-semibold text-gray-800 mt-6 mb-3">Prohibited Uses</h3>

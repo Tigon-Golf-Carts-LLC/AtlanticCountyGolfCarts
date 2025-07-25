@@ -19,17 +19,17 @@ export default function LocationSchema({
     const baseStructuredData = {
       "@context": "https://schema.org",
       "@type": "LocalBusiness",
-      "name": `Montgomery County Golf Carts - ${municipalityName} ${municipalityType}`,
-      "description": `Professional golf cart sales, service, and rentals serving ${municipalityName} ${municipalityType}, Montgomery County, Pennsylvania. Premium DENAGO and Evolution electric golf carts available.`,
-      "url": `https://montcogolfcarts.com/${municipalityName.toLowerCase().replace(/\s+/g, '-')}-${municipalityType.toLowerCase()}-golf-carts`,
-      "logo": "https://montcogolfcarts.com/attached_assets/MONTCO Golf Carts_1753384274720.png",
-      "image": "https://montcogolfcarts.com/attached_assets/MONTCO Golf Carts_1753384274720.png",
+      "name": `Atlantic County Golf Carts - ${municipalityName} ${municipalityType}`,
+      "description": `Professional golf cart sales, service, and rentals serving ${municipalityName} ${municipalityType}, Atlantic County, New Jersey. Premium DENAGO and Evolution electric golf carts available.`,
+      "url": `https://AtlanticCountyGolfCarts.com/${municipalityName.toLowerCase().replace(/\s+/g, '-')}-${municipalityType.toLowerCase()}-golf-carts`,
+      "logo": "https://AtlanticCountyGolfCarts.com/attached_assets/Atlantic County Golf Carts_1753457095668.png",
+      "image": "https://AtlanticCountyGolfCarts.com/attached_assets/Atlantic County Golf Carts_1753457095668.png",
       "telephone": "1-844-844-6638",
-      "email": "info@montcogolfcarts.com",
+      "email": "info@AtlanticCountyGolfCarts.com",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": municipalityName,
-        "addressRegion": "PA",
+        "addressRegion": "NJ",
         "addressCountry": "US"
       },
       "geo": {
@@ -42,10 +42,10 @@ export default function LocationSchema({
         "name": `${municipalityName} ${municipalityType}`,
         "containedInPlace": {
           "@type": "AdministrativeArea",
-          "name": "Montgomery County",
+          "name": "Atlantic County",
           "containedInPlace": {
             "@type": "State",
-            "name": "Pennsylvania"
+            "name": "New Jersey"
           }
         }
       },

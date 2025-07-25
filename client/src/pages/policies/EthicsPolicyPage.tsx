@@ -4,9 +4,9 @@ export default function EthicsPolicyPage() {
   return (
     <>
       <SEOHead 
-        title="Ethics Policy | Montgomery County Golf Carts"
-        description="Learn about Montgomery County Golf Carts' code of ethics and business conduct standards for employees, customers, and partners in Pennsylvania."
-        keywords="ethics policy, business ethics, Montgomery County golf carts, code of conduct Pennsylvania"
+        title="Ethics Policy | Atlantic County Golf Carts"
+        description="Learn about Atlantic County Golf Carts' code of ethics and business conduct standards for employees, customers, and partners in New Jersey."
+        keywords="ethics policy, business ethics, Atlantic County golf carts, code of conduct New Jersey"
       />
       
       <div className="min-h-screen bg-gray-50 py-12">
@@ -20,9 +20,9 @@ export default function EthicsPolicyPage() {
             <div className="prose max-w-none">
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">Our Ethical Foundation</h2>
               <p className="mb-6">
-                Montgomery County Golf Carts operates with the highest standards of integrity, honesty, 
+                Atlantic County Golf Carts operates with the highest standards of integrity, honesty, 
                 and ethical behavior. Our commitment to ethical business practices guides every 
-                interaction with customers, employees, suppliers, and the Pennsylvania communities we serve.
+                interaction with customers, employees, suppliers, and the New Jersey communities we serve.
               </p>
 
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">Core Ethical Principles</h2>
@@ -226,12 +226,12 @@ export default function EthicsPolicyPage() {
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">Contact Ethics Department</h2>
               <div className="bg-gray-50 p-6 rounded-lg">
                 <p className="mb-2"><strong>Ethics and Compliance</strong></p>
-                <p className="mb-2">Montgomery County Golf Carts</p>
-                <p className="mb-2">Email: info@montcogolfcarts.com (Confidential Ethics Reports)</p>
+                <p className="mb-2">Atlantic County Golf Carts</p>
+                <p className="mb-2">Email: info@AtlanticCountyGolfCarts.com (Confidential Ethics Reports)</p>
                 <p className="mb-2">Phone: 1-844-844-6638</p>
                 <p className="mb-2">TIGON Golf Carts Hatfield: 2333 Bethlehem Pike, Hatfield, PA 19440 | (215) 595-8736</p>
                 <p className="mb-2">TIGON Golf Carts Poconos: 1712 Pennsylvania 940, Pocono Pines, PA 18350 | (570) 643-0152</p>
-                <p className="mb-2">Website: montcogolfcarts.com</p>
+                <p className="mb-2">Website: AtlanticCountyGolfCarts.com</p>
                 <p>Confidential and anonymous reporting available</p>
               </div>
             </div>
