@@ -23,6 +23,28 @@ import { PrivacyPolicyPage } from "@/pages/PrivacyPolicyPage";
 import { TermsOfServicePage } from "@/pages/TermsOfServicePage";
 // Policy Pages
 import TermsConditionsPage from "@/pages/policies/TermsConditionsPage";
+// Atlantic County Town Pages
+import {
+  AbseconPage, AtlanticCityPage, BrigantinePage, BuenaPage, BuenaVistaTownshipPage,
+  ColognePage, CorvallisTownshipPage, EggHarborCityPage, EggHarborTownshipPage,
+  EstellManorPage, FolsomPage, GallowayTownshipPage, HamilitonTownshipPage,
+  HammontonPage, LinwoodPage, LongportPage, MargateCityPage, MaysLandingPage,
+  MullicaTownshipPage, NewtonvillePage, NorthfieldPage, PleasantvillePage,
+  PortRepublicPage, SomersDalePointPage, SomersPointPage, VentnorCityPage,
+  WeymouthTownshipPage
+} from "@/pages/towns/AtlanticCountyTownPages";
+// Atlantic County Rental Pages
+import {
+  AbseconRentalPage, AtlanticCityRentalPage, BrigantineRentalPage, BuenaRentalPage,
+  BuenaVistaTownshipRentalPage, CologneRentalPage, CorvallisTownshipRentalPage,
+  EggHarborCityRentalPage, EggHarborTownshipRentalPage, EstellManorRentalPage,
+  FolsomRentalPage, GallowayTownshipRentalPage, HamilitonTownshipRentalPage,
+  HammontonRentalPage, LinwoodRentalPage, LongportRentalPage, MargateCityRentalPage,
+  MaysLandingRentalPage, MullicaTownshipRentalPage, NewtonvilleRentalPage,
+  NorthfieldRentalPage, PleasantvilleRentalPage, PortRepublicRentalPage,
+  SomersDalePointRentalPage, SomersPointRentalPage, VentnorCityRentalPage,
+  WeymouthTownshipRentalPage
+} from "@/pages/rentals/AtlanticCountyMunicipalityRentals";
 import ReturnPolicyPage from "@/pages/policies/ReturnPolicyPage";
 import DeliveryPolicyPage from "@/pages/policies/DeliveryPolicyPage";
 import RentalPolicyPage from "@/pages/policies/RentalPolicyPage";
@@ -166,6 +188,64 @@ function App() {
             <Route path="/policies/diversity-policy" component={DiversityPolicyPage} />
             <Route path="/policies/ethics-policy" component={EthicsPolicyPage} />
             <Route path="/policies/staffing-report" component={StaffingReportPage} />
+            
+            {/* Atlantic County Municipality Pages */}
+            <Route path="/absecon" component={AbseconPage} />
+            <Route path="/atlantic-city" component={AtlanticCityPage} />
+            <Route path="/brigantine" component={BrigantinePage} />
+            <Route path="/buena" component={BuenaPage} />
+            <Route path="/buena-vista-township" component={BuenaVistaTownshipPage} />
+            <Route path="/cologne" component={ColognePage} />
+            <Route path="/corvallis-township" component={CorvallisTownshipPage} />
+            <Route path="/egg-harbor-city" component={EggHarborCityPage} />
+            <Route path="/egg-harbor-township" component={EggHarborTownshipPage} />
+            <Route path="/estell-manor" component={EstellManorPage} />
+            <Route path="/folsom" component={FolsomPage} />
+            <Route path="/galloway-township" component={GallowayTownshipPage} />
+            <Route path="/hamilton-township" component={HamilitonTownshipPage} />
+            <Route path="/hammonton" component={HammontonPage} />
+            <Route path="/linwood" component={LinwoodPage} />
+            <Route path="/longport" component={LongportPage} />
+            <Route path="/margate-city" component={MargateCityPage} />
+            <Route path="/mays-landing" component={MaysLandingPage} />
+            <Route path="/mullica-township" component={MullicaTownshipPage} />
+            <Route path="/newtonville" component={NewtonvillePage} />
+            <Route path="/northfield" component={NorthfieldPage} />
+            <Route path="/pleasantville" component={PleasantvillePage} />
+            <Route path="/port-republic" component={PortRepublicPage} />
+            <Route path="/somers-dale-point" component={SomersDalePointPage} />
+            <Route path="/somers-point" component={SomersPointPage} />
+            <Route path="/ventnor-city" component={VentnorCityPage} />
+            <Route path="/weymouth-township" component={WeymouthTownshipPage} />
+            
+            {/* Atlantic County Rental Pages */}
+            <Route path="/absecon/rentals" component={AbseconRentalPage} />
+            <Route path="/atlantic-city/rentals" component={AtlanticCityRentalPage} />
+            <Route path="/brigantine/rentals" component={BrigantineRentalPage} />
+            <Route path="/buena/rentals" component={BuenaRentalPage} />
+            <Route path="/buena-vista-township/rentals" component={BuenaVistaTownshipRentalPage} />
+            <Route path="/cologne/rentals" component={CologneRentalPage} />
+            <Route path="/corvallis-township/rentals" component={CorvallisTownshipRentalPage} />
+            <Route path="/egg-harbor-city/rentals" component={EggHarborCityRentalPage} />
+            <Route path="/egg-harbor-township/rentals" component={EggHarborTownshipRentalPage} />
+            <Route path="/estell-manor/rentals" component={EstellManorRentalPage} />
+            <Route path="/folsom/rentals" component={FolsomRentalPage} />
+            <Route path="/galloway-township/rentals" component={GallowayTownshipRentalPage} />
+            <Route path="/hamilton-township/rentals" component={HamilitonTownshipRentalPage} />
+            <Route path="/hammonton/rentals" component={HammontonRentalPage} />
+            <Route path="/linwood/rentals" component={LinwoodRentalPage} />
+            <Route path="/longport/rentals" component={LongportRentalPage} />
+            <Route path="/margate-city/rentals" component={MargateCityRentalPage} />
+            <Route path="/mays-landing/rentals" component={MaysLandingRentalPage} />
+            <Route path="/mullica-township/rentals" component={MullicaTownshipRentalPage} />
+            <Route path="/newtonville/rentals" component={NewtonvilleRentalPage} />
+            <Route path="/northfield/rentals" component={NorthfieldRentalPage} />
+            <Route path="/pleasantville/rentals" component={PleasantvilleRentalPage} />
+            <Route path="/port-republic/rentals" component={PortRepublicRentalPage} />
+            <Route path="/somers-dale-point/rentals" component={SomersDalePointRentalPage} />
+            <Route path="/somers-point/rentals" component={SomersPointRentalPage} />
+            <Route path="/ventnor-city/rentals" component={VentnorCityRentalPage} />
+            <Route path="/weymouth-township/rentals" component={WeymouthTownshipRentalPage} />
             
             {/* Vehicle Detail Pages */}
             <Route path="/vehicles/evolution-d5-ranger-6-plus" component={EvolutionD5Ranger6Plus} />

@@ -9,39 +9,34 @@ export interface Municipality {
 }
 
 export const ATLANTIC_COUNTY_MUNICIPALITIES: Municipality[] = [
-  // Cities
-  { name: "Atlantic City", type: "City", slug: "atlantic-city", url: "/atlantic-city-golf-carts" },
-  { name: "Brigantine", type: "City", slug: "brigantine", url: "/brigantine-golf-carts" },
-  { name: "Egg Harbor City", type: "City", slug: "egg-harbor-city", url: "/egg-harbor-city-golf-carts" },
-  { name: "Hammonton", type: "City", slug: "hammonton", url: "/hammonton-golf-carts" },
-  { name: "Linwood", type: "City", slug: "linwood", url: "/linwood-golf-carts" },
-  { name: "Longport", type: "Borough", slug: "longport", url: "/longport-golf-carts" },
-  { name: "Margate City", type: "City", slug: "margate-city", url: "/margate-city-golf-carts" },
-  { name: "Northfield", type: "City", slug: "northfield", url: "/northfield-golf-carts" },
-  { name: "Pleasantville", type: "City", slug: "pleasantville", url: "/pleasantville-golf-carts" },
-  { name: "Somers Point", type: "City", slug: "somers-point", url: "/somers-point-golf-carts" },
-  { name: "Ventnor City", type: "City", slug: "ventnor-city", url: "/ventnor-city-golf-carts" },
-  
-  // Townships
-  { name: "Absecon", type: "City", slug: "absecon", url: "/absecon-golf-carts" },
-  { name: "Buena", type: "Borough", slug: "buena", url: "/buena-golf-carts" },
-  { name: "Egg Harbor Township", type: "Township", slug: "egg-harbor-township", url: "/egg-harbor-township-golf-carts" },
-  { name: "Estell Manor", type: "City", slug: "estell-manor", url: "/estell-manor-golf-carts" },
-  { name: "Mays Landing", type: "Community", slug: "mays-landing", url: "/mays-landing-golf-carts" },
-  { name: "Port Republic", type: "City", slug: "port-republic", url: "/port-republic-golf-carts" },
-  
-  // Unincorporated Communities
-  { name: "Cologne", type: "Community", slug: "cologne", url: "/cologne-golf-carts" },
-  { name: "Dorothy", type: "Community", slug: "dorothy", url: "/dorothy-golf-carts" },
-  { name: "Elwood", type: "Community", slug: "elwood", url: "/elwood-golf-carts" },
-  { name: "Landisville", type: "Community", slug: "landisville", url: "/landisville-golf-carts" },
-  { name: "Leeds Point", type: "Community", slug: "leeds-point", url: "/leeds-point-golf-carts" },
-  { name: "Milmay", type: "Community", slug: "milmay", url: "/milmay-golf-carts" },
-  { name: "Minotola", type: "Community", slug: "minotola", url: "/minotola-golf-carts" },
-  { name: "Mizpah", type: "Community", slug: "mizpah", url: "/mizpah-golf-carts" },
-  { name: "Newtonville", type: "Community", slug: "newtonville", url: "/newtonville-golf-carts" },
-  { name: "Pomona", type: "Community", slug: "pomona", url: "/pomona-golf-carts" },
-  { name: "Richland", type: "Community", slug: "richland", url: "/richland-golf-carts" },
+  // Cities and Primary Municipalities
+  { name: "Absecon", type: "City", slug: "absecon", url: "/absecon" },
+  { name: "Atlantic City", type: "City", slug: "atlantic-city", url: "/atlantic-city" },
+  { name: "Brigantine", type: "City", slug: "brigantine", url: "/brigantine" },
+  { name: "Buena", type: "Borough", slug: "buena", url: "/buena" },
+  { name: "Buena Vista Township", type: "Township", slug: "buena-vista-township", url: "/buena-vista-township" },
+  { name: "Cologne", type: "Community", slug: "cologne", url: "/cologne" },
+  { name: "Corvallis Township", type: "Township", slug: "corvallis-township", url: "/corvallis-township" },
+  { name: "Egg Harbor City", type: "City", slug: "egg-harbor-city", url: "/egg-harbor-city" },
+  { name: "Egg Harbor Township", type: "Township", slug: "egg-harbor-township", url: "/egg-harbor-township" },
+  { name: "Estell Manor", type: "City", slug: "estell-manor", url: "/estell-manor" },
+  { name: "Folsom", type: "Borough", slug: "folsom", url: "/folsom" },
+  { name: "Galloway Township", type: "Township", slug: "galloway-township", url: "/galloway-township" },
+  { name: "Hamilton Township", type: "Township", slug: "hamilton-township", url: "/hamilton-township" },
+  { name: "Hammonton", type: "City", slug: "hammonton", url: "/hammonton" },
+  { name: "Linwood", type: "City", slug: "linwood", url: "/linwood" },
+  { name: "Longport", type: "Borough", slug: "longport", url: "/longport" },
+  { name: "Margate City", type: "City", slug: "margate-city", url: "/margate-city" },
+  { name: "Mays Landing", type: "Community", slug: "mays-landing", url: "/mays-landing" },
+  { name: "Mullica Township", type: "Township", slug: "mullica-township", url: "/mullica-township" },
+  { name: "Newtonville", type: "Community", slug: "newtonville", url: "/newtonville" },
+  { name: "Northfield", type: "City", slug: "northfield", url: "/northfield" },
+  { name: "Pleasantville", type: "City", slug: "pleasantville", url: "/pleasantville" },
+  { name: "Port Republic", type: "City", slug: "port-republic", url: "/port-republic" },
+  { name: "Somers Dale Point", type: "Community", slug: "somers-dale-point", url: "/somers-dale-point" },
+  { name: "Somers Point", type: "City", slug: "somers-point", url: "/somers-point" },
+  { name: "Ventnor City", type: "City", slug: "ventnor-city", url: "/ventnor-city" },
+  { name: "Weymouth Township", type: "Township", slug: "weymouth-township", url: "/weymouth-township" },
 ];
 
 // Major communities for homepage display (first 24)
