@@ -263,7 +263,7 @@ export default function VehicleDetailPage({
                 Call 1-844-844-6638
               </Button>
               <Link href="/contact">
-                <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-gray-900">
+                <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-theme-primary">
                   Contact Us Today
                 </Button>
               </Link>
