@@ -188,6 +188,25 @@ Logo: Atlantic County Golf Carts logo used as primary logo and favicon across al
 - ✅ **Schema Markup Updates**: Updated all structured data with Atlantic County location (NJ instead of PA)
 - ✅ **Consistent Contact Information**: All policy pages now display unified Atlantic County contact information
 
+### Vehicle Inventory Pricing Fix & Missing Vehicles Added (January 25, 2025)
+- ✅ **Critical Inventory Issues Resolved**: Fixed all vehicle pricing and added missing vehicles based on TIGON Golf Carts pricing sheet:
+  - Updated all 15 vehicle prices to match current TIGON pricing sheet exactly
+  - Added 2 missing EVOLUTION TURFMAN models (TURFMAN 100 at $4,995 and TURFMAN 200 at $5,995)
+  - Fixed broken vehicle detail page links by ensuring all vehicles exist in inventory
+  - Resolved server/data/vehicles.ts syntax errors that prevented inventory loading
+- ✅ **Database Schema Compliance**: Updated vehicle data structure to match shared/schema.ts requirements:
+  - Converted from custom vehicle structure to proper Vehicle schema with images array, inStock, isNew fields
+  - Updated specifications object to use correct field names (seatingCapacity, batteryType, chargingTime, payload)
+  - Fixed storage.ts import errors and variable naming conflicts
+- ✅ **API Connectivity Restored**: Resolved all server-side issues preventing inventory page from loading:
+  - Fixed import/export mismatches in server/storage.ts and server/data/vehicles.ts
+  - Confirmed API endpoints returning correct data with updated pricing
+  - All 15 vehicles now properly served via /api/vehicles endpoint
+- ✅ **Complete Vehicle Inventory**: Now includes all vehicles from pricing sheet:
+  - 6 DENAGO models: EV CITY ($15,000), EV NOMAD ($8,495), EV NOMAD XL ($8,495), EV ROVER XL ($9,995), EV ROVER XL6 ($11,995), EV ROVER XXL ($11,995)
+  - 9 EVOLUTION models: D5 RANGER 4 PLUS ($9,595), D5 RANGER 6 PLUS ($11,595), D5 MAVERICK 4 PLUS ($9,995), CLASSIC 4 PLUS ($6,995), CARRIER 6 PLUS ($9,595), D6 MAX XT4 ($15,595), TURFMAN 100 ($4,995), TURFMAN 200 ($5,995)
+- ✅ **User Confirmation**: Inventory page verified working with correct pricing display
+
 ### Complete Pricing Update with External Links (January 25, 2025)
 - ✅ **Updated All Vehicle Pricing**: Applied current pricing from official TIGON Golf Carts pricing sheet:
   - DENAGO EV CITY: $15,000 (updated from $18,999)
