@@ -31,13 +31,13 @@ export default function Navigation() {
             <div className="rounded-lg">
               <img 
                 src="/attached_assets/MONTCO Golf Carts_1753384274720.png" 
-                alt="MONTCO Golf Carts Logo" 
+                alt="Atlantic County Golf Carts Logo" 
                 className="h-20 w-20"
               />
             </div>
             <Link href="/">
               <div className="cursor-pointer">
-                <div className="text-lg font-bold text-theme-primary">MONTCO</div>
+                <div className="text-lg font-bold text-theme-primary">ATLANTIC COUNTY</div>
                 <div className="text-lg font-bold text-theme-primary -mt-1">GOLF CARTS</div>
               </div>
             </Link>

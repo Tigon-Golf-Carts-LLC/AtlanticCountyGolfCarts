@@ -72,23 +72,8 @@ export default function ContactPage() {
   const contactInfo = [
     {
       icon: MapPin,
-      label: "TIGON Golf Carts Hatfield",
-      value: "2333 Bethlehem Pike, Hatfield, PA 19440",
-    },
-    {
-      icon: MapPin,
-      label: "TIGON Golf Carts Poconos",
-      value: "1712 Pennsylvania 940, Pocono Pines, PA 18350",
-    },
-    {
-      icon: Phone,
-      label: "Hatfield Phone",
-      value: "(215) 595-8736",
-    },
-    {
-      icon: Phone,
-      label: "Poconos Phone",
-      value: "(570) 643-0152",
+      label: "Atlantic County Golf Carts Showroom",
+      value: "Serving Atlantic County, NJ - Call for Location",
     },
     {
       icon: Phone,
@@ -98,13 +83,13 @@ export default function ContactPage() {
     {
       icon: Mail,
       label: "Email",
-      value: "info@montcogolfcarts.com",
+      value: "info@AtlanticCountyGolfCarts.com",
     },
     {
       icon: Globe,
       label: "Website",
-      value: "montcogolfcarts.com",
-      link: "https://montcogolfcarts.com",
+      value: "AtlanticCountyGolfCarts.com",
+      link: "https://AtlanticCountyGolfCarts.com",
     },
   ];
 
@@ -117,10 +102,10 @@ export default function ContactPage() {
   return (
     <>
       <SEOHead 
-        title="Contact Montgomery County Golf Carts - Get in Touch for Sales & Service"
-        description="Contact Montgomery County Golf Carts for sales, service, and support. Visit our TIGON Golf Carts locations or call 1-844-844-6638. Serving all 62 Montgomery County municipalities."
-        keywords="contact Montgomery County golf carts, TIGON Golf Carts, golf cart sales Pennsylvania, Hatfield showroom, Poconos showroom"
-        canonicalUrl="https://montcogolfcarts.com/contact"
+        title="Contact Atlantic County Golf Carts - Get in Touch for Sales & Service"
+        description="Contact Atlantic County Golf Carts for sales, service, and support. Call 1-844-844-6638. Serving all 27 Atlantic County municipalities in New Jersey."
+        keywords="contact Atlantic County golf carts, golf cart sales New Jersey, Atlantic County showroom, golf cart service NJ"
+        canonicalUrl="https://AtlanticCountyGolfCarts.com/contact"
         ogImage="/attached_assets/a-photograph-of-a-modern-golf-cart-deale_OlTDU4v9StGOZo5AygNb9A_bbx-4nIbSSGW4LKOIV9o3w_1753383770677.png"
         ogType="website"
       />
@@ -128,10 +113,10 @@ export default function ContactPage() {
       <div className="max-w-7xl mx-auto px-4 py-8">
       <div className="text-center mb-12">
         <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-          Contact Montgomery County Golf Carts
+          Contact Atlantic County Golf Carts
         </h1>
         <p className="text-xl text-gray-600">
-          Get in touch with our team for sales, service, and support throughout Montgomery County, PA
+          Get in touch with our team for sales, service, and support throughout Atlantic County, NJ
         </p>
       </div>
 

@@ -1,15 +1,15 @@
-# Berks County Golf Carts - Replit Project Guide
+# Atlantic County Golf Carts - Replit Project Guide
 
 ## Overview
 
-Berks County Golf Carts is a full-stack web application for a Pennsylvania-based golf cart dealership. The application serves as both a marketing website and a business management platform, featuring inventory management, customer inquiries, rental systems, and comprehensive service information.
+Atlantic County Golf Carts is a full-stack web application for a New Jersey-based golf cart dealership. The application serves as both a marketing website and a business management platform, featuring inventory management, customer inquiries, rental systems, and comprehensive service information.
 
 ## User Preferences
 
 Preferred communication style: Simple, everyday language.
 Theme Colors: Primary theme color #0e2e55 (dark blue), Orange accent #ff6100 for buttons and highlights.
 SEO Requirements: Complete sitemap.xml with all pages, towns, vehicles, images. Robots.txt allowing all bots and algorithms to crawl and index site.
-Logo: Berks County Golf Carts logo (Berks County Golf Carts (3)_1753284044185.png) used as primary logo and favicon across all pages.
+Logo: Atlantic County Golf Carts logo used as primary logo and favicon across all pages.
 
 ## System Architecture
 
