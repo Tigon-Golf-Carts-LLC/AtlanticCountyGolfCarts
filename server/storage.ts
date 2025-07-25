@@ -1,5 +1,5 @@
 import type { Vehicle, InsertVehicle, ContactForm } from "@shared/schema";
-import { vehicleData } from "./data/vehicles";
+import vehicleData from "./data/vehicles";
 
 export interface IStorage {
   // Vehicle operations
