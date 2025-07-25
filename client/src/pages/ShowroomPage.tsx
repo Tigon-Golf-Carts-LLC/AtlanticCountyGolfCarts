@@ -8,52 +8,52 @@ import SEOHead from "@/components/SEOHead";
 export default function ShowroomPage() {
   const locations = [
     {
-      name: "TIGON Golf Carts Poconos",
-      address: "1712 Pennsylvania 940, Pocono Pines, PA 18350",
-      phone: "570-643-0152",
-      coordinates: "41.10286354605563,-75.48758590250345",
-      googleMapsUrl: "https://www.google.com/maps?cid=17137841834562046914",
-      facebookUrl: "https://www.facebook.com/TigonGolfCartsPoconos/",
-      youtubeUrl: "https://www.youtube.com/@TIGONGolfCartsPoconosPA",
-      websiteUrl: "https://tigongolfcarts.com/pocono/",
-      reviewUrl: "https://g.page/r/CcJL5i1Z2NXtEBM/review",
-      city: "Poconos",
+      name: "TIGON Golf Carts Bayville",
+      address: "155 Atlantic City Blvd Bayville, NJ 08721",
+      phone: "(732) 908-7166",
+      coordinates: "39.9277698,-74.1748497",
+      googleMapsUrl: "https://www.google.com/maps?cid=16812778070531162551",
+      facebookUrl: "https://www.facebook.com/TigonGolfCartsBayville/",
+      websiteUrl: "https://tigongolfcarts.com/bayville/",
+      reviewUrl: "https://g.page/r/CbfBfMWT_FLpEBM/review",
+      city: "Bayville",
       type: "physical"
     },
     {
-      name: "TIGON Golf Carts Hatfield",
-      address: "2333 Bethlehem Pike, Hatfield, PA 19440",
-      phone: "215-595-8736",
-      coordinates: "40.29839945958623,-75.28308913039525",
-      googleMapsUrl: "https://www.google.com/maps?cid=8221925612164093496",
-      facebookUrl: "https://www.facebook.com/TigonGolfCartsHatfield/",
-      youtubeUrl: "https://www.youtube.com/@TIGONGolfCartsHatfieldPA",
-      websiteUrl: "https://tigongolfcarts.com/hatfield/",
-      reviewUrl: "https://g.page/r/CTgWulrIJRpyEBM/review",
-      city: "Hatfield",
+      name: "TIGON Golf Carts Waretown",
+      address: "526 US-9 Waretown, NJ 08758",
+      phone: "(732) 998-8146",
+      coordinates: "39.7761,-74.1968",
+      googleMapsUrl: "https://www.google.com/maps?cid=11595558320608622005",
+      facebookUrl: "https://www.facebook.com/TigonGolfCartsWaretown/",
+      websiteUrl: "https://tigongolfcarts.com/waretown/",
+      reviewUrl: "https://g.page/r/CbW1M1DbsuugEBM/review",
+      city: "Waretown",
       type: "physical"
     },
     {
-      name: "TIGON Golf Carts Philadelphia",
-      address: "Philadelphia, PA",
+      name: "TIGON Golf Carts Pleasantville",
+      address: "7000 Black Horse Pike, Pleasantville, NJ 08232",
+      phone: "(640) 444-3094",
+      coordinates: "39.38812835576412,-74.5186949022294",
+      googleMapsUrl: "https://www.google.com/maps?cid=7635149767591436869",
+      facebookUrl: "https://www.facebook.com/TigonGolfCartPleasantville",
+      websiteUrl: "https://tigongolfcarts.com/pleasantville/",
+      pinterestUrl: "https://www.pinterest.com/tigongolfcarts/tigon-golf-carts-in-pleasantville-nj/",
+      reviewUrl: "https://g.page/r/CUWiMchCgPVpEBM/review",
+      city: "Pleasantville",
+      type: "physical"
+    },
+    {
+      name: "TIGON Golf Carts New Jersey",
+      address: "Serving All of New Jersey",
       phone: "1-844-844-6638",
-      coordinates: "40.0024979,-75.1180146",
-      googleMapsUrl: "https://www.google.com/maps?cid=6103352888615501339",
-      websiteUrl: "https://tigongolfcarts.com/philadelphia/",
-      reviewUrl: "https://g.page/r/CRv-x4Add7NUEBM/review",
-      city: "Philadelphia",
-      type: "physical"
-    },
-    {
-      name: "TIGON Golf Carts Pennsylvania",
-      address: "Online Store - Serving All of Pennsylvania",
-      phone: "1-844-844-6638",
-      coordinates: "41.1169824,-77.6047047",
-      googleMapsUrl: "https://www.google.com/maps?cid=13935683838976847185",
-      youtubeUrl: "https://www.youtube.com/@TIGONGolfCartsPennsylvania",
-      websiteUrl: "https://tigongolfcarts.com/pennsylvania/",
-      reviewUrl: "https://g.page/r/CVHtXfydfmXBEBM/review",
-      city: "Pennsylvania",
+      coordinates: "40.073132,-74.724323",
+      googleMapsUrl: "https://www.google.com/maps?cid=15178469885958324473",
+      youtubeUrl: "https://www.youtube.com/@TIGONGolfCartsNewJersey",
+      websiteUrl: "https://tigongolfcarts.com/new-jersey/",
+      reviewUrl: "https://g.page/r/CfmAgjrxwaTSEBM/review",
+      city: "New Jersey",
       type: "online"
     }
   ];
@@ -61,10 +61,10 @@ export default function ShowroomPage() {
   return (
     <>
       <SEOHead 
-        title="Montgomery County Golf Cart Showroom | TIGON Golf Carts Locations PA"
-        description="Visit our TIGON Golf Cart showroom locations serving Montgomery County, PA. Poconos, Hatfield, Philadelphia, and online locations with complete DENAGO and EVOLUTION golf cart lineup."
-        keywords="golf cart showroom Montgomery County, TIGON Golf Carts Pennsylvania, golf cart dealership Poconos, golf cart sales Hatfield PA, Philadelphia golf carts, DENAGO EVOLUTION showroom"
-        canonicalUrl="https://montcogolfcarts.com/showroom"
+        title="Atlantic County Golf Cart Showroom | TIGON Golf Carts Locations NJ"
+        description="Visit our TIGON Golf Cart showroom locations serving Atlantic County, NJ. Bayville, Waretown, Pleasantville, and statewide locations with complete DENAGO and EVOLUTION golf cart lineup."
+        keywords="golf cart showroom Atlantic County, TIGON Golf Carts New Jersey, golf cart dealership Bayville, golf cart sales Waretown NJ, Pleasantville golf carts, DENAGO EVOLUTION showroom"
+        canonicalUrl="https://AtlanticCountyGolfCarts.com/showroom"
         ogImage="/attached_assets/a-photograph-of-a-modern-golf-cart-deale_OlTDU4v9StGOZo5AygNb9A_bbx-4nIbSSGW4LKOIV9o3w_1753383770677.png"
         ogType="website"
       />
@@ -73,10 +73,10 @@ export default function ShowroomPage() {
       <section className="relative py-20 px-4 bg-gradient-to-r from-theme-primary to-blue-700 text-white bg-cover bg-center bg-no-repeat" style={{backgroundImage: "linear-gradient(rgba(14, 46, 85, 0.8), rgba(29, 78, 216, 0.8)), url('/attached_assets/a-photograph-of-a-modern-golf-cart-deale_OlTDU4v9StGOZo5AygNb9A_bbx-4nIbSSGW4LKOIV9o3w_1753383770677.png')"}}>
         <div className="max-w-7xl mx-auto text-center">
           <h1 className="text-5xl font-bold mb-6">
-            Montgomery County Golf Cart Showroom
+            Atlantic County Golf Cart Showroom
           </h1>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
-            Visit our TIGON Golf Cart dealership locations serving Montgomery County, Pennsylvania. 
+            Visit our TIGON Golf Cart dealership locations serving Atlantic County, New Jersey. 
             Experience our full lineup of DENAGO and EVOLUTION electric vehicles in person or online.
           </p>
           <div className="flex justify-center">
@@ -93,7 +93,7 @@ export default function ShowroomPage() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold mb-4 text-theme-primary">Our Locations</h2>
-            <p className="text-xl text-gray-600">Four convenient locations serving Montgomery County and all of Pennsylvania</p>
+            <p className="text-xl text-gray-600">Four convenient locations serving Atlantic County and all of New Jersey</p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 gap-8">
@@ -265,7 +265,7 @@ export default function ShowroomPage() {
             Ready to Visit Our Showroom?
           </h2>
           <p className="text-xl mb-8">
-            Visit our showroom locations in Montgomery County or shop online to see our full inventory of DENAGO and EVOLUTION golf carts.
+            Visit our showroom locations in Atlantic County or shop online to see our full inventory of DENAGO and EVOLUTION golf carts.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
