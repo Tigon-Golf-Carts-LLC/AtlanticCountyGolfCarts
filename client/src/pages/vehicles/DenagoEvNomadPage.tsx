@@ -16,7 +16,7 @@ export default function DenagoEvNomadPage() {
       seats="4"
       range="45 miles"
       topSpeed="25 mph"
-      driveType="All-Wheel Drive"
+      driveType="2x4"
       features={[
         "All-Terrain Tires",
         "Lifted Suspension",

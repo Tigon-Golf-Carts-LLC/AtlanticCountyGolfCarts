@@ -16,7 +16,7 @@ export default function DenagoEvRoverXl6Page() {
       seats="6"
       range="50 miles"
       topSpeed="25 mph"
-      driveType="All-Wheel Drive"
+      driveType="2x4"
       features={[
         "Extended 6-Seat Configuration",
         "Premium Materials",

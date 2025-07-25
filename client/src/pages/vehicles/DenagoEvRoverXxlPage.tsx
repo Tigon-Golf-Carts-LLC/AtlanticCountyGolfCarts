@@ -16,7 +16,7 @@ export default function DenagoEvRoverXxlPage() {
       seats="8"
       range="60 miles"
       topSpeed="25 mph"
-      driveType="All-Wheel Drive"
+      driveType="2x4"
       features={[
         "Maximum Capacity",
         "Ultra-Premium Interior",

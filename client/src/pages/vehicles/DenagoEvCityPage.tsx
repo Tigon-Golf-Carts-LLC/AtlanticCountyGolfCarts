@@ -16,7 +16,7 @@ export default function DenagoEvCityPage() {
       seats="2"
       range="40 miles"
       topSpeed="25 mph"
-      driveType="Rear-Wheel Drive"
+      driveType="2x4"
       features={[
         "Street Legal Ready",
         "LED Lighting Package",

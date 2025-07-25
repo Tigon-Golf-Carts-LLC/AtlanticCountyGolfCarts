@@ -16,7 +16,7 @@ export default function DenagoEvNomadXlPage() {
       seats="4"
       range="55 miles"
       topSpeed="25 mph"
-      driveType="All-Wheel Drive"
+      driveType="2x4"
       features={[
         "Extended Range",
         "Premium Off-Road Package",

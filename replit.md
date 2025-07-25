@@ -149,6 +149,7 @@ Logo: Atlantic County Golf Carts logo used as primary logo and favicon across al
 - ✅ **Brand Page Pricing Updates**: Updated DENAGO and EVOLUTION brand pages with current pricing
 - ✅ **Added EVOLUTION Series Pricing Display**: Enhanced EVOLUTION brand page with pricing information for all series
 - ✅ **Inventory Page Domain Updates**: Updated inventory page breadcrumbs and SEO to use AtlanticCountyGolfCarts.com domain
+- ✅ **DENAGO Vehicle Drive Type Correction**: Updated all 6 DENAGO vehicle pages to show "2x4" drive type instead of "All-Wheel Drive" for accurate specifications
 
 ## Recent Changes (January 25, 2025)
 
