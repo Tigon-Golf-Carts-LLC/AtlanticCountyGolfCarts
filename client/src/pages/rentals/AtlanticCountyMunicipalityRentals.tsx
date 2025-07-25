@@ -22,81 +22,139 @@ export default function AtlanticCountyMunicipalityRentalPage({ municipalityName 
   const businessPhone = "1-844-844-6638";
   const businessEmail = "info@AtlanticCountyGolfCarts.com";
 
-  const rentalPackages = [
+  // 4-Seater Golf Cart Rental Plans
+  const fourSeaterPlans = [
     {
       title: "Daily Rental",
-      price: "$75",
-      period: "per day",
-      features: [
-        "4-passenger golf cart",
-        "Full charge for 8+ hours",
-        "Basic safety equipment",
-        "Local delivery in Atlantic County",
-        "24/7 support"
-      ],
-      popular: false
+      subtitle: "When you just need one day.",
+      price: "$245",
+      period: "1 day*",
+      renewal: "Renews at $245/daily term*",
+      delivery: "Delivery Fee $6/mile term*",
+      savings: null,
+      recommended: true
+    },
+    {
+      title: "3 Day Rental", 
+      subtitle: "When you need a few days",
+      price: "$685",
+      period: "3 days*",
+      renewal: "Renews at $228.34/daily term*",
+      delivery: "Delivery Fee $6/mile term*",
+      savings: "SAVE 6.8%",
+      recommended: true
     },
     {
       title: "Weekly Rental",
-      price: "$450",
-      period: "per week",
-      features: [
-        "4 or 6-passenger golf cart options",
-        "Extended battery life",
-        "Safety equipment included",
-        "Free delivery to " + municipality.name,
-        "Priority customer support",
-        "Flexible pickup times"
-      ],
-      popular: true
+      subtitle: "When you need a week of fun.",
+      price: "$1,050", 
+      period: "7 days*",
+      renewal: "Renews at $150/daily term*",
+      delivery: "Delivery Fee $6/mile term*",
+      savings: "SAVE 38.7%",
+      recommended: true
     },
     {
       title: "Monthly Rental",
-      price: "$1,200",
-      period: "per month",
-      features: [
-        "Premium golf cart selection",
-        "Maintenance included",
-        "Insurance coverage options",
-        "Free delivery and pickup",
-        "Dedicated account manager",
-        "Upgrade options available"
-      ],
-      popular: false
-    },
-    {
-      title: "Event Rental",
-      price: "Custom",
-      period: "pricing",
-      features: [
-        "Multiple cart packages",
-        "Event coordination",
-        "Setup and breakdown service",
-        "Custom branding options",
-        "Professional event support",
-        "Group discounts available"
-      ],
-      popular: false
+      subtitle: "When you need a month to explore.",
+      price: "$2,800",
+      period: "30 days*", 
+      renewal: "Renews at $94/daily term*",
+      delivery: "Delivery Fee $6/mile term*",
+      savings: "SAVE 61.6%",
+      recommended: true
     }
   ];
 
-  const cartTypes = [
+  // 6-Seater Golf Cart Rental Plans
+  const sixSeaterPlans = [
     {
-      name: "4-Seater Standard",
-      description: "Perfect for families and small groups exploring " + municipality.name,
-      features: ["Comfortable seating for 4", "Standard range battery", "Safety equipment", "Weather protection"]
+      title: "Daily Rental",
+      subtitle: "When you just need one day.",
+      price: "$295",
+      period: "1 day*",
+      renewal: "Renews at $295/daily term*", 
+      delivery: "Delivery Fee $6/mile term*",
+      savings: null,
+      recommended: true
     },
     {
-      name: "6-Seater Extended",
-      description: "Ideal for larger groups and extended trips around Atlantic County",
-      features: ["Spacious 6-person seating", "Extended range battery", "Premium comfort", "Enhanced safety features"]
+      title: "3 Day Rental",
+      subtitle: "When you need a few days",
+      price: "$735",
+      period: "3 days*",
+      renewal: "Renews at $245/daily term*",
+      delivery: "Delivery Fee $6/mile term*", 
+      savings: "SAVE 16.9%",
+      recommended: true
     },
     {
-      name: "Utility Cart",
-      description: "Great for business use and cargo transport in " + municipality.name,
-      features: ["Heavy-duty construction", "Large cargo bed", "Commercial-grade components", "Work-ready design"]
+      title: "Weekly Rental",
+      subtitle: "When you need a week of fun.",
+      price: "$1,400",
+      period: "7 days*",
+      renewal: "Renews at $200/daily term*",
+      delivery: "Delivery Fee $6/mile term*",
+      savings: "SAVE 32.2%", 
+      recommended: true
+    },
+    {
+      title: "Monthly Rental", 
+      subtitle: "When you need a month to explore.",
+      price: "$3,500",
+      period: "30 days*",
+      renewal: "Renews at $116.67/daily term*",
+      delivery: "Delivery Fee $6/mile term*",
+      savings: "SAVE 60.4%",
+      recommended: true
     }
   ];
+
+  // Utility Golf Cart Rental Plans
+  const utilityPlans = [
+    {
+      title: "Daily Rental",
+      subtitle: "When you just need one day.",
+      price: "$245", 
+      period: "1 day*",
+      renewal: "Renews at $245/daily term*",
+      delivery: "Delivery Fee $6/mile term*",
+      savings: null,
+      recommended: true
+    },
+    {
+      title: "3 Day Rental",
+      subtitle: "When you need a few days",
+      price: "$685",
+      period: "3 days*", 
+      renewal: "Renews at $228.34/daily term*",
+      delivery: "Delivery Fee $6/mile term*",
+      savings: "SAVE 6.8%",
+      recommended: true
+    },
+    {
+      title: "Weekly Rental",
+      subtitle: "When you need a week of fun.",
+      price: "$1,050",
+      period: "7 days*",
+      renewal: "Renews at $150/daily term*",
+      delivery: "Delivery Fee $6/mile term*", 
+      savings: "SAVE 38.7%",
+      recommended: true
+    },
+    {
+      title: "Monthly Rental",
+      subtitle: "When you need a month to explore.", 
+      price: "$2,800",
+      period: "30 days*",
+      renewal: "Renews at $94/daily term*",
+      delivery: "Delivery Fee $6/mile term*",
+      savings: "SAVE 61.6%",
+      recommended: true
+    }
+  ];
+
+
 
   return (
     <>
@@ -133,238 +191,180 @@ export default function AtlanticCountyMunicipalityRentalPage({ municipalityName 
           </div>
         </section>
 
-        {/* Rental Packages */}
-        <section className="py-16 px-4">
+        {/* 4 Seater Golf Cart Rental Plans */}
+        <section className="py-12 px-4">
           <div className="max-w-7xl mx-auto">
-            <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold text-gray-900 mb-4">
-                Golf Cart Rental Packages for {municipality.name}
-              </h2>
-              <p className="text-lg text-gray-600">
-                Flexible rental options to meet your needs in Atlantic County
-              </p>
+            <div className="text-center mb-8">
+              <div className="flex items-center justify-center gap-3 mb-4">
+                <h2 className="text-3xl font-bold text-gray-900">4 Seater Golf Cart Rental Plans</h2>
+              </div>
+              <p className="text-gray-600">Choose the perfect rental duration for your needs in {municipality.name}</p>
             </div>
 
-            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-              {rentalPackages.map((pkg, index) => (
-                <Card key={index} className={`relative hover:shadow-xl transition-shadow ${pkg.popular ? 'border-2 border-theme-orange' : ''}`}>
-                  {pkg.popular && (
-                    <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
-                      <Badge className="bg-theme-orange text-white px-4 py-1">Most Popular</Badge>
+            <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+                {fourSeaterPlans.map((plan, index) => (
+                  <div key={index} className="text-center">
+                    <div className="relative mb-6">
+                      <Badge className="bg-theme-orange text-white text-xs px-3 py-1 mb-4">
+                        RECOMMENDED
+                      </Badge>
+                      <h3 className="text-xl font-bold mb-2">{plan.title}</h3>
+                      <p className="text-gray-600 text-sm mb-4">{plan.subtitle}</p>
+                      
+                      {plan.savings && (
+                        <div className="bg-green-100 border border-green-300 rounded-full px-3 py-1 text-green-700 text-sm font-medium mb-4">
+                          {plan.savings}
+                        </div>
+                      )}
+                      
+                      <div className="text-4xl font-bold text-theme-primary mb-2">
+                        {plan.price}
+                      </div>
+                      <div className="text-gray-600 text-sm mb-4">{plan.period}</div>
+                      
+                      <div className="text-xs text-gray-500 mb-4">
+                        <div>{plan.renewal}</div>
+                        <div>{plan.delivery}</div>
+                      </div>
                     </div>
-                  )}
-                  <CardHeader className="text-center">
-                    <CardTitle className="text-xl text-theme-primary">{pkg.title}</CardTitle>
-                    <div className="mt-4">
-                      <span className="text-3xl font-bold text-theme-orange">{pkg.price}</span>
-                      <span className="text-gray-600 ml-2">{pkg.period}</span>
-                    </div>
-                  </CardHeader>
-                  <CardContent>
-                    <ul className="space-y-3">
-                      {pkg.features.map((feature, idx) => (
-                        <li key={idx} className="flex items-start">
-                          <Star className="w-4 h-4 text-theme-orange mt-0.5 mr-2 flex-shrink-0" />
-                          <span className="text-sm text-gray-600">{feature}</span>
-                        </li>
-                      ))}
-                    </ul>
-                    <Button className="w-full mt-6 bg-theme-orange hover:bg-orange-600 text-white">
-                      Reserve Now
+                    
+                    <Button className="w-full bg-theme-orange hover:bg-orange-600 text-white">
+                      <Phone className="w-4 h-4 mr-2" />
+                      RESERVE TODAY
                     </Button>
-                  </CardContent>
-                </Card>
-              ))}
-            </div>
-          </div>
-        </section>
-
-        {/* Golf Cart Types */}
-        <section className="py-16 bg-white">
-          <div className="max-w-7xl mx-auto px-4">
-            <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold text-gray-900 mb-4">
-                Available Golf Cart Types
-              </h2>
-              <p className="text-lg text-gray-600">
-                Choose the perfect golf cart for your {municipality.name} adventure
-              </p>
-            </div>
-
-            <div className="grid md:grid-cols-3 gap-8">
-              {cartTypes.map((cart, index) => (
-                <Card key={index} className="hover:shadow-lg transition-shadow">
-                  <CardHeader>
-                    <CardTitle className="text-xl text-theme-primary">{cart.name}</CardTitle>
-                    <p className="text-gray-600">{cart.description}</p>
-                  </CardHeader>
-                  <CardContent>
-                    <ul className="space-y-2">
-                      {cart.features.map((feature, idx) => (
-                        <li key={idx} className="flex items-center">
-                          <Star className="w-4 h-4 text-theme-orange mr-2" />
-                          <span className="text-sm text-gray-600">{feature}</span>
-                        </li>
-                      ))}
-                    </ul>
-                  </CardContent>
-                </Card>
-              ))}
-            </div>
-          </div>
-        </section>
-
-        {/* Rental Process */}
-        <section className="py-16 bg-gray-50">
-          <div className="max-w-7xl mx-auto px-4">
-            <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold text-gray-900 mb-4">
-                Easy Rental Process
-              </h2>
-              <p className="text-lg text-gray-600">
-                Getting your golf cart rental in {municipality.name} is simple
-              </p>
-            </div>
-
-            <div className="grid md:grid-cols-4 gap-8">
-              <div className="text-center">
-                <div className="w-16 h-16 bg-theme-orange rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Phone className="w-8 h-8 text-white" />
-                </div>
-                <h3 className="text-lg font-semibold mb-2">1. Call or Book Online</h3>
-                <p className="text-gray-600">Contact us at {businessPhone} or book through our website</p>
-              </div>
-
-              <div className="text-center">
-                <div className="w-16 h-16 bg-theme-orange rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Calendar className="w-8 h-8 text-white" />
-                </div>
-                <h3 className="text-lg font-semibold mb-2">2. Schedule Delivery</h3>
-                <p className="text-gray-600">We'll arrange convenient delivery to your location in {municipality.name}</p>
-              </div>
-
-              <div className="text-center">
-                <div className="w-16 h-16 bg-theme-orange rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Truck className="w-8 h-8 text-white" />
-                </div>
-                <h3 className="text-lg font-semibold mb-2">3. Setup & Training</h3>
-                <p className="text-gray-600">Our team provides setup and safety training for your rental</p>
-              </div>
-
-              <div className="text-center">
-                <div className="w-16 h-16 bg-theme-orange rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Star className="w-8 h-8 text-white" />
-                </div>
-                <h3 className="text-lg font-semibold mb-2">4. Enjoy Your Rental</h3>
-                <p className="text-gray-600">Explore {municipality.name} and Atlantic County with confidence</p>
+                  </div>
+                ))}
               </div>
             </div>
           </div>
         </section>
 
-        {/* Service Area & Contact */}
-        <section className="py-16 bg-white">
-          <div className="max-w-7xl mx-auto px-4">
-            <div className="grid lg:grid-cols-2 gap-12">
-              <div>
-                <h2 className="text-3xl font-bold text-gray-900 mb-6">
-                  Rental Service Area
-                </h2>
-                <p className="text-lg text-gray-600 mb-6">
-                  We provide golf cart rental delivery throughout {municipality.name} and all of Atlantic County, New Jersey.
-                </p>
-                
-                <div className="space-y-4">
-                  <div className="flex items-start">
-                    <MapPin className="w-5 h-5 text-theme-orange mt-0.5 mr-3" />
-                    <div>
-                      <h3 className="font-semibold">Primary Service Area</h3>
-                      <p className="text-gray-600">{municipality.name} and surrounding Atlantic County communities</p>
-                    </div>
-                  </div>
-                  
-                  <div className="flex items-start">
-                    <Truck className="w-5 h-5 text-theme-orange mt-0.5 mr-3" />
-                    <div>
-                      <h3 className="font-semibold">Free Delivery</h3>
-                      <p className="text-gray-600">Complimentary delivery and pickup within Atlantic County</p>
-                    </div>
-                  </div>
-                  
-                  <div className="flex items-start">
-                    <Clock className="w-5 h-5 text-theme-orange mt-0.5 mr-3" />
-                    <div>
-                      <h3 className="font-semibold">Flexible Scheduling</h3>
-                      <p className="text-gray-600">7-day availability with same-day delivery options</p>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="mt-8 bg-gray-50 p-6 rounded-lg">
-                  <h3 className="text-lg font-semibold mb-4">Contact Information</h3>
-                  <div className="space-y-3">
-                    <div className="flex items-center">
-                      <Phone className="w-5 h-5 text-theme-orange mr-3" />
-                      <span className="font-medium">{businessPhone}</span>
-                    </div>
-                    <div className="flex items-center">
-                      <MapPin className="w-5 h-5 text-theme-orange mr-3" />
-                      <span>Serving {municipality.name}, Atlantic County, NJ</span>
-                    </div>
-                    <div className="flex items-center">
-                      <Clock className="w-5 h-5 text-theme-orange mr-3" />
-                      <span>Mon-Fri: 9AM-5PM, Sat: 9AM-5PM, Sun: Closed</span>
-                    </div>
-                  </div>
-                </div>
+        {/* 6 Seater Golf Cart Rental Plans */}
+        <section className="py-12 px-4 bg-gray-50">
+          <div className="max-w-7xl mx-auto">
+            <div className="text-center mb-8">
+              <div className="flex items-center justify-center gap-3 mb-4">
+                <h2 className="text-3xl font-bold text-gray-900">6 Seater Golf Cart Rental Plans</h2>
               </div>
+              <p className="text-gray-600">Choose the perfect rental duration for your needs in {municipality.name}</p>
+            </div>
 
-              <div>
-                <h3 className="text-xl font-semibold mb-4">Popular Rental Destinations in {municipality.name}</h3>
-                <div className="grid grid-cols-2 gap-4 mb-6">
-                  <div className="bg-gray-50 p-4 rounded-lg">
-                    <h4 className="font-semibold text-theme-primary">Beach Areas</h4>
-                    <p className="text-sm text-gray-600">Perfect for coastal exploration and beach access</p>
+            <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+                {sixSeaterPlans.map((plan, index) => (
+                  <div key={index} className="text-center">
+                    <div className="relative mb-6">
+                      <Badge className="bg-theme-orange text-white text-xs px-3 py-1 mb-4">
+                        RECOMMENDED
+                      </Badge>
+                      <h3 className="text-xl font-bold mb-2">{plan.title}</h3>
+                      <p className="text-gray-600 text-sm mb-4">{plan.subtitle}</p>
+                      
+                      {plan.savings && (
+                        <div className="bg-green-100 border border-green-300 rounded-full px-3 py-1 text-green-700 text-sm font-medium mb-4">
+                          {plan.savings}
+                        </div>
+                      )}
+                      
+                      <div className="text-4xl font-bold text-theme-primary mb-2">
+                        {plan.price}
+                      </div>
+                      <div className="text-gray-600 text-sm mb-4">{plan.period}</div>
+                      
+                      <div className="text-xs text-gray-500 mb-4">
+                        <div>{plan.renewal}</div>
+                        <div>{plan.delivery}</div>
+                      </div>
+                    </div>
+                    
+                    <Button className="w-full bg-theme-orange hover:bg-orange-600 text-white">
+                      <Phone className="w-4 h-4 mr-2" />
+                      RESERVE TODAY
+                    </Button>
                   </div>
-                  <div className="bg-gray-50 p-4 rounded-lg">
-                    <h4 className="font-semibold text-theme-primary">Golf Courses</h4>
-                    <p className="text-sm text-gray-600">Tournament and recreational golf facilities</p>
-                  </div>
-                  <div className="bg-gray-50 p-4 rounded-lg">
-                    <h4 className="font-semibold text-theme-primary">Residential Communities</h4>
-                    <p className="text-sm text-gray-600">Neighborhood and community transportation</p>
-                  </div>
-                  <div className="bg-gray-50 p-4 rounded-lg">
-                    <h4 className="font-semibold text-theme-primary">Events & Venues</h4>
-                    <p className="text-sm text-gray-600">Weddings, parties, and special occasions</p>
-                  </div>
-                </div>
-
-                <div className="bg-theme-primary text-white p-6 rounded-lg">
-                  <h3 className="text-lg font-semibold mb-3">Why Rent From Us?</h3>
-                  <ul className="space-y-2 text-sm">
-                    <li className="flex items-center">
-                      <Star className="w-4 h-4 mr-2" />
-                      Latest model DENAGO and EVOLUTION golf carts
-                    </li>
-                    <li className="flex items-center">
-                      <Star className="w-4 h-4 mr-2" />
-                      Professional maintenance and cleaning
-                    </li>
-                    <li className="flex items-center">
-                      <Star className="w-4 h-4 mr-2" />
-                      24/7 customer support during rental period
-                    </li>
-                    <li className="flex items-center">
-                      <Star className="w-4 h-4 mr-2" />
-                      Competitive rates with no hidden fees
-                    </li>
-                  </ul>
-                </div>
+                ))}
               </div>
             </div>
           </div>
         </section>
+
+        {/* Utility Golf Cart Rental Plans */}
+        <section className="py-12 px-4">
+          <div className="max-w-7xl mx-auto">
+            <div className="text-center mb-8">
+              <div className="flex items-center justify-center gap-3 mb-4">
+                <h2 className="text-3xl font-bold text-gray-900">Utility Golf Cart Rental Plans</h2>
+              </div>
+              <p className="text-gray-600">Choose the perfect rental duration for your needs in {municipality.name}</p>
+            </div>
+
+            <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+                {utilityPlans.map((plan, index) => (
+                  <div key={index} className="text-center">
+                    <div className="relative mb-6">
+                      <Badge className="bg-theme-orange text-white text-xs px-3 py-1 mb-4">
+                        RECOMMENDED
+                      </Badge>
+                      <h3 className="text-xl font-bold mb-2">{plan.title}</h3>
+                      <p className="text-gray-600 text-sm mb-4">{plan.subtitle}</p>
+                      
+                      {plan.savings && (
+                        <div className="bg-green-100 border border-green-300 rounded-full px-3 py-1 text-green-700 text-sm font-medium mb-4">
+                          {plan.savings}
+                        </div>
+                      )}
+                      
+                      <div className="text-4xl font-bold text-theme-primary mb-2">
+                        {plan.price}
+                      </div>
+                      <div className="text-gray-600 text-sm mb-4">{plan.period}</div>
+                      
+                      <div className="text-xs text-gray-500 mb-4">
+                        <div>{plan.renewal}</div>
+                        <div>{plan.delivery}</div>
+                      </div>
+                    </div>
+                    
+                    <Button className="w-full bg-theme-orange hover:bg-orange-600 text-white">
+                      <Phone className="w-4 h-4 mr-2" />
+                      RESERVE TODAY
+                    </Button>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Need Help Choosing? */}
+        <section className="py-16 px-4 bg-gray-50">
+          <div className="max-w-4xl mx-auto text-center">
+            <h2 className="text-3xl font-bold mb-6 text-gray-900">
+              Need Help Choosing?
+            </h2>
+            <p className="text-lg text-gray-600 mb-8 max-w-3xl mx-auto">
+              Our friendly team is here to help you select the perfect golf cart rental for your needs in {municipality.name}. Whether it's for a special event, vacation, or business use, we have the right cart at the right price.
+            </p>
+            <Button size="lg" className="bg-theme-orange hover:bg-orange-600 text-white">
+              <Phone className="w-4 h-4 mr-2" />
+              Call Now 1-844-844-6638
+            </Button>
+          </div>
+        </section>
+
+        {/* Footer Disclaimer */}
+        <section className="py-8 px-4 bg-gray-100">
+          <div className="max-w-6xl mx-auto text-center">
+            <p className="text-sm text-gray-500">
+              * All prices subject to availability and terms of service. Delivery fee applies for locations beyond 10 miles.<br />
+              Rental periods are calculated in 24-hour increments. Early returns do not qualify for refunds.
+            </p>
+          </div>
+        </section>
+
+
 
         {/* Call to Action */}
         <section className="py-16 bg-theme-primary text-white">
