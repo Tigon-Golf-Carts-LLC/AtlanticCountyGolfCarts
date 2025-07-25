@@ -1,1086 +1,756 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 
   <!-- Main Pages -->
   <url>
-    <loc>https://montcogolfcarts.com/</loc>
-    <lastmod>2025-01-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <loc>https://AtlanticCountyGolfCarts.com/</loc>
+    <lastmod>2025-01-25</lastmod>
+    <changefreq>daily</changefreq>
     <priority>1.0</priority>
     <image:image>
-      <image:loc>https://AtlanticCountyGolfCarts.com/attached_assets/Atlantic County Golf Carts (1)_1753457102314.png</image:loc>
-      <image:caption>Atlantic County Golf Carts logo and branding</image:caption>
+      <image:loc>https://AtlanticCountyGolfCarts.com/attached_assets/Atlantic%20County%20Golf%20Carts%20(1)_1753457102314.png</image:loc>
+      <image:title>Atlantic County Golf Carts - Premium Golf Cart Dealer</image:title>
+      <image:caption>Atlantic County Golf Carts logo and professional branding for New Jersey's premier golf cart dealership</image:caption>
+      <image:geo_location>Atlantic County, New Jersey</image:geo_location>
+      <image:license>https://AtlanticCountyGolfCarts.com/policies/terms-conditions</image:license>
     </image:image>
     <image:image>
       <image:loc>https://AtlanticCountyGolfCarts.com/attached_assets/a-photograph-of-a-modern-golf-cart-deale_1Cnk505HSlGhjw-TPLFg9w_nDZV9Dn5QHiGR5OY8JPBgA_1753453234033.png</image:loc>
-      <image:caption>Modern golf cart dealership showroom</image:caption>
+      <image:title>Modern Golf Cart Dealership Showroom</image:title>
+      <image:caption>Professional Atlantic County Golf Carts showroom featuring DENAGO and EVOLUTION electric golf carts</image:caption>
+      <image:geo_location>Atlantic County, New Jersey</image:geo_location>
     </image:image>
   </url>
 
   <url>
-    <loc>https://montcogolfcarts.com/inventory</loc>
-    <lastmod>2025-01-22</lastmod>
+    <loc>https://AtlanticCountyGolfCarts.com/inventory</loc>
+    <lastmod>2025-01-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <image:image>
-      <image:loc>https://montcogolfcarts.com/attached_assets/EVOLUTIOND5MAVERICK4PLUS_1751893115781_1753135231312.jpg</image:loc>
-      <image:caption>Golf cart inventory at Montgomery County Golf Carts</image:caption>
+      <image:loc>https://AtlanticCountyGolfCarts.com/attached_assets/EVOLUTIOND5MAVERICK4PLUS_1751893115781_1753135231312.jpg</image:loc>
+      <image:title>EVOLUTION D5 Maverick 4 Plus Golf Cart</image:title>
+      <image:caption>Premium EVOLUTION D5 Maverick 4 Plus electric golf cart available at Atlantic County Golf Carts</image:caption>
+      <image:geo_location>Atlantic County, New Jersey</image:geo_location>
     </image:image>
     <image:image>
-      <image:loc>https://montcogolfcarts.com/attached_assets/DENAGONEVCITY_1751893047472_1753135231313.jpg</image:loc>
-      <image:caption>Denago electric golf carts available for sale</image:caption>
+      <image:loc>https://AtlanticCountyGolfCarts.com/attached_assets/DENAGONEVCITY_1751893047472_1753135231313.jpg</image:loc>
+      <image:title>DENAGO EV City Electric Golf Cart</image:title>
+      <image:caption>DENAGO EV City street-legal electric golf cart for urban mobility in Atlantic County</image:caption>
+      <image:geo_location>Atlantic County, New Jersey</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://AtlanticCountyGolfCarts.com/attached_assets/a-photograph-of-a-bright-modern-golf-car_iofSws5mRiCxoMwQwuXw4A_Yv-NWBaTQQ6ofRhClJiiIw_1753454023367.png</image:loc>
+      <image:title>Modern Golf Cart Inventory Showroom</image:title>
+      <image:caption>Bright, modern showroom displaying premium electric golf carts at Atlantic County Golf Carts</image:caption>
+      <image:geo_location>Atlantic County, New Jersey</image:geo_location>
     </image:image>
   </url>
 
   <url>
-    <loc>https://montcogolfcarts.com/rentals</loc>
-    <lastmod>2025-01-22</lastmod>
+    <loc>https://AtlanticCountyGolfCarts.com/about</loc>
+    <lastmod>2025-01-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://AtlanticCountyGolfCarts.com/attached_assets/Atlantic%20County%20Golf%20Carts%20(1)_1753457102314.png</image:loc>
+      <image:title>About Atlantic County Golf Carts</image:title>
+      <image:caption>Learn about Atlantic County Golf Carts - New Jersey's premier golf cart dealership serving all 27 municipalities</image:caption>
+      <image:geo_location>Atlantic County, New Jersey</image:geo_location>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://AtlanticCountyGolfCarts.com/services</loc>
+    <lastmod>2025-01-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://AtlanticCountyGolfCarts.com/attached_assets/a-photograph-of-a-modern-golf-cart-deale_OlTDU4v9StGOZo5AygNb9A_bbx-4nIbSSGW4LKOIV9o3w_1753383770677.png</image:loc>
+      <image:title>Golf Cart Services Atlantic County</image:title>
+      <image:caption>Professional golf cart maintenance, repair, and service for Atlantic County residents</image:caption>
+      <image:geo_location>Atlantic County, New Jersey</image:geo_location>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://AtlanticCountyGolfCarts.com/rentals</loc>
+    <lastmod>2025-01-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://montcogolfcarts.com/attached_assets/EVOLUTIOND6MAXGT4_1751893159004_1753135350620.jpg</image:loc>
-      <image:caption>Golf cart rentals available in Montgomery County PA</image:caption>
+      <image:loc>https://AtlanticCountyGolfCarts.com/attached_assets/image_1753455868411.png</image:loc>
+      <image:title>Golf Cart Rentals Atlantic County</image:title>
+      <image:caption>Premium golf cart rental services for events, vacations, and transportation in Atlantic County</image:caption>
+      <image:geo_location>Atlantic County, New Jersey</image:geo_location>
     </image:image>
   </url>
 
   <url>
-    <loc>https://montcogolfcarts.com/services</loc>
-    <lastmod>2025-01-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://montcogolfcarts.com/about</loc>
-    <lastmod>2025-01-22</lastmod>
+    <loc>https://AtlanticCountyGolfCarts.com/showroom</loc>
+    <lastmod>2025-01-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://montcogolfcarts.com/contact</loc>
-    <lastmod>2025-01-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://montcogolfcarts.com/thank-you</loc>
-    <lastmod>2025-01-22</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
-  </url>
-
-  <url>
-    <loc>https://montcogolfcarts.com/financing</loc>
-    <lastmod>2025-01-22</lastmod>
+    <loc>https://AtlanticCountyGolfCarts.com/contact</loc>
+    <lastmod>2025-01-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://AtlanticCountyGolfCarts.com/financing</loc>
+    <lastmod>2025-01-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
 
   <!-- Brand Pages -->
   <url>
-    <loc>https://montcogolfcarts.com/denago</loc>
-    <lastmod>2025-01-22</lastmod>
+    <loc>https://AtlanticCountyGolfCarts.com/denago</loc>
+    <lastmod>2025-01-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://montcogolfcarts.com/attached_assets/DENAGONEVCITY_1751893047472_1753135231313.jpg</image:loc>
-      <image:caption>Denago EV electric golf carts and vehicles</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://montcogolfcarts.com/attached_assets/DENAGONEVNOMAD_1751893047472_1753135231313.jpg</image:loc>
-      <image:caption>Denago Nomad series golf carts</image:caption>
+      <image:loc>https://AtlanticCountyGolfCarts.com/attached_assets/DENAGONEVCITY_1751893047472_1753135231313.jpg</image:loc>
+      <image:title>DENAGO Electric Golf Carts</image:title>
+      <image:caption>Premium DENAGO electric golf carts featuring advanced technology and superior performance</image:caption>
+      <image:geo_location>Atlantic County, New Jersey</image:geo_location>
     </image:image>
   </url>
 
   <url>
-    <loc>https://montcogolfcarts.com/evolution</loc>
-    <lastmod>2025-01-22</lastmod>
+    <loc>https://AtlanticCountyGolfCarts.com/evolution</loc>
+    <lastmod>2025-01-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://montcogolfcarts.com/attached_assets/EVOLUTIOND5MAVERICK4PLUS_1751893115781_1753135231312.jpg</image:loc>
-      <image:caption>Evolution golf carts D5 Maverick series</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://montcogolfcarts.com/attached_assets/EVOLUTIOND6MAXGT4_1751893159004_1753135350620.jpg</image:loc>
-      <image:caption>Evolution D6 Max series high performance golf carts</image:caption>
+      <image:loc>https://AtlanticCountyGolfCarts.com/attached_assets/EVOLUTIOND5MAVERICK4PLUS_1751893115781_1753135231312.jpg</image:loc>
+      <image:title>EVOLUTION Golf Carts</image:title>
+      <image:caption>Innovative EVOLUTION golf carts with cutting-edge design and reliability</image:caption>
+      <image:geo_location>Atlantic County, New Jersey</image:geo_location>
     </image:image>
   </url>
 
-  <!-- Vehicle Detail Pages - Evolution Models -->
+  <!-- Individual Vehicle Pages - DENAGO Series -->
   <url>
-    <loc>https://montcogolfcarts.com/vehicles/evolution-d5-ranger-6-plus</loc>
-    <lastmod>2025-01-22</lastmod>
-    <changefreq>monthly</changefreq>
+    <loc>https://AtlanticCountyGolfCarts.com/denago-ev-city</loc>
+    <lastmod>2025-01-25</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
     <image:image>
-      <image:loc>https://montcogolfcarts.com/attached_assets/EVOLUTIOND5RANGER6PLUS_1751893159004_1753135350619.jpg</image:loc>
-      <image:caption>Evolution D5 Ranger 6 Plus Golf Cart</image:caption>
-    </image:image>
-  </url>
-
-  <url>
-    <loc>https://montcogolfcarts.com/vehicles/evolution-d5-ranger-22-plus</loc>
-    <lastmod>2025-01-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-      <image:loc>https://montcogolfcarts.com/attached_assets/EVOLUTIOND5RANGER2+2PLUS_1751893115782_1753135350622.jpg</image:loc>
-      <image:caption>Evolution D5 Ranger 2+2 Plus Golf Cart</image:caption>
+      <image:loc>https://AtlanticCountyGolfCarts.com/attached_assets/DENAGONEVCITY_1751893047472_1753135231313.jpg</image:loc>
+      <image:title>DENAGO EV City - Street Legal Electric Golf Cart</image:title>
+      <image:caption>DENAGO EV City street-legal electric golf cart - $15,000 at Atlantic County Golf Carts</image:caption>
+      <image:geo_location>Atlantic County, New Jersey</image:geo_location>
     </image:image>
   </url>
 
   <url>
-    <loc>https://montcogolfcarts.com/vehicles/evolution-forester-4-plus</loc>
-    <lastmod>2025-01-22</lastmod>
-    <changefreq>monthly</changefreq>
+    <loc>https://AtlanticCountyGolfCarts.com/denago-ev-nomad</loc>
+    <lastmod>2025-01-25</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
     <image:image>
-      <image:loc>https://montcogolfcarts.com/attached_assets/EVOLUTIONFORESTER4PLUS_1751893159005_1753135437836.jpg</image:loc>
-      <image:caption>Evolution Forester 4 Plus Golf Cart</image:caption>
+      <image:loc>https://AtlanticCountyGolfCarts.com/attached_assets/DENAGONEVNOMAD_1751893047472_1753135231313.jpg</image:loc>
+      <image:title>DENAGO EV Nomad - Premium Electric Golf Cart</image:title>
+      <image:caption>DENAGO EV Nomad premium electric golf cart - $8,495 at Atlantic County Golf Carts</image:caption>
+      <image:geo_location>Atlantic County, New Jersey</image:geo_location>
     </image:image>
   </url>
 
   <url>
-    <loc>https://montcogolfcarts.com/vehicles/evolution-turfman-1000</loc>
-    <lastmod>2025-01-22</lastmod>
-    <changefreq>monthly</changefreq>
+    <loc>https://AtlanticCountyGolfCarts.com/denago-ev-nomad-xl</loc>
+    <lastmod>2025-01-25</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
     <image:image>
-      <image:loc>https://montcogolfcarts.com/attached_assets/EVOLUTIONTURFMAN1000_1751893159006_1753135437836.jpg</image:loc>
-      <image:caption>Evolution Turfman 1000 Golf Cart</image:caption>
+      <image:loc>https://AtlanticCountyGolfCarts.com/attached_assets/DENAGONEVNOMADXL_1751893047472_1753135231313.jpg</image:loc>
+      <image:title>DENAGO EV Nomad XL - Extended Range Golf Cart</image:title>
+      <image:caption>DENAGO EV Nomad XL extended range electric golf cart - $8,495 at Atlantic County Golf Carts</image:caption>
+      <image:geo_location>Atlantic County, New Jersey</image:geo_location>
     </image:image>
   </url>
 
   <url>
-    <loc>https://montcogolfcarts.com/vehicles/evolution-d6-max-gt4</loc>
-    <lastmod>2025-01-22</lastmod>
-    <changefreq>monthly</changefreq>
+    <loc>https://AtlanticCountyGolfCarts.com/denago-ev-rover-xl</loc>
+    <lastmod>2025-01-25</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
     <image:image>
-      <image:loc>https://montcogolfcarts.com/attached_assets/EVOLUTIOND6MAXGT4_1751893159004_1753135350620.jpg</image:loc>
-      <image:caption>Evolution D6 Max GT4 Golf Cart</image:caption>
+      <image:loc>https://AtlanticCountyGolfCarts.com/attached_assets/DENAGONEVROVERXL_1751893047473_1753135231313.jpg</image:loc>
+      <image:title>DENAGO EV Rover XL - Adventure Golf Cart</image:title>
+      <image:caption>DENAGO EV Rover XL adventure electric golf cart - $9,995 at Atlantic County Golf Carts</image:caption>
+      <image:geo_location>Atlantic County, New Jersey</image:geo_location>
     </image:image>
   </url>
 
   <url>
-    <loc>https://montcogolfcarts.com/vehicles/evolution-d6-max-gt6</loc>
-    <lastmod>2025-01-22</lastmod>
-    <changefreq>monthly</changefreq>
+    <loc>https://AtlanticCountyGolfCarts.com/denago-ev-rover-xl6</loc>
+    <lastmod>2025-01-25</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
     <image:image>
-      <image:loc>https://montcogolfcarts.com/attached_assets/EVOLUTIOND6MAXGT6_1751893159004_1753135350620.jpg</image:loc>
-      <image:caption>Evolution D6 Max GT6 Golf Cart</image:caption>
+      <image:loc>https://AtlanticCountyGolfCarts.com/attached_assets/DENAGONEVROVERXL6_1751893047473_1753135231313.jpg</image:loc>
+      <image:title>DENAGO EV Rover XL6 - Six Passenger Golf Cart</image:title>
+      <image:caption>DENAGO EV Rover XL6 six-passenger electric golf cart - $11,995 at Atlantic County Golf Carts</image:caption>
+      <image:geo_location>Atlantic County, New Jersey</image:geo_location>
     </image:image>
   </url>
 
   <url>
-    <loc>https://montcogolfcarts.com/vehicles/evolution-d6-max-xt4</loc>
-    <lastmod>2025-01-22</lastmod>
-    <changefreq>monthly</changefreq>
+    <loc>https://AtlanticCountyGolfCarts.com/denago-ev-rover-xxl</loc>
+    <lastmod>2025-01-25</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
     <image:image>
-      <image:loc>https://montcogolfcarts.com/attached_assets/EVOLUTIOND6MAXXT4_1751893159005_1753135437836.jpg</image:loc>
-      <image:caption>Evolution D6 Max XT4 Golf Cart</image:caption>
+      <image:loc>https://AtlanticCountyGolfCarts.com/attached_assets/DENAGONEVROVERXXL_1751893047473_1753135231313.jpg</image:loc>
+      <image:title>DENAGO EV Rover XXL - Heavy Duty Golf Cart</image:title>
+      <image:caption>DENAGO EV Rover XXL heavy-duty electric golf cart - $11,995 at Atlantic County Golf Carts</image:caption>
+      <image:geo_location>Atlantic County, New Jersey</image:geo_location>
+    </image:image>
+  </url>
+
+  <!-- Individual Vehicle Pages - EVOLUTION Series -->
+  <url>
+    <loc>https://AtlanticCountyGolfCarts.com/evolution-d5-ranger-4-plus</loc>
+    <lastmod>2025-01-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://AtlanticCountyGolfCarts.com/attached_assets/EVOLUTIOND5RANGER4PLUS_1751893115782_1753135350622.jpg</image:loc>
+      <image:title>EVOLUTION D5 Ranger 4 Plus - Premium Golf Cart</image:title>
+      <image:caption>EVOLUTION D5 Ranger 4 Plus premium electric golf cart - $9,595 at Atlantic County Golf Carts</image:caption>
+      <image:geo_location>Atlantic County, New Jersey</image:geo_location>
     </image:image>
   </url>
 
   <url>
-    <loc>https://montcogolfcarts.com/vehicles/evolution-d6-max-xt6</loc>
-    <lastmod>2025-01-22</lastmod>
-    <changefreq>monthly</changefreq>
+    <loc>https://AtlanticCountyGolfCarts.com/evolution-d5-ranger-6-plus</loc>
+    <lastmod>2025-01-25</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
     <image:image>
-      <image:loc>https://montcogolfcarts.com/attached_assets/EVOLUTIOND6MAXXT6_1751893159005_1753135437837.jpg</image:loc>
-      <image:caption>Evolution D6 Max XT6 Golf Cart</image:caption>
+      <image:loc>https://AtlanticCountyGolfCarts.com/attached_assets/EVOLUTIOND5RANGER6PLUS_1751893159004_1753135350619.jpg</image:loc>
+      <image:title>EVOLUTION D5 Ranger 6 Plus - Six Seater Golf Cart</image:title>
+      <image:caption>EVOLUTION D5 Ranger 6 Plus six-seater electric golf cart - $11,595 at Atlantic County Golf Carts</image:caption>
+      <image:geo_location>Atlantic County, New Jersey</image:geo_location>
     </image:image>
   </url>
 
   <url>
-    <loc>https://montcogolfcarts.com/vehicles/evolution-classic-4-plus</loc>
-    <lastmod>2025-01-22</lastmod>
-    <changefreq>monthly</changefreq>
+    <loc>https://AtlanticCountyGolfCarts.com/evolution-d5-maverick-4-plus</loc>
+    <lastmod>2025-01-25</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
     <image:image>
-      <image:loc>https://montcogolfcarts.com/attached_assets/EVOLUTIONCLASSIC4PLUS_1751893115779_1753135231314.jpg</image:loc>
-      <image:caption>Evolution Classic 4 Plus Golf Cart</image:caption>
+      <image:loc>https://AtlanticCountyGolfCarts.com/attached_assets/EVOLUTIOND5MAVERICK4PLUS_1751893115781_1753135231312.jpg</image:loc>
+      <image:title>EVOLUTION D5 Maverick 4 Plus - Performance Golf Cart</image:title>
+      <image:caption>EVOLUTION D5 Maverick 4 Plus performance electric golf cart - $9,995 at Atlantic County Golf Carts</image:caption>
+      <image:geo_location>Atlantic County, New Jersey</image:geo_location>
     </image:image>
   </url>
 
   <url>
-    <loc>https://montcogolfcarts.com/vehicles/evolution-classic-2-plus</loc>
-    <lastmod>2025-01-22</lastmod>
-    <changefreq>monthly</changefreq>
+    <loc>https://AtlanticCountyGolfCarts.com/evolution-classic-4-plus</loc>
+    <lastmod>2025-01-25</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
     <image:image>
-      <image:loc>https://montcogolfcarts.com/attached_assets/EVOLUTIONCLASSIC2PLUS_1751893115779_1753135231314.jpg</image:loc>
-      <image:caption>Evolution Classic 2 Plus Golf Cart</image:caption>
+      <image:loc>https://AtlanticCountyGolfCarts.com/attached_assets/EVOLUTIONCLASSIC4PLUS_1751893115779_1753135231314.jpg</image:loc>
+      <image:title>EVOLUTION Classic 4 Plus - Traditional Golf Cart</image:title>
+      <image:caption>EVOLUTION Classic 4 Plus traditional electric golf cart - $6,995 at Atlantic County Golf Carts</image:caption>
+      <image:geo_location>Atlantic County, New Jersey</image:geo_location>
     </image:image>
   </url>
 
   <url>
-    <loc>https://montcogolfcarts.com/vehicles/evolution-classic-2-pro</loc>
-    <lastmod>2025-01-22</lastmod>
-    <changefreq>monthly</changefreq>
+    <loc>https://AtlanticCountyGolfCarts.com/evolution-carrier-6-plus</loc>
+    <lastmod>2025-01-25</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
     <image:image>
-      <image:loc>https://montcogolfcarts.com/attached_assets/EVOLUTIONCLASSIC2PRO_1751893115779_1753135231314.jpg</image:loc>
-      <image:caption>Evolution Classic 2 Pro Golf Cart</image:caption>
+      <image:loc>https://AtlanticCountyGolfCarts.com/attached_assets/EVOLUTIONCARRIER6PLUS_1751893115778_1753135231314.jpg</image:loc>
+      <image:title>EVOLUTION Carrier 6 Plus - Utility Golf Cart</image:title>
+      <image:caption>EVOLUTION Carrier 6 Plus utility electric golf cart - $9,595 at Atlantic County Golf Carts</image:caption>
+      <image:geo_location>Atlantic County, New Jersey</image:geo_location>
     </image:image>
   </url>
 
   <url>
-    <loc>https://montcogolfcarts.com/vehicles/evolution-carrier-6-plus</loc>
-    <lastmod>2025-01-22</lastmod>
-    <changefreq>monthly</changefreq>
+    <loc>https://AtlanticCountyGolfCarts.com/evolution-d6-max-xt4</loc>
+    <lastmod>2025-01-25</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
     <image:image>
-      <image:loc>https://montcogolfcarts.com/attached_assets/EVOLUTIONCARRIER6PLUS_1751893115778_1753135231314.jpg</image:loc>
-      <image:caption>Evolution Carrier 6 Plus Golf Cart</image:caption>
+      <image:loc>https://AtlanticCountyGolfCarts.com/attached_assets/EVOLUTIOND6MAXXT4_1751893159005_1753135437836.jpg</image:loc>
+      <image:title>EVOLUTION D6 Max XT4 - High Performance Golf Cart</image:title>
+      <image:caption>EVOLUTION D6 Max XT4 high-performance electric golf cart - $15,595 at Atlantic County Golf Carts</image:caption>
+      <image:geo_location>Atlantic County, New Jersey</image:geo_location>
     </image:image>
   </url>
 
+  <!-- Atlantic County Municipality Pages -->
   <url>
-    <loc>https://montcogolfcarts.com/vehicles/evolution-carrier-8-plus</loc>
-    <lastmod>2025-01-22</lastmod>
+    <loc>https://AtlanticCountyGolfCarts.com/absecon-golf-carts</loc>
+    <lastmod>2025-01-25</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-      <image:loc>https://montcogolfcarts.com/attached_assets/EVOLUTIONCARRIER8PLUS_1751893115779_1753135231314.jpg</image:loc>
-      <image:caption>Evolution Carrier 8 Plus Golf Cart</image:caption>
-    </image:image>
+    <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://montcogolfcarts.com/vehicles/evolution-d5-maverick-4</loc>
-    <lastmod>2025-01-22</lastmod>
+    <loc>https://AtlanticCountyGolfCarts.com/atlantic-city-golf-carts</loc>
+    <lastmod>2025-01-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <image:image>
-      <image:loc>https://montcogolfcarts.com/attached_assets/EVOLUTIOND5MAVERICK4_1751893115780_1753135231312.jpg</image:loc>
-      <image:caption>Evolution D5 Maverick 4 Golf Cart</image:caption>
-    </image:image>
   </url>
 
   <url>
-    <loc>https://montcogolfcarts.com/vehicles/evolution-d5-maverick-4-plus</loc>
-    <lastmod>2025-01-22</lastmod>
+    <loc>https://AtlanticCountyGolfCarts.com/brigantine-golf-carts</loc>
+    <lastmod>2025-01-25</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-      <image:loc>https://montcogolfcarts.com/attached_assets/EVOLUTIOND5MAVERICK4PLUS_1751893115781_1753135231312.jpg</image:loc>
-      <image:caption>Evolution D5 Maverick 4 Plus Golf Cart</image:caption>
-    </image:image>
+    <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://montcogolfcarts.com/vehicles/evolution-d5-maverick-6</loc>
-    <lastmod>2025-01-22</lastmod>
+    <loc>https://AtlanticCountyGolfCarts.com/buena-borough-golf-carts</loc>
+    <lastmod>2025-01-25</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-      <image:loc>https://montcogolfcarts.com/attached_assets/EVOLUTIOND5MAVERICK6_1751893115781_1753135350621.jpg</image:loc>
-      <image:caption>Evolution D5 Maverick 6 Golf Cart</image:caption>
-    </image:image>
+    <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://montcogolfcarts.com/vehicles/evolution-d5-maverick-6-plus</loc>
-    <lastmod>2025-01-22</lastmod>
+    <loc>https://AtlanticCountyGolfCarts.com/buena-vista-township-golf-carts</loc>
+    <lastmod>2025-01-25</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-      <image:loc>https://montcogolfcarts.com/attached_assets/EVOLUTIOND5MAVERICK6PLUS_1751893115781_1753135350622.jpg</image:loc>
-      <image:caption>Evolution D5 Maverick 6 Plus Golf Cart</image:caption>
-    </image:image>
-  </url>
-
-  <!-- Vehicle Detail Pages - Denago Models -->
-  <url>
-    <loc>https://montcogolfcarts.com/vehicles/denago-ev-city</loc>
-    <lastmod>2025-01-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-      <image:loc>https://montcogolfcarts.com/attached_assets/DENAGONEVCITY_1751893047472_1753135231313.jpg</image:loc>
-      <image:caption>Denago EV City Golf Cart</image:caption>
-    </image:image>
+    <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://montcogolfcarts.com/vehicles/denago-ev-nomad</loc>
-    <lastmod>2025-01-22</lastmod>
+    <loc>https://AtlanticCountyGolfCarts.com/corbin-city-golf-carts</loc>
+    <lastmod>2025-01-25</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-      <image:loc>https://montcogolfcarts.com/attached_assets/DENAGONEVNOMAD_1751893047472_1753135231313.jpg</image:loc>
-      <image:caption>Denago EV Nomad Golf Cart</image:caption>
-    </image:image>
+    <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://montcogolfcarts.com/vehicles/denago-ev-nomad-xl</loc>
-    <lastmod>2025-01-22</lastmod>
+    <loc>https://AtlanticCountyGolfCarts.com/egg-harbor-city-golf-carts</loc>
+    <lastmod>2025-01-25</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-      <image:loc>https://montcogolfcarts.com/attached_assets/DENAGONEVNOMADXL_1751893047472_1753135231313.jpg</image:loc>
-      <image:caption>Denago EV Nomad XL Golf Cart</image:caption>
-    </image:image>
+    <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://montcogolfcarts.com/vehicles/denago-ev-rover-xl</loc>
-    <lastmod>2025-01-22</lastmod>
+    <loc>https://AtlanticCountyGolfCarts.com/egg-harbor-township-golf-carts</loc>
+    <lastmod>2025-01-25</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-      <image:loc>https://montcogolfcarts.com/attached_assets/DENAGONEVROVERXL_1751893047473_1753135231313.jpg</image:loc>
-      <image:caption>Denago EV Rover XL Golf Cart</image:caption>
-    </image:image>
+    <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://montcogolfcarts.com/vehicles/denago-ev-rover-xl6</loc>
-    <lastmod>2025-01-22</lastmod>
+    <loc>https://AtlanticCountyGolfCarts.com/estell-manor-golf-carts</loc>
+    <lastmod>2025-01-25</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-      <image:loc>https://montcogolfcarts.com/attached_assets/DENAGONEVROVERXL6_1751893047473_1753135231313.jpg</image:loc>
-      <image:caption>Denago EV Rover XL6 Golf Cart</image:caption>
-    </image:image>
+    <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://montcogolfcarts.com/vehicles/denago-ev-rover-xxl</loc>
-    <lastmod>2025-01-22</lastmod>
+    <loc>https://AtlanticCountyGolfCarts.com/folsom-borough-golf-carts</loc>
+    <lastmod>2025-01-25</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-      <image:loc>https://montcogolfcarts.com/attached_assets/DENAGONEVROVERXXL_1751893047473_1753135231313.jpg</image:loc>
-      <image:caption>Denago EV Rover XXL Golf Cart</image:caption>
-    </image:image>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://AtlanticCountyGolfCarts.com/galloway-township-golf-carts</loc>
+    <lastmod>2025-01-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://AtlanticCountyGolfCarts.com/hamilton-township-atlantic-golf-carts</loc>
+    <lastmod>2025-01-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://AtlanticCountyGolfCarts.com/hammonton-golf-carts</loc>
+    <lastmod>2025-01-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://AtlanticCountyGolfCarts.com/linwood-golf-carts</loc>
+    <lastmod>2025-01-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://AtlanticCountyGolfCarts.com/longport-golf-carts</loc>
+    <lastmod>2025-01-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://AtlanticCountyGolfCarts.com/margate-city-golf-carts</loc>
+    <lastmod>2025-01-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://AtlanticCountyGolfCarts.com/mullica-township-golf-carts</loc>
+    <lastmod>2025-01-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://AtlanticCountyGolfCarts.com/northfield-golf-carts</loc>
+    <lastmod>2025-01-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://AtlanticCountyGolfCarts.com/pleasantville-golf-carts</loc>
+    <lastmod>2025-01-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://AtlanticCountyGolfCarts.com/port-republic-golf-carts</loc>
+    <lastmod>2025-01-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://AtlanticCountyGolfCarts.com/somers-point-golf-carts</loc>
+    <lastmod>2025-01-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://AtlanticCountyGolfCarts.com/ventnor-city-golf-carts</loc>
+    <lastmod>2025-01-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://AtlanticCountyGolfCarts.com/weymouth-township-golf-carts</loc>
+    <lastmod>2025-01-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Atlantic County Municipality Rental Pages -->
+  <url>
+    <loc>https://AtlanticCountyGolfCarts.com/absecon-golf-carts/rentals</loc>
+    <lastmod>2025-01-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://AtlanticCountyGolfCarts.com/atlantic-city-golf-carts/rentals</loc>
+    <lastmod>2025-01-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://AtlanticCountyGolfCarts.com/brigantine-golf-carts/rentals</loc>
+    <lastmod>2025-01-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://AtlanticCountyGolfCarts.com/buena-borough-golf-carts/rentals</loc>
+    <lastmod>2025-01-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://AtlanticCountyGolfCarts.com/buena-vista-township-golf-carts/rentals</loc>
+    <lastmod>2025-01-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://AtlanticCountyGolfCarts.com/corbin-city-golf-carts/rentals</loc>
+    <lastmod>2025-01-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://AtlanticCountyGolfCarts.com/egg-harbor-city-golf-carts/rentals</loc>
+    <lastmod>2025-01-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://AtlanticCountyGolfCarts.com/egg-harbor-township-golf-carts/rentals</loc>
+    <lastmod>2025-01-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://AtlanticCountyGolfCarts.com/estell-manor-golf-carts/rentals</loc>
+    <lastmod>2025-01-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://AtlanticCountyGolfCarts.com/folsom-borough-golf-carts/rentals</loc>
+    <lastmod>2025-01-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://AtlanticCountyGolfCarts.com/galloway-township-golf-carts/rentals</loc>
+    <lastmod>2025-01-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://AtlanticCountyGolfCarts.com/hamilton-township-atlantic-golf-carts/rentals</loc>
+    <lastmod>2025-01-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://AtlanticCountyGolfCarts.com/hammonton-golf-carts/rentals</loc>
+    <lastmod>2025-01-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://AtlanticCountyGolfCarts.com/linwood-golf-carts/rentals</loc>
+    <lastmod>2025-01-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://AtlanticCountyGolfCarts.com/longport-golf-carts/rentals</loc>
+    <lastmod>2025-01-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://AtlanticCountyGolfCarts.com/margate-city-golf-carts/rentals</loc>
+    <lastmod>2025-01-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://AtlanticCountyGolfCarts.com/mullica-township-golf-carts/rentals</loc>
+    <lastmod>2025-01-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://AtlanticCountyGolfCarts.com/northfield-golf-carts/rentals</loc>
+    <lastmod>2025-01-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://AtlanticCountyGolfCarts.com/pleasantville-golf-carts/rentals</loc>
+    <lastmod>2025-01-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://AtlanticCountyGolfCarts.com/port-republic-golf-carts/rentals</loc>
+    <lastmod>2025-01-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://AtlanticCountyGolfCarts.com/somers-point-golf-carts/rentals</loc>
+    <lastmod>2025-01-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://AtlanticCountyGolfCarts.com/ventnor-city-golf-carts/rentals</loc>
+    <lastmod>2025-01-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://AtlanticCountyGolfCarts.com/weymouth-township-golf-carts/rentals</loc>
+    <lastmod>2025-01-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Remaining missing municipalities -->
+  <url>
+    <loc>https://AtlanticCountyGolfCarts.com/woodbine-borough-golf-carts</loc>
+    <lastmod>2025-01-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://AtlanticCountyGolfCarts.com/woodbine-borough-golf-carts/rentals</loc>
+    <lastmod>2025-01-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://AtlanticCountyGolfCarts.com/sea-isle-city-golf-carts</loc>
+    <lastmod>2025-01-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://AtlanticCountyGolfCarts.com/sea-isle-city-golf-carts/rentals</loc>
+    <lastmod>2025-01-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://AtlanticCountyGolfCarts.com/ocean-city-golf-carts</loc>
+    <lastmod>2025-01-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://AtlanticCountyGolfCarts.com/ocean-city-golf-carts/rentals</loc>
+    <lastmod>2025-01-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
 
   <!-- Policy Pages -->
   <url>
-    <loc>https://montcogolfcarts.com/policies/terms-conditions</loc>
-    <lastmod>2025-01-24</lastmod>
+    <loc>https://AtlanticCountyGolfCarts.com/policies/terms-conditions</loc>
+    <lastmod>2025-01-25</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.4</priority>
   </url>
 
   <url>
-    <loc>https://montcogolfcarts.com/policies/return-policy</loc>
-    <lastmod>2025-01-24</lastmod>
+    <loc>https://AtlanticCountyGolfCarts.com/policies/privacy-policy</loc>
+    <lastmod>2025-01-25</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.4</priority>
   </url>
 
   <url>
-    <loc>https://montcogolfcarts.com/policies/privacy-policy</loc>
-    <lastmod>2025-01-24</lastmod>
+    <loc>https://AtlanticCountyGolfCarts.com/policies/return-policy</loc>
+    <lastmod>2025-01-25</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.4</priority>
   </url>
 
   <url>
-    <loc>https://montcogolfcarts.com/policies/delivery-policy</loc>
-    <lastmod>2025-01-24</lastmod>
+    <loc>https://AtlanticCountyGolfCarts.com/policies/delivery-policy</loc>
+    <lastmod>2025-01-25</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.4</priority>
   </url>
 
   <url>
-    <loc>https://montcogolfcarts.com/policies/rental-policy</loc>
-    <lastmod>2025-01-24</lastmod>
+    <loc>https://AtlanticCountyGolfCarts.com/policies/rental-policy</loc>
+    <lastmod>2025-01-25</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.4</priority>
   </url>
 
   <url>
-    <loc>https://montcogolfcarts.com/policies/storage-policy</loc>
-    <lastmod>2025-01-24</lastmod>
+    <loc>https://AtlanticCountyGolfCarts.com/policies/storage-policy</loc>
+    <lastmod>2025-01-25</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.4</priority>
   </url>
 
   <url>
-    <loc>https://montcogolfcarts.com/policies/publishing-policy</loc>
-    <lastmod>2025-01-24</lastmod>
+    <loc>https://AtlanticCountyGolfCarts.com/policies/publishing-policy</loc>
+    <lastmod>2025-01-25</lastmod>
     <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
+    <priority>0.4</priority>
   </url>
 
   <url>
-    <loc>https://montcogolfcarts.com/policies/feedback-policy</loc>
-    <lastmod>2025-01-24</lastmod>
+    <loc>https://AtlanticCountyGolfCarts.com/policies/feedback-policy</loc>
+    <lastmod>2025-01-25</lastmod>
     <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
+    <priority>0.4</priority>
   </url>
 
   <url>
-    <loc>https://montcogolfcarts.com/policies/corrections-policy</loc>
-    <lastmod>2025-01-24</lastmod>
+    <loc>https://AtlanticCountyGolfCarts.com/policies/corrections-policy</loc>
+    <lastmod>2025-01-25</lastmod>
     <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
+    <priority>0.4</priority>
   </url>
 
   <url>
-    <loc>https://montcogolfcarts.com/policies/diversity-policy</loc>
-    <lastmod>2025-01-24</lastmod>
+    <loc>https://AtlanticCountyGolfCarts.com/policies/diversity-policy</loc>
+    <lastmod>2025-01-25</lastmod>
     <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
+    <priority>0.4</priority>
   </url>
 
   <url>
-    <loc>https://montcogolfcarts.com/policies/ethics-policy</loc>
-    <lastmod>2025-01-24</lastmod>
+    <loc>https://AtlanticCountyGolfCarts.com/policies/ethics-policy</loc>
+    <lastmod>2025-01-25</lastmod>
     <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
+    <priority>0.4</priority>
   </url>
 
   <url>
-    <loc>https://montcogolfcarts.com/policies/staffing-report</loc>
-    <lastmod>2025-01-24</lastmod>
+    <loc>https://AtlanticCountyGolfCarts.com/policies/staffing-report</loc>
+    <lastmod>2025-01-25</lastmod>
     <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
-  </url>
-
-  <!-- Montgomery County Boroughs (24) -->
-  <url>
-    <loc>https://montcogolfcarts.com/ambler-borough-golf-carts</loc>
-    <lastmod>2025-01-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://montcogolfcarts.com/bridgeport-borough-golf-carts</loc>
-    <lastmod>2025-01-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://montcogolfcarts.com/bryn-athyn-borough-golf-carts</loc>
-    <lastmod>2025-01-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://montcogolfcarts.com/collegeville-borough-golf-carts</loc>
-    <lastmod>2025-01-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://montcogolfcarts.com/conshohocken-borough-golf-carts</loc>
-    <lastmod>2025-01-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://montcogolfcarts.com/east-greenville-borough-golf-carts</loc>
-    <lastmod>2025-01-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://montcogolfcarts.com/green-lane-borough-golf-carts</loc>
-    <lastmod>2025-01-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://montcogolfcarts.com/hatboro-borough-golf-carts</loc>
-    <lastmod>2025-01-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://montcogolfcarts.com/hatfield-borough-golf-carts</loc>
-    <lastmod>2025-01-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://montcogolfcarts.com/jenkintown-borough-golf-carts</loc>
-    <lastmod>2025-01-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://montcogolfcarts.com/laureldale-borough-golf-carts</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://montcogolfcarts.com/leesport-borough-golf-carts</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://montcogolfcarts.com/lenhartsville-borough-golf-carts</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://montcogolfcarts.com/lyons-borough-golf-carts</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://montcogolfcarts.com/mohnton-borough-golf-carts</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://montcogolfcarts.com/mount-penn-borough-golf-carts</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://montcogolfcarts.com/new-morgan-borough-golf-carts</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://montcogolfcarts.com/robesonia-borough-golf-carts</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://montcogolfcarts.com/st-lawrence-borough-golf-carts</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://montcogolfcarts.com/shillington-borough-golf-carts</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://montcogolfcarts.com/shoemakersville-borough-golf-carts</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://montcogolfcarts.com/sinking-spring-borough-golf-carts</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://montcogolfcarts.com/topton-borough-golf-carts</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://montcogolfcarts.com/wernersville-borough-golf-carts</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://montcogolfcarts.com/west-reading-borough-golf-carts</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://montcogolfcarts.com/womelsdorf-borough-golf-carts</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://montcogolfcarts.com/wyomissing-borough-golf-carts</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <!-- Townships (44) -->
-  <url>
-    <loc>https://montcogolfcarts.com/albany-township-golf-carts</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://montcogolfcarts.com/alsace-township-golf-carts</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://montcogolfcarts.com/amity-township-golf-carts</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://montcogolfcarts.com/bern-township-golf-carts</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://montcogolfcarts.com/bethel-township-golf-carts</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://montcogolfcarts.com/brecknock-township-golf-carts</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://montcogolfcarts.com/caernarvon-township-golf-carts</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://montcogolfcarts.com/centre-township-golf-carts</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://montcogolfcarts.com/colebrookdale-township-golf-carts</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://montcogolfcarts.com/cumru-township-golf-carts</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://montcogolfcarts.com/district-township-golf-carts</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://montcogolfcarts.com/douglass-township-golf-carts</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://montcogolfcarts.com/earl-township-golf-carts</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://montcogolfcarts.com/exeter-township-golf-carts</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://montcogolfcarts.com/greenwich-township-golf-carts</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://montcogolfcarts.com/heidelberg-township-golf-carts</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://montcogolfcarts.com/hereford-township-golf-carts</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://montcogolfcarts.com/jefferson-township-golf-carts</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://montcogolfcarts.com/longswamp-township-golf-carts</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://montcogolfcarts.com/lower-alsace-township-golf-carts</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://montcogolfcarts.com/lower-heidelberg-township-golf-carts</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://montcogolfcarts.com/maidencreek-township-golf-carts</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://montcogolfcarts.com/marion-township-golf-carts</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://montcogolfcarts.com/maxatawny-township-golf-carts</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://montcogolfcarts.com/muhlenberg-township-golf-carts</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://montcogolfcarts.com/north-heidelberg-township-golf-carts</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://montcogolfcarts.com/oley-township-golf-carts</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://montcogolfcarts.com/ontelaunee-township-golf-carts</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://montcogolfcarts.com/penn-township-golf-carts</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://montcogolfcarts.com/perry-township-golf-carts</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://montcogolfcarts.com/pike-township-golf-carts</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://montcogolfcarts.com/richmond-township-golf-carts</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://montcogolfcarts.com/robeson-township-golf-carts</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://montcogolfcarts.com/rockland-township-golf-carts</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://montcogolfcarts.com/ruscombmanor-township-golf-carts</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://montcogolfcarts.com/south-heidelberg-township-golf-carts</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://montcogolfcarts.com/spring-township-golf-carts</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://montcogolfcarts.com/tilden-township-golf-carts</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://montcogolfcarts.com/tulpehocken-township-golf-carts</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://montcogolfcarts.com/union-township-golf-carts</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://montcogolfcarts.com/upper-bern-township-golf-carts</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://montcogolfcarts.com/upper-tulpehocken-township-golf-carts</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://montcogolfcarts.com/washington-township-golf-carts</loc>
-    <lastmod>2025-01-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <!-- Montgomery County Community Pages -->
-  <url>
-    <loc>https://montcogolfcarts.com/king-of-prussia</loc>
-    <lastmod>2025-01-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://montcogolfcarts.com/ardmore</loc>
-    <lastmod>2025-01-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://montcogolfcarts.com/blue-bell</loc>
-    <lastmod>2025-01-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://montcogolfcarts.com/fort-washington</loc>
-    <lastmod>2025-01-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://montcogolfcarts.com/plymouth-meeting</loc>
-    <lastmod>2025-01-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://montcogolfcarts.com/willow-grove</loc>
-    <lastmod>2025-01-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://montcogolfcarts.com/gladwyne</loc>
-    <lastmod>2025-01-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://montcogolfcarts.com/elkins-park</loc>
-    <lastmod>2025-01-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://montcogolfcarts.com/lafayette-hill</loc>
-    <lastmod>2025-01-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://montcogolfcarts.com/bala-cynwyd</loc>
-    <lastmod>2025-01-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://montcogolfcarts.com/spring-house</loc>
-    <lastmod>2025-01-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://montcogolfcarts.com/wyncote</loc>
-    <lastmod>2025-01-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://montcogolfcarts.com/wynnewood</loc>
-    <lastmod>2025-01-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <!-- Community Rental Pages -->
-  <url>
-    <loc>https://montcogolfcarts.com/king-of-prussia-rentals</loc>
-    <lastmod>2025-01-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://montcogolfcarts.com/ardmore-rentals</loc>
-    <lastmod>2025-01-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://montcogolfcarts.com/blue-bell-rentals</loc>
-    <lastmod>2025-01-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://montcogolfcarts.com/fort-washington-rentals</loc>
-    <lastmod>2025-01-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://montcogolfcarts.com/plymouth-meeting-rentals</loc>
-    <lastmod>2025-01-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://montcogolfcarts.com/willow-grove-rentals</loc>
-    <lastmod>2025-01-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.4</priority>
   </url>
 
   <!-- Thank You Page -->
   <url>
-    <loc>https://montcogolfcarts.com/thank-you</loc>
-    <lastmod>2025-01-24</lastmod>
+    <loc>https://AtlanticCountyGolfCarts.com/thank-you</loc>
+    <lastmod>2025-01-25</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
