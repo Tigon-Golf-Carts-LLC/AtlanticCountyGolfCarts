@@ -183,7 +183,7 @@ export default function AtlanticCountyMunicipalityRentalPage({ municipalityName 
                 <Calendar className="w-5 h-5 mr-2" />
                 Book Rental Now
               </Button>
-              <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-theme-primary">
+              <Button size="lg" variant="outline" className="border-white bg-white text-theme-primary hover:bg-gray-100">
                 <Phone className="w-5 h-5 mr-2" />
                 {businessPhone}
               </Button>
@@ -381,7 +381,7 @@ export default function AtlanticCountyMunicipalityRentalPage({ municipalityName 
                   Back to {municipality.name} Page
                 </Button>
               </Link>
-              <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-theme-primary">
+              <Button size="lg" variant="outline" className="border-white bg-white text-theme-primary hover:bg-gray-100">
                 <Phone className="w-5 h-5 mr-2" />
                 {businessPhone}
               </Button>
