@@ -317,7 +317,7 @@ export default function DenagoPage() {
                         <span className="font-semibold">Top Speed:</span> {vehicle.specs.topSpeed}
                       </div>
                       <div>
-                        <span className="font-semibold">Drive:</span> AWD
+                        <span className="font-semibold">Drive:</span> 2x4
                       </div>
                     </div>
                   </CardHeader>
