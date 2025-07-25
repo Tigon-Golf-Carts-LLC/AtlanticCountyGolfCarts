@@ -358,7 +358,7 @@ Atlantic County Golf Carts Premier Dealership
             {ATLANTIC_COUNTY_MUNICIPALITIES.map((municipality) => (
               <Link 
                 key={municipality.slug} 
-                href={`${municipality.url}-golf-carts`} 
+                href={municipality.url} 
                 className="bg-blue-50 hover:bg-blue-100 p-3 rounded-lg transition-colors"
               >
                 <div className="text-sm font-semibold text-blue-700">
