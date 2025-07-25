@@ -291,7 +291,7 @@ export default function EvolutionPage() {
                 </Card>
               </Link>
 
-              <Link href="/vehicles/evolution-d5-ranger-22-plus" className="group">
+              <Link href="/vehicles/evolution-d5-ranger-4-plus" className="group">
                 <Card className="overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 h-full">
                   <div className="relative h-48">
                     <img 
@@ -304,7 +304,7 @@ export default function EvolutionPage() {
                     </Badge>
                   </div>
                   <CardHeader className="pb-2">
-                    <CardTitle className="text-lg text-gray-900">D5 RANGER 2+2 PLUS</CardTitle>
+                    <CardTitle className="text-lg text-gray-900">D5 RANGER 4 PLUS</CardTitle>
                     <p className="text-sm text-gray-600">4-passenger premium golf cart</p>
                   </CardHeader>
                   <CardContent className="pt-0">
@@ -340,7 +340,7 @@ export default function EvolutionPage() {
                 </Card>
               </Link>
 
-              <Link href="/vehicles/evolution-d5-maverick-6-plus" className="group">
+              <Link href="/vehicles/evolution-carrier-6-plus" className="group">
                 <Card className="overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 h-full">
                   <div className="relative h-48">
                     <img 
@@ -353,8 +353,8 @@ export default function EvolutionPage() {
                     </Badge>
                   </div>
                   <CardHeader className="pb-2">
-                    <CardTitle className="text-lg text-gray-900">D5 MAVERICK 6 PLUS</CardTitle>
-                    <p className="text-sm text-gray-600">Spacious 6-passenger family vehicle</p>
+                    <CardTitle className="text-lg text-gray-900">CARRIER 6 PLUS</CardTitle>
+                    <p className="text-sm text-gray-600">6-passenger utility vehicle</p>
                   </CardHeader>
                   <CardContent className="pt-0">
                     <Button className="w-full bg-theme-orange hover:bg-orange-600 text-white">
@@ -365,12 +365,12 @@ export default function EvolutionPage() {
               </Link>
 
               {/* D6 MAX Series */}
-              <Link href="/vehicles/evolution-d6-max-gt4" className="group">
+              <Link href="/vehicles/evolution-d6-max-xt4" className="group">
                 <Card className="overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 h-full">
                   <div className="relative h-48">
                     <img 
                       src={evolutionD6MaxXT4Image} 
-                      alt="EVOLUTION D6 MAX GT4"
+                      alt="EVOLUTION D6 MAX XT4"
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                     />
                     <Badge className="absolute top-2 right-2 bg-red-600 text-white">
@@ -378,7 +378,7 @@ export default function EvolutionPage() {
                     </Badge>
                   </div>
                   <CardHeader className="pb-2">
-                    <CardTitle className="text-lg text-gray-900">D6 MAX GT4</CardTitle>
+                    <CardTitle className="text-lg text-gray-900">D6 MAX XT4</CardTitle>
                     <p className="text-sm text-gray-600">High-performance 4-passenger vehicle</p>
                   </CardHeader>
                   <CardContent className="pt-0">
@@ -389,21 +389,21 @@ export default function EvolutionPage() {
                 </Card>
               </Link>
 
-              <Link href="/vehicles/evolution-d6-max-gt6" className="group">
+              <Link href="/vehicles/evolution-classic-4-plus" className="group">
                 <Card className="overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 h-full">
                   <div className="relative h-48">
                     <img 
                       src={evolutionD6MaxXT4Image} 
-                      alt="EVOLUTION D6 MAX GT6"
+                      alt="EVOLUTION CLASSIC 4 PLUS"
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                     />
-                    <Badge className="absolute top-2 right-2 bg-red-600 text-white">
-                      D6 MAX
+                    <Badge className="absolute top-2 right-2 bg-green-600 text-white">
+                      CLASSIC
                     </Badge>
                   </div>
                   <CardHeader className="pb-2">
-                    <CardTitle className="text-lg text-gray-900">D6 MAX GT6</CardTitle>
-                    <p className="text-sm text-gray-600">High-performance 6-passenger vehicle</p>
+                    <CardTitle className="text-lg text-gray-900">CLASSIC 4 PLUS</CardTitle>
+                    <p className="text-sm text-gray-600">Traditional 4-passenger golf cart</p>
                   </CardHeader>
                   <CardContent className="pt-0">
                     <Button className="w-full bg-theme-orange hover:bg-orange-600 text-white">

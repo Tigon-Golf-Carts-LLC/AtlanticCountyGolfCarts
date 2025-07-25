@@ -1,0 +1,34 @@
+import VehicleDetailPage from "@/components/VehicleDetailPage";
+import denagoEvCityImage from "@assets/DENAGONEVCITY_1751893047472_1753135231313.jpg";
+
+export default function DenagoEvCityPage() {
+  return (
+    <VehicleDetailPage
+      vehicleName="DENAGO EV CITY"
+      brand="DENAGO"
+      series="EV CITY"
+      price="$18,999"
+      image={denagoEvCityImage}
+      seoTitle="DENAGO EV CITY - Urban Electric Golf Cart | Atlantic County Golf Carts"
+      seoDescription="Discover the DENAGO EV CITY electric golf cart in Atlantic County, NJ. Street legal ready urban mobility with sleek design and efficient performance. Sales, service & delivery."
+      seoKeywords="DENAGO EV CITY, urban electric golf cart, street legal golf cart, Atlantic County, New Jersey, electric vehicle"
+      canonicalUrl="https://AtlanticCountyGolfCarts.com/vehicles/denago-ev-city"
+      seats="2"
+      range="40 miles"
+      topSpeed="25 mph"
+      driveType="Rear-Wheel Drive"
+      features={[
+        "Street Legal Ready",
+        "LED Lighting Package",
+        "Premium Interior Design",
+        "Urban Mobility Optimized",
+        "Efficient Battery System",
+        "Sleek Modern Styling",
+        "Digital Display",
+        "Comfortable Seating"
+      ]}
+      description="Urban mobility redefined with sleek design and efficient performance. The DENAGO EV CITY is built for street legal operation with premium features perfect for Atlantic County's urban environments."
+      tigoUrl="https://tigongolfcarts.com/denago-ev/city/"
+    />
+  );
+}

@@ -55,6 +55,21 @@ import CorrectionsPolicyPage from "@/pages/policies/CorrectionsPolicyPage";
 import DiversityPolicyPage from "@/pages/policies/DiversityPolicyPage";
 import EthicsPolicyPage from "@/pages/policies/EthicsPolicyPage";
 import StaffingReportPage from "@/pages/policies/StaffingReportPage";
+
+// Vehicle Detail Pages
+import DenagoEvCityPage from "@/pages/vehicles/DenagoEvCityPage";
+import DenagoEvNomadPage from "@/pages/vehicles/DenagoEvNomadPage";
+import DenagoEvNomadXlPage from "@/pages/vehicles/DenagoEvNomadXlPage";
+import DenagoEvRoverXlPage from "@/pages/vehicles/DenagoEvRoverXlPage";
+import DenagoEvRoverXl6Page from "@/pages/vehicles/DenagoEvRoverXl6Page";
+import DenagoEvRoverXxlPage from "@/pages/vehicles/DenagoEvRoverXxlPage";
+import EvolutionD5Ranger4PlusPage from "@/pages/vehicles/EvolutionD5Ranger4PlusPage";
+import EvolutionD5Ranger6PlusPage from "@/pages/vehicles/EvolutionD5Ranger6PlusPage";
+import EvolutionD5Maverick4PlusPage from "@/pages/vehicles/EvolutionD5Maverick4PlusPage";
+import EvolutionClassic4PlusPage from "@/pages/vehicles/EvolutionClassic4PlusPage";
+import EvolutionCarrier6PlusPage from "@/pages/vehicles/EvolutionCarrier6PlusPage";
+import EvolutionD6MaxXt4Page from "@/pages/vehicles/EvolutionD6MaxXt4Page";
+
 // Municipality Rental Pages
 import {
   // Boroughs
@@ -248,29 +263,21 @@ function App() {
             <Route path="/weymouth-township/rentals" component={WeymouthTownshipRentalPage} />
             
             {/* Vehicle Detail Pages */}
-            <Route path="/vehicles/evolution-d5-ranger-6-plus" component={EvolutionD5Ranger6Plus} />
-            <Route path="/vehicles/evolution-d5-ranger-22-plus" component={EvolutionD5Ranger22Plus} />
-            <Route path="/vehicles/evolution-forester-4-plus" component={EvolutionForester4Plus} />
-            <Route path="/vehicles/evolution-turfman-1000" component={EvolutionTurfman1000} />
-            <Route path="/vehicles/denago-ev-city" component={DenagoEvCity} />
-            <Route path="/vehicles/evolution-d6-max-gt4" component={EvolutionD6MaxGT4} />
-            <Route path="/vehicles/denago-ev-nomad" component={DenagoEvNomad} />
-            <Route path="/vehicles/evolution-classic-4-plus" component={EvolutionClassic4Plus} />
-            <Route path="/vehicles/denago-ev-rover-xl" component={DenagoEVRoverXL} />
-            <Route path="/vehicles/denago-ev-nomad-xl" component={DenagoEvNomadXL} />
-            <Route path="/vehicles/denago-ev-rover-xl6" component={DenagoEvRoverXL6} />
-            <Route path="/vehicles/denago-ev-rover-xxl" component={DenagoEvRoverXXL} />
-            <Route path="/vehicles/evolution-carrier-6-plus" component={EvolutionCarrier6Plus} />
-            <Route path="/vehicles/evolution-carrier-8-plus" component={EvolutionCarrier8Plus} />
-            <Route path="/vehicles/evolution-classic-2-plus" component={EvolutionClassic2Plus} />
-            <Route path="/vehicles/evolution-classic-2-pro" component={EvolutionClassic2Pro} />
-            <Route path="/vehicles/evolution-d5-maverick-4" component={EvolutionD5Maverick4} />
-            <Route path="/vehicles/evolution-d5-maverick-6" component={EvolutionD5Maverick6} />
-            <Route path="/vehicles/evolution-d5-maverick-4-plus" component={EvolutionD5Maverick4Plus} />
-            <Route path="/vehicles/evolution-d5-maverick-6-plus" component={EvolutionD5Maverick6Plus} />
-            <Route path="/vehicles/evolution-d6-max-gt6" component={EvolutionD6MaxGT6} />
-            <Route path="/vehicles/evolution-d6-max-xt4" component={EvolutionD6MaxXT4} />
-            <Route path="/vehicles/evolution-d6-max-xt6" component={EvolutionD6MaxXT6} />
+            {/* DENAGO Vehicles */}
+            <Route path="/vehicles/denago-ev-city" component={DenagoEvCityPage} />
+            <Route path="/vehicles/denago-ev-nomad" component={DenagoEvNomadPage} />
+            <Route path="/vehicles/denago-ev-nomad-xl" component={DenagoEvNomadXlPage} />
+            <Route path="/vehicles/denago-ev-rover-xl" component={DenagoEvRoverXlPage} />
+            <Route path="/vehicles/denago-ev-rover-xl6" component={DenagoEvRoverXl6Page} />
+            <Route path="/vehicles/denago-ev-rover-xxl" component={DenagoEvRoverXxlPage} />
+            
+            {/* EVOLUTION Vehicles */}
+            <Route path="/vehicles/evolution-d5-ranger-4-plus" component={EvolutionD5Ranger4PlusPage} />
+            <Route path="/vehicles/evolution-d5-ranger-6-plus" component={EvolutionD5Ranger6PlusPage} />
+            <Route path="/vehicles/evolution-d5-maverick-4-plus" component={EvolutionD5Maverick4PlusPage} />
+            <Route path="/vehicles/evolution-classic-4-plus" component={EvolutionClassic4PlusPage} />
+            <Route path="/vehicles/evolution-carrier-6-plus" component={EvolutionCarrier6PlusPage} />
+            <Route path="/vehicles/evolution-d6-max-xt4" component={EvolutionD6MaxXt4Page} />
             
             {/* Montgomery County Boroughs (24) */}
             <Route path="/ambler-borough-golf-carts" component={AmblerBoroughPage} />

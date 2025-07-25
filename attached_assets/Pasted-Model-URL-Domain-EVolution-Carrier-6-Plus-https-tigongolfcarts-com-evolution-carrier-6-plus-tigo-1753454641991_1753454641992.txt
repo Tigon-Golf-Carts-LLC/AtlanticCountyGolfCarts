@@ -1,0 +1,38 @@
+Model	URL	Domain
+EVolution® Carrier 6 Plus	https://tigongolfcarts.com/evolution/carrier/6-plus/	tigongolfcarts.com
+EVolution® Carrier 8 Plus	https://tigongolfcarts.com/evolution/carrier/8-plus/	tigongolfcarts.com
+EVolution® Classic 2 Plus	https://tigongolfcarts.com/evolution/classic/2-plus/	tigongolfcarts.com
+EVolution® Classic 2 Pro	https://tigongolfcarts.com/evolution/classic/2-pro/	tigongolfcarts.com
+EVolution® Classic 4 Plus	https://tigongolfcarts.com/evolution/classic/4-plus/	tigongolfcarts.com
+EVolution® Classic 4 Pro	https://tigongolfcarts.com/evolution/classic/4-pro/	tigongolfcarts.com
+EVolution® D3 Standard	https://tigongolfcarts.com/evolution/d3/standard/	tigongolfcarts.com
+EVolution® D3 Lifted	https://tigongolfcarts.com/evolution/d3/lifted/	tigongolfcarts.com
+EVolution® D5 Maverick 2+2	https://tigongolfcarts.com/evolution/d5-maverick/2-plus-2/	tigongolfcarts.com
+EVolution® D5 Maverick 2+2 Plus	https://tigongolfcarts.com/evolution/d5-maverick/2-plus-2-plus/	tigongolfcarts.com
+EVolution® D5 Maverick 4	https://tigongolfcarts.com/evolution/d5-maverick/4/	tigongolfcarts.com
+EVolution® D5 Maverick 4 Plus	https://tigongolfcarts.com/evolution/d5-maverick/4-plus/	tigongolfcarts.com
+EVolution® D5 Maverick 4+2 Plus	https://tigongolfcarts.com/evolution/d5-maverick/4-2-plus/	tigongolfcarts.com
+EVolution® D5 Maverick 6	https://tigongolfcarts.com/evolution/d5-maverick/6/	tigongolfcarts.com
+EVolution® D5 Maverick 6 Plus	https://tigongolfcarts.com/evolution/d5-maverick/6-plus/	tigongolfcarts.com
+EVolution® D5 Ranger 2+2	https://tigongolfcarts.com/evolution/d5-ranger/2-plus-2/	tigongolfcarts.com
+EVolution® D5 Ranger 2+2 Plus	https://tigongolfcarts.com/evolution/d5-ranger/2-plus-2-plus/	tigongolfcarts.com
+EVolution® D5 Ranger 4	https://tigongolfcarts.com/evolution/d5-ranger/4/	tigongolfcarts.com
+EVolution® D5 Ranger 4 Plus	https://tigongolfcarts.com/evolution/d5-ranger/4-plus/	tigongolfcarts.com
+EVolution® D5 Ranger 4+2 Plus	https://tigongolfcarts.com/evolution/d5-ranger/4-2-plus/	tigongolfcarts.com
+EVolution® D5 Ranger 6	https://tigongolfcarts.com/evolution/d5-ranger/6/	tigongolfcarts.com
+EVolution® D5 Ranger 6 Plus	https://tigongolfcarts.com/evolution/d5-ranger/6-plus/	tigongolfcarts.com
+EVolution® D6 Max GT4	https://tigongolfcarts.com/evolution/d6-max/gt4/	tigongolfcarts.com
+EVolution® D6 Max GT6	https://tigongolfcarts.com/evolution/d6-max/gt6/	tigongolfcarts.com
+EVolution® D6 Max XT4	https://tigongolfcarts.com/evolution/d6-max/xt4/	tigongolfcarts.com
+EVolution® D6 Max XT6	https://tigongolfcarts.com/evolution/d6-max/xt6/	tigongolfcarts.com
+EVolution® Forester 4 Plus	https://tigongolfcarts.com/evolution/forester/4-plus/	tigongolfcarts.com
+EVolution® Forester 6 Plus	https://tigongolfcarts.com/evolution/forester/6-plus/	tigongolfcarts.com
+EVolution® Turfman 1000	https://tigongolfcarts.com/evolution/turfman/1000/	tigongolfcarts.com
+EVolution® Turfman 200	https://tigongolfcarts.com/evolution/turfman/200/	tigongolfcarts.com
+EVolution® Turfman 800	https://tigongolfcarts.com/evolution/turfman/800/	tigongolfcarts.com
+DENAGO® EV CITY	https://tigongolfcarts.com/denago-ev/city/	tigongolfcarts.com
+DENAGO® EV NOMAD	https://tigongolfcarts.com/denago-ev/nomad/	tigongolfcarts.com
+DENAGO® EV NOMAD XL	https://tigongolfcarts.com/denago-ev/nomad-xl/	tigongolfcarts.com
+DENAGO® EV ROVER XL	https://tigongolfcarts.com/denago-ev/rover-xl/	tigongolfcarts.com
+DENAGO® EV ROVER XL6	https://tigongolfcarts.com/denago-ev/rover-xl6/	tigongolfcarts.com
+DENAGO® EV ROVER XXL	https://tigongolfcarts.com/denago-ev/rover-xxl/	tigongolfcarts.com
