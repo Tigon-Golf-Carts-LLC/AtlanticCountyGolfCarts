@@ -131,6 +131,26 @@ Logo: Atlantic County Golf Carts logo used as primary logo and favicon across al
 
 ## Recent Changes (January 25, 2025)
 
+### Brand Pages Atlantic County Rebranding (January 25, 2025)
+- ✅ **DENAGO Page Complete Atlantic County Update**: Updated all geographic and business references:
+  - Changed SEO title, description, and keywords from Montgomery County PA to Atlantic County NJ
+  - Updated canonical URL from montcogolfcarts.com to AtlanticCountyGolfCarts.com
+  - Changed all hero and content references from Montgomery County, Pennsylvania to Atlantic County, New Jersey
+  - Updated brand story to reference "Atlantic County's diverse coastal and suburban landscapes"
+  - Changed service area descriptions from Montgomery County to Atlantic County
+  - Updated contact sections to reference "Atlantic County Golf Carts"
+- ✅ **EVOLUTION Page Complete Atlantic County Update**: Updated all geographic and business references:
+  - Changed SEO title, description, and keywords from Montgomery County PA to Atlantic County NJ  
+  - Updated canonical URL from montcogolfcarts.com to AtlanticCountyGolfCarts.com
+  - Changed all hero and content references from Montgomery County, Pennsylvania to Atlantic County, New Jersey
+  - Updated brand story to reference "Atlantic County's diverse coastal and suburban communities"
+  - Changed service area descriptions from Montgomery County to Atlantic County
+  - Updated contact sections to reference "Atlantic County Golf Carts"
+- ✅ **Inventory Page Background Image Updates**: Updated inventory page hero sections with new Atlantic County Golf Carts showroom image:
+  - Updated both InventoryPage.tsx and NewInventoryPage.tsx with new background image
+  - Standardized NewInventoryPage hero section to use py-20 padding for consistency
+  - Updated SEO image references to use the new professional showroom photograph
+
 ### Hero Section Standardization (January 25, 2025)
 - ✅ **Consistent Hero Section Sizing**: Standardized all hero sections across the entire website to use uniform `py-20` padding:
   - Updated all main pages: HomePage, AboutPage, ServicesPage, ShowroomPage

@@ -137,10 +137,10 @@ export default function DenagoPage() {
   return (
     <>
       <SEOHead 
-        title="DENAGO Electric Golf Carts Montgomery County | Premium Off-Road Vehicles"
-        description="Discover DENAGO electric golf carts in Montgomery County, PA. Premium EV CITY, EV NOMAD, and EV ROVER series with advanced all-wheel drive technology. Sales, service & delivery."
-        keywords="DENAGO golf carts Montgomery County, electric golf carts Pennsylvania, DENAGO EV CITY, DENAGO EV NOMAD, DENAGO EV ROVER, off-road golf carts, all-wheel drive golf carts"
-        canonicalUrl="https://montcogolfcarts.com/denago"
+        title="DENAGO Electric Golf Carts Atlantic County | Premium Off-Road Vehicles NJ"
+        description="Discover DENAGO electric golf carts in Atlantic County, NJ. Premium EV CITY, EV NOMAD, and EV ROVER series with advanced all-wheel drive technology. Sales, service & delivery."
+        keywords="DENAGO golf carts Atlantic County, electric golf carts New Jersey, DENAGO EV CITY, DENAGO EV NOMAD, DENAGO EV ROVER, off-road golf carts, all-wheel drive golf carts"
+        canonicalUrl="https://AtlanticCountyGolfCarts.com/denago"
         ogImage="/attached_assets/DENAGONEVROVERXL_1751893047473_1753135231313.jpg"
         ogType="product.group"
       />
@@ -162,7 +162,7 @@ export default function DenagoPage() {
             </h1>
             <p className="text-2xl mb-8 max-w-4xl mx-auto">
               Experience the ultimate in electric off-road performance. DENAGO vehicles combine cutting-edge 
-              technology with rugged durability for unmatched adventure capability in Montgomery County, Pennsylvania.
+              technology with rugged durability for unmatched adventure capability in Atlantic County, New Jersey.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" className="bg-theme-orange hover:bg-orange-600 text-white">
@@ -190,7 +190,7 @@ export default function DenagoPage() {
                   DENAGO represents the pinnacle of electric vehicle engineering, combining innovative 
                   all-wheel drive technology with premium comfort features. Each DENAGO is built to 
                   exceed expectations on any terrain while delivering exceptional reliability for 
-                  Montgomery County's diverse landscapes.
+                  Atlantic County's diverse coastal and suburban landscapes.
                 </p>
                 <div className="grid grid-cols-1 gap-4">
                   {denagoFeatures.map((feature, index) => (
@@ -280,7 +280,7 @@ export default function DenagoPage() {
                 Complete DENAGO Vehicle Lineup
               </h2>
               <p className="text-xl text-gray-600">
-                Explore all 6 DENAGO electric vehicle models available in Bucks County
+                Explore all 6 DENAGO electric vehicle models available in Atlantic County
               </p>
             </div>
             
@@ -372,7 +372,7 @@ export default function DenagoPage() {
           <div className="max-w-7xl mx-auto">
             <div className="text-center mb-12">
               <h2 className="text-4xl font-bold mb-4 text-gray-900">
-                Why Choose DENAGO in Bucks County?
+                Why Choose DENAGO in Atlantic County?
               </h2>
             </div>
             
@@ -381,7 +381,7 @@ export default function DenagoPage() {
                 <Shield className="w-16 h-16 text-theme-orange mx-auto mb-4" />
                 <h3 className="text-xl font-bold text-gray-900 mb-4">Built to Last</h3>
                 <p className="text-gray-600">
-                  DENAGO vehicles are engineered for Pennsylvania's challenging terrain with 
+                  DENAGO vehicles are engineered for New Jersey's challenging terrain with 
                   military-grade components and weather-resistant construction.
                 </p>
               </div>
@@ -399,7 +399,7 @@ export default function DenagoPage() {
                 <MapPin className="w-16 h-16 text-theme-orange mx-auto mb-4" />
                 <h3 className="text-xl font-bold text-gray-900 mb-4">Local Service</h3>
                 <p className="text-gray-600">
-                  Expert DENAGO service and support right here in Montgomery County with 
+                  Expert DENAGO service and support right here in Atlantic County with 
                   genuine parts and factory-trained technicians.
                 </p>
               </div>
@@ -414,7 +414,7 @@ export default function DenagoPage() {
               Ready to Experience DENAGO?
             </h2>
             <p className="text-xl mb-8">
-              Contact Montgomery County Golf Carts today to schedule a test drive or learn more 
+              Contact Atlantic County Golf Carts today to schedule a test drive or learn more 
               about DENAGO's revolutionary electric vehicle technology.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
