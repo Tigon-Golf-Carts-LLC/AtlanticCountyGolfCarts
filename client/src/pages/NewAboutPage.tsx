@@ -5,7 +5,7 @@ import { Users, Award, Target, Heart, Phone, Mail, MapPin, Calendar } from "luci
 import { Link } from "wouter";
 import SEOHead from "@/components/SEOHead";
 import { ATLANTIC_COUNTY_MUNICIPALITIES } from "@/data/atlanticCountyMunicipalities";
-import heroImage from "@assets/a-photograph-of-a-modern-golf-cart-deale_OlTDU4v9StGOZo5AygNb9A_bbx-4nIbSSGW4LKOIV9o3w_1753383770677.png";
+import heroImage from "@assets/a-photograph-of-a-modern-golf-cart-deale_1Cnk505HSlGhjw-TPLFg9w_nDZV9Dn5QHiGR5OY8JPBgA_1753453234033.png";
 
 export default function NewAboutPage() {
   const teamMembers = [
@@ -65,7 +65,7 @@ export default function NewAboutPage() {
         description="Learn about Atlantic County Golf Carts, New Jersey's trusted golf cart dealer serving all 27 municipalities with premium DENAGO and EVOLUTION vehicles since 2010."
         keywords="Atlantic County golf carts, about us, golf cart dealer New Jersey, DENAGO dealer, EVOLUTION dealer"
         canonicalUrl="https://AtlanticCountyGolfCarts.com/about"
-        ogImage="/attached_assets/a-photograph-of-a-modern-golf-cart-deale_OlTDU4v9StGOZo5AygNb9A_bbx-4nIbSSGW4LKOIV9o3w_1753383770677.png"
+        ogImage="/attached_assets/a-photograph-of-a-modern-golf-cart-deale_1Cnk505HSlGhjw-TPLFg9w_nDZV9Dn5QHiGR5OY8JPBgA_1753453234033.png"
         ogType="website"
       />
       
