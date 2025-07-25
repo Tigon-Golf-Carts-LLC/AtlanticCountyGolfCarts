@@ -45,8 +45,8 @@ export default function InventoryPage() {
   }
 
   const breadcrumbItems = [
-    { name: "Home", url: "https://montcogolfcarts.com" },
-    { name: "Inventory", url: "https://montcogolfcarts.com/inventory" }
+    { name: "Home", url: "https://AtlanticCountyGolfCarts.com" },
+    { name: "Inventory", url: "https://AtlanticCountyGolfCarts.com/inventory" }
   ];
 
   return (

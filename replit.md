@@ -131,6 +131,27 @@ Logo: Atlantic County Golf Carts logo used as primary logo and favicon across al
 
 ## Recent Changes (January 25, 2025)
 
+### Complete Pricing Update with External Links (January 25, 2025)
+- ✅ **Updated All Vehicle Pricing**: Applied current pricing from official TIGON Golf Carts pricing sheet:
+  - DENAGO EV CITY: $15,000 (updated from $18,999)
+  - DENAGO EV NOMAD: $8,495 (updated from $22,999)
+  - DENAGO EV NOMAD XL: $8,495 (updated from $24,999)
+  - DENAGO EV ROVER XL: $9,995 (updated from $26,999)
+  - DENAGO EV ROVER XL6: $11,995 (updated from $28,999)
+  - DENAGO EV ROVER XXL: $11,995 (updated from $31,999)
+  - EVOLUTION D5 RANGER 4 PLUS: $9,595 (updated from $16,999)
+  - EVOLUTION D5 RANGER 6 PLUS: $11,595 (updated from $19,999)
+  - EVOLUTION D5 MAVERICK 4 PLUS: $9,995 (updated from $17,999)
+  - EVOLUTION CLASSIC 4 PLUS: $6,995 (updated from $14,999)
+  - EVOLUTION CARRIER 6 PLUS: $9,595 (updated from $21,999)
+  - EVOLUTION D6 MAX XT4: $15,595 (updated from $24,999)
+- ✅ **External Links Verified**: Confirmed all vehicle detail pages use correct tigongolfcarts.com URLs
+- ✅ **Brand Page Pricing Updates**: Updated DENAGO and EVOLUTION brand pages with current pricing
+- ✅ **Added EVOLUTION Series Pricing Display**: Enhanced EVOLUTION brand page with pricing information for all series
+- ✅ **Inventory Page Domain Updates**: Updated inventory page breadcrumbs and SEO to use AtlanticCountyGolfCarts.com domain
+
+## Recent Changes (January 25, 2025)
+
 ### Brand Pages Atlantic County Rebranding (January 25, 2025)
 - ✅ **DENAGO Page Complete Atlantic County Update**: Updated all geographic and business references:
   - Changed SEO title, description, and keywords from Montgomery County PA to Atlantic County NJ
