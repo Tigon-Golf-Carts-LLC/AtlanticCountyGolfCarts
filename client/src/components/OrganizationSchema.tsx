@@ -9,18 +9,18 @@ export default function OrganizationSchema({ pageType = "home" }: OrganizationSc
     const baseStructuredData = {
       "@context": "https://schema.org",
       "@type": "Organization",
-      "name": "Montgomery County Golf Carts",
-      "description": "Premier golf cart dealership in Montgomery County, Pennsylvania specializing in electric golf carts, sales, service, rentals, and financing.",
-      "url": "https://montcogolfcarts.com",
-      "logo": "https://montcogolfcarts.com/attached_assets/MONTCO Golf Carts_1753384274720.png",
-      "image": "https://montcogolfcarts.com/attached_assets/MONTCO Golf Carts_1753384274720.png",
+      "name": "Atlantic County Golf Carts",
+      "description": "Premier golf cart dealership in Atlantic County, New Jersey specializing in electric golf carts, sales, service, rentals, and financing.",
+      "url": "https://AtlanticCountyGolfCarts.com",
+      "logo": "https://AtlanticCountyGolfCarts.com/attached_assets/Atlantic County Golf Carts (1)_1753457102314.png",
+      "image": "https://AtlanticCountyGolfCarts.com/attached_assets/Atlantic County Golf Carts (1)_1753457102314.png",
       "telephone": "1-844-844-6638",
-      "email": "info@montcogolfcarts.com",
+      "email": "info@AtlanticCountyGolfCarts.com",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "123 Golf Cart Lane",
-        "addressLocality": "King of Prussia",
-        "addressRegion": "PA",
+        "addressLocality": "Atlantic City",
+        "addressRegion": "NJ",
         "postalCode": "19406",
         "addressCountry": "US"
       },
@@ -35,7 +35,7 @@ export default function OrganizationSchema({ pageType = "home" }: OrganizationSc
       ],
       "serviceArea": {
         "@type": "State",
-        "name": "Pennsylvania"
+        "name": "New Jersey"
       },
       "hasOfferCatalog": {
         "@type": "OfferCatalog",

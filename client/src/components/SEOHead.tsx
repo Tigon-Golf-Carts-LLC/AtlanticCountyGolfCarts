@@ -16,7 +16,7 @@ export default function SEOHead({
   keywords = "golf carts, Atlantic County, electric golf carts, golf cart sales, golf cart service", 
   canonicalUrl,
   townName,
-  ogImage = "/attached_assets/a-photograph-of-a-modern-golf-cart-deale_OlTDU4v9StGOZo5AygNb9A_bbx-4nIbSSGW4LKOIV9o3w_1753383770677.png",
+  ogImage = "/attached_assets/Atlantic County Golf Carts (1)_1753457102314.png",
   ogType = "website"
 }: SEOHeadProps) {
   useEffect(() => {
@@ -61,23 +61,23 @@ export default function SEOHead({
     // Set favicon
     const existingFavicon = document.querySelector('link[rel="icon"]');
     if (existingFavicon) {
-      existingFavicon.setAttribute("href", "/attached_assets/Atlantic County Golf Carts_1753457095668.png");
+      existingFavicon.setAttribute("href", "/attached_assets/Atlantic County Golf Carts (1)_1753457102314.png");
     } else {
       const favicon = document.createElement("link");
       favicon.rel = "icon";
       favicon.type = "image/png";
-      favicon.href = "/attached_assets/Atlantic County Golf Carts_1753457095668.png";
+      favicon.href = "/attached_assets/Atlantic County Golf Carts (1)_1753457102314.png";
       document.head.appendChild(favicon);
     }
     
     // Set apple touch icon
     const existingAppleIcon = document.querySelector('link[rel="apple-touch-icon"]');
     if (existingAppleIcon) {
-      existingAppleIcon.setAttribute("href", "/attached_assets/Atlantic County Golf Carts_1753457095668.png");
+      existingAppleIcon.setAttribute("href", "/attached_assets/Atlantic County Golf Carts (1)_1753457102314.png");
     } else {
       const appleIcon = document.createElement("link");
       appleIcon.rel = "apple-touch-icon";
-      appleIcon.href = "/attached_assets/Atlantic County Golf Carts_1753457095668.png";
+      appleIcon.href = "/attached_assets/Atlantic County Golf Carts (1)_1753457102314.png";
       document.head.appendChild(appleIcon);
     }
     
@@ -140,7 +140,7 @@ export default function SEOHead({
         "telephone": "1-844-844-6638",
         "email": "info@AtlanticCountyGolfCarts.com",
         "url": canonicalUrl,
-        "logo": "https://AtlanticCountyGolfCarts.com/attached_assets/Atlantic County Golf Carts_1753457095668.png",
+        "logo": "https://AtlanticCountyGolfCarts.com/attached_assets/Atlantic County Golf Carts (1)_1753457102314.png",
         "image": `https://AtlanticCountyGolfCarts.com${ogImage}`,
         "serviceArea": {
           "@type": "GeoCircle",

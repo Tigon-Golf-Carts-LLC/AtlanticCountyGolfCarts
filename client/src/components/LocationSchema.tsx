@@ -22,8 +22,8 @@ export default function LocationSchema({
       "name": `Atlantic County Golf Carts - ${municipalityName} ${municipalityType}`,
       "description": `Professional golf cart sales, service, and rentals serving ${municipalityName} ${municipalityType}, Atlantic County, New Jersey. Premium DENAGO and Evolution electric golf carts available.`,
       "url": `https://AtlanticCountyGolfCarts.com/${municipalityName.toLowerCase().replace(/\s+/g, '-')}-${municipalityType.toLowerCase()}-golf-carts`,
-      "logo": "https://AtlanticCountyGolfCarts.com/attached_assets/Atlantic County Golf Carts_1753457095668.png",
-      "image": "https://AtlanticCountyGolfCarts.com/attached_assets/Atlantic County Golf Carts_1753457095668.png",
+      "logo": "https://AtlanticCountyGolfCarts.com/attached_assets/Atlantic County Golf Carts (1)_1753457102314.png",
+      "image": "https://AtlanticCountyGolfCarts.com/attached_assets/Atlantic County Golf Carts (1)_1753457102314.png",
       "telephone": "1-844-844-6638",
       "email": "info@AtlanticCountyGolfCarts.com",
       "address": {
