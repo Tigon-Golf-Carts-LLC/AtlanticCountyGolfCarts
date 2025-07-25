@@ -1,6 +1,8 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Wrench, Settings, Battery, Truck, Shield, Star } from "lucide-react";
+import SEOHead from "@/components/SEOHead";
+import AllSchemas from "@/components/schema/AllSchemas";
 
 
 export default function ServicesPage() {
@@ -81,13 +83,41 @@ export default function ServicesPage() {
 
   return (
     <div className="min-h-screen bg-white">
+      {/* SEO and Schema Markup */}
+      <SEOHead 
+        title="Atlantic County Golf Cart Services - Expert Maintenance & Repair in NJ"
+        description="Professional golf cart maintenance, repair, customization, and warranty services in Atlantic County, New Jersey. Certified technicians, quality parts, and comprehensive care."
+        keywords="golf cart service Atlantic County NJ, golf cart repair New Jersey, golf cart maintenance, battery service, customization"
+        canonicalUrl="https://AtlanticCountyGolfCarts.com/services"
+      />
+      <AllSchemas 
+        pageType="services" 
+        pageData={{
+          title: "Atlantic County Golf Cart Services",
+          description: "Professional golf cart maintenance, repair, customization, and warranty services in Atlantic County, New Jersey. Certified technicians, quality parts, and comprehensive care.",
+          url: "https://AtlanticCountyGolfCarts.com/services",
+          breadcrumbs: [
+            { name: "Home", url: "https://AtlanticCountyGolfCarts.com/" },
+            { name: "Services", url: "https://AtlanticCountyGolfCarts.com/services" }
+          ],
+          serviceName: "Golf Cart Services",
+          serviceDescription: "Comprehensive golf cart maintenance, repair, customization, and warranty services in Atlantic County, New Jersey",
+          serviceOffers: [
+            { price: "Contact for pricing", description: "Maintenance & Repair Services" },
+            { price: "Contact for pricing", description: "Battery Service & Replacement" },
+            { price: "Contact for pricing", description: "Custom Accessories & Modifications" },
+            { price: "Contact for pricing", description: "Delivery & Pickup Service" },
+            { price: "Contact for pricing", description: "Warranty Service & Support" }
+          ]
+        }}
+      />
       {/* Hero Section */}
       <section className="relative py-20 px-4 bg-gradient-to-r from-theme-primary to-blue-700 text-white bg-cover bg-center bg-no-repeat" style={{backgroundImage: "linear-gradient(rgba(14, 46, 85, 0.8), rgba(29, 78, 216, 0.8)), url('/attached_assets/a-photograph-of-a-modern-golf-cart-deale_OO82J1mtQEyokt1GsD08YQ_vk-WDImPSSq1axdn5SN7Mw_1753301595303.png')"}}>
         <div className="max-w-7xl mx-auto text-center">
-          <h1 className="text-5xl font-bold mb-6">Montgomery County Golf Cart Services</h1>
+          <h1 className="text-5xl font-bold mb-6">Atlantic County Golf Cart Services</h1>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
             Expert maintenance, repair, and customization services to keep your golf cart 
-            running perfectly and looking great throughout Montgomery County, PA.
+            running perfectly and looking great throughout Atlantic County, NJ.
           </p>
           <Button size="lg" className="bg-theme-orange hover:bg-orange-600 text-white">
             Schedule Service

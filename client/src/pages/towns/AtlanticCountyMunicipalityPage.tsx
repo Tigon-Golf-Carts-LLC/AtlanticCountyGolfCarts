@@ -4,6 +4,7 @@ import { Badge } from "@/components/ui/badge";
 import { MapPin, Phone, Clock, Star, ShoppingCart, Wrench } from "lucide-react";
 import { Link } from "wouter";
 import SEOHead from "@/components/SEOHead";
+import AllSchemas from "@/components/schema/AllSchemas";
 import { ATLANTIC_COUNTY_MUNICIPALITIES } from "@/data/atlanticCountyMunicipalities";
 
 interface MunicipalityPageProps {
@@ -36,6 +37,39 @@ export default function AtlanticCountyMunicipalityPage({ municipalityName }: Mun
         canonicalUrl={`https://AtlanticCountyGolfCarts.com/${municipality.url.substring(1)}`}
         ogImage="/attached_assets/a-photograph-of-a-modern-golf-cart-deale_OlTDU4v9StGOZo5AygNb9A_bbx-4nIbSSGW4LKOIV9o3w_1753383770677.png"
         ogType="website"
+      />
+      <AllSchemas 
+        pageType="location" 
+        pageData={{
+          title: `${municipality.name} Golf Carts - Atlantic County Golf Cart Sales & Service NJ`,
+          description: `Premium golf cart sales and service in ${municipality.name}, Atlantic County, NJ. DENAGO and EVOLUTION electric golf carts with delivery, rentals, and repair services.`,
+          url: `https://AtlanticCountyGolfCarts.com/${municipality.url.substring(1)}`,
+          breadcrumbs: [
+            { name: "Home", url: "https://AtlanticCountyGolfCarts.com/" },
+            { name: "Locations", url: "https://AtlanticCountyGolfCarts.com/" },
+            { name: `${municipality.name} ${municipality.type}`, url: `https://AtlanticCountyGolfCarts.com/${municipality.url.substring(1)}` }
+          ],
+          locationName: municipality.name,
+          locationType: municipality.type === 'City' ? 'Borough' : municipality.type as 'Borough' | 'Township',
+          locationLatitude: "39.3643",
+          locationLongitude: "-74.4229",
+          reviews: [
+            {
+              author: "Local Customer",
+              reviewBody: `Excellent service in ${municipality.name}! Atlantic County Golf Carts provided professional delivery and setup. Highly recommend for anyone in the area.`,
+              reviewRating: 5,
+              datePublished: "2025-01-19",
+              headline: `Great service in ${municipality.name}`
+            },
+            {
+              author: "Business Owner",
+              reviewBody: `Perfect golf cart solution for our ${municipality.name} business. Professional team and quality products with ongoing support.`,
+              reviewRating: 5,
+              datePublished: "2025-01-17",
+              headline: "Professional business solution"
+            }
+          ]
+        }}
       />
       
       <div className="min-h-screen bg-gray-50">

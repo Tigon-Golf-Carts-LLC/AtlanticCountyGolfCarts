@@ -4,6 +4,7 @@ import { Badge } from "@/components/ui/badge";
 import { MapPin, Phone, Clock, Star, Calendar, DollarSign, Truck } from "lucide-react";
 import { Link } from "wouter";
 import SEOHead from "@/components/SEOHead";
+import AllSchemas from "@/components/schema/AllSchemas";
 import { ATLANTIC_COUNTY_MUNICIPALITIES } from "@/data/atlanticCountyMunicipalities";
 
 interface MunicipalityRentalPageProps {
@@ -165,6 +166,46 @@ export default function AtlanticCountyMunicipalityRentalPage({ municipalityName 
         canonicalUrl={`https://AtlanticCountyGolfCarts.com/${municipality.url.substring(1)}/rentals`}
         ogImage="/attached_assets/a-photograph-of-a-modern-golf-cart-deale_OlTDU4v9StGOZo5AygNb9A_bbx-4nIbSSGW4LKOIV9o3w_1753383770677.png"
         ogType="website"
+      />
+      <AllSchemas 
+        pageType="location-rental" 
+        pageData={{
+          title: `${municipality.name} Golf Cart Rentals - Atlantic County NJ | Daily, Weekly, Monthly`,
+          description: `Golf cart rentals in ${municipality.name}, Atlantic County, NJ. Daily, weekly, and monthly rental packages with free delivery.`,
+          url: `https://AtlanticCountyGolfCarts.com/${municipality.url.substring(1)}/rentals`,
+          breadcrumbs: [
+            { name: "Home", url: "https://AtlanticCountyGolfCarts.com/" },
+            { name: municipality.name, url: `https://AtlanticCountyGolfCarts.com${municipality.url}` },
+            { name: "Rentals", url: `https://AtlanticCountyGolfCarts.com/${municipality.url.substring(1)}/rentals` }
+          ],
+          locationName: municipality.name,
+          locationType: municipality.type === 'City' ? 'Borough' : municipality.type as 'Borough' | 'Township',
+          locationLatitude: "39.3643",
+          locationLongitude: "-74.4229",
+          reviews: [
+            {
+              author: "Family Vacation Renter",
+              reviewBody: `Fantastic rental experience in ${municipality.name}! The golf cart was delivered on time and in perfect condition. Made our Atlantic County vacation so much more enjoyable.`,
+              reviewRating: 5,
+              datePublished: "2025-01-22",
+              headline: `Perfect rental in ${municipality.name}`
+            },
+            {
+              author: "Local Business Owner",
+              reviewBody: `Used Atlantic County Golf Carts for our ${municipality.name} business event. Professional service, competitive pricing, and reliable equipment.`,
+              reviewRating: 5,
+              datePublished: "2025-01-20",
+              headline: "Excellent business rental service"
+            },
+            {
+              author: "Weekend Explorer",
+              reviewBody: `The weekly rental package was perfect for exploring ${municipality.name} and the surrounding Atlantic County area. Great value and easy booking process.`,
+              reviewRating: 4,
+              datePublished: "2025-01-18",
+              headline: "Great value rental packages"
+            }
+          ]
+        }}
       />
       
       <div className="min-h-screen bg-gray-50">

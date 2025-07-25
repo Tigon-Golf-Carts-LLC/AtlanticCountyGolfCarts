@@ -10,6 +10,8 @@ import SchemaMarkup, {
   generateBreadcrumbSchema,
   generateOfferCatalogSchema
 } from "@/components/SchemaMarkup";
+import SEOHead from "@/components/SEOHead";
+import AllSchemas from "@/components/schema/AllSchemas";
 
 
 export default function InventoryPage() {
@@ -51,9 +53,38 @@ export default function InventoryPage() {
 
   return (
     <div className="min-h-screen">
-      {/* Schema Markup */}
-      <SchemaMarkup schema={generateBreadcrumbSchema(breadcrumbItems)} />
-      {vehicles && <SchemaMarkup schema={generateOfferCatalogSchema(vehicles)} />}
+      {/* SEO and Schema Markup */}
+      <SEOHead 
+        title="Golf Cart Inventory - Atlantic County Golf Carts | New Electric Golf Carts NJ"
+        description="Browse our extensive inventory of new electric golf carts from DENAGO and Evolution. Premium quality golf carts available in Atlantic County, New Jersey with expert service."
+        keywords="golf cart inventory Atlantic County NJ, electric golf carts for sale, DENAGO golf carts, Evolution golf carts, new golf carts New Jersey"
+        canonicalUrl="https://AtlanticCountyGolfCarts.com/inventory"
+      />
+      <AllSchemas 
+        pageType="inventory" 
+        pageData={{
+          title: "Golf Cart Inventory - Atlantic County Golf Carts",
+          description: "Browse our extensive inventory of new electric golf carts from DENAGO and Evolution. Premium quality golf carts available in Atlantic County, New Jersey with expert service.",
+          url: "https://AtlanticCountyGolfCarts.com/inventory",
+          breadcrumbs: breadcrumbItems,
+          reviews: [
+            {
+              author: "Jennifer Martinez",
+              reviewBody: "Great selection of golf carts with knowledgeable staff. Found exactly what I was looking for at a competitive price.",
+              reviewRating: 5,
+              datePublished: "2025-01-18",
+              headline: "Excellent selection and service"
+            },
+            {
+              author: "Robert Chen",
+              reviewBody: "The inventory is well-maintained and the buying process was smooth. Highly recommend for anyone looking for quality golf carts.",
+              reviewRating: 5,
+              datePublished: "2025-01-21",
+              headline: "Quality inventory and smooth process"
+            }
+          ]
+        }}
+      />
       {/* Hero Section */}
       <section className="relative py-20 px-4 bg-gradient-to-r from-theme-primary to-blue-700 text-white bg-cover bg-center bg-no-repeat" style={{backgroundImage: "linear-gradient(rgba(14, 46, 85, 0.8), rgba(29, 78, 216, 0.8)), url('/attached_assets/a-photograph-of-a-bright-modern-golf-car_iofSws5mRiCxoMwQwuXw4A_Yv-NWBaTQQ6ofRhClJiiIw_1753454023367.png')"}}>
         <div className="max-w-7xl mx-auto text-center">

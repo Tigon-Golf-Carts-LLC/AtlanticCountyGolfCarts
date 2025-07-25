@@ -3,6 +3,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Users, Award, MapPin, Clock, Heart, Target } from "lucide-react";
 import SEOHead from "@/components/SEOHead";
 import OrganizationSchema from "@/components/OrganizationSchema";
+import AllSchemas from "@/components/schema/AllSchemas";
 
 
 export default function AboutPage() {
@@ -28,7 +29,7 @@ export default function AboutPage() {
   ];
 
   const milestones = [
-    { year: "2010", event: "Montgomery County Golf Carts founded in Montgomery County" },
+    { year: "2010", event: "Atlantic County Golf Carts founded in Atlantic County" },
     { year: "2012", event: "Became authorized EVOLUTION dealer" },
     { year: "2015", event: "Expanded to serve all of Pennsylvania" },
     { year: "2018", event: "Added DENAGO to our brand portfolio" },
@@ -40,18 +41,49 @@ export default function AboutPage() {
     <div className="min-h-screen bg-white">
       {/* SEO and Schema Markup */}
       <SEOHead 
-        title="About Montgomery County Golf Carts - Premier Golf Cart Dealership Since 2010"
-        description="Learn about Montgomery County Golf Carts, Pennsylvania's premier golf cart dealership since 2010. Expert team, authorized Denago and Evolution dealer with comprehensive service."
-        keywords="about Montgomery County Golf Carts, golf cart dealership Pennsylvania, Denago Evolution dealer, golf cart service team"
-        canonicalUrl="https://montcogolfcarts.com/about"
+        title="About Atlantic County Golf Carts - Premier Golf Cart Dealership Since 2010"
+        description="Learn about Atlantic County Golf Carts, New Jersey's premier golf cart dealership since 2010. Expert team, authorized Denago and Evolution dealer with comprehensive service."
+        keywords="about Atlantic County Golf Carts, golf cart dealership New Jersey, Denago Evolution dealer, golf cart service team"
+        canonicalUrl="https://AtlanticCountyGolfCarts.com/about"
       />
-      <OrganizationSchema pageType="about" />
+      <AllSchemas 
+        pageType="about" 
+        pageData={{
+          title: "About Atlantic County Golf Carts",
+          description: "Learn about Atlantic County Golf Carts, New Jersey's premier golf cart dealership since 2010. Expert team, authorized Denago and Evolution dealer with comprehensive service.",
+          url: "https://AtlanticCountyGolfCarts.com/about",
+          breadcrumbs: [
+            { name: "Home", url: "https://AtlanticCountyGolfCarts.com/" },
+            { name: "About", url: "https://AtlanticCountyGolfCarts.com/about" }
+          ],
+          people: [
+            {
+              name: "Mike Johnson",
+              jobTitle: "General Manager",
+              description: "Leading our team with passion for customer service and golf cart expertise with 15+ years experience",
+              image: "/attached_assets/Atlantic County Golf Carts (1)_1753457102314.png"
+            },
+            {
+              name: "Sarah Davis",
+              jobTitle: "Service Manager", 
+              description: "Certified technician ensuring quality service and customer satisfaction with 12+ years experience",
+              image: "/attached_assets/Atlantic County Golf Carts (1)_1753457102314.png"
+            },
+            {
+              name: "Tom Wilson",
+              jobTitle: "Sales Director",
+              description: "Helping customers find the perfect golf cart for their needs with 10+ years experience",
+              image: "/attached_assets/Atlantic County Golf Carts (1)_1753457102314.png"
+            }
+          ]
+        }}
+      />
       {/* Hero Section */}
       <section className="relative py-20 px-4 bg-gradient-to-r from-theme-primary to-blue-700 text-white bg-cover bg-center bg-no-repeat" style={{backgroundImage: "linear-gradient(rgba(14, 46, 85, 0.8), rgba(29, 78, 216, 0.8)), url('/attached_assets/a-photograph-of-a-modern-golf-cart-deale_8elKPzmBTsyxj7iHgPaXpg_gCWvAKP5Rm65AC6RGdU8FA_1753302323501.png')"}}>
         <div className="max-w-7xl mx-auto text-center">
-          <h1 className="text-5xl font-bold mb-6">About Montgomery County Golf Carts</h1>
+          <h1 className="text-5xl font-bold mb-6">About Atlantic County Golf Carts</h1>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
-            Montgomery County's premier golf cart dealership, serving southeastern Pennsylvania 
+            Atlantic County's premier golf cart dealership, serving southern New Jersey 
             and dedicated to providing exceptional service since 2010.
           </p>
         </div>

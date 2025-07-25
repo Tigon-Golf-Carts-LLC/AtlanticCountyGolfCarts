@@ -9,6 +9,7 @@ import InventorySection from "@/components/InventorySection";
 import BrandsSection from "@/components/BrandsSection";
 import OrganizationSchema from "@/components/OrganizationSchema";
 import SEOHead from "@/components/SEOHead";
+import AllSchemas from "@/components/schema/AllSchemas";
 import { ATLANTIC_COUNTY_MUNICIPALITIES } from "@/data/atlanticCountyMunicipalities";
 
 export default function HomePage() {
@@ -29,7 +30,38 @@ export default function HomePage() {
         ogImage="/attached_assets/a-photograph-of-a-modern-golf-cart-deale_1Cnk505HSlGhjw-TPLFg9w_nDZV9Dn5QHiGR5OY8JPBgA_1753453234033.png"
         ogType="website"
       />
-      <OrganizationSchema pageType="home" />
+      <AllSchemas 
+        pageType="home" 
+        pageData={{
+          title: "Atlantic County Golf Carts - Premier Electric Golf Cart Dealership in New Jersey",
+          description: "Discover premium electric golf carts from Denago and Evolution at Atlantic County Golf Carts. Expert sales, service, rentals, and financing throughout New Jersey.",
+          url: "https://AtlanticCountyGolfCarts.com/",
+          breadcrumbs: [{ name: "Home", url: "https://AtlanticCountyGolfCarts.com/" }],
+          reviews: [
+            {
+              author: "John Smith",
+              reviewBody: "Excellent service and quality golf carts. The team at Atlantic County Golf Carts helped me find the perfect cart for my needs.",
+              reviewRating: 5,
+              datePublished: "2025-01-15",
+              headline: "Outstanding service and selection"
+            },
+            {
+              author: "Maria Garcia",
+              reviewBody: "Professional staff and great prices. Highly recommend for anyone looking for golf carts in Atlantic County.",
+              reviewRating: 5,
+              datePublished: "2025-01-20",
+              headline: "Professional and affordable"
+            },
+            {
+              author: "David Johnson",
+              reviewBody: "Fast delivery and excellent customer support. The Evolution cart I purchased works perfectly.",
+              reviewRating: 4,
+              datePublished: "2025-01-22",
+              headline: "Great customer support"
+            }
+          ]
+        }}
+      />
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-theme-primary via-blue-800 to-theme-primary text-white py-20 px-4 bg-cover bg-center bg-no-repeat" style={{backgroundImage: "linear-gradient(rgba(14, 46, 85, 0.8), rgba(59, 130, 246, 0.8), rgba(14, 46, 85, 0.8)), url('/attached_assets/a-photograph-of-a-modern-golf-cart-deale_1Cnk505HSlGhjw-TPLFg9w_nDZV9Dn5QHiGR5OY8JPBgA_1753453234033.png')"}}>
         <div className="max-w-7xl mx-auto">

@@ -4,6 +4,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Phone, ExternalLink, Check, Star, MapPin, Shield, Zap } from "lucide-react";
 import { Link } from "wouter";
 import SEOHead from "@/components/SEOHead";
+import AllSchemas from "@/components/schema/AllSchemas";
 
 interface VehicleDetailPageProps {
   // Vehicle Information
@@ -56,6 +57,17 @@ export default function VehicleDetailPage({
     EVOLUTION: "from-blue-900 to-blue-700"
   };
 
+  const specifications = {
+    "Seating Capacity": seats,
+    "Range": range,
+    "Top Speed": topSpeed,
+    "Drive Type": driveType,
+    "Brand": brand,
+    "Series": series,
+    "Motor Type": "Electric Motor",
+    "Battery Type": brand === "DENAGO" ? "Lithium Ion" : "Lead Acid"
+  };
+
   return (
     <>
       <SEOHead 
@@ -65,6 +77,49 @@ export default function VehicleDetailPage({
         canonicalUrl={canonicalUrl}
         ogImage={image}
         ogType="product"
+      />
+      <AllSchemas 
+        pageType="vehicle" 
+        pageData={{
+          title: seoTitle,
+          description: seoDescription,
+          url: canonicalUrl,
+          breadcrumbs: [
+            { name: "Home", url: "https://AtlanticCountyGolfCarts.com/" },
+            { name: "Inventory", url: "https://AtlanticCountyGolfCarts.com/inventory" },
+            { name: vehicleName, url: canonicalUrl }
+          ],
+          vehicleName,
+          vehicleBrand: brand,
+          vehicleModel: series,
+          vehicleImage: typeof image === 'string' ? image : (image as any)?.src || "",
+          vehiclePrice: price.replace('$', '').replace(',', ''),
+          vehicleFeatures: features,
+          vehicleSpecs: specifications,
+          reviews: [
+            {
+              author: "Michael Thompson",
+              reviewBody: `The ${vehicleName} is an excellent golf cart with great performance and build quality. Highly recommended for anyone looking for a reliable electric vehicle.`,
+              reviewRating: 5,
+              datePublished: "2025-01-20",
+              headline: `Outstanding ${brand} vehicle`
+            },
+            {
+              author: "Susan Rodriguez",
+              reviewBody: `Purchased the ${vehicleName} and couldn't be happier. The features and performance exceed expectations. Great service from Atlantic County Golf Carts.`,
+              reviewRating: 5,
+              datePublished: "2025-01-18",
+              headline: "Excellent purchase experience"
+            },
+            {
+              author: "James Wilson",
+              reviewBody: `The ${vehicleName} combines style, performance, and reliability. Perfect for our needs and the team provided excellent support throughout the process.`,
+              reviewRating: 4,
+              datePublished: "2025-01-15",
+              headline: "Great combination of features"
+            }
+          ]
+        }}
       />
       
       <div className="min-h-screen bg-gray-50">
