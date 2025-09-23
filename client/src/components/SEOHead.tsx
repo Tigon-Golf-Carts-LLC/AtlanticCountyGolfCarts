@@ -7,7 +7,10 @@ interface SEOHeadProps {
   canonicalUrl?: string;
   townName?: string;
   ogImage?: string;
+  ogImageWidth?: number;
+  ogImageHeight?: number;
   ogType?: string;
+  heroBackgroundImage?: string;
 }
 
 export default function SEOHead({ 
@@ -16,10 +19,35 @@ export default function SEOHead({
   keywords = "golf carts, Atlantic County, electric golf carts, golf cart sales, golf cart service", 
   canonicalUrl,
   townName,
-  ogImage = "/attached_assets/Atlantic County Golf Carts (1)_1753457102314.png",
-  ogType = "website"
+  ogImage,
+  ogImageWidth,
+  ogImageHeight,
+  ogType = "website",
+  heroBackgroundImage
 }: SEOHeadProps) {
   useEffect(() => {
+    // Determine the appropriate image to use for social media sharing
+    let finalOgImage = ogImage;
+    let finalWidth = ogImageWidth;
+    let finalHeight = ogImageHeight;
+    
+    if (!finalOgImage) {
+      if (heroBackgroundImage) {
+        finalOgImage = heroBackgroundImage;
+        finalWidth = finalWidth || 1200;
+        finalHeight = finalHeight || 630;
+      } else {
+        // Fallback to site logo
+        finalOgImage = "/attached_assets/Atlantic County Golf Carts (1)_1753457102314.png";
+        finalWidth = 400;
+        finalHeight = 400;
+      }
+    } else {
+      // Default dimensions if not specified
+      finalWidth = finalWidth || 1200;
+      finalHeight = finalHeight || 630;
+    }
+    
     // Set page title
     document.title = title;
     
@@ -97,7 +125,9 @@ export default function SEOHead({
     updateOGTag("og:title", title);
     updateOGTag("og:description", description);
     updateOGTag("og:type", ogType);
-    updateOGTag("og:image", `https://AtlanticCountyGolfCarts.com${ogImage}`);
+    updateOGTag("og:image", `https://AtlanticCountyGolfCarts.com${finalOgImage}`);
+    updateOGTag("og:image:width", finalWidth.toString());
+    updateOGTag("og:image:height", finalHeight.toString());
     updateOGTag("og:site_name", "Atlantic County Golf Carts");
     updateOGTag("og:locale", "en_US");
     if (canonicalUrl) {
@@ -120,7 +150,7 @@ export default function SEOHead({
     updateTwitterTag("twitter:card", "summary_large_image");
     updateTwitterTag("twitter:title", title);
     updateTwitterTag("twitter:description", description);
-    updateTwitterTag("twitter:image", `https://AtlanticCountyGolfCarts.com${ogImage}`);
+    updateTwitterTag("twitter:image", `https://AtlanticCountyGolfCarts.com${finalOgImage}`);
     updateTwitterTag("twitter:site", "@AtlanticCountyGolfCarts");
     updateTwitterTag("twitter:creator", "@AtlanticCountyGolfCarts");
     
@@ -141,7 +171,7 @@ export default function SEOHead({
         "email": "info@AtlanticCountyGolfCarts.com",
         "url": canonicalUrl,
         "logo": "https://AtlanticCountyGolfCarts.com/attached_assets/Atlantic County Golf Carts (1)_1753457102314.png",
-        "image": `https://AtlanticCountyGolfCarts.com${ogImage}`,
+        "image": `https://AtlanticCountyGolfCarts.com${finalOgImage}`,
         "serviceArea": {
           "@type": "GeoCircle",
           "geoMidpoint": {
@@ -212,7 +242,7 @@ export default function SEOHead({
         document.head.appendChild(script);
       }
     }
-  }, [title, description, keywords, canonicalUrl, townName, ogImage, ogType]);
+  }, [title, description, keywords, canonicalUrl, townName, ogImage, ogImageWidth, ogImageHeight, ogType, heroBackgroundImage]);
 
   return null;
 }
