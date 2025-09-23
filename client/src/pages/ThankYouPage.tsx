@@ -8,9 +8,9 @@ export default function ThankYouPage() {
   return (
     <div className="min-h-screen bg-gray-50">
       <SEOHead 
-        title="Thank You - Berks County Golf Carts"
-        description="Thank you for contacting Berks County Golf Carts. We'll respond to your inquiry within 24 hours. Serving all 72 Berks County municipalities."
-        keywords="thank you, contact confirmation, Berks County Golf Carts, TIGON Golf Carts"
+        title="Thank You for Your Message!"
+        description="Thank you for contacting Atlantic County Golf Carts. We'll respond to your inquiry within 24 hours. Serving all 27 Atlantic County municipalities. Call 1-844-844-6638."
+        keywords="thank you, contact confirmation, Atlantic County Golf Carts, TIGON Golf Carts"
       />
       
       <div className="py-20 px-4">
@@ -24,7 +24,7 @@ export default function ThankYouPage() {
               Thank You for Your Message!
             </h1>
             <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-              We've received your inquiry and appreciate your interest in Berks County Golf Carts. 
+              We've received your inquiry and appreciate your interest in Atlantic County Golf Carts. 
               Our TIGON Golf Carts team will review your message and get back to you soon.
             </p>
           </div>
@@ -114,24 +114,24 @@ export default function ThankYouPage() {
           <Card className="bg-blue-50 border-blue-200 mb-12">
             <CardContent className="p-8 text-center">
               <h2 className="text-2xl font-bold text-gray-900 mb-4">
-                Serving All of Berks County
+                Serving All of Atlantic County
               </h2>
               <p className="text-lg text-gray-600 mb-6">
-                Professional golf cart sales, rentals, and service delivered to all 72 Berks County municipalities - 
-                from Reading City to the smallest townships throughout Pennsylvania Dutch Country.
+                Professional golf cart sales, rentals, and service delivered to all 27 Atlantic County municipalities - 
+                from Atlantic City to the smallest townships throughout South Jersey.
               </p>
               <div className="grid md:grid-cols-2 gap-6 text-left">
                 <div>
-                  <h3 className="font-semibold text-gray-900 mb-2">TIGON Golf Carts Hatfield</h3>
-                  <p className="text-gray-600 text-sm mb-1">2333 Bethlehem Pike</p>
-                  <p className="text-gray-600 text-sm mb-1">Hatfield, PA 19440</p>
-                  <p className="text-theme-orange font-semibold">(215) 595-8736</p>
+                  <h3 className="font-semibold text-gray-900 mb-2">Atlantic County Golf Carts</h3>
+                  <p className="text-gray-600 text-sm mb-1">Serving Atlantic County</p>
+                  <p className="text-gray-600 text-sm mb-1">Atlantic County, NJ</p>
+                  <p className="text-theme-orange font-semibold">1-844-844-6638</p>
                 </div>
                 <div>
-                  <h3 className="font-semibold text-gray-900 mb-2">TIGON Golf Carts Poconos</h3>
-                  <p className="text-gray-600 text-sm mb-1">1712 Pennsylvania 940</p>
-                  <p className="text-gray-600 text-sm mb-1">Pocono Pines, PA 18350</p>
-                  <p className="text-theme-orange font-semibold">(570) 643-0152</p>
+                  <h3 className="font-semibold text-gray-900 mb-2">Service Area Coverage</h3>
+                  <p className="text-gray-600 text-sm mb-1">All 27 Atlantic County Municipalities</p>
+                  <p className="text-gray-600 text-sm mb-1">Atlantic County, NJ</p>
+                  <p className="text-theme-orange font-semibold">1-844-844-6638</p>
                 </div>
               </div>
             </CardContent>

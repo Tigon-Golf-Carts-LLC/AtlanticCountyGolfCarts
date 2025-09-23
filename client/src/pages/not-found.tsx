@@ -1,8 +1,15 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { AlertCircle } from "lucide-react";
+import SEOHead from "@/components/SEOHead";
 
 export default function NotFound() {
   return (
+    <>
+      <SEOHead 
+        title="404 Page Not Found"
+        description="Page not found. The page you're looking for doesn't exist on Atlantic County Golf Carts website. Return to our golf cart sales and service homepage. Call 1-844-844-6638."
+        keywords="404 error, page not found, Atlantic County Golf Carts"
+      />
     <div className="min-h-screen w-full flex items-center justify-center bg-gray-50">
       <Card className="w-full max-w-md mx-4">
         <CardContent className="pt-6">
@@ -17,5 +24,6 @@ export default function NotFound() {
         </CardContent>
       </Card>
     </div>
+    </>
   );
 }
