@@ -197,11 +197,13 @@ export default function RentalsPage() {
   return (
     <>
       <SEOHead 
-        title="Golf Cart Rentals - Montgomery County Golf Carts"
-        description="Rent premium golf carts in Montgomery County, PA. Daily, weekly, and monthly rental options available with full insurance and delivery service."
-        keywords="golf cart rental, Montgomery County rentals, golf cart hire, Pennsylvania golf cart rental"
-        canonicalUrl="https://montcogolfcarts.com/rentals"
+        title="Why Choose Our Golf Cart Rentals?"
+        description="Rent premium golf carts in Atlantic County, NJ with daily, weekly, and monthly options including full insurance and delivery service. Call 1-844-844-6638."
+        keywords="golf cart rental Atlantic County NJ, golf cart hire New Jersey, golf cart rental Atlantic County, New Jersey golf cart rental"
+        canonicalUrl="https://AtlanticCountyGolfCarts.com/rentals"
         ogImage="/attached_assets/a-photograph-of-a-modern-golf-cart-deale_OlTDU4v9StGOZo5AygNb9A_bbx-4nIbSSGW4LKOIV9o3w_1753383770677.png"
+        ogImageWidth={1200}
+        ogImageHeight={630}
         ogType="website"
       />
       

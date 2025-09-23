@@ -85,10 +85,13 @@ export default function ServicesPage() {
     <div className="min-h-screen bg-white">
       {/* SEO and Schema Markup */}
       <SEOHead 
-        title="Atlantic County Golf Cart Services - Expert Maintenance & Repair in NJ"
-        description="Professional golf cart maintenance, repair, customization, and warranty services in Atlantic County, New Jersey. Certified technicians, quality parts, and comprehensive care."
+        title="Atlantic County Golf Cart Services"
+        description="Professional golf cart maintenance, repair, customization, and warranty services in Atlantic County, New Jersey with certified technicians and quality parts. Call 1-844-844-6638."
         keywords="golf cart service Atlantic County NJ, golf cart repair New Jersey, golf cart maintenance, battery service, customization"
         canonicalUrl="https://AtlanticCountyGolfCarts.com/services"
+        heroBackgroundImage="/attached_assets/a-photograph-of-a-modern-golf-cart-deale_OO82J1mtQEyokt1GsD08YQ_vk-WDImPSSq1axdn5SN7Mw_1753301595303.png"
+        ogImageWidth={1200}
+        ogImageHeight={630}
       />
       <AllSchemas 
         pageType="services" 

@@ -41,10 +41,13 @@ export default function AboutPage() {
     <div className="min-h-screen bg-white">
       {/* SEO and Schema Markup */}
       <SEOHead 
-        title="About Atlantic County Golf Carts - Premier Golf Cart Dealership Since 2010"
-        description="Learn about Atlantic County Golf Carts, New Jersey's premier golf cart dealership since 2010. Expert team, authorized Denago and Evolution dealer with comprehensive service."
+        title="About Atlantic County Golf Carts"
+        description="Discover New Jersey's premier golf cart dealership since 2010 with expert team, authorized Denago and Evolution dealer with comprehensive service. Call 1-844-844-6638."
         keywords="about Atlantic County Golf Carts, golf cart dealership New Jersey, Denago Evolution dealer, golf cart service team"
         canonicalUrl="https://AtlanticCountyGolfCarts.com/about"
+        heroBackgroundImage="/attached_assets/a-photograph-of-a-modern-golf-cart-deale_8elKPzmBTsyxj7iHgPaXpg_gCWvAKP5Rm65AC6RGdU8FA_1753302323501.png"
+        ogImageWidth={1200}
+        ogImageHeight={630}
       />
       <AllSchemas 
         pageType="about" 

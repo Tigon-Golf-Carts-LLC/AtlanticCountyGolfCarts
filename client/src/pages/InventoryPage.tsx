@@ -55,10 +55,13 @@ export default function InventoryPage() {
     <div className="min-h-screen">
       {/* SEO and Schema Markup */}
       <SEOHead 
-        title="Golf Cart Inventory - Atlantic County Golf Carts | New Electric Golf Carts NJ"
-        description="Browse our extensive inventory of new electric golf carts from DENAGO and Evolution. Premium quality golf carts available in Atlantic County, New Jersey with expert service."
+        title="Golf Cart Inventory"
+        description="Browse our extensive inventory of new electric golf carts from DENAGO and Evolution with premium quality and expert service in Atlantic County, New Jersey. Call 1-844-844-6638."
         keywords="golf cart inventory Atlantic County NJ, electric golf carts for sale, DENAGO golf carts, Evolution golf carts, new golf carts New Jersey"
         canonicalUrl="https://AtlanticCountyGolfCarts.com/inventory"
+        heroBackgroundImage="/attached_assets/a-photograph-of-a-bright-modern-golf-car_iofSws5mRiCxoMwQwuXw4A_Yv-NWBaTQQ6ofRhClJiiIw_1753454023367.png"
+        ogImageWidth={1200}
+        ogImageHeight={630}
       />
       <AllSchemas 
         pageType="inventory" 

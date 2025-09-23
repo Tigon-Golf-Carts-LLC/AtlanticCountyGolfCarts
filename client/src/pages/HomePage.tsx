@@ -23,11 +23,14 @@ export default function HomePage() {
     <div className="min-h-screen">
       {/* SEO and Schema Markup */}
       <SEOHead 
-        title="Atlantic County Golf Carts - Premier Electric Golf Cart Dealership in New Jersey"
-        description="Discover premium electric golf carts from Denago and Evolution at Atlantic County Golf Carts. Expert sales, service, rentals, and financing throughout New Jersey."
+        title="Atlantic County Golf Carts Premier Dealership"
+        description="Experience premium electric golf carts from Denago and Evolution with expert sales, service, and financing throughout New Jersey. Call 1-844-844-6638."
         keywords="golf carts Atlantic County NJ, electric golf carts New Jersey, Denago golf carts, Evolution golf carts, golf cart sales service rentals"
         canonicalUrl="https://AtlanticCountyGolfCarts.com/"
         ogImage="/attached_assets/a-photograph-of-a-modern-golf-cart-deale_1Cnk505HSlGhjw-TPLFg9w_nDZV9Dn5QHiGR5OY8JPBgA_1753453234033.png"
+        ogImageWidth={1200}
+        ogImageHeight={630}
+        heroBackgroundImage="/attached_assets/a-photograph-of-a-modern-golf-cart-deale_1Cnk505HSlGhjw-TPLFg9w_nDZV9Dn5QHiGR5OY8JPBgA_1753453234033.png"
         ogType="website"
       />
       <AllSchemas 

@@ -102,11 +102,13 @@ export default function ContactPage() {
   return (
     <>
       <SEOHead 
-        title="Contact Atlantic County Golf Carts - Get in Touch for Sales & Service"
-        description="Contact Atlantic County Golf Carts for sales, service, and support. Call 1-844-844-6638. Serving all 27 Atlantic County municipalities in New Jersey."
+        title="Contact Atlantic County Golf Carts"
+        description="Get in touch with Atlantic County Golf Carts for sales, service, and support serving all 27 Atlantic County municipalities in New Jersey. Call 1-844-844-6638."
         keywords="contact Atlantic County golf carts, golf cart sales New Jersey, Atlantic County showroom, golf cart service NJ"
         canonicalUrl="https://AtlanticCountyGolfCarts.com/contact"
         ogImage="/attached_assets/a-photograph-of-a-modern-golf-cart-deale_OlTDU4v9StGOZo5AygNb9A_bbx-4nIbSSGW4LKOIV9o3w_1753383770677.png"
+        ogImageWidth={1200}
+        ogImageHeight={630}
         ogType="website"
       />
       
