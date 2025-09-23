@@ -78,7 +78,7 @@ export default function AtlanticCountyMunicipalityPage({ municipalityName }: Mun
                  style={{backgroundImage: "linear-gradient(rgba(14, 46, 85, 0.8), rgba(29, 78, 216, 0.8)), url('/attached_assets/a-photograph-of-a-modern-golf-cart-deale_1Cnk505HSlGhjw-TPLFg9w_nDZV9Dn5QHiGR5OY8JPBgA_1753453234033.png')"}}>
           <div className="max-w-7xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              {municipality.name} Golf Carts - Atlantic County, NJ
+              {municipality.name} Golf Carts - Atlantic County Golf Cart Sales & Service NJ
             </h1>
             <p className="text-xl mb-8 max-w-3xl mx-auto">
               Premium DENAGO and EVOLUTION golf cart sales, service, and rentals serving {municipality.name} and all of Atlantic County, New Jersey.
