@@ -179,12 +179,12 @@ export default function FeedbackPolicyPage() {
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">Contact Our Feedback Team</h2>
               <div className="bg-gray-50 p-6 rounded-lg">
                 <p className="mb-2"><strong>Customer Feedback Department</strong></p>
-                <p className="mb-2">Berks County Golf Carts</p>
-                <p className="mb-2">Email: info@berksgolfcarts.com</p>
+                <p className="mb-2">Atlantic County Golf Carts</p>
+                <p className="mb-2">Email: info@AtlanticCountyGolfCarts.com</p>
                 <p className="mb-2">Phone: 1-844-844-6638</p>
                 <p className="mb-2">TIGON Golf Carts Hatfield: 2333 Bethlehem Pike, Hatfield, PA 19440 | (215) 595-8736</p>
                 <p className="mb-2">TIGON Golf Carts Poconos: 1712 Pennsylvania 940, Pocono Pines, PA 18350 | (570) 643-0152</p>
-                <p className="mb-2">Website: berksgolfcarts.com</p>
+                <p className="mb-2">Website: AtlanticCountyGolfCarts.com</p>
                 <p>We appreciate your feedback and look forward to serving you better!</p>
               </div>
             </div>
