@@ -10,9 +10,9 @@ export default function DenagoEvRoverXL6() {
   return (
     <>
       <SEOHead 
-        title="DENAGO® EV Rover XL6 - Luxury Electric Vehicle | Ocean County Golf Carts"
-        description="Experience the DENAGO® EV Rover XL6 with premium luxury features and 6-passenger seating. Ultimate comfort and performance for discerning customers."
-        keywords="DENAGO EV Rover XL6, luxury electric vehicle, 6-passenger golf cart, premium comfort, DENAGO dealer Ocean County"
+        title="DENAGO EV Rover XL6"
+        description="Experience the DENAGO EV Rover XL6 with premium luxury features and 6-passenger seating in Atlantic County, NJ. Ultimate comfort and performance for discerning customers. Call 1-844-844-6638."
+        keywords="DENAGO EV Rover XL6, luxury electric vehicle, 6-passenger golf cart, premium comfort, DENAGO dealer Atlantic County"
       />
       
       <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
@@ -42,7 +42,7 @@ export default function DenagoEvRoverXL6() {
                   </Badge>
                 </div>
                 <h1 className="text-4xl lg:text-5xl font-bold mb-6 text-gray-900">
-                  Rover XL6
+                  DENAGO EV Rover XL6
                 </h1>
                 <p className="text-xl text-gray-600 mb-8 leading-relaxed">
                   Six-passenger luxury rover with premium features and extended range for ultimate comfort and performance. The pinnacle of electric vehicle luxury.

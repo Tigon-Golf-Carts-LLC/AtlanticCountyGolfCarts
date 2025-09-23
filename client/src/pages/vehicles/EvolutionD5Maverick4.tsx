@@ -10,9 +10,9 @@ export default function EvolutionD5Maverick4() {
   return (
     <>
       <SEOHead 
-        title="EVOLUTION® D5 Maverick 4 - Standard Golf Cart | Ocean County Golf Carts"
-        description="Discover the EVOLUTION® D5 Maverick 4 with reliable performance and essential features. Perfect 4-passenger golf cart for standard transportation needs."
-        keywords="EVOLUTION D5 Maverick 4, 4-passenger golf cart, standard features, reliable performance, EVOLUTION dealer Ocean County"
+        title="EVOLUTION D5 Maverick 4"
+        description="Discover the EVOLUTION D5 Maverick 4 with reliable performance and essential features in Atlantic County, NJ. Perfect 4-passenger golf cart for standard transportation needs. Call 1-844-844-6638."
+        keywords="EVOLUTION D5 Maverick 4, 4-passenger golf cart, standard features, reliable performance, EVOLUTION dealer Atlantic County"
       />
       
       <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
@@ -40,7 +40,7 @@ export default function EvolutionD5Maverick4() {
                   </Badge>
                 </div>
                 <h1 className="text-4xl lg:text-5xl font-bold mb-6 text-gray-900">
-                  Maverick 4
+                  EVOLUTION D5 Maverick 4
                 </h1>
                 <p className="text-xl text-gray-600 mb-8 leading-relaxed">
                   Standard four-passenger Maverick with reliable performance and essential features. The perfect balance of quality, performance, and value for everyday use.

@@ -10,9 +10,9 @@ export default function EvolutionD6MaxGT6() {
   return (
     <>
       <SEOHead 
-        title="EVOLUTION® D6 Max GT6 - High Performance Golf Cart | Ocean County Golf Carts"
-        description="Experience the EVOLUTION® D6 Max GT6 with high performance and luxury features. Six-passenger golf cart with maximum power and premium comfort."
-        keywords="EVOLUTION D6 Max GT6, high performance golf cart, 6-passenger, luxury features, maximum power, EVOLUTION dealer Ocean County"
+        title="EVOLUTION D6 Max GT6"
+        description="Experience the EVOLUTION D6 Max GT6 with high performance and luxury features in Atlantic County, NJ. Six-passenger golf cart with maximum power and premium comfort. Call 1-844-844-6638."
+        keywords="EVOLUTION D6 Max GT6, high performance golf cart, 6-passenger, luxury features, maximum power, EVOLUTION dealer Atlantic County"
       />
       
       <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
@@ -40,7 +40,7 @@ export default function EvolutionD6MaxGT6() {
                   </Badge>
                 </div>
                 <h1 className="text-4xl lg:text-5xl font-bold mb-6 text-gray-900">
-                  Max GT6
+                  EVOLUTION D6 Max GT6
                 </h1>
                 <p className="text-xl text-gray-600 mb-8 leading-relaxed">
                   Six-passenger high-performance golf cart with maximum power and luxury features. The ultimate combination of performance, comfort, and style.

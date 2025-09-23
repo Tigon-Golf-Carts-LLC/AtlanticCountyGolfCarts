@@ -10,9 +10,9 @@ export default function EvolutionClassic4Plus() {
   return (
     <>
       <SEOHead 
-        title="EVOLUTION® CLASSIC 4 PLUS - Premium Golf Cart | Ocean County Golf Carts"
-        description="Experience the EVOLUTION® CLASSIC 4 PLUS with timeless design and modern electric performance. Classic styling meets contemporary technology."
-        keywords="EVOLUTION CLASSIC 4 PLUS, classic golf cart, premium electric vehicle, traditional styling, EVOLUTION dealer Ocean County"
+        title="EVOLUTION CLASSIC 4 PLUS"
+        description="Experience the EVOLUTION CLASSIC 4 PLUS with timeless design and modern electric performance in Atlantic County, NJ. Classic styling meets contemporary technology. Call 1-844-844-6638."
+        keywords="EVOLUTION CLASSIC 4 PLUS, classic golf cart, premium electric vehicle, traditional styling, EVOLUTION dealer Atlantic County"
       />
       
       <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
@@ -42,7 +42,7 @@ export default function EvolutionClassic4Plus() {
                   </Badge>
                 </div>
                 <h1 className="text-4xl lg:text-5xl font-bold mb-6 text-gray-900">
-                  CLASSIC 4 PLUS
+                  EVOLUTION CLASSIC 4 PLUS
                 </h1>
                 <p className="text-xl text-gray-600 mb-8 leading-relaxed">
                   Experience the EVOLUTION® CLASSIC 4 PLUS with timeless design and modern electric performance. Where classic styling meets contemporary technology and comfort.

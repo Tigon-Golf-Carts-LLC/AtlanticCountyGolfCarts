@@ -10,9 +10,9 @@ export default function DenagoEvRoverXXL() {
   return (
     <>
       <SEOHead 
-        title="DENAGO® EV Rover XXL - Maximum Capacity Electric Vehicle | Ocean County Golf Carts"
-        description="Experience the DENAGO® EV Rover XXL with maximum seating and cargo capacity. Our largest luxury model for ultimate group transportation."
-        keywords="DENAGO EV Rover XXL, 8-passenger golf cart, maximum capacity, luxury electric vehicle, DENAGO dealer Ocean County"
+        title="DENAGO EV Rover XXL"
+        description="Experience the DENAGO EV Rover XXL with maximum seating and cargo capacity in Atlantic County, NJ. Our largest luxury model for ultimate group transportation. Call 1-844-844-6638."
+        keywords="DENAGO EV Rover XXL, 8-passenger golf cart, maximum capacity, luxury electric vehicle, DENAGO dealer Atlantic County"
       />
       
       <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
@@ -42,7 +42,7 @@ export default function DenagoEvRoverXXL() {
                   </Badge>
                 </div>
                 <h1 className="text-4xl lg:text-5xl font-bold mb-6 text-gray-900">
-                  Rover XXL
+                  DENAGO EV Rover XXL
                 </h1>
                 <p className="text-xl text-gray-600 mb-8 leading-relaxed">
                   Our largest luxury model with maximum seating and cargo capacity for ultimate group transportation. The pinnacle of large group electric vehicle luxury.

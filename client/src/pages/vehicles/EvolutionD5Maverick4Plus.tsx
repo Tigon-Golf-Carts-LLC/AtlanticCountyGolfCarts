@@ -10,9 +10,9 @@ export default function EvolutionD5Maverick4Plus() {
   return (
     <>
       <SEOHead 
-        title="EVOLUTION® D5 Maverick 4 Plus - Premium Golf Cart | Ocean County Golf Carts"
-        description="Experience the EVOLUTION® D5 Maverick 4 Plus with premium features and advanced performance. Four-passenger golf cart with superior comfort and extended range."
-        keywords="EVOLUTION D5 Maverick 4 Plus, premium golf cart, 4-passenger, advanced features, extended range, EVOLUTION dealer Ocean County"
+        title="EVOLUTION D5 Maverick 4 Plus"
+        description="Experience the EVOLUTION D5 Maverick 4 Plus with premium features and advanced performance in Atlantic County, NJ. Four-passenger golf cart with superior comfort and extended range. Call 1-844-844-6638."
+        keywords="EVOLUTION D5 Maverick 4 Plus, premium golf cart, 4-passenger, advanced features, extended range, EVOLUTION dealer Atlantic County"
       />
       
       <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
@@ -40,7 +40,7 @@ export default function EvolutionD5Maverick4Plus() {
                   </Badge>
                 </div>
                 <h1 className="text-4xl lg:text-5xl font-bold mb-6 text-gray-900">
-                  Maverick 4 Plus
+                  EVOLUTION D5 Maverick 4 Plus
                 </h1>
                 <p className="text-xl text-gray-600 mb-8 leading-relaxed">
                   Premium four-passenger golf cart with advanced features and superior performance. Experience enhanced comfort with extended range capability and premium amenities.

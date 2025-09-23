@@ -10,9 +10,9 @@ export default function EvolutionCarrier8Plus() {
   return (
     <>
       <SEOHead 
-        title="EVOLUTION® Carrier 8 Plus - Maximum Capacity Utility Cart | Ocean County Golf Carts"
-        description="Experience the EVOLUTION® Carrier 8 Plus with maximum seating and cargo capacity. Perfect for large group transportation and utility work."
-        keywords="EVOLUTION Carrier 8 Plus, 8-passenger golf cart, maximum capacity, utility vehicle, EVOLUTION dealer Ocean County"
+        title="EVOLUTION Carrier 8 Plus"
+        description="Experience the EVOLUTION Carrier 8 Plus with maximum seating and cargo capacity in Atlantic County, NJ. Perfect for large group transportation and utility work. Call 1-844-844-6638."
+        keywords="EVOLUTION Carrier 8 Plus, 8-passenger golf cart, maximum capacity, utility vehicle, EVOLUTION dealer Atlantic County"
       />
       
       <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
@@ -40,7 +40,7 @@ export default function EvolutionCarrier8Plus() {
                   </Badge>
                 </div>
                 <h1 className="text-4xl lg:text-5xl font-bold mb-6 text-gray-900">
-                  Carrier 8 Plus
+                  EVOLUTION Carrier 8 Plus
                 </h1>
                 <p className="text-xl text-gray-600 mb-8 leading-relaxed">
                   Eight-passenger carrier with maximum seating and cargo capacity for large group transportation. The ultimate utility vehicle for demanding applications.

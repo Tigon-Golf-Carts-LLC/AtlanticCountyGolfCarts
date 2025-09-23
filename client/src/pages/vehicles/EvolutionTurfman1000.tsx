@@ -10,9 +10,9 @@ export default function EvolutionTurfman1000() {
   return (
     <>
       <SEOHead 
-        title="EVOLUTION® TURFMAN 1000 - Commercial Utility Vehicle | Ocean County Golf Carts"
-        description="Discover the EVOLUTION® TURFMAN 1000 lineup and its unique features. Heavy-duty commercial utility vehicle for landscaping and maintenance work."
-        keywords="EVOLUTION TURFMAN 1000, commercial utility vehicle, landscaping cart, maintenance vehicle, EVOLUTION dealer Ocean County"
+        title="EVOLUTION TURFMAN 1000"
+        description="Discover the EVOLUTION TURFMAN 1000 heavy-duty commercial utility vehicle for landscaping and maintenance work in Atlantic County, NJ. Call 1-844-844-6638."
+        keywords="EVOLUTION TURFMAN 1000, commercial utility vehicle, landscaping cart, maintenance vehicle, EVOLUTION dealer Atlantic County"
       />
       
       <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
@@ -42,7 +42,7 @@ export default function EvolutionTurfman1000() {
                   </Badge>
                 </div>
                 <h1 className="text-4xl lg:text-5xl font-bold mb-6 text-gray-900">
-                  TURFMAN 1000
+                  EVOLUTION TURFMAN 1000
                 </h1>
                 <p className="text-xl text-gray-600 mb-8 leading-relaxed">
                   Discover the EVOLUTION® TURFMAN 1000 lineup and its unique features. Built for commercial applications with superior durability and heavy-duty performance.

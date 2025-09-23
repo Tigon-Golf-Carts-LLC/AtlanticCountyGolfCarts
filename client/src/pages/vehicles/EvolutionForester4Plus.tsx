@@ -10,9 +10,9 @@ export default function EvolutionForester4Plus() {
   return (
     <>
       <SEOHead 
-        title="EVOLUTION® FORESTER 4 PLUS - Premium Utility Golf Cart | Ocean County Golf Carts"
-        description="Discover the EVOLUTION® FORESTER 4 PLUS lineup and its unique features. Premium electric utility vehicle designed for rugged terrain and heavy-duty work."
-        keywords="EVOLUTION FORESTER 4 PLUS, utility golf cart, electric utility vehicle, work cart, EVOLUTION dealer Ocean County"
+        title="EVOLUTION FORESTER 4 PLUS"
+        description="Discover the EVOLUTION FORESTER 4 PLUS premium electric utility vehicle designed for rugged terrain and heavy-duty work in Atlantic County, NJ. Call 1-844-844-6638."
+        keywords="EVOLUTION FORESTER 4 PLUS, utility golf cart, electric utility vehicle, work cart, EVOLUTION dealer Atlantic County"
       />
       
       <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
@@ -42,7 +42,7 @@ export default function EvolutionForester4Plus() {
                   </Badge>
                 </div>
                 <h1 className="text-4xl lg:text-5xl font-bold mb-6 text-gray-900">
-                  FORESTER 4 PLUS
+                  EVOLUTION FORESTER 4 PLUS
                 </h1>
                 <p className="text-xl text-gray-600 mb-8 leading-relaxed">
                   Discover the EVOLUTION® FORESTER 4 PLUS lineup and its unique features. Built for utility work with rugged construction and reliable electric power.

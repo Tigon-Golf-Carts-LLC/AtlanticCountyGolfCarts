@@ -10,9 +10,9 @@ export default function EvolutionD6MaxXT6() {
   return (
     <>
       <SEOHead 
-        title="EVOLUTION® D6 Max XT6 - Maximum Off-Road Golf Cart | Ocean County Golf Carts"
-        description="Experience the EVOLUTION® D6 Max XT6 with maximum off-road capability. Six-passenger extreme terrain golf cart with adventure features and rugged design."
-        keywords="EVOLUTION D6 Max XT6, extreme terrain golf cart, 6-passenger off-road, maximum capability, adventure features, EVOLUTION dealer Ocean County"
+        title="EVOLUTION D6 Max XT6"
+        description="Experience the EVOLUTION D6 Max XT6 with maximum off-road capability in Atlantic County, NJ. Six-passenger extreme terrain golf cart with adventure features and rugged design. Call 1-844-844-6638."
+        keywords="EVOLUTION D6 Max XT6, extreme terrain golf cart, 6-passenger off-road, maximum capability, adventure features, EVOLUTION dealer Atlantic County"
       />
       
       <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
@@ -40,7 +40,7 @@ export default function EvolutionD6MaxXT6() {
                   </Badge>
                 </div>
                 <h1 className="text-4xl lg:text-5xl font-bold mb-6 text-gray-900">
-                  Max XT6
+                  EVOLUTION D6 Max XT6
                 </h1>
                 <p className="text-xl text-gray-600 mb-8 leading-relaxed">
                   Six-passenger extreme terrain model with maximum off-road capability and adventure features. The ultimate off-road golf cart for group adventures.

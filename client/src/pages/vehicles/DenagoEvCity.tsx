@@ -11,10 +11,10 @@ export default function DenagoEvCity() {
   return (
     <>
       <SEOHead 
-        title="DENAGO® EV CITY - Urban Electric Vehicle | Montgomery County Golf Carts"
-        description="Discover the DENAGO EV CITY lineup and its unique features designed for urban mobility. Street-legal NEV perfect for city transportation and neighborhood use in Montgomery County, PA."
-        keywords="DENAGO EV CITY, street legal electric vehicle, NEV, urban mobility, DENAGO dealer Montgomery County PA"
-        canonicalUrl="https://montcogolfcarts.com/vehicles/denago-ev-city"
+        title="DENAGO EV CITY"
+        description="Discover the DENAGO EV CITY lineup designed for urban mobility in Atlantic County, NJ. Street-legal NEV perfect for city transportation and neighborhood use. Call 1-844-844-6638."
+        keywords="DENAGO EV CITY, street legal electric vehicle, NEV, urban mobility, DENAGO dealer Atlantic County"
+        canonicalUrl="https://AtlanticCountyGolfCarts.com/vehicles/denago-ev-city"
         ogImage="/attached_assets/DENAGONEVCITY_1751893047472_1753135231313.jpg"
         ogType="product"
       />
@@ -23,7 +23,7 @@ export default function DenagoEvCity() {
         brand="DENAGO"
         image="DENAGONEVCITY_1751893047472_1753135231313.jpg"
         description="Discover the EV CITY lineup and its unique features designed for urban mobility. Street-legal NEV perfect for city transportation and neighborhood use."
-        url="https://bucksgolfcarts.com/vehicles/denago-ev-city"
+        url="https://AtlanticCountyGolfCarts.com/vehicles/denago-ev-city"
         features={["Street Legal NEV Certified", "40-50 mile range", "25 mph top speed", "4 passenger seating", "Urban mobility design"]}
       />
       
@@ -54,7 +54,7 @@ export default function DenagoEvCity() {
                   </Badge>
                 </div>
                 <h1 className="text-4xl lg:text-5xl font-bold mb-6 text-gray-900">
-                  EV CITY
+                  DENAGO EV CITY
                 </h1>
                 <p className="text-xl text-gray-600 mb-8 leading-relaxed">
                   Discover the EV CITY lineup and its unique features designed for urban mobility. Perfect for neighborhoods, campuses, and city transportation.

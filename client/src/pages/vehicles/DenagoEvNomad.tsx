@@ -10,10 +10,10 @@ export default function DenagoEvNomad() {
   return (
     <>
       <SEOHead 
-        title="DENAGO® EV NOMAD - Adventure Electric Vehicle | Montgomery County Golf Carts"
-        description="Discover the DENAGO® EV NOMAD designed for outdoor adventures and off-road capability. Perfect for camping, hunting, and recreational activities."
-        keywords="DENAGO EV NOMAD, adventure electric vehicle, off-road golf cart, outdoor recreation, DENAGO dealer Montgomery County"
-        canonicalUrl="https://montcogolfcarts.com/vehicles/denago-ev-nomad"
+        title="DENAGO EV NOMAD"
+        description="Discover the DENAGO EV NOMAD designed for outdoor adventures and off-road capability in Atlantic County, NJ. Perfect for camping, hunting, and recreational activities. Call 1-844-844-6638."
+        keywords="DENAGO EV NOMAD, adventure electric vehicle, off-road golf cart, outdoor recreation, DENAGO dealer Atlantic County"
+        canonicalUrl="https://AtlanticCountyGolfCarts.com/vehicles/denago-ev-nomad"
         ogImage="/attached_assets/DENAGONEVNOMAD_1751893047472_1753135231313.jpg"
         ogType="product"
       />
@@ -45,7 +45,7 @@ export default function DenagoEvNomad() {
                   </Badge>
                 </div>
                 <h1 className="text-4xl lg:text-5xl font-bold mb-6 text-gray-900">
-                  EV NOMAD
+                  DENAGO EV NOMAD
                 </h1>
                 <p className="text-xl text-gray-600 mb-8 leading-relaxed">
                   Discover the DENAGO® EV NOMAD designed for outdoor adventures and off-road capability. Built for those who love to explore beyond the beaten path.

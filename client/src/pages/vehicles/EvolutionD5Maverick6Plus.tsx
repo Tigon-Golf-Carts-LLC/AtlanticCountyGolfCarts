@@ -10,9 +10,9 @@ export default function EvolutionD5Maverick6Plus() {
   return (
     <>
       <SEOHead 
-        title="EVOLUTION® D5 Maverick 6 Plus - Luxury Family Golf Cart | Ocean County Golf Carts"
-        description="Experience the EVOLUTION® D5 Maverick 6 Plus with luxury amenities and extended range. Six-passenger family golf cart with premium comfort features."
-        keywords="EVOLUTION D5 Maverick 6 Plus, luxury golf cart, 6-passenger, family ready, premium comfort, EVOLUTION dealer Ocean County"
+        title="EVOLUTION D5 Maverick 6 Plus"
+        description="Experience the EVOLUTION D5 Maverick 6 Plus with luxury amenities and extended range in Atlantic County, NJ. Six-passenger family golf cart with premium comfort features. Call 1-844-844-6638."
+        keywords="EVOLUTION D5 Maverick 6 Plus, luxury golf cart, 6-passenger, family ready, premium comfort, EVOLUTION dealer Atlantic County"
       />
       
       <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
@@ -40,7 +40,7 @@ export default function EvolutionD5Maverick6Plus() {
                   </Badge>
                 </div>
                 <h1 className="text-4xl lg:text-5xl font-bold mb-6 text-gray-900">
-                  Maverick 6 Plus
+                  EVOLUTION D5 Maverick 6 Plus
                 </h1>
                 <p className="text-xl text-gray-600 mb-8 leading-relaxed">
                   Six-passenger luxury golf cart with premium amenities and extended range capability. Perfect for larger families and group outings with enhanced comfort features.

@@ -10,10 +10,10 @@ export default function EvolutionD6MaxGT4() {
   return (
     <>
       <SEOHead 
-        title="EVOLUTION® D6 MAX GT4 - Performance Golf Cart | Montgomery County Golf Carts"
-        description="Experience the EVOLUTION® D6 MAX GT4 with premium performance features and luxury appointments. High-performance electric golf cart for discerning drivers."
-        keywords="EVOLUTION D6 MAX GT4, performance golf cart, luxury electric vehicle, high performance, EVOLUTION dealer Montgomery County"
-        canonicalUrl="https://montcogolfcarts.com/vehicles/evolution-d6-max-gt4"
+        title="EVOLUTION D6 MAX GT4"
+        description="Experience the EVOLUTION D6 MAX GT4 with premium performance features and luxury appointments in Atlantic County, NJ. High-performance electric golf cart for discerning drivers. Call 1-844-844-6638."
+        keywords="EVOLUTION D6 MAX GT4, performance golf cart, luxury electric vehicle, high performance, EVOLUTION dealer Atlantic County"
+        canonicalUrl="https://AtlanticCountyGolfCarts.com/vehicles/evolution-d6-max-gt4"
         ogImage="/attached_assets/EVOLUTIOND6MAXGT4_1751893159004_1753135350620.jpg"
         ogType="product"
       />
@@ -45,7 +45,7 @@ export default function EvolutionD6MaxGT4() {
                   </Badge>
                 </div>
                 <h1 className="text-4xl lg:text-5xl font-bold mb-6 text-gray-900">
-                  MAX GT4
+                  EVOLUTION D6 MAX GT4
                 </h1>
                 <p className="text-xl text-gray-600 mb-8 leading-relaxed">
                   Experience the EVOLUTION® D6 MAX GT4 with premium performance features and luxury appointments. The ultimate in high-performance electric golf cart technology.

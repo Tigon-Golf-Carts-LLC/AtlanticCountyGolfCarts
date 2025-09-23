@@ -10,9 +10,9 @@ export default function DenagoEvNomadXL() {
   return (
     <>
       <SEOHead 
-        title="DENAGO® EV Nomad XL - Adventure Electric Vehicle | Ocean County Golf Carts"
-        description="Discover the DENAGO® EV Nomad XL with extended seating and enhanced storage. Perfect for larger adventure groups with superior performance."
-        keywords="DENAGO EV Nomad XL, adventure electric vehicle, 6-passenger golf cart, DENAGO dealer Ocean County"
+        title="DENAGO EV Nomad XL"
+        description="Discover the DENAGO EV Nomad XL with extended seating and enhanced storage in Atlantic County, NJ. Perfect for larger adventure groups with superior performance. Call 1-844-844-6638."
+        keywords="DENAGO EV Nomad XL, adventure electric vehicle, 6-passenger golf cart, DENAGO dealer Atlantic County"
       />
       
       <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
@@ -42,7 +42,7 @@ export default function DenagoEvNomadXL() {
                   </Badge>
                 </div>
                 <h1 className="text-4xl lg:text-5xl font-bold mb-6 text-gray-900">
-                  Nomad XL
+                  DENAGO EV Nomad XL
                 </h1>
                 <p className="text-xl text-gray-600 mb-8 leading-relaxed">
                   Extended version of the popular Nomad with enhanced storage and seating capacity for larger adventures. Perfect for group exploration and extended outdoor activities.

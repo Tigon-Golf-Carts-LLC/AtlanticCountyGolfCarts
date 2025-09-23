@@ -10,9 +10,9 @@ export default function EvolutionD5Ranger22Plus() {
   return (
     <>
       <SEOHead 
-        title="EVOLUTION® D5 RANGER 2+2 PLUS - Premium Electric Golf Cart | Ocean County Golf Carts"
-        description="Discover the EVOLUTION® D5 RANGER 2+2 PLUS - Ultimate in electric vehicle performance with advanced capabilities and premium features. Available at Ocean County Golf Carts."
-        keywords="EVOLUTION D5 RANGER 2+2 PLUS, electric golf cart, premium electric vehicle, EVOLUTION dealer Ocean County"
+        title="EVOLUTION D5 RANGER 2+2 PLUS"
+        description="Discover the EVOLUTION D5 RANGER 2+2 PLUS with ultimate electric vehicle performance, advanced capabilities and premium features in Atlantic County, NJ. Call 1-844-844-6638."
+        keywords="EVOLUTION D5 RANGER 2+2 PLUS, electric golf cart, premium electric vehicle, EVOLUTION dealer Atlantic County"
       />
       
       <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
@@ -42,7 +42,7 @@ export default function EvolutionD5Ranger22Plus() {
                   </Badge>
                 </div>
                 <h1 className="text-4xl lg:text-5xl font-bold mb-6 text-gray-900">
-                  D5 RANGER 2+2 PLUS
+                  EVOLUTION D5 RANGER 2+2 PLUS
                 </h1>
                 <p className="text-xl text-gray-600 mb-8 leading-relaxed">
                   Discover the EVOLUTION® D5 RANGER 2+2 PLUS lineup and its unique features. Perfect for families with extra seating capacity and premium comfort.

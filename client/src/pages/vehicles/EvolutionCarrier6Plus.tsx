@@ -10,9 +10,9 @@ export default function EvolutionCarrier6Plus() {
   return (
     <>
       <SEOHead 
-        title="EVOLUTION® Carrier 6 Plus - Utility Golf Cart | Ocean County Golf Carts"
-        description="Discover the EVOLUTION® Carrier 6 Plus with enhanced cargo capacity and utility features. Perfect for work and recreation with 6-passenger seating."
-        keywords="EVOLUTION Carrier 6 Plus, utility golf cart, cargo capacity, 6-passenger, work vehicle, EVOLUTION dealer Ocean County"
+        title="EVOLUTION Carrier 6 Plus"
+        description="Discover the EVOLUTION Carrier 6 Plus with enhanced cargo capacity and utility features in Atlantic County, NJ. Perfect for work and recreation with 6-passenger seating. Call 1-844-844-6638."
+        keywords="EVOLUTION Carrier 6 Plus, utility golf cart, cargo capacity, 6-passenger, work vehicle, EVOLUTION dealer Atlantic County"
       />
       
       <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
@@ -42,7 +42,7 @@ export default function EvolutionCarrier6Plus() {
                   </Badge>
                 </div>
                 <h1 className="text-4xl lg:text-5xl font-bold mb-6 text-gray-900">
-                  Carrier 6 Plus
+                  EVOLUTION Carrier 6 Plus
                 </h1>
                 <p className="text-xl text-gray-600 mb-8 leading-relaxed">
                   Six-passenger carrier with enhanced cargo capacity and utility features for work and recreation. The perfect balance of passenger comfort and utility functionality.

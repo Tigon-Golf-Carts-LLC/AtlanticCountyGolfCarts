@@ -10,9 +10,9 @@ export default function EvolutionClassic2Plus() {
   return (
     <>
       <SEOHead 
-        title="EVOLUTION® Classic 2 Plus - Compact Golf Cart | Ocean County Golf Carts"
-        description="Discover the EVOLUTION® Classic 2 Plus with timeless design and reliable performance. Perfect compact 2-passenger golf cart for traditional golf."
-        keywords="EVOLUTION Classic 2 Plus, 2-passenger golf cart, compact golf cart, traditional design, EVOLUTION dealer Ocean County"
+        title="EVOLUTION Classic 2 Plus"
+        description="Discover the EVOLUTION Classic 2 Plus with timeless design and reliable performance in Atlantic County, NJ. Perfect compact 2-passenger golf cart for traditional golf. Call 1-844-844-6638."
+        keywords="EVOLUTION Classic 2 Plus, 2-passenger golf cart, compact golf cart, traditional design, EVOLUTION dealer Atlantic County"
       />
       
       <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
@@ -40,7 +40,7 @@ export default function EvolutionClassic2Plus() {
                   </Badge>
                 </div>
                 <h1 className="text-4xl lg:text-5xl font-bold mb-6 text-gray-900">
-                  Classic 2 Plus
+                  EVOLUTION Classic 2 Plus
                 </h1>
                 <p className="text-xl text-gray-600 mb-8 leading-relaxed">
                   Compact two-passenger classic golf cart with timeless design and reliable performance. Perfect for traditional golf and essential transportation needs.

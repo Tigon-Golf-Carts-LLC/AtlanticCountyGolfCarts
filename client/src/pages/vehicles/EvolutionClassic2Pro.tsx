@@ -10,9 +10,9 @@ export default function EvolutionClassic2Pro() {
   return (
     <>
       <SEOHead 
-        title="EVOLUTION® Classic 2 Pro - Professional Golf Cart | Ocean County Golf Carts"
-        description="Experience the EVOLUTION® Classic 2 Pro with enhanced features and performance. Professional grade 2-passenger golf cart with premium reliability."
-        keywords="EVOLUTION Classic 2 Pro, professional golf cart, 2-passenger, enhanced performance, EVOLUTION dealer Ocean County"
+        title="EVOLUTION Classic 2 Pro"
+        description="Experience the EVOLUTION Classic 2 Pro with enhanced features and performance in Atlantic County, NJ. Professional grade 2-passenger golf cart with premium reliability. Call 1-844-844-6638."
+        keywords="EVOLUTION Classic 2 Pro, professional golf cart, 2-passenger, enhanced performance, EVOLUTION dealer Atlantic County"
       />
       
       <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
@@ -40,7 +40,7 @@ export default function EvolutionClassic2Pro() {
                   </Badge>
                 </div>
                 <h1 className="text-4xl lg:text-5xl font-bold mb-6 text-gray-900">
-                  Classic 2 Pro
+                  EVOLUTION Classic 2 Pro
                 </h1>
                 <p className="text-xl text-gray-600 mb-8 leading-relaxed">
                   Professional grade two-passenger classic with enhanced features and performance. Superior reliability and premium features for demanding applications.
