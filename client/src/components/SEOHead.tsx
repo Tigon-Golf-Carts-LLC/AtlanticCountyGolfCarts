@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { withAbsoluteUrl, withBasePath } from "@/lib/assetPath";
 
 interface SEOHeadProps {
   title: string;
@@ -38,7 +39,7 @@ export default function SEOHead({
         finalHeight = finalHeight || 630;
       } else {
         // Fallback to site logo
-        finalOgImage = "/attached_assets/Atlantic County Golf Carts (1)_1753457102314.png";
+        finalOgImage = withBasePath("/attached_assets/Atlantic County Golf Carts (1)_1753457102314.png");
         finalWidth = 400;
         finalHeight = 400;
       }
@@ -89,23 +90,29 @@ export default function SEOHead({
     // Set favicon
     const existingFavicon = document.querySelector('link[rel="icon"]');
     if (existingFavicon) {
-      existingFavicon.setAttribute("href", "/attached_assets/Atlantic County Golf Carts (1)_1753457102314.png");
+      existingFavicon.setAttribute(
+        "href",
+        withBasePath("/attached_assets/Atlantic County Golf Carts (1)_1753457102314.png"),
+      );
     } else {
       const favicon = document.createElement("link");
       favicon.rel = "icon";
       favicon.type = "image/png";
-      favicon.href = "/attached_assets/Atlantic County Golf Carts (1)_1753457102314.png";
+      favicon.href = withBasePath("/attached_assets/Atlantic County Golf Carts (1)_1753457102314.png");
       document.head.appendChild(favicon);
     }
     
     // Set apple touch icon
     const existingAppleIcon = document.querySelector('link[rel="apple-touch-icon"]');
     if (existingAppleIcon) {
-      existingAppleIcon.setAttribute("href", "/attached_assets/Atlantic County Golf Carts (1)_1753457102314.png");
+      existingAppleIcon.setAttribute(
+        "href",
+        withBasePath("/attached_assets/Atlantic County Golf Carts (1)_1753457102314.png"),
+      );
     } else {
       const appleIcon = document.createElement("link");
       appleIcon.rel = "apple-touch-icon";
-      appleIcon.href = "/attached_assets/Atlantic County Golf Carts (1)_1753457102314.png";
+      appleIcon.href = withBasePath("/attached_assets/Atlantic County Golf Carts (1)_1753457102314.png");
       document.head.appendChild(appleIcon);
     }
     
@@ -125,7 +132,7 @@ export default function SEOHead({
     updateOGTag("og:title", title);
     updateOGTag("og:description", description);
     updateOGTag("og:type", ogType);
-    updateOGTag("og:image", `https://AtlanticCountyGolfCarts.com${finalOgImage}`);
+    updateOGTag("og:image", withAbsoluteUrl(finalOgImage));
     updateOGTag("og:image:width", finalWidth.toString());
     updateOGTag("og:image:height", finalHeight.toString());
     updateOGTag("og:site_name", "Atlantic County Golf Carts");
@@ -150,7 +157,7 @@ export default function SEOHead({
     updateTwitterTag("twitter:card", "summary_large_image");
     updateTwitterTag("twitter:title", title);
     updateTwitterTag("twitter:description", description);
-    updateTwitterTag("twitter:image", `https://AtlanticCountyGolfCarts.com${finalOgImage}`);
+    updateTwitterTag("twitter:image", withAbsoluteUrl(finalOgImage));
     updateTwitterTag("twitter:site", "@AtlanticCountyGolfCarts");
     updateTwitterTag("twitter:creator", "@AtlanticCountyGolfCarts");
     
@@ -170,8 +177,8 @@ export default function SEOHead({
         "telephone": "1-844-844-6638",
         "email": "info@AtlanticCountyGolfCarts.com",
         "url": canonicalUrl,
-        "logo": "https://AtlanticCountyGolfCarts.com/attached_assets/Atlantic County Golf Carts (1)_1753457102314.png",
-        "image": `https://AtlanticCountyGolfCarts.com${finalOgImage}`,
+        "logo": withAbsoluteUrl("/attached_assets/Atlantic County Golf Carts (1)_1753457102314.png"),
+        "image": withAbsoluteUrl(finalOgImage),
         "serviceArea": {
           "@type": "GeoCircle",
           "geoMidpoint": {

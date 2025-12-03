@@ -3,6 +3,7 @@ import { Link, useLocation } from "wouter";
 import { Menu } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import { withBasePath } from "@/lib/assetPath";
 
 export default function Navigation() {
   const [location] = useLocation();
@@ -29,9 +30,9 @@ export default function Navigation() {
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center space-x-3">
             <div className="rounded-lg">
-              <img 
-                src="/attached_assets/Atlantic County Golf Carts (1)_1753457102314.png" 
-                alt="Atlantic County Golf Carts Logo" 
+              <img
+                src={withBasePath("/attached_assets/Atlantic County Golf Carts (1)_1753457102314.png")}
+                alt="Atlantic County Golf Carts Logo"
                 className="h-20 w-20"
               />
             </div>

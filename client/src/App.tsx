@@ -1,7 +1,8 @@
-import { Route, Switch } from "wouter";
+import { Route, Switch, Router } from "wouter";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { Toaster } from "@/components/ui/toaster";
 import useScrollToTop from "@/hooks/useScrollToTop";
+import { useAssetBasePath } from "@/hooks/useAssetBasePath";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import HomePage from "@/pages/HomePage";
@@ -166,17 +167,20 @@ import {
 } from "@/pages/towns/MontgomeryCountyCommunityPages";
 
 const queryClient = new QueryClient();
+const basePath = (import.meta.env.BASE_URL || "/").replace(/\/$/, "");
 
 function App() {
   // Global scroll-to-top on route changes
   useScrollToTop();
+  useAssetBasePath();
 
   return (
-    <QueryClientProvider client={queryClient}>
-      <div className="min-h-screen bg-gray-50 flex flex-col">
-        <Navigation />
-        <main className="flex-1">
-          <Switch>
+    <Router base={basePath === "/" ? "" : basePath}>
+      <QueryClientProvider client={queryClient}>
+        <div className="min-h-screen bg-gray-50 flex flex-col">
+          <Navigation />
+          <main className="flex-1">
+            <Switch>
             <Route path="/" component={HomePage} />
             <Route path="/inventory" component={NewInventoryPage} />
             <Route path="/rentals" component={RentalsPage} />
@@ -555,6 +559,7 @@ function App() {
         <Toaster />
       </div>
     </QueryClientProvider>
+    </Router>
   );
 }
 
