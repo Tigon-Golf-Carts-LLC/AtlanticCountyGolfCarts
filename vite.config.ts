@@ -15,8 +15,8 @@ const copyStaticAssets = () => ({
       fs.cpSync(assetSource, assetDestination, { recursive: true });
     }
 
-    // Copy root-level SEO files and CNAME into dist so GitHub Pages serves them
-    const rootStaticFiles = ["robots.txt", "sitemap.xml", "CNAME"]; // also duplicated in client/public but keep in sync
+    // Copy root-level SEO files, CNAME, and .nojekyll into dist so GitHub Pages serves them
+    const rootStaticFiles = ["robots.txt", "sitemap.xml", "CNAME", ".nojekyll"]; // also duplicated in client/public but keep in sync
     const distDir = path.resolve(import.meta.dirname, "dist");
     for (const file of rootStaticFiles) {
       const sourcePath = path.resolve(import.meta.dirname, file);
