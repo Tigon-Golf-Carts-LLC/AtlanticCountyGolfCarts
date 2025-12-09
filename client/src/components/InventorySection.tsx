@@ -1,64 +1,26 @@
-import { useQuery } from "@tanstack/react-query";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { ArrowRight } from "lucide-react";
 import { Link } from "wouter";
-import type { GolfCart } from "@shared/schema";
+import { getFeaturedVehicles } from "@/data/vehicles";
 
 export default function InventorySection() {
-  const { data: carts, isLoading } = useQuery<GolfCart[]>({
-    queryKey: ["/api/golf-carts/featured"],
-  });
-
-  if (isLoading) {
-    return (
-      <section id="inventory" className="py-16 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center">
-            <div className="animate-pulse">
-              <div className="h-8 bg-gray-200 rounded w-64 mx-auto mb-4"></div>
-              <div className="h-4 bg-gray-200 rounded w-96 mx-auto mb-12"></div>
-            </div>
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {[...Array(3)].map((_, i) => (
-                <div key={i} className="animate-pulse">
-                  <div className="bg-gray-200 h-48 rounded-lg mb-4"></div>
-                  <div className="h-4 bg-gray-200 rounded w-3/4 mb-2"></div>
-                  <div className="h-3 bg-gray-200 rounded w-full mb-4"></div>
-                  <div className="h-6 bg-gray-200 rounded w-20"></div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
-    );
-  }
+  // Get first 3 vehicles as featured
+  const carts = getFeaturedVehicles(3);
 
   const getBadgeVariant = (category: string) => {
-    switch (category) {
-      case "new":
-        return "secondary";
-      case "custom":
-        return "default";
-      case "used":
-        return "outline";
-      default:
-        return "outline";
+    const lowerCategory = category.toLowerCase();
+    if (lowerCategory.includes("street") || lowerCategory.includes("premium")) {
+      return "secondary";
     }
+    if (lowerCategory.includes("sport") || lowerCategory.includes("recreation")) {
+      return "default";
+    }
+    return "outline";
   };
 
   const getBadgeText = (category: string) => {
-    switch (category) {
-      case "new":
-        return "NEW";
-      case "custom":
-        return "CUSTOM";
-      case "used":
-        return "USED";
-      default:
-        return category.toUpperCase();
-    }
+    return category.toUpperCase();
   };
 
   return (
@@ -74,20 +36,20 @@ export default function InventorySection() {
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
-          {carts?.map((cart) => (
+          {carts.map((cart) => (
             <div
               key={cart.id}
               className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow"
             >
               <img
-                src={cart.imageUrl}
-                alt={cart.title}
+                src={cart.images[0]}
+                alt={cart.name}
                 className="w-full h-48 object-cover"
               />
               <div className="p-6">
                 <div className="flex justify-between items-start mb-2">
                   <h3 className="text-xl font-semibold text-gray-900">
-                    {cart.title}
+                    {cart.name}
                   </h3>
                   <Badge variant={getBadgeVariant(cart.category)}>
                     {getBadgeText(cart.category)}
@@ -98,9 +60,11 @@ export default function InventorySection() {
                   <span className="text-2xl font-bold text-blue-600">
                     ${cart.price.toLocaleString()}
                   </span>
-                  <Button className="bg-theme-orange hover:bg-orange-600 text-white">
-                    View Details
-                  </Button>
+                  <Link href={`/inventory/${cart.id}`}>
+                    <Button className="bg-theme-orange hover:bg-orange-600 text-white">
+                      View Details
+                    </Button>
+                  </Link>
                 </div>
               </div>
             </div>
