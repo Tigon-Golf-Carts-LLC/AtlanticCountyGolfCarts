@@ -1,12 +1,10 @@
-import { useState } from "react";
-import { useQuery } from "@tanstack/react-query";
+import { useState, useMemo } from "react";
 import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
 import VehicleCard from "@/components/VehicleCard";
 import VehicleFilters from "@/components/VehicleFilters";
-import { Skeleton } from "@/components/ui/skeleton";
-import { Vehicle } from "@shared/schema";
-import SchemaMarkup, { 
+import { filterVehicles, type Vehicle } from "@/data/vehicles";
+import SchemaMarkup, {
   generateBreadcrumbSchema,
   generateOfferCatalogSchema
 } from "@/components/SchemaMarkup";
@@ -18,33 +16,10 @@ export default function InventoryPage() {
   const [selectedBrand, setSelectedBrand] = useState("");
   const [selectedCategory, setSelectedCategory] = useState("");
 
-  const { data: vehicles, isLoading, error } = useQuery<Vehicle[]>({
-    queryKey: ["/api/vehicles", selectedBrand, selectedCategory],
-    queryFn: async () => {
-      const params = new URLSearchParams();
-      if (selectedBrand) params.append("brand", selectedBrand);
-      if (selectedCategory) params.append("category", selectedCategory);
-      
-      const response = await fetch(`/api/vehicles?${params}`);
-      if (!response.ok) {
-        throw new Error("Failed to fetch vehicles");
-      }
-      return response.json();
-    },
-  });
-
-  if (error) {
-    return (
-      <div className="max-w-7xl mx-auto px-4 py-8">
-        <div className="text-center">
-          <h1 className="text-3xl font-bold text-red-600 mb-4">Error Loading Vehicles</h1>
-          <p className="text-gray-600">
-            Unable to load vehicle inventory. Please try again later.
-          </p>
-        </div>
-      </div>
-    );
-  }
+  // Filter vehicles based on selected brand and category
+  const vehicles = useMemo(() => {
+    return filterVehicles(selectedBrand, selectedCategory);
+  }, [selectedBrand, selectedCategory]);
 
   const breadcrumbItems = [
     { name: "Home", url: "https://AtlanticCountyGolfCarts.com" },
@@ -113,21 +88,7 @@ export default function InventoryPage() {
         />
       </div>
 
-      {isLoading ? (
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {Array.from({ length: 6 }).map((_, i) => (
-            <div key={i} className="bg-white rounded-xl shadow-lg overflow-hidden">
-              <Skeleton className="w-full h-48" />
-              <div className="p-6 space-y-3">
-                <Skeleton className="h-6 w-3/4" />
-                <Skeleton className="h-4 w-full" />
-                <Skeleton className="h-4 w-1/2" />
-                <Skeleton className="h-10 w-full" />
-              </div>
-            </div>
-          ))}
-        </div>
-      ) : vehicles && vehicles.length > 0 ? (
+      {vehicles && vehicles.length > 0 ? (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {vehicles.map((vehicle) => (
             <VehicleCard key={vehicle.id} vehicle={vehicle} />
@@ -156,9 +117,11 @@ export default function InventoryPage() {
                 Contact Our Team
               </Button>
             </Link>
-            <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-blue-600 w-full sm:w-auto" onClick={() => window.open("tel:1-844-844-6638")}>
-              Call 1-844-844-6638
-            </Button>
+            <a href="tel:1-844-844-6638" className="w-full sm:w-auto">
+              <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-blue-600 w-full sm:w-auto">
+                Call 1-844-844-6638
+              </Button>
+            </a>
           </div>
         </div>
       </section>

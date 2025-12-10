@@ -1,30 +1,17 @@
-import { useQuery } from "@tanstack/react-query";
 import { useParams, Link } from "wouter";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Skeleton } from "@/components/ui/skeleton";
 import { ArrowLeft, Phone, MessageCircle } from "lucide-react";
-import { Vehicle } from "@shared/schema";
-import SchemaMarkup, { 
+import { getVehicleById, type Vehicle } from "@/data/vehicles";
+import SchemaMarkup, {
   generateProductSchema,
   generateBreadcrumbSchema
 } from "@/components/SchemaMarkup";
 
 export default function VehicleDetailPage() {
   const { id } = useParams<{ id: string }>();
-
-  const { data: vehicle, isLoading, error } = useQuery<Vehicle>({
-    queryKey: ["/api/vehicles", id],
-    queryFn: async () => {
-      const response = await fetch(`/api/vehicles/${id}`);
-      if (!response.ok) {
-        throw new Error("Vehicle not found");
-      }
-      return response.json();
-    },
-    enabled: !!id,
-  });
+  const vehicle = id ? getVehicleById(id) : undefined;
 
   const formatPrice = (price: number) => {
     return new Intl.NumberFormat("en-US", {
@@ -44,7 +31,7 @@ export default function VehicleDetailPage() {
     return <Badge className="bg-gray-100 text-gray-800">Out of Stock</Badge>;
   };
 
-  if (error) {
+  if (!vehicle) {
     return (
       <div className="max-w-7xl mx-auto px-4 py-8">
         <div className="text-center">
@@ -61,28 +48,6 @@ export default function VehicleDetailPage() {
         </div>
       </div>
     );
-  }
-
-  if (isLoading) {
-    return (
-      <div className="max-w-7xl mx-auto px-4 py-8">
-        <Skeleton className="h-8 w-40 mb-6" />
-        <div className="grid md:grid-cols-2 gap-8">
-          <Skeleton className="w-full h-96 rounded-lg" />
-          <div className="space-y-4">
-            <Skeleton className="h-10 w-3/4" />
-            <Skeleton className="h-6 w-1/2" />
-            <Skeleton className="h-4 w-full" />
-            <Skeleton className="h-4 w-full" />
-            <Skeleton className="h-32 w-full" />
-          </div>
-        </div>
-      </div>
-    );
-  }
-
-  if (!vehicle) {
-    return null;
   }
 
   const breadcrumbItems = [
