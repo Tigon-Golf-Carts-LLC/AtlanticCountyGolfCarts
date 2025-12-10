@@ -161,12 +161,12 @@ export default function NewInventoryPage() {
                         <span className="text-2xl font-bold text-blue-600">
                           ${vehicle.price.toLocaleString()}
                         </span>
-                        <Button 
-                          size="sm" 
+                        <Button
+                          size="sm"
                           className="bg-theme-orange hover:bg-orange-600 text-white px-4 py-2 rounded text-sm font-medium"
                           asChild
                         >
-                          <Link href={`/vehicles/${vehicle.id}`}>
+                          <Link href={`/vehicle/${vehicle.id}`}>
                             View Details
                           </Link>
                         </Button>

@@ -60,7 +60,7 @@ export default function InventorySection() {
                   <span className="text-2xl font-bold text-blue-600">
                     ${cart.price.toLocaleString()}
                   </span>
-                  <Link href={`/inventory/${cart.id}`}>
+                  <Link href={`/vehicle/${cart.id}`}>
                     <Button className="bg-theme-orange hover:bg-orange-600 text-white">
                       View Details
                     </Button>
