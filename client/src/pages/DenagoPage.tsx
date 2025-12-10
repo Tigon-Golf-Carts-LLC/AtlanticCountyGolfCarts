@@ -1,4 +1,3 @@
-import { useQuery } from "@tanstack/react-query";
 import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -6,6 +5,7 @@ import { Badge } from "@/components/ui/badge";
 import { Check, Star, Zap, Shield, Truck, Phone, MapPin } from "lucide-react";
 import SEOHead from "@/components/SEOHead";
 import VehicleCard from "@/components/VehicleCard";
+import { getVehiclesByBrand } from "@/data/vehicles";
 
 // Import DENAGO vehicle images
 import denagoEvCityImage from "@assets/DENAGONEVCITY_1751893047472_1753135231313.jpg";
@@ -15,36 +15,9 @@ import denagoEvRoverXLImage from "@assets/DENAGONEVROVERXL_1751893047473_1753135
 import denagoEvRoverXL6Image from "@assets/DENAGONEVROVERXL6_1751893047473_1753135231313.jpg";
 import denagoEvRoverXXLImage from "@assets/DENAGONEVROVERXXL_1751893047473_1753135231313.jpg";
 
-interface Vehicle {
-  id: string;
-  name: string;
-  brand: string;
-  category: string;
-  price: number;
-  images: string[];
-  specifications: {
-    topSpeed: string;
-    range: string;
-    seatingCapacity: number;
-    batteryType: string;
-    chargingTime: string;
-    payload: string;
-  };
-  features: string[];
-  inStock: boolean;
-  isNew: boolean;
-  description: string;
-}
-
 export default function DenagoPage() {
-  const { data: vehicles } = useQuery<Vehicle[]>({
-    queryKey: ["/api/vehicles"],
-  });
-
-  // Filter DENAGO vehicles
-  const denagoVehicles = vehicles?.filter(vehicle => 
-    vehicle.brand.toLowerCase().includes('denago')
-  ) || [];
+  // Get DENAGO vehicles from static data
+  const denagoVehicles = getVehiclesByBrand('DENAGO');
 
   const denagoFeatures = [
     "Advanced All-Wheel Drive Technology",
