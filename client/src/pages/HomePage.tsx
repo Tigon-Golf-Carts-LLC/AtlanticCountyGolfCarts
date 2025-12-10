@@ -3,8 +3,6 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Star, Wrench, Percent, Leaf, CheckCircle, MapPin } from "lucide-react";
-import { useQuery } from "@tanstack/react-query";
-import type { Vehicle } from "@shared/schema";
 import InventorySection from "@/components/InventorySection";
 import BrandsSection from "@/components/BrandsSection";
 import OrganizationSchema from "@/components/OrganizationSchema";
@@ -13,11 +11,6 @@ import AllSchemas from "@/components/schema/AllSchemas";
 import { ATLANTIC_COUNTY_MUNICIPALITIES } from "@/data/atlanticCountyMunicipalities";
 
 export default function HomePage() {
-  const { data: vehicles } = useQuery<Vehicle[]>({
-    queryKey: ["/api/vehicles"],
-  });
-
-  const featuredVehicles = vehicles?.slice(0, 3) || [];
 
   return (
     <div className="min-h-screen">

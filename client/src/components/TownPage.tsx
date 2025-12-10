@@ -3,10 +3,9 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Star, Wrench, Percent, Leaf, CheckCircle, MapPin, Phone, Clock, Users } from "lucide-react";
-import { useQuery } from "@tanstack/react-query";
-import type { Vehicle } from "@shared/schema";
+import { getFeaturedVehicles } from "@/data/vehicles";
 import SEOHead from "@/components/SEOHead";
-import SchemaMarkup, { 
+import SchemaMarkup, {
   generateLocalBusinessSchema,
   generateBreadcrumbSchema
 } from "@/components/SchemaMarkup";
@@ -63,11 +62,8 @@ const getGoogleMapsEmbedUrl = (townName: string, townType: string): string => {
 };
 
 export default function TownPage({ townName, townType }: TownPageProps) {
-  const { data: vehicles } = useQuery<Vehicle[]>({
-    queryKey: ["/api/vehicles"],
-  });
-
-  const featuredVehicles = vehicles?.slice(0, 3) || [];
+  // Get featured vehicles from static data
+  const featuredVehicles = getFeaturedVehicles(3);
   const fullTownName = `${townName} ${townType}`;
   
   // SEO optimization

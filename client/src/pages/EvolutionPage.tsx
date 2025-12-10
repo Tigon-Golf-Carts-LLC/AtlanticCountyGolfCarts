@@ -1,4 +1,3 @@
-import { useQuery } from "@tanstack/react-query";
 import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -6,6 +5,7 @@ import { Badge } from "@/components/ui/badge";
 import { Check, Star, Zap, Shield, Truck, Phone, MapPin, Award } from "lucide-react";
 import SEOHead from "@/components/SEOHead";
 import VehicleCard from "@/components/VehicleCard";
+import { getVehiclesByBrand } from "@/data/vehicles";
 
 // Import EVOLUTION vehicle images
 import evolutionD5Ranger6Image from "@assets/EVOLUTIOND5RANGER6_1751893159004_1753135350623.jpg";
@@ -17,36 +17,9 @@ import evolutionClassic4PlusImage from "@assets/EVOLUTIONCLASSIC4PLUS_1751893115
 import evolutionCarrier6PlusImage from "@assets/EVOLUTIONCARRIER6PLUS_1751893115778_1753135231314.jpg";
 import evolutionD5Maverick4PlusImage from "@assets/EVOLUTIOND5MAVERICK4PLUS_1751893115781_1753135231312.jpg";
 
-interface Vehicle {
-  id: string;
-  name: string;
-  brand: string;
-  category: string;
-  price: number;
-  images: string[];
-  specifications: {
-    topSpeed: string;
-    range: string;
-    seatingCapacity: number;
-    batteryType: string;
-    chargingTime: string;
-    payload: string;
-  };
-  features: string[];
-  inStock: boolean;
-  isNew: boolean;
-  description: string;
-}
-
 export default function EvolutionPage() {
-  const { data: vehicles } = useQuery<Vehicle[]>({
-    queryKey: ["/api/vehicles"],
-  });
-
-  // Filter EVOLUTION vehicles
-  const evolutionVehicles = vehicles?.filter(vehicle => 
-    vehicle.brand.toLowerCase().includes('evolution')
-  ) || [];
+  // Get EVOLUTION vehicles from static data
+  const evolutionVehicles = getVehiclesByBrand('EVOLUTION');
 
   const evolutionFeatures = [
     "Premium Quality Construction",

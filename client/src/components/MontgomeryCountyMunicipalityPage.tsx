@@ -1,4 +1,3 @@
-import { useQuery } from "@tanstack/react-query";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -10,6 +9,7 @@ import LocationSchema from "@/components/LocationSchema";
 import VehicleCard from "@/components/VehicleCard";
 import { MONTGOMERY_COUNTY_MUNICIPALITIES, Municipality } from "@/data/montgomeryCountyMunicipalities";
 import { generateSimpleGoogleMapsEmbed } from "@/utils/googleMaps";
+import { getFeaturedVehicles } from "@/data/vehicles";
 
 interface Vehicle {
   description: string;
@@ -42,11 +42,8 @@ const getGoogleMapsEmbedUrl = (municipality: Municipality) => {
 };
 
 export default function MontgomeryCountyMunicipalityPage({ municipality }: MontgomeryCountyMunicipalityPageProps) {
-  const { data: vehicles } = useQuery<Vehicle[]>({
-    queryKey: ["/api/vehicles"],
-  });
-
-  const featuredVehicles = vehicles?.slice(0, 3) || [];
+  // Get featured vehicles from static data
+  const featuredVehicles = getFeaturedVehicles(3);
   const fullName = `${municipality.name} ${municipality.type}`;
   
   // SEO optimization for Montgomery County
